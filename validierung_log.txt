@@ -1,0 +1,11 @@
+Validierungslog — 2026-03-02 22:26
+============================================================
+
+VVK-WARNUNGEN:
+  Keine Auffälligkeiten
+
+VALIDIERUNG:
+  Abweichungen Auslastung vs. Gesamt-Export: 38 von 425 Kombinationen
+    Durchschnittliche Abweichung: -14.1 Tickets
+    Hinweis: Kontingent-Belegungen (Presse, Direktion etc.) werden im Gesamt-Export
+    nicht als reguläre Verkäufe geführt — Abweichungen in dieser Größenordnung sind normal.
