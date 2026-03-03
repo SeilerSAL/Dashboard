@@ -1,6 +1,6 @@
 {
   "meta": {
-    "erstellt": "2026-03-03T01:45:41.189455",
+    "erstellt": "2026-03-03T01:58:21.109771",
     "aktuellster_snapshot": "2026-03-03",
     "anzahl_snapshots": 31,
     "snapshot_zeitraum": "2026-02-01 bis 2026-03-03",
@@ -53750,9 +53750,14 @@
       "tickets_gesamt": 387,
       "tickets_kartenverkauf": 32,
       "kontingente": 373,
+      "umsatz_gesamt": 6636.0,
       "anzahl_veranstaltungen": 5,
       "kapazitaet_gesamt": 760,
-      "auslastung_pct": 4.2
+      "auslastung_pct": 4.2,
+      "tickets_1d": 0,
+      "tickets_3d": 292,
+      "tickets_7d": 387,
+      "tickets_30d": 387
     },
     {
       "produktionsnummer": 1347,
@@ -53760,9 +53765,14 @@
       "tickets_gesamt": 323,
       "tickets_kartenverkauf": 0,
       "kontingente": 439,
+      "umsatz_gesamt": 6142.46,
       "anzahl_veranstaltungen": 3,
       "kapazitaet_gesamt": 798,
-      "auslastung_pct": 0.0
+      "auslastung_pct": 0.0,
+      "tickets_1d": 7,
+      "tickets_3d": 233,
+      "tickets_7d": 323,
+      "tickets_30d": 323
     },
     {
       "produktionsnummer": 1294,
@@ -53770,9 +53780,14 @@
       "tickets_gesamt": 2344,
       "tickets_kartenverkauf": 2344,
       "kontingente": 0,
+      "umsatz_gesamt": 48125.75,
       "anzahl_veranstaltungen": 11,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 2344,
+      "tickets_3d": 2344,
+      "tickets_7d": 2344,
+      "tickets_30d": 2344
     },
     {
       "produktionsnummer": 1343,
@@ -53780,9 +53795,14 @@
       "tickets_gesamt": 263,
       "tickets_kartenverkauf": 0,
       "kontingente": 393,
+      "umsatz_gesamt": 5911.2,
       "anzahl_veranstaltungen": 2,
       "kapazitaet_gesamt": 762,
-      "auslastung_pct": 0.0
+      "auslastung_pct": 0.0,
+      "tickets_1d": 4,
+      "tickets_3d": 191,
+      "tickets_7d": 263,
+      "tickets_30d": 263
     },
     {
       "produktionsnummer": 1259,
@@ -53790,9 +53810,14 @@
       "tickets_gesamt": 4177,
       "tickets_kartenverkauf": 4177,
       "kontingente": 0,
+      "umsatz_gesamt": 88473.38,
       "anzahl_veranstaltungen": 13,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 4177,
+      "tickets_3d": 4177,
+      "tickets_7d": 4177,
+      "tickets_30d": 4177
     },
     {
       "produktionsnummer": 1314,
@@ -53800,9 +53825,14 @@
       "tickets_gesamt": 1807,
       "tickets_kartenverkauf": 1807,
       "kontingente": 0,
+      "umsatz_gesamt": 38314.5,
       "anzahl_veranstaltungen": 4,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 1807,
+      "tickets_3d": 1807,
+      "tickets_7d": 1807,
+      "tickets_30d": 1807
     },
     {
       "produktionsnummer": 1199,
@@ -53810,9 +53840,14 @@
       "tickets_gesamt": 1862,
       "tickets_kartenverkauf": 1862,
       "kontingente": 0,
+      "umsatz_gesamt": 31213.29,
       "anzahl_veranstaltungen": 5,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 1862,
+      "tickets_3d": 1862,
+      "tickets_7d": 1862,
+      "tickets_30d": 1862
     },
     {
       "produktionsnummer": 1341,
@@ -53820,9 +53855,14 @@
       "tickets_gesamt": 465,
       "tickets_kartenverkauf": 31,
       "kontingente": 584,
+      "umsatz_gesamt": 9982.7,
       "anzahl_veranstaltungen": 4,
       "kapazitaet_gesamt": 1716,
-      "auslastung_pct": 1.8
+      "auslastung_pct": 1.8,
+      "tickets_1d": 1,
+      "tickets_3d": 336,
+      "tickets_7d": 465,
+      "tickets_30d": 465
     },
     {
       "produktionsnummer": 1334,
@@ -53830,9 +53870,14 @@
       "tickets_gesamt": 63,
       "tickets_kartenverkauf": 63,
       "kontingente": 0,
+      "umsatz_gesamt": 844.5,
       "anzahl_veranstaltungen": 1,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 63,
+      "tickets_3d": 63,
+      "tickets_7d": 63,
+      "tickets_30d": 63
     },
     {
       "produktionsnummer": 1332,
@@ -53840,9 +53885,14 @@
       "tickets_gesamt": 396,
       "tickets_kartenverkauf": 396,
       "kontingente": 0,
+      "umsatz_gesamt": 5390.0,
       "anzahl_veranstaltungen": 1,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 396,
+      "tickets_3d": 396,
+      "tickets_7d": 396,
+      "tickets_30d": 396
     },
     {
       "produktionsnummer": 1253,
@@ -53850,9 +53900,14 @@
       "tickets_gesamt": 3734,
       "tickets_kartenverkauf": 3734,
       "kontingente": 0,
+      "umsatz_gesamt": 76024.24,
       "anzahl_veranstaltungen": 14,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 3734,
+      "tickets_3d": 3734,
+      "tickets_7d": 3734,
+      "tickets_30d": 3734
     },
     {
       "produktionsnummer": 1333,
@@ -53860,9 +53915,14 @@
       "tickets_gesamt": 3454,
       "tickets_kartenverkauf": 3163,
       "kontingente": 608,
+      "umsatz_gesamt": 81546.5,
       "anzahl_veranstaltungen": 18,
       "kapazitaet_gesamt": 1939,
-      "auslastung_pct": 163.1
+      "auslastung_pct": 163.1,
+      "tickets_1d": 2842,
+      "tickets_3d": 2965,
+      "tickets_7d": 3013,
+      "tickets_30d": 3414
     },
     {
       "produktionsnummer": 1346,
@@ -53870,9 +53930,14 @@
       "tickets_gesamt": 188,
       "tickets_kartenverkauf": 19,
       "kontingente": 200,
+      "umsatz_gesamt": 2969.0,
       "anzahl_veranstaltungen": 4,
       "kapazitaet_gesamt": 392,
-      "auslastung_pct": 4.8
+      "auslastung_pct": 4.8,
+      "tickets_1d": 0,
+      "tickets_3d": 122,
+      "tickets_7d": 188,
+      "tickets_30d": 188
     },
     {
       "produktionsnummer": 1162,
@@ -53880,9 +53945,14 @@
       "tickets_gesamt": 2242,
       "tickets_kartenverkauf": 2242,
       "kontingente": 0,
+      "umsatz_gesamt": 59728.77,
       "anzahl_veranstaltungen": 5,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 2242,
+      "tickets_3d": 2242,
+      "tickets_7d": 2242,
+      "tickets_30d": 2242
     },
     {
       "produktionsnummer": 1350,
@@ -53890,9 +53960,14 @@
       "tickets_gesamt": 1618,
       "tickets_kartenverkauf": 423,
       "kontingente": 1559,
+      "umsatz_gesamt": 73587.75,
       "anzahl_veranstaltungen": 9,
       "kapazitaet_gesamt": 3549,
-      "auslastung_pct": 11.9
+      "auslastung_pct": 11.9,
+      "tickets_1d": 2,
+      "tickets_3d": 636,
+      "tickets_7d": 1618,
+      "tickets_30d": 1618
     },
     {
       "produktionsnummer": 1262,
@@ -53900,9 +53975,14 @@
       "tickets_gesamt": 679,
       "tickets_kartenverkauf": 679,
       "kontingente": 0,
+      "umsatz_gesamt": 14581.63,
       "anzahl_veranstaltungen": 2,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 679,
+      "tickets_3d": 679,
+      "tickets_7d": 679,
+      "tickets_30d": 679
     },
     {
       "produktionsnummer": 669,
@@ -53910,9 +53990,14 @@
       "tickets_gesamt": 2937,
       "tickets_kartenverkauf": 2937,
       "kontingente": 0,
+      "umsatz_gesamt": 84370.35,
       "anzahl_veranstaltungen": 9,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 2937,
+      "tickets_3d": 2937,
+      "tickets_7d": 2937,
+      "tickets_30d": 2937
     },
     {
       "produktionsnummer": 1221,
@@ -53920,9 +54005,14 @@
       "tickets_gesamt": 6731,
       "tickets_kartenverkauf": 6731,
       "kontingente": 0,
+      "umsatz_gesamt": 219408.87,
       "anzahl_veranstaltungen": 17,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 6731,
+      "tickets_3d": 6731,
+      "tickets_7d": 6731,
+      "tickets_30d": 6731
     },
     {
       "produktionsnummer": 1330,
@@ -53930,9 +54020,14 @@
       "tickets_gesamt": 6338,
       "tickets_kartenverkauf": 6141,
       "kontingente": 562,
+      "umsatz_gesamt": 166869.3,
       "anzahl_veranstaltungen": 26,
       "kapazitaet_gesamt": 1665,
-      "auslastung_pct": 368.8
+      "auslastung_pct": 368.8,
+      "tickets_1d": 5717,
+      "tickets_3d": 5816,
+      "tickets_7d": 5855,
+      "tickets_30d": 6302
     },
     {
       "produktionsnummer": 1329,
@@ -53940,9 +54035,14 @@
       "tickets_gesamt": 11322,
       "tickets_kartenverkauf": 11306,
       "kontingente": 16,
+      "umsatz_gesamt": 395141.6,
       "anzahl_veranstaltungen": 28,
       "kapazitaet_gesamt": 1576,
-      "auslastung_pct": 717.4
+      "auslastung_pct": 717.4,
+      "tickets_1d": 9793,
+      "tickets_3d": 9846,
+      "tickets_7d": 9975,
+      "tickets_30d": 10550
     },
     {
       "produktionsnummer": 918,
@@ -53950,9 +54050,14 @@
       "tickets_gesamt": 886,
       "tickets_kartenverkauf": 886,
       "kontingente": 0,
+      "umsatz_gesamt": 3299.0,
       "anzahl_veranstaltungen": 14,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 886,
+      "tickets_3d": 886,
+      "tickets_7d": 886,
+      "tickets_30d": 886
     },
     {
       "produktionsnummer": 1338,
@@ -53960,9 +54065,14 @@
       "tickets_gesamt": 2411,
       "tickets_kartenverkauf": 1865,
       "kontingente": 549,
+      "umsatz_gesamt": 41638.0,
       "anzahl_veranstaltungen": 34,
       "kapazitaet_gesamt": 1568,
-      "auslastung_pct": 118.9
+      "auslastung_pct": 118.9,
+      "tickets_1d": 1433,
+      "tickets_3d": 1789,
+      "tickets_7d": 1929,
+      "tickets_30d": 2293
     },
     {
       "produktionsnummer": 879,
@@ -53970,9 +54080,14 @@
       "tickets_gesamt": 2461,
       "tickets_kartenverkauf": 2461,
       "kontingente": 0,
+      "umsatz_gesamt": 63314.9,
       "anzahl_veranstaltungen": 6,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 2461,
+      "tickets_3d": 2461,
+      "tickets_7d": 2461,
+      "tickets_30d": 2461
     },
     {
       "produktionsnummer": 1192,
@@ -53980,9 +54095,14 @@
       "tickets_gesamt": 1687,
       "tickets_kartenverkauf": 1547,
       "kontingente": 140,
+      "umsatz_gesamt": 27689.2,
       "anzahl_veranstaltungen": 8,
       "kapazitaet_gesamt": 831,
-      "auslastung_pct": 186.2
+      "auslastung_pct": 186.2,
+      "tickets_1d": 1303,
+      "tickets_3d": 1318,
+      "tickets_7d": 1355,
+      "tickets_30d": 1668
     },
     {
       "produktionsnummer": 1307,
@@ -53990,9 +54110,14 @@
       "tickets_gesamt": 10023,
       "tickets_kartenverkauf": 9995,
       "kontingente": 28,
+      "umsatz_gesamt": 266514.57,
       "anzahl_veranstaltungen": 36,
       "kapazitaet_gesamt": 828,
-      "auslastung_pct": 1207.1
+      "auslastung_pct": 1207.1,
+      "tickets_1d": 9348,
+      "tickets_3d": 9420,
+      "tickets_7d": 9477,
+      "tickets_30d": 9995
     },
     {
       "produktionsnummer": 1249,
@@ -54000,9 +54125,14 @@
       "tickets_gesamt": 1624,
       "tickets_kartenverkauf": 1599,
       "kontingente": 25,
+      "umsatz_gesamt": 23350.77,
       "anzahl_veranstaltungen": 18,
       "kapazitaet_gesamt": 324,
-      "auslastung_pct": 493.5
+      "auslastung_pct": 493.5,
+      "tickets_1d": 1379,
+      "tickets_3d": 1400,
+      "tickets_7d": 1424,
+      "tickets_30d": 1597
     },
     {
       "produktionsnummer": 1291,
@@ -54010,9 +54140,14 @@
       "tickets_gesamt": 9326,
       "tickets_kartenverkauf": 9326,
       "kontingente": 0,
+      "umsatz_gesamt": 236590.96,
       "anzahl_veranstaltungen": 25,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 9326,
+      "tickets_3d": 9326,
+      "tickets_7d": 9326,
+      "tickets_30d": 9326
     },
     {
       "produktionsnummer": 708,
@@ -54020,9 +54155,14 @@
       "tickets_gesamt": 8436,
       "tickets_kartenverkauf": 8436,
       "kontingente": 0,
+      "umsatz_gesamt": 426125.5,
       "anzahl_veranstaltungen": 22,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 8436,
+      "tickets_3d": 8436,
+      "tickets_7d": 8436,
+      "tickets_30d": 8436
     },
     {
       "produktionsnummer": 1335,
@@ -54030,9 +54170,14 @@
       "tickets_gesamt": 6247,
       "tickets_kartenverkauf": 6247,
       "kontingente": 0,
+      "umsatz_gesamt": 178602.2,
       "anzahl_veranstaltungen": 14,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 6247,
+      "tickets_3d": 6247,
+      "tickets_7d": 6247,
+      "tickets_30d": 6247
     },
     {
       "produktionsnummer": 1217,
@@ -54040,9 +54185,14 @@
       "tickets_gesamt": 833,
       "tickets_kartenverkauf": 833,
       "kontingente": 0,
+      "umsatz_gesamt": 18752.2,
       "anzahl_veranstaltungen": 2,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 833,
+      "tickets_3d": 833,
+      "tickets_7d": 833,
+      "tickets_30d": 833
     },
     {
       "produktionsnummer": 1320,
@@ -54050,9 +54200,14 @@
       "tickets_gesamt": 335,
       "tickets_kartenverkauf": 335,
       "kontingente": 0,
+      "umsatz_gesamt": 4362.0,
       "anzahl_veranstaltungen": 3,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 335,
+      "tickets_3d": 335,
+      "tickets_7d": 335,
+      "tickets_30d": 335
     },
     {
       "produktionsnummer": 1323,
@@ -54060,9 +54215,14 @@
       "tickets_gesamt": 338,
       "tickets_kartenverkauf": 338,
       "kontingente": 0,
+      "umsatz_gesamt": 4051.0,
       "anzahl_veranstaltungen": 3,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 338,
+      "tickets_3d": 338,
+      "tickets_7d": 338,
+      "tickets_30d": 338
     },
     {
       "produktionsnummer": 1088,
@@ -54070,9 +54230,14 @@
       "tickets_gesamt": 3035,
       "tickets_kartenverkauf": 3035,
       "kontingente": 0,
+      "umsatz_gesamt": 64560.75,
       "anzahl_veranstaltungen": 12,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 3035,
+      "tickets_3d": 3035,
+      "tickets_7d": 3035,
+      "tickets_30d": 3035
     },
     {
       "produktionsnummer": 1173,
@@ -54080,9 +54245,14 @@
       "tickets_gesamt": 343,
       "tickets_kartenverkauf": 343,
       "kontingente": 0,
+      "umsatz_gesamt": 2612.2,
       "anzahl_veranstaltungen": 6,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 343,
+      "tickets_3d": 343,
+      "tickets_7d": 343,
+      "tickets_30d": 343
     },
     {
       "produktionsnummer": 1317,
@@ -54090,9 +54260,14 @@
       "tickets_gesamt": 739,
       "tickets_kartenverkauf": 739,
       "kontingente": 0,
+      "umsatz_gesamt": 16893.5,
       "anzahl_veranstaltungen": 2,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 739,
+      "tickets_3d": 739,
+      "tickets_7d": 739,
+      "tickets_30d": 739
     },
     {
       "produktionsnummer": 1306,
@@ -54100,9 +54275,14 @@
       "tickets_gesamt": 291,
       "tickets_kartenverkauf": 291,
       "kontingente": 0,
+      "umsatz_gesamt": 3860.5,
       "anzahl_veranstaltungen": 1,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 291,
+      "tickets_3d": 291,
+      "tickets_7d": 291,
+      "tickets_30d": 291
     },
     {
       "produktionsnummer": 1309,
@@ -54110,9 +54290,14 @@
       "tickets_gesamt": 289,
       "tickets_kartenverkauf": 289,
       "kontingente": 0,
+      "umsatz_gesamt": 3980.0,
       "anzahl_veranstaltungen": 1,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 289,
+      "tickets_3d": 289,
+      "tickets_7d": 289,
+      "tickets_30d": 289
     },
     {
       "produktionsnummer": 1303,
@@ -54120,9 +54305,14 @@
       "tickets_gesamt": 57,
       "tickets_kartenverkauf": 57,
       "kontingente": 0,
+      "umsatz_gesamt": 692.0,
       "anzahl_veranstaltungen": 1,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 57,
+      "tickets_3d": 57,
+      "tickets_7d": 57,
+      "tickets_30d": 57
     },
     {
       "produktionsnummer": 1344,
@@ -54130,9 +54320,14 @@
       "tickets_gesamt": 203,
       "tickets_kartenverkauf": 34,
       "kontingente": 185,
+      "umsatz_gesamt": 3299.5,
       "anzahl_veranstaltungen": 4,
       "kapazitaet_gesamt": 392,
-      "auslastung_pct": 8.7
+      "auslastung_pct": 8.7,
+      "tickets_1d": 0,
+      "tickets_3d": 144,
+      "tickets_7d": 203,
+      "tickets_30d": 203
     },
     {
       "produktionsnummer": 1319,
@@ -54140,9 +54335,14 @@
       "tickets_gesamt": 1997,
       "tickets_kartenverkauf": 1997,
       "kontingente": 0,
+      "umsatz_gesamt": 26654.0,
       "anzahl_veranstaltungen": 7,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 1997,
+      "tickets_3d": 1997,
+      "tickets_7d": 1997,
+      "tickets_30d": 1997
     },
     {
       "produktionsnummer": 1313,
@@ -54150,9 +54350,14 @@
       "tickets_gesamt": 1346,
       "tickets_kartenverkauf": 1346,
       "kontingente": 0,
+      "umsatz_gesamt": 23981.8,
       "anzahl_veranstaltungen": 3,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 1346,
+      "tickets_3d": 1346,
+      "tickets_7d": 1346,
+      "tickets_30d": 1346
     },
     {
       "produktionsnummer": 1168,
@@ -54160,9 +54365,14 @@
       "tickets_gesamt": 180,
       "tickets_kartenverkauf": 180,
       "kontingente": 0,
+      "umsatz_gesamt": 4693.4,
       "anzahl_veranstaltungen": 2,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 180,
+      "tickets_3d": 180,
+      "tickets_7d": 180,
+      "tickets_30d": 180
     },
     {
       "produktionsnummer": 1218,
@@ -54170,9 +54380,14 @@
       "tickets_gesamt": 819,
       "tickets_kartenverkauf": 819,
       "kontingente": 0,
+      "umsatz_gesamt": 16721.82,
       "anzahl_veranstaltungen": 3,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 819,
+      "tickets_3d": 819,
+      "tickets_7d": 819,
+      "tickets_30d": 819
     },
     {
       "produktionsnummer": 1348,
@@ -54180,9 +54395,14 @@
       "tickets_gesamt": 585,
       "tickets_kartenverkauf": 89,
       "kontingente": 553,
+      "umsatz_gesamt": 14195.8,
       "anzahl_veranstaltungen": 3,
       "kapazitaet_gesamt": 1140,
-      "auslastung_pct": 7.8
+      "auslastung_pct": 7.8,
+      "tickets_1d": 0,
+      "tickets_3d": 423,
+      "tickets_7d": 585,
+      "tickets_30d": 585
     },
     {
       "produktionsnummer": 1132,
@@ -54190,9 +54410,14 @@
       "tickets_gesamt": 10953,
       "tickets_kartenverkauf": 10791,
       "kontingente": 162,
+      "umsatz_gesamt": 260558.55,
       "anzahl_veranstaltungen": 31,
       "kapazitaet_gesamt": 2563,
-      "auslastung_pct": 421.0
+      "auslastung_pct": 421.0,
+      "tickets_1d": 9836,
+      "tickets_3d": 10056,
+      "tickets_7d": 10168,
+      "tickets_30d": 10861
     },
     {
       "produktionsnummer": 1349,
@@ -54200,9 +54425,14 @@
       "tickets_gesamt": 8,
       "tickets_kartenverkauf": 0,
       "kontingente": 144,
+      "umsatz_gesamt": 54.5,
       "anzahl_veranstaltungen": 1,
       "kapazitaet_gesamt": 376,
-      "auslastung_pct": 0.0
+      "auslastung_pct": 0.0,
+      "tickets_1d": 0,
+      "tickets_3d": 4,
+      "tickets_7d": 8,
+      "tickets_30d": 8
     },
     {
       "produktionsnummer": 1318,
@@ -54210,9 +54440,14 @@
       "tickets_gesamt": 2113,
       "tickets_kartenverkauf": 2084,
       "kontingente": 54,
+      "umsatz_gesamt": 29474.95,
       "anzahl_veranstaltungen": 23,
       "kapazitaet_gesamt": 411,
-      "auslastung_pct": 507.1
+      "auslastung_pct": 507.1,
+      "tickets_1d": 1983,
+      "tickets_3d": 2005,
+      "tickets_7d": 2024,
+      "tickets_30d": 2107
     },
     {
       "produktionsnummer": 1140,
@@ -54220,9 +54455,14 @@
       "tickets_gesamt": 2838,
       "tickets_kartenverkauf": 2838,
       "kontingente": 0,
+      "umsatz_gesamt": 119263.0,
       "anzahl_veranstaltungen": 7,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 2838,
+      "tickets_3d": 2838,
+      "tickets_7d": 2838,
+      "tickets_30d": 2838
     },
     {
       "produktionsnummer": 1033,
@@ -54230,9 +54470,14 @@
       "tickets_gesamt": 5692,
       "tickets_kartenverkauf": 5692,
       "kontingente": 0,
+      "umsatz_gesamt": 194403.45,
       "anzahl_veranstaltungen": 13,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 5692,
+      "tickets_3d": 5692,
+      "tickets_7d": 5692,
+      "tickets_30d": 5692
     },
     {
       "produktionsnummer": 1149,
@@ -54240,9 +54485,14 @@
       "tickets_gesamt": 1683,
       "tickets_kartenverkauf": 1683,
       "kontingente": 0,
+      "umsatz_gesamt": 33590.71,
       "anzahl_veranstaltungen": 6,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 1683,
+      "tickets_3d": 1683,
+      "tickets_7d": 1683,
+      "tickets_30d": 1683
     },
     {
       "produktionsnummer": 1300,
@@ -54250,9 +54500,14 @@
       "tickets_gesamt": 6193,
       "tickets_kartenverkauf": 6193,
       "kontingente": 0,
+      "umsatz_gesamt": 146216.03,
       "anzahl_veranstaltungen": 19,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 6193,
+      "tickets_3d": 6193,
+      "tickets_7d": 6193,
+      "tickets_30d": 6193
     },
     {
       "produktionsnummer": 964,
@@ -54260,9 +54515,14 @@
       "tickets_gesamt": 4997,
       "tickets_kartenverkauf": 4997,
       "kontingente": 0,
+      "umsatz_gesamt": 231360.5,
       "anzahl_veranstaltungen": 21,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 4997,
+      "tickets_3d": 4997,
+      "tickets_7d": 4997,
+      "tickets_30d": 4997
     },
     {
       "produktionsnummer": 1062,
@@ -54270,9 +54530,14 @@
       "tickets_gesamt": 1961,
       "tickets_kartenverkauf": 1961,
       "kontingente": 0,
+      "umsatz_gesamt": 43782.63,
       "anzahl_veranstaltungen": 7,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 1961,
+      "tickets_3d": 1961,
+      "tickets_7d": 1961,
+      "tickets_30d": 1961
     },
     {
       "produktionsnummer": 1336,
@@ -54280,9 +54545,14 @@
       "tickets_gesamt": 5795,
       "tickets_kartenverkauf": 5329,
       "kontingente": 466,
+      "umsatz_gesamt": 171521.8,
       "anzahl_veranstaltungen": 16,
       "kapazitaet_gesamt": 2180,
-      "auslastung_pct": 244.4
+      "auslastung_pct": 244.4,
+      "tickets_1d": 4418,
+      "tickets_3d": 4482,
+      "tickets_7d": 4548,
+      "tickets_30d": 5694
     },
     {
       "produktionsnummer": 1316,
@@ -54290,9 +54560,14 @@
       "tickets_gesamt": 864,
       "tickets_kartenverkauf": 864,
       "kontingente": 0,
+      "umsatz_gesamt": 17703.5,
       "anzahl_veranstaltungen": 3,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 864,
+      "tickets_3d": 864,
+      "tickets_7d": 864,
+      "tickets_30d": 864
     },
     {
       "produktionsnummer": 1315,
@@ -54300,9 +54575,14 @@
       "tickets_gesamt": 916,
       "tickets_kartenverkauf": 916,
       "kontingente": 0,
+      "umsatz_gesamt": 21900.7,
       "anzahl_veranstaltungen": 2,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 916,
+      "tickets_3d": 916,
+      "tickets_7d": 916,
+      "tickets_30d": 916
     },
     {
       "produktionsnummer": 1340,
@@ -54310,9 +54590,14 @@
       "tickets_gesamt": 3881,
       "tickets_kartenverkauf": 3850,
       "kontingente": 31,
+      "umsatz_gesamt": 115896.3,
       "anzahl_veranstaltungen": 9,
       "kapazitaet_gesamt": 2180,
-      "auslastung_pct": 176.6
+      "auslastung_pct": 176.6,
+      "tickets_1d": 1781,
+      "tickets_3d": 1814,
+      "tickets_7d": 1829,
+      "tickets_30d": 3745
     },
     {
       "produktionsnummer": 1345,
@@ -54320,9 +54605,14 @@
       "tickets_gesamt": 217,
       "tickets_kartenverkauf": 114,
       "kontingente": 103,
+      "umsatz_gesamt": 3420.5,
       "anzahl_veranstaltungen": 3,
       "kapazitaet_gesamt": 321,
-      "auslastung_pct": 35.5
+      "auslastung_pct": 35.5,
+      "tickets_1d": 0,
+      "tickets_3d": 168,
+      "tickets_7d": 217,
+      "tickets_30d": 217
     },
     {
       "produktionsnummer": 848,
@@ -54330,9 +54620,14 @@
       "tickets_gesamt": 414,
       "tickets_kartenverkauf": 414,
       "kontingente": 0,
+      "umsatz_gesamt": 3480.0,
       "anzahl_veranstaltungen": 4,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 414,
+      "tickets_3d": 414,
+      "tickets_7d": 414,
+      "tickets_30d": 414
     },
     {
       "produktionsnummer": 700,
@@ -54340,9 +54635,14 @@
       "tickets_gesamt": 4387,
       "tickets_kartenverkauf": 4259,
       "kontingente": 128,
+      "umsatz_gesamt": 35580.78,
       "anzahl_veranstaltungen": 14,
       "kapazitaet_gesamt": 692,
-      "auslastung_pct": 615.5
+      "auslastung_pct": 615.5,
+      "tickets_1d": 4041,
+      "tickets_3d": 4129,
+      "tickets_7d": 4156,
+      "tickets_30d": 4358
     },
     {
       "produktionsnummer": 1302,
@@ -54350,9 +54650,14 @@
       "tickets_gesamt": 160,
       "tickets_kartenverkauf": 160,
       "kontingente": 0,
+      "umsatz_gesamt": 3645.5,
       "anzahl_veranstaltungen": 8,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 160,
+      "tickets_3d": 160,
+      "tickets_7d": 160,
+      "tickets_30d": 160
     },
     {
       "produktionsnummer": 1250,
@@ -54360,9 +54665,14 @@
       "tickets_gesamt": 9621,
       "tickets_kartenverkauf": 9564,
       "kontingente": 57,
+      "umsatz_gesamt": 330035.55,
       "anzahl_veranstaltungen": 35,
       "kapazitaet_gesamt": 554,
-      "auslastung_pct": 1726.4
+      "auslastung_pct": 1726.4,
+      "tickets_1d": 8939,
+      "tickets_3d": 8968,
+      "tickets_7d": 9019,
+      "tickets_30d": 9438
     },
     {
       "produktionsnummer": 699,
@@ -54370,9 +54680,14 @@
       "tickets_gesamt": 101,
       "tickets_kartenverkauf": 101,
       "kontingente": 0,
+      "umsatz_gesamt": 252.5,
       "anzahl_veranstaltungen": 5,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 101,
+      "tickets_3d": 101,
+      "tickets_7d": 101,
+      "tickets_30d": 101
     },
     {
       "produktionsnummer": 1321,
@@ -54380,9 +54695,14 @@
       "tickets_gesamt": 578,
       "tickets_kartenverkauf": 578,
       "kontingente": 0,
+      "umsatz_gesamt": 10587.0,
       "anzahl_veranstaltungen": 2,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 578,
+      "tickets_3d": 578,
+      "tickets_7d": 578,
+      "tickets_30d": 578
     },
     {
       "produktionsnummer": 1312,
@@ -54390,9 +54710,14 @@
       "tickets_gesamt": 321,
       "tickets_kartenverkauf": 321,
       "kontingente": 0,
+      "umsatz_gesamt": 3963.5,
       "anzahl_veranstaltungen": 3,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 321,
+      "tickets_3d": 321,
+      "tickets_7d": 321,
+      "tickets_30d": 321
     },
     {
       "produktionsnummer": 1308,
@@ -54400,9 +54725,14 @@
       "tickets_gesamt": 187,
       "tickets_kartenverkauf": 187,
       "kontingente": 0,
+      "umsatz_gesamt": 3042.0,
       "anzahl_veranstaltungen": 1,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 187,
+      "tickets_3d": 187,
+      "tickets_7d": 187,
+      "tickets_30d": 187
     },
     {
       "produktionsnummer": 1297,
@@ -54410,9 +54740,14 @@
       "tickets_gesamt": 13705,
       "tickets_kartenverkauf": 13705,
       "kontingente": 0,
+      "umsatz_gesamt": 653330.8,
       "anzahl_veranstaltungen": 49,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 13705,
+      "tickets_3d": 13705,
+      "tickets_7d": 13705,
+      "tickets_30d": 13705
     },
     {
       "produktionsnummer": 1286,
@@ -54420,9 +54755,14 @@
       "tickets_gesamt": 5046,
       "tickets_kartenverkauf": 5046,
       "kontingente": 0,
+      "umsatz_gesamt": 183312.45,
       "anzahl_veranstaltungen": 18,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 5046,
+      "tickets_3d": 5046,
+      "tickets_7d": 5046,
+      "tickets_30d": 5046
     },
     {
       "produktionsnummer": 1328,
@@ -54430,9 +54770,14 @@
       "tickets_gesamt": 672,
       "tickets_kartenverkauf": 672,
       "kontingente": 0,
+      "umsatz_gesamt": 8278.25,
       "anzahl_veranstaltungen": 7,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 672,
+      "tickets_3d": 672,
+      "tickets_7d": 672,
+      "tickets_30d": 672
     },
     {
       "produktionsnummer": 1326,
@@ -54440,9 +54785,14 @@
       "tickets_gesamt": 295,
       "tickets_kartenverkauf": 295,
       "kontingente": 0,
+      "umsatz_gesamt": 3479.0,
       "anzahl_veranstaltungen": 4,
       "kapazitaet_gesamt": null,
-      "auslastung_pct": null
+      "auslastung_pct": null,
+      "tickets_1d": 295,
+      "tickets_3d": 295,
+      "tickets_7d": 295,
+      "tickets_30d": 295
     }
   ],
   "zeitreihe_tagesverkauf": [
