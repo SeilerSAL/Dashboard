@@ -1,6 +1,6 @@
 {
   "meta": {
-    "erstellt": "2026-03-05T17:34:14.062154",
+    "erstellt": "2026-03-05T17:38:39.989966",
     "aktuellster_snapshot": "2026-03-05",
     "anzahl_snapshots": 33,
     "snapshot_zeitraum": "2026-02-01 bis 2026-03-05",
@@ -9,9 +9,9 @@
     "va_mit_auslastung": 102,
     "va_ohne_auslastung": 0,
     "velocity_stats": {
-      "mu": 4.425,
-      "sigma": 3.863,
-      "skewness": 1.396,
+      "mu": 4.565,
+      "sigma": 3.918,
+      "skewness": 1.377,
       "n": 42
     },
     "alpha_score_meta": {
@@ -51,8 +51,8 @@
       "tickets_7d": 26,
       "tickets_30d": 157,
       "velocity_7d": 3.71,
-      "velocity_7d_ci_lower": 4.12,
-      "velocity_7d_ci_upper": 8.22,
+      "velocity_7d_ci_lower": 4.28,
+      "velocity_7d_ci_upper": 8.16,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -163,9 +163,9 @@
       ],
       "pg_shift_score": 0.5013,
       "kanal_hhi": 0.1523,
-      "velocity_zscore": -0.19,
+      "velocity_zscore": -0.22,
       "alert_level": "normal",
-      "alpha_score": -4.64,
+      "alpha_score": -4.63,
       "alpha_score_norm": -0.15
     },
     {
@@ -175,30 +175,30 @@
       "name": "Orlando",
       "datum": "2026-03-06",
       "uhrzeit": "20:30",
-      "tickets_gesamt": 395,
-      "tickets_kartenverkauf": 395,
-      "stornos": 2,
-      "umsatz_gesamt": 9445.8,
-      "avg_preis": 23.91,
+      "tickets_gesamt": 396,
+      "tickets_kartenverkauf": 396,
+      "stornos": 4,
+      "umsatz_gesamt": 9454.8,
+      "avg_preis": 23.88,
       "kapazitaet": 427,
       "frei_verkaufbar": 423,
       "kontingente": 4,
       "reserviert": 7,
       "freie_plaetze": 44,
       "pending": 22,
-      "auslastung_gesamt_pct": 92.5,
-      "auslastung_verkauf_pct": 93.4,
+      "auslastung_gesamt_pct": 92.7,
+      "auslastung_verkauf_pct": 93.6,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 92.1,
-        "ci_lower_90_pct": 89.9,
-        "ci_upper_90_pct": 94.1
+        "auslastung_forecast_pct": 92.3,
+        "ci_lower_90_pct": 90.1,
+        "ci_upper_90_pct": 94.3
       },
-      "tickets_1d": 21,
-      "tickets_3d": 45,
-      "tickets_7d": 97,
-      "tickets_30d": 281,
-      "velocity_7d": 13.86,
-      "velocity_7d_ci_lower": 8.16,
+      "tickets_1d": 22,
+      "tickets_3d": 46,
+      "tickets_7d": 98,
+      "tickets_30d": 282,
+      "velocity_7d": 14.0,
+      "velocity_7d_ci_lower": 7.78,
       "velocity_7d_ci_upper": 13.56,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
@@ -220,7 +220,7 @@
           "velocity_7d": 2.0,
           "auslastung_gesamt_pct": 89.3,
           "auslastung_verkauf_pct": 89.3,
-          "rate_share": 0.1696
+          "rate_share": 0.1692
         },
         {
           "platzgruppe": "b",
@@ -237,24 +237,24 @@
           "velocity_7d": 7.43,
           "auslastung_gesamt_pct": 82.7,
           "auslastung_verkauf_pct": 82.7,
-          "rate_share": 0.2177
+          "rate_share": 0.2172
         },
         {
           "platzgruppe": "c",
-          "verkauft": 116,
+          "verkauft": 117,
           "reserviert": 6,
           "kontingente": 0,
           "kapazitaet": 118,
           "frei_verkaufbar": 118,
           "freie_plaetze": 13,
           "pending": 0,
-          "umsatz": 3078.0,
-          "avg_preis": 26.53,
-          "tickets_7d": 29,
-          "velocity_7d": 4.14,
-          "auslastung_gesamt_pct": 98.3,
-          "auslastung_verkauf_pct": 98.3,
-          "rate_share": 0.2937
+          "umsatz": 3087.0,
+          "avg_preis": 26.38,
+          "tickets_7d": 30,
+          "velocity_7d": 4.29,
+          "auslastung_gesamt_pct": 99.2,
+          "auslastung_verkauf_pct": 99.2,
+          "rate_share": 0.2955
         },
         {
           "platzgruppe": "d",
@@ -271,7 +271,7 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 95.9,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.238
+          "rate_share": 0.2374
         },
         {
           "platzgruppe": "e",
@@ -288,7 +288,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.0532
+          "rate_share": 0.053
         },
         {
           "platzgruppe": "f",
@@ -308,12 +308,12 @@
           "rate_share": 0.0278
         }
       ],
-      "pg_shift_score": 0.5047,
-      "kanal_hhi": 0.1309,
-      "velocity_zscore": 2.44,
+      "pg_shift_score": 0.5052,
+      "kanal_hhi": 0.1313,
+      "velocity_zscore": 2.41,
       "alert_level": "normal",
-      "alpha_score": -7.42,
-      "alpha_score_norm": -0.25
+      "alpha_score": -8.0,
+      "alpha_score_norm": -0.26
     },
     {
       "va_nr": 13511,
@@ -345,8 +345,8 @@
       "tickets_7d": 65,
       "tickets_30d": 208,
       "velocity_7d": 9.29,
-      "velocity_7d_ci_lower": 5.19,
-      "velocity_7d_ci_upper": 10.59,
+      "velocity_7d_ci_lower": 5.59,
+      "velocity_7d_ci_upper": 10.62,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -457,10 +457,10 @@
       ],
       "pg_shift_score": 0.3186,
       "kanal_hhi": 0.2208,
-      "velocity_zscore": 1.26,
+      "velocity_zscore": 1.21,
       "alert_level": "normal",
-      "alpha_score": -0.82,
-      "alpha_score_norm": -0.03
+      "alpha_score": -1.6,
+      "alpha_score_norm": -0.05
     },
     {
       "va_nr": 13514,
@@ -469,31 +469,31 @@
       "name": "Paradiesische Zustände",
       "datum": "2026-03-06",
       "uhrzeit": "19:30",
-      "tickets_gesamt": 91,
-      "tickets_kartenverkauf": 91,
+      "tickets_gesamt": 94,
+      "tickets_kartenverkauf": 94,
       "stornos": 0,
-      "umsatz_gesamt": 1447.0,
-      "avg_preis": 15.9,
+      "umsatz_gesamt": 1485.0,
+      "avg_preis": 15.8,
       "kapazitaet": 99,
       "frei_verkaufbar": 95,
       "kontingente": 4,
       "reserviert": 0,
       "freie_plaetze": 19,
       "pending": 0,
-      "auslastung_gesamt_pct": 91.9,
-      "auslastung_verkauf_pct": 95.8,
+      "auslastung_gesamt_pct": 94.9,
+      "auslastung_verkauf_pct": 98.9,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 90.3,
-        "ci_lower_90_pct": 85.1,
-        "ci_upper_90_pct": 94.6
+        "auslastung_forecast_pct": 93.2,
+        "ci_lower_90_pct": 88.7,
+        "ci_upper_90_pct": 96.7
       },
-      "tickets_1d": 5,
-      "tickets_3d": 15,
-      "tickets_7d": 24,
-      "tickets_30d": 82,
-      "velocity_7d": 3.43,
-      "velocity_7d_ci_lower": 1.97,
-      "velocity_7d_ci_upper": 3.47,
+      "tickets_1d": 8,
+      "tickets_3d": 18,
+      "tickets_7d": 27,
+      "tickets_30d": 85,
+      "velocity_7d": 3.86,
+      "velocity_7d_ci_lower": 2.22,
+      "velocity_7d_ci_upper": 3.59,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -501,28 +501,28 @@
       "platzgruppen": [
         {
           "platzgruppe": "a",
-          "verkauft": 91,
+          "verkauft": 94,
           "reserviert": 0,
           "kontingente": 4,
           "kapazitaet": 99,
           "frei_verkaufbar": 95,
           "freie_plaetze": 19,
           "pending": 0,
-          "umsatz": 1447.0,
-          "avg_preis": 15.9,
-          "tickets_7d": 24,
-          "velocity_7d": 3.43,
-          "auslastung_gesamt_pct": 91.9,
-          "auslastung_verkauf_pct": 95.8,
+          "umsatz": 1485.0,
+          "avg_preis": 15.8,
+          "tickets_7d": 27,
+          "velocity_7d": 3.86,
+          "auslastung_gesamt_pct": 94.9,
+          "auslastung_verkauf_pct": 98.9,
           "rate_share": 1.0
         }
       ],
       "pg_shift_score": 0.0,
-      "kanal_hhi": 0.3597,
-      "velocity_zscore": -0.26,
+      "kanal_hhi": 0.3536,
+      "velocity_zscore": -0.18,
       "alert_level": "normal",
-      "alpha_score": -5.02,
-      "alpha_score_norm": -0.17
+      "alpha_score": -2.7,
+      "alpha_score_norm": -0.09
     },
     {
       "va_nr": 13509,
@@ -531,31 +531,31 @@
       "name": "Orlando",
       "datum": "2026-03-07",
       "uhrzeit": "20:30",
-      "tickets_gesamt": 381,
-      "tickets_kartenverkauf": 381,
+      "tickets_gesamt": 383,
+      "tickets_kartenverkauf": 383,
       "stornos": 3,
-      "umsatz_gesamt": 9658.6,
-      "avg_preis": 25.35,
+      "umsatz_gesamt": 9706.6,
+      "avg_preis": 25.34,
       "kapazitaet": 428,
       "frei_verkaufbar": 394,
       "kontingente": 34,
       "reserviert": 6,
       "freie_plaetze": 41,
       "pending": 25,
-      "auslastung_gesamt_pct": 89.0,
-      "auslastung_verkauf_pct": 96.7,
+      "auslastung_gesamt_pct": 89.5,
+      "auslastung_verkauf_pct": 97.2,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 88.7,
-        "ci_lower_90_pct": 86.1,
-        "ci_upper_90_pct": 91.1
+        "auslastung_forecast_pct": 89.1,
+        "ci_lower_90_pct": 86.6,
+        "ci_upper_90_pct": 91.5
       },
-      "tickets_1d": 18,
-      "tickets_3d": 57,
-      "tickets_7d": 113,
-      "tickets_30d": 287,
-      "velocity_7d": 16.14,
-      "velocity_7d_ci_lower": 7.5,
-      "velocity_7d_ci_upper": 13.75,
+      "tickets_1d": 20,
+      "tickets_3d": 59,
+      "tickets_7d": 115,
+      "tickets_30d": 289,
+      "velocity_7d": 16.43,
+      "velocity_7d_ci_lower": 8.06,
+      "velocity_7d_ci_upper": 14.0,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -563,37 +563,37 @@
       "platzgruppen": [
         {
           "platzgruppe": "a",
-          "verkauft": 52,
+          "verkauft": 53,
           "reserviert": 4,
           "kontingente": 0,
           "kapazitaet": 75,
           "frei_verkaufbar": 75,
           "freie_plaetze": 4,
           "pending": 21,
-          "umsatz": 1327.0,
-          "avg_preis": 25.52,
-          "tickets_7d": 7,
-          "velocity_7d": 1.0,
-          "auslastung_gesamt_pct": 69.3,
-          "auslastung_verkauf_pct": 69.3,
-          "rate_share": 0.1365
+          "umsatz": 1351.0,
+          "avg_preis": 25.49,
+          "tickets_7d": 8,
+          "velocity_7d": 1.14,
+          "auslastung_gesamt_pct": 70.7,
+          "auslastung_verkauf_pct": 70.7,
+          "rate_share": 0.1384
         },
         {
           "platzgruppe": "b",
-          "verkauft": 96,
+          "verkauft": 97,
           "reserviert": 2,
           "kontingente": 0,
           "kapazitaet": 104,
           "frei_verkaufbar": 104,
           "freie_plaetze": 19,
           "pending": 3,
-          "umsatz": 2986.5,
-          "avg_preis": 31.11,
-          "tickets_7d": 35,
-          "velocity_7d": 5.0,
-          "auslastung_gesamt_pct": 92.3,
-          "auslastung_verkauf_pct": 92.3,
-          "rate_share": 0.252
+          "umsatz": 3010.5,
+          "avg_preis": 31.04,
+          "tickets_7d": 36,
+          "velocity_7d": 5.14,
+          "auslastung_gesamt_pct": 93.3,
+          "auslastung_verkauf_pct": 93.3,
+          "rate_share": 0.2533
         },
         {
           "platzgruppe": "c",
@@ -610,7 +610,7 @@
           "velocity_7d": 6.29,
           "auslastung_gesamt_pct": 96.6,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.2992
+          "rate_share": 0.2977
         },
         {
           "platzgruppe": "d",
@@ -627,7 +627,7 @@
           "velocity_7d": 3.86,
           "auslastung_gesamt_pct": 87.9,
           "auslastung_verkauf_pct": 126.1,
-          "rate_share": 0.2283
+          "rate_share": 0.2272
         },
         {
           "platzgruppe": "e",
@@ -644,7 +644,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.0551
+          "rate_share": 0.0548
         },
         {
           "platzgruppe": "f",
@@ -661,15 +661,15 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.0289
+          "rate_share": 0.0287
         }
       ],
-      "pg_shift_score": 0.559,
-      "kanal_hhi": 0.1473,
+      "pg_shift_score": 0.5563,
+      "kanal_hhi": 0.1457,
       "velocity_zscore": 3.03,
       "alert_level": "normal",
-      "alpha_score": 5.81,
-      "alpha_score_norm": 0.19
+      "alpha_score": 5.01,
+      "alpha_score_norm": 0.16
     },
     {
       "va_nr": 13512,
@@ -678,31 +678,31 @@
       "name": "Ex",
       "datum": "2026-03-07",
       "uhrzeit": "20:00",
-      "tickets_gesamt": 244,
-      "tickets_kartenverkauf": 244,
-      "stornos": 0,
-      "umsatz_gesamt": 7551.0,
-      "avg_preis": 30.95,
+      "tickets_gesamt": 249,
+      "tickets_kartenverkauf": 249,
+      "stornos": 2,
+      "umsatz_gesamt": 7686.0,
+      "avg_preis": 30.87,
       "kapazitaet": 276,
       "frei_verkaufbar": 264,
       "kontingente": 12,
       "reserviert": 2,
       "freie_plaetze": 35,
       "pending": 4,
-      "auslastung_gesamt_pct": 88.4,
-      "auslastung_verkauf_pct": 92.4,
+      "auslastung_gesamt_pct": 90.2,
+      "auslastung_verkauf_pct": 94.3,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 87.9,
-        "ci_lower_90_pct": 84.5,
-        "ci_upper_90_pct": 90.9
+        "auslastung_forecast_pct": 89.6,
+        "ci_lower_90_pct": 86.5,
+        "ci_upper_90_pct": 92.5
       },
-      "tickets_1d": 8,
-      "tickets_3d": 17,
-      "tickets_7d": 57,
-      "tickets_30d": 172,
-      "velocity_7d": 8.14,
-      "velocity_7d_ci_lower": 5.03,
-      "velocity_7d_ci_upper": 9.19,
+      "tickets_1d": 13,
+      "tickets_3d": 22,
+      "tickets_7d": 62,
+      "tickets_30d": 177,
+      "velocity_7d": 8.86,
+      "velocity_7d_ci_lower": 5.06,
+      "velocity_7d_ci_upper": 9.28,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -710,37 +710,37 @@
       "platzgruppen": [
         {
           "platzgruppe": "a",
-          "verkauft": 45,
+          "verkauft": 46,
           "reserviert": 0,
           "kontingente": 2,
           "kapazitaet": 48,
           "frei_verkaufbar": 46,
           "freie_plaetze": 10,
           "pending": 0,
-          "umsatz": 1974.0,
-          "avg_preis": 43.87,
-          "tickets_7d": 15,
-          "velocity_7d": 2.14,
-          "auslastung_gesamt_pct": 93.8,
-          "auslastung_verkauf_pct": 97.8,
-          "rate_share": 0.1844
+          "umsatz": 1983.0,
+          "avg_preis": 43.11,
+          "tickets_7d": 16,
+          "velocity_7d": 2.29,
+          "auslastung_gesamt_pct": 95.8,
+          "auslastung_verkauf_pct": 100.0,
+          "rate_share": 0.1847
         },
         {
           "platzgruppe": "b",
-          "verkauft": 40,
+          "verkauft": 44,
           "reserviert": 0,
           "kontingente": 4,
           "kapazitaet": 58,
           "frei_verkaufbar": 54,
           "freie_plaetze": 16,
           "pending": 0,
-          "umsatz": 1743.0,
-          "avg_preis": 43.58,
-          "tickets_7d": 15,
-          "velocity_7d": 2.14,
-          "auslastung_gesamt_pct": 69.0,
-          "auslastung_verkauf_pct": 74.1,
-          "rate_share": 0.1639
+          "umsatz": 1869.0,
+          "avg_preis": 42.48,
+          "tickets_7d": 19,
+          "velocity_7d": 2.71,
+          "auslastung_gesamt_pct": 75.9,
+          "auslastung_verkauf_pct": 81.5,
+          "rate_share": 0.1767
         },
         {
           "platzgruppe": "c",
@@ -757,7 +757,7 @@
           "velocity_7d": 2.43,
           "auslastung_gesamt_pct": 87.9,
           "auslastung_verkauf_pct": 92.7,
-          "rate_share": 0.209
+          "rate_share": 0.2048
         },
         {
           "platzgruppe": "d",
@@ -774,7 +774,7 @@
           "velocity_7d": 1.29,
           "auslastung_gesamt_pct": 93.8,
           "auslastung_verkauf_pct": 98.4,
-          "rate_share": 0.25
+          "rate_share": 0.245
         },
         {
           "platzgruppe": "e",
@@ -791,7 +791,7 @@
           "velocity_7d": 0.14,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.1434
+          "rate_share": 0.1406
         },
         {
           "platzgruppe": "f",
@@ -808,15 +808,15 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.0492
+          "rate_share": 0.0482
         }
       ],
-      "pg_shift_score": 0.2869,
-      "kanal_hhi": 0.1724,
-      "velocity_zscore": 0.96,
+      "pg_shift_score": 0.2891,
+      "kanal_hhi": 0.1682,
+      "velocity_zscore": 1.1,
       "alert_level": "normal",
-      "alpha_score": 1.51,
-      "alpha_score_norm": 0.05
+      "alpha_score": 2.11,
+      "alpha_score_norm": 0.07
     },
     {
       "va_nr": 13515,
@@ -825,31 +825,31 @@
       "name": "Paradiesische Zustände",
       "datum": "2026-03-07",
       "uhrzeit": "19:30",
-      "tickets_gesamt": 46,
-      "tickets_kartenverkauf": 46,
+      "tickets_gesamt": 50,
+      "tickets_kartenverkauf": 50,
       "stornos": 2,
-      "umsatz_gesamt": 752.0,
-      "avg_preis": 16.35,
+      "umsatz_gesamt": 832.0,
+      "avg_preis": 16.64,
       "kapazitaet": 98,
       "frei_verkaufbar": 92,
       "kontingente": 6,
       "reserviert": 0,
       "freie_plaetze": 57,
       "pending": 0,
-      "auslastung_gesamt_pct": 46.9,
-      "auslastung_verkauf_pct": 50.0,
+      "auslastung_gesamt_pct": 51.0,
+      "auslastung_verkauf_pct": 54.3,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 47.1,
-        "ci_lower_90_pct": 39.0,
-        "ci_upper_90_pct": 55.2
+        "auslastung_forecast_pct": 51.0,
+        "ci_lower_90_pct": 42.9,
+        "ci_upper_90_pct": 59.1
       },
-      "tickets_1d": 0,
-      "tickets_3d": 9,
-      "tickets_7d": 16,
-      "tickets_30d": 38,
-      "velocity_7d": 2.29,
-      "velocity_7d_ci_lower": 0.81,
-      "velocity_7d_ci_upper": 1.75,
+      "tickets_1d": 4,
+      "tickets_3d": 13,
+      "tickets_7d": 20,
+      "tickets_30d": 42,
+      "velocity_7d": 2.86,
+      "velocity_7d_ci_lower": 0.94,
+      "velocity_7d_ci_upper": 1.88,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -857,28 +857,28 @@
       "platzgruppen": [
         {
           "platzgruppe": "a",
-          "verkauft": 46,
+          "verkauft": 50,
           "reserviert": 0,
           "kontingente": 6,
           "kapazitaet": 98,
           "frei_verkaufbar": 92,
           "freie_plaetze": 57,
           "pending": 0,
-          "umsatz": 752.0,
-          "avg_preis": 16.35,
-          "tickets_7d": 16,
-          "velocity_7d": 2.29,
-          "auslastung_gesamt_pct": 46.9,
-          "auslastung_verkauf_pct": 50.0,
+          "umsatz": 832.0,
+          "avg_preis": 16.64,
+          "tickets_7d": 20,
+          "velocity_7d": 2.86,
+          "auslastung_gesamt_pct": 51.0,
+          "auslastung_verkauf_pct": 54.3,
           "rate_share": 1.0
         }
       ],
       "pg_shift_score": 0.0,
-      "kanal_hhi": 0.2902,
-      "velocity_zscore": -0.55,
+      "kanal_hhi": 0.3192,
+      "velocity_zscore": -0.44,
       "alert_level": "normal",
-      "alpha_score": -40.89,
-      "alpha_score_norm": -1.37
+      "alpha_score": -37.89,
+      "alpha_score_norm": -1.24
     },
     {
       "va_nr": 13510,
@@ -887,31 +887,31 @@
       "name": "Orlando",
       "datum": "2026-03-08",
       "uhrzeit": "19:30",
-      "tickets_gesamt": 328,
-      "tickets_kartenverkauf": 328,
+      "tickets_gesamt": 332,
+      "tickets_kartenverkauf": 332,
       "stornos": 5,
-      "umsatz_gesamt": 7462.1,
-      "avg_preis": 22.75,
+      "umsatz_gesamt": 7556.1,
+      "avg_preis": 22.76,
       "kapazitaet": 427,
       "frei_verkaufbar": 417,
       "kontingente": 10,
       "reserviert": 2,
       "freie_plaetze": 107,
       "pending": 23,
-      "auslastung_gesamt_pct": 76.8,
-      "auslastung_verkauf_pct": 78.7,
+      "auslastung_gesamt_pct": 77.8,
+      "auslastung_verkauf_pct": 79.6,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 76.6,
-        "ci_lower_90_pct": 73.1,
-        "ci_upper_90_pct": 79.8
+        "auslastung_forecast_pct": 77.5,
+        "ci_lower_90_pct": 74.1,
+        "ci_upper_90_pct": 80.7
       },
-      "tickets_1d": 18,
-      "tickets_3d": 35,
-      "tickets_7d": 67,
-      "tickets_30d": 223,
-      "velocity_7d": 9.57,
-      "velocity_7d_ci_lower": 6.06,
-      "velocity_7d_ci_upper": 11.56,
+      "tickets_1d": 22,
+      "tickets_3d": 39,
+      "tickets_7d": 71,
+      "tickets_30d": 227,
+      "velocity_7d": 10.14,
+      "velocity_7d_ci_lower": 6.28,
+      "velocity_7d_ci_upper": 11.88,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -932,7 +932,7 @@
           "velocity_7d": 0.86,
           "auslastung_gesamt_pct": 66.7,
           "auslastung_verkauf_pct": 68.5,
-          "rate_share": 0.1524
+          "rate_share": 0.1506
         },
         {
           "platzgruppe": "b",
@@ -949,24 +949,24 @@
           "velocity_7d": 3.29,
           "auslastung_gesamt_pct": 58.7,
           "auslastung_verkauf_pct": 59.8,
-          "rate_share": 0.186
+          "rate_share": 0.1837
         },
         {
           "platzgruppe": "c",
-          "verkauft": 91,
+          "verkauft": 95,
           "reserviert": 0,
           "kontingente": 2,
           "kapazitaet": 118,
           "frei_verkaufbar": 116,
           "freie_plaetze": 40,
           "pending": 0,
-          "umsatz": 2263.5,
-          "avg_preis": 24.87,
-          "tickets_7d": 32,
-          "velocity_7d": 4.57,
-          "auslastung_gesamt_pct": 77.1,
-          "auslastung_verkauf_pct": 78.4,
-          "rate_share": 0.2774
+          "umsatz": 2357.5,
+          "avg_preis": 24.82,
+          "tickets_7d": 36,
+          "velocity_7d": 5.14,
+          "auslastung_gesamt_pct": 80.5,
+          "auslastung_verkauf_pct": 81.9,
+          "rate_share": 0.2861
         },
         {
           "platzgruppe": "d",
@@ -983,7 +983,7 @@
           "velocity_7d": 0.86,
           "auslastung_gesamt_pct": 95.9,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.2866
+          "rate_share": 0.2831
         },
         {
           "platzgruppe": "e",
@@ -1000,7 +1000,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.064
+          "rate_share": 0.0633
         },
         {
           "platzgruppe": "f",
@@ -1017,15 +1017,15 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.0335
+          "rate_share": 0.0331
         }
       ],
-      "pg_shift_score": 0.5001,
-      "kanal_hhi": 0.1126,
-      "velocity_zscore": 1.33,
+      "pg_shift_score": 0.5059,
+      "kanal_hhi": 0.1112,
+      "velocity_zscore": 1.42,
       "alert_level": "normal",
-      "alpha_score": -2.04,
-      "alpha_score_norm": -0.07
+      "alpha_score": -1.4,
+      "alpha_score_norm": -0.05
     },
     {
       "va_nr": 13513,
@@ -1034,31 +1034,31 @@
       "name": "Ex",
       "datum": "2026-03-08",
       "uhrzeit": "19:00",
-      "tickets_gesamt": 223,
-      "tickets_kartenverkauf": 223,
+      "tickets_gesamt": 224,
+      "tickets_kartenverkauf": 224,
       "stornos": 0,
-      "umsatz_gesamt": 6108.0,
-      "avg_preis": 27.39,
+      "umsatz_gesamt": 6117.0,
+      "avg_preis": 27.31,
       "kapazitaet": 276,
       "frei_verkaufbar": 266,
       "kontingente": 10,
       "reserviert": 0,
       "freie_plaetze": 53,
       "pending": 15,
-      "auslastung_gesamt_pct": 80.8,
-      "auslastung_verkauf_pct": 83.8,
+      "auslastung_gesamt_pct": 81.2,
+      "auslastung_verkauf_pct": 84.2,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 80.4,
-        "ci_lower_90_pct": 76.3,
-        "ci_upper_90_pct": 84.1
+        "auslastung_forecast_pct": 80.7,
+        "ci_lower_90_pct": 76.7,
+        "ci_upper_90_pct": 84.5
       },
-      "tickets_1d": 4,
-      "tickets_3d": 12,
-      "tickets_7d": 50,
-      "tickets_30d": 165,
-      "velocity_7d": 7.14,
-      "velocity_7d_ci_lower": 4.84,
-      "velocity_7d_ci_upper": 8.5,
+      "tickets_1d": 5,
+      "tickets_3d": 13,
+      "tickets_7d": 51,
+      "tickets_30d": 166,
+      "velocity_7d": 7.29,
+      "velocity_7d_ci_lower": 4.56,
+      "velocity_7d_ci_upper": 8.47,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -1079,7 +1079,7 @@
           "velocity_7d": 1.86,
           "auslastung_gesamt_pct": 87.5,
           "auslastung_verkauf_pct": 91.3,
-          "rate_share": 0.1883
+          "rate_share": 0.1875
         },
         {
           "platzgruppe": "b",
@@ -1096,24 +1096,24 @@
           "velocity_7d": 2.0,
           "auslastung_gesamt_pct": 60.3,
           "auslastung_verkauf_pct": 62.5,
-          "rate_share": 0.157
+          "rate_share": 0.1562
         },
         {
           "platzgruppe": "c",
-          "verkauft": 41,
+          "verkauft": 42,
           "reserviert": 0,
           "kontingente": 3,
           "kapazitaet": 58,
           "frei_verkaufbar": 55,
           "freie_plaetze": 16,
           "pending": 11,
-          "umsatz": 1115.0,
-          "avg_preis": 27.2,
-          "tickets_7d": 5,
-          "velocity_7d": 0.71,
-          "auslastung_gesamt_pct": 70.7,
-          "auslastung_verkauf_pct": 74.5,
-          "rate_share": 0.1839
+          "umsatz": 1124.0,
+          "avg_preis": 26.76,
+          "tickets_7d": 6,
+          "velocity_7d": 0.86,
+          "auslastung_gesamt_pct": 72.4,
+          "auslastung_verkauf_pct": 76.4,
+          "rate_share": 0.1875
         },
         {
           "platzgruppe": "d",
@@ -1130,7 +1130,7 @@
           "velocity_7d": 1.86,
           "auslastung_gesamt_pct": 89.2,
           "auslastung_verkauf_pct": 93.5,
-          "rate_share": 0.2601
+          "rate_share": 0.2589
         },
         {
           "platzgruppe": "e",
@@ -1147,7 +1147,7 @@
           "velocity_7d": 0.71,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.157
+          "rate_share": 0.1562
         },
         {
           "platzgruppe": "f",
@@ -1164,14 +1164,14 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.0538
+          "rate_share": 0.0536
         }
       ],
-      "pg_shift_score": 0.2645,
-      "kanal_hhi": 0.1849,
+      "pg_shift_score": 0.2679,
+      "kanal_hhi": 0.1839,
       "velocity_zscore": 0.7,
       "alert_level": "normal",
-      "alpha_score": 3.06,
+      "alpha_score": 3.2,
       "alpha_score_norm": 0.1
     },
     {
@@ -1181,10 +1181,10 @@
       "name": "Die Seherin",
       "datum": "2026-03-11",
       "uhrzeit": "20:00",
-      "tickets_gesamt": 243,
-      "tickets_kartenverkauf": 243,
+      "tickets_gesamt": 247,
+      "tickets_kartenverkauf": 247,
       "stornos": 5,
-      "umsatz_gesamt": 5947.3,
+      "umsatz_gesamt": 6045.3,
       "avg_preis": 24.47,
       "kapazitaet": 278,
       "frei_verkaufbar": 249,
@@ -1192,20 +1192,20 @@
       "reserviert": 2,
       "freie_plaetze": 15,
       "pending": 4,
-      "auslastung_gesamt_pct": 87.4,
-      "auslastung_verkauf_pct": 97.6,
+      "auslastung_gesamt_pct": 88.8,
+      "auslastung_verkauf_pct": 99.2,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 86.9,
-        "ci_lower_90_pct": 83.4,
-        "ci_upper_90_pct": 90.0
+        "auslastung_forecast_pct": 88.3,
+        "ci_lower_90_pct": 85.0,
+        "ci_upper_90_pct": 91.3
       },
-      "tickets_1d": 5,
-      "tickets_3d": 12,
-      "tickets_7d": 31,
-      "tickets_30d": 138,
-      "velocity_7d": 4.43,
-      "velocity_7d_ci_lower": 1.91,
-      "velocity_7d_ci_upper": 10.69,
+      "tickets_1d": 9,
+      "tickets_3d": 16,
+      "tickets_7d": 35,
+      "tickets_30d": 142,
+      "velocity_7d": 5.0,
+      "velocity_7d_ci_lower": 2.12,
+      "velocity_7d_ci_upper": 10.84,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -1226,41 +1226,41 @@
           "velocity_7d": 1.43,
           "auslastung_gesamt_pct": 92.3,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.1975
+          "rate_share": 0.1943
         },
         {
           "platzgruppe": "b",
-          "verkauft": 49,
+          "verkauft": 51,
           "reserviert": 2,
           "kontingente": 4,
           "kapazitaet": 63,
           "frei_verkaufbar": 59,
           "freie_plaetze": 6,
           "pending": 4,
-          "umsatz": 1945.3,
-          "avg_preis": 39.7,
-          "tickets_7d": 8,
-          "velocity_7d": 1.14,
-          "auslastung_gesamt_pct": 77.8,
-          "auslastung_verkauf_pct": 83.1,
-          "rate_share": 0.2016
+          "umsatz": 1963.3,
+          "avg_preis": 38.5,
+          "tickets_7d": 10,
+          "velocity_7d": 1.43,
+          "auslastung_gesamt_pct": 81.0,
+          "auslastung_verkauf_pct": 86.4,
+          "rate_share": 0.2065
         },
         {
           "platzgruppe": "c",
-          "verkauft": 35,
+          "verkauft": 37,
           "reserviert": 0,
           "kontingente": 15,
           "kapazitaet": 49,
           "frei_verkaufbar": 34,
           "freie_plaetze": 2,
           "pending": 0,
-          "umsatz": 970.0,
-          "avg_preis": 27.71,
-          "tickets_7d": 9,
-          "velocity_7d": 1.29,
-          "auslastung_gesamt_pct": 71.4,
-          "auslastung_verkauf_pct": 102.9,
-          "rate_share": 0.144
+          "umsatz": 1050.0,
+          "avg_preis": 28.38,
+          "tickets_7d": 11,
+          "velocity_7d": 1.57,
+          "auslastung_gesamt_pct": 75.5,
+          "auslastung_verkauf_pct": 108.8,
+          "rate_share": 0.1498
         },
         {
           "platzgruppe": "d",
@@ -1277,7 +1277,7 @@
           "velocity_7d": 0.57,
           "auslastung_gesamt_pct": 94.4,
           "auslastung_verkauf_pct": 103.1,
-          "rate_share": 0.2757
+          "rate_share": 0.2713
         },
         {
           "platzgruppe": "e",
@@ -1294,7 +1294,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.144
+          "rate_share": 0.1417
         },
         {
           "platzgruppe": "f",
@@ -1311,15 +1311,15 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 112.5,
           "auslastung_verkauf_pct": 112.5,
-          "rate_share": 0.037
+          "rate_share": 0.0364
         }
       ],
-      "pg_shift_score": 0.3498,
-      "kanal_hhi": 0.1109,
-      "velocity_zscore": 0.0,
+      "pg_shift_score": 0.3442,
+      "kanal_hhi": 0.1087,
+      "velocity_zscore": 0.11,
       "alert_level": "normal",
-      "alpha_score": 7.49,
-      "alpha_score_norm": 0.25
+      "alpha_score": 9.12,
+      "alpha_score_norm": 0.3
     },
     {
       "va_nr": 13516,
@@ -1328,31 +1328,31 @@
       "name": "Salome",
       "datum": "2026-03-12",
       "uhrzeit": "20:00",
-      "tickets_gesamt": 413,
-      "tickets_kartenverkauf": 413,
+      "tickets_gesamt": 415,
+      "tickets_kartenverkauf": 415,
       "stornos": 7,
-      "umsatz_gesamt": 12711.2,
-      "avg_preis": 30.78,
+      "umsatz_gesamt": 12771.2,
+      "avg_preis": 30.77,
       "kapazitaet": 436,
       "frei_verkaufbar": 431,
       "kontingente": 5,
       "reserviert": 9,
       "freie_plaetze": 0,
       "pending": 58,
-      "auslastung_gesamt_pct": 94.7,
-      "auslastung_verkauf_pct": 95.8,
+      "auslastung_gesamt_pct": 95.2,
+      "auslastung_verkauf_pct": 96.3,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 94.3,
-        "ci_lower_90_pct": 92.4,
-        "ci_upper_90_pct": 96.0
+        "auslastung_forecast_pct": 94.8,
+        "ci_lower_90_pct": 92.9,
+        "ci_upper_90_pct": 96.4
       },
-      "tickets_1d": 0,
-      "tickets_3d": 0,
-      "tickets_7d": 5,
-      "tickets_30d": 271,
-      "velocity_7d": 0.71,
-      "velocity_7d_ci_lower": 6.16,
-      "velocity_7d_ci_upper": 15.94,
+      "tickets_1d": 2,
+      "tickets_3d": 2,
+      "tickets_7d": 7,
+      "tickets_30d": 273,
+      "velocity_7d": 1.0,
+      "velocity_7d_ci_lower": 5.88,
+      "velocity_7d_ci_upper": 16.16,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -1360,20 +1360,20 @@
       "platzgruppen": [
         {
           "platzgruppe": "a",
-          "verkauft": 66,
+          "verkauft": 68,
           "reserviert": 7,
           "kontingente": 1,
           "kapazitaet": 80,
           "frei_verkaufbar": 79,
           "freie_plaetze": 0,
           "pending": 8,
-          "umsatz": 2864.5,
-          "avg_preis": 43.4,
-          "tickets_7d": 2,
-          "velocity_7d": 0.29,
-          "auslastung_gesamt_pct": 82.5,
-          "auslastung_verkauf_pct": 83.5,
-          "rate_share": 0.1598
+          "umsatz": 2924.5,
+          "avg_preis": 43.01,
+          "tickets_7d": 4,
+          "velocity_7d": 0.57,
+          "auslastung_gesamt_pct": 85.0,
+          "auslastung_verkauf_pct": 86.1,
+          "rate_share": 0.1639
         },
         {
           "platzgruppe": "b",
@@ -1390,7 +1390,7 @@
           "velocity_7d": 0.14,
           "auslastung_gesamt_pct": 94.2,
           "auslastung_verkauf_pct": 94.2,
-          "rate_share": 0.2373
+          "rate_share": 0.2361
         },
         {
           "platzgruppe": "c",
@@ -1407,7 +1407,7 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 98.0,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.2421
+          "rate_share": 0.241
         },
         {
           "platzgruppe": "d",
@@ -1424,7 +1424,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 95.6,
           "auslastung_verkauf_pct": 97.8,
-          "rate_share": 0.2107
+          "rate_share": 0.2096
         },
         {
           "platzgruppe": "e",
@@ -1441,7 +1441,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 106.1,
           "auslastung_verkauf_pct": 106.1,
-          "rate_share": 0.1259
+          "rate_share": 0.1253
         },
         {
           "platzgruppe": "f",
@@ -1458,15 +1458,15 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.0242
+          "rate_share": 0.0241
         }
       ],
-      "pg_shift_score": 0.3802,
-      "kanal_hhi": 0.1159,
-      "velocity_zscore": -0.96,
+      "pg_shift_score": 0.3734,
+      "kanal_hhi": 0.115,
+      "velocity_zscore": -0.91,
       "alert_level": "normal",
-      "alpha_score": -4.03,
-      "alpha_score_norm": -0.13
+      "alpha_score": -3.37,
+      "alpha_score_norm": -0.11
     },
     {
       "va_nr": 13522,
@@ -1475,31 +1475,31 @@
       "name": "Die Seherin",
       "datum": "2026-03-12",
       "uhrzeit": "20:30",
-      "tickets_gesamt": 176,
-      "tickets_kartenverkauf": 176,
+      "tickets_gesamt": 177,
+      "tickets_kartenverkauf": 177,
       "stornos": 2,
-      "umsatz_gesamt": 4243.6,
-      "avg_preis": 24.11,
+      "umsatz_gesamt": 4303.6,
+      "avg_preis": 24.31,
       "kapazitaet": 278,
       "frei_verkaufbar": 222,
       "kontingente": 56,
       "reserviert": 0,
       "freie_plaetze": 56,
       "pending": 2,
-      "auslastung_gesamt_pct": 63.3,
-      "auslastung_verkauf_pct": 79.3,
+      "auslastung_gesamt_pct": 63.7,
+      "auslastung_verkauf_pct": 79.7,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 63.1,
-        "ci_lower_90_pct": 58.3,
-        "ci_upper_90_pct": 67.8
+        "auslastung_forecast_pct": 63.5,
+        "ci_lower_90_pct": 58.7,
+        "ci_upper_90_pct": 68.1
       },
-      "tickets_1d": 3,
-      "tickets_3d": 10,
-      "tickets_7d": 17,
-      "tickets_30d": 117,
-      "velocity_7d": 2.43,
-      "velocity_7d_ci_lower": 3.22,
-      "velocity_7d_ci_upper": 6.75,
+      "tickets_1d": 4,
+      "tickets_3d": 11,
+      "tickets_7d": 18,
+      "tickets_30d": 118,
+      "velocity_7d": 2.57,
+      "velocity_7d_ci_lower": 3.62,
+      "velocity_7d_ci_upper": 6.72,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -1507,20 +1507,20 @@
       "platzgruppen": [
         {
           "platzgruppe": "a",
-          "verkauft": 32,
+          "verkauft": 33,
           "reserviert": 0,
           "kontingente": 8,
           "kapazitaet": 52,
           "frei_verkaufbar": 44,
           "freie_plaetze": 14,
           "pending": 0,
-          "umsatz": 895.0,
-          "avg_preis": 27.97,
-          "tickets_7d": 3,
-          "velocity_7d": 0.43,
-          "auslastung_gesamt_pct": 61.5,
-          "auslastung_verkauf_pct": 72.7,
-          "rate_share": 0.1818
+          "umsatz": 955.0,
+          "avg_preis": 28.94,
+          "tickets_7d": 4,
+          "velocity_7d": 0.57,
+          "auslastung_gesamt_pct": 63.5,
+          "auslastung_verkauf_pct": 75.0,
+          "rate_share": 0.1864
         },
         {
           "platzgruppe": "b",
@@ -1537,7 +1537,7 @@
           "velocity_7d": 0.57,
           "auslastung_gesamt_pct": 46.0,
           "auslastung_verkauf_pct": 64.4,
-          "rate_share": 0.1648
+          "rate_share": 0.1638
         },
         {
           "platzgruppe": "c",
@@ -1554,7 +1554,7 @@
           "velocity_7d": 0.57,
           "auslastung_gesamt_pct": 44.9,
           "auslastung_verkauf_pct": 84.6,
-          "rate_share": 0.125
+          "rate_share": 0.1243
         },
         {
           "platzgruppe": "d",
@@ -1571,7 +1571,7 @@
           "velocity_7d": 0.86,
           "auslastung_gesamt_pct": 70.4,
           "auslastung_verkauf_pct": 78.1,
-          "rate_share": 0.2841
+          "rate_share": 0.2825
         },
         {
           "platzgruppe": "e",
@@ -1588,7 +1588,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.1989
+          "rate_share": 0.1977
         },
         {
           "platzgruppe": "f",
@@ -1605,15 +1605,15 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.0455
+          "rate_share": 0.0452
         }
       ],
-      "pg_shift_score": 0.3295,
-      "kanal_hhi": 0.202,
-      "velocity_zscore": -0.52,
+      "pg_shift_score": 0.3333,
+      "kanal_hhi": 0.2041,
+      "velocity_zscore": -0.51,
       "alert_level": "normal",
-      "alpha_score": -20.53,
-      "alpha_score_norm": -0.69
+      "alpha_score": -19.97,
+      "alpha_score_norm": -0.65
     },
     {
       "va_nr": 13525,
@@ -1645,8 +1645,8 @@
       "tickets_7d": 10,
       "tickets_30d": 29,
       "velocity_7d": 1.43,
-      "velocity_7d_ci_lower": 0.72,
-      "velocity_7d_ci_upper": 3.06,
+      "velocity_7d_ci_lower": 0.59,
+      "velocity_7d_ci_upper": 3.09,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -1689,9 +1689,9 @@
       ],
       "pg_shift_score": 0.5578,
       "kanal_hhi": 0.1778,
-      "velocity_zscore": -0.78,
+      "velocity_zscore": -0.8,
       "alert_level": "normal",
-      "alpha_score": 14.67,
+      "alpha_score": 14.83,
       "alpha_score_norm": 0.49
     },
     {
@@ -1724,8 +1724,8 @@
       "tickets_7d": 6,
       "tickets_30d": 267,
       "velocity_7d": 0.86,
-      "velocity_7d_ci_lower": 3.28,
-      "velocity_7d_ci_upper": 19.78,
+      "velocity_7d_ci_lower": 4.31,
+      "velocity_7d_ci_upper": 19.72,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -1836,10 +1836,10 @@
       ],
       "pg_shift_score": 0.3874,
       "kanal_hhi": 0.1208,
-      "velocity_zscore": -0.92,
+      "velocity_zscore": -0.95,
       "alert_level": "normal",
-      "alpha_score": 6.19,
-      "alpha_score_norm": 0.21
+      "alpha_score": 5.56,
+      "alpha_score_norm": 0.18
     },
     {
       "va_nr": 13523,
@@ -1848,31 +1848,31 @@
       "name": "Die Seherin",
       "datum": "2026-03-13",
       "uhrzeit": "20:30",
-      "tickets_gesamt": 160,
-      "tickets_kartenverkauf": 160,
+      "tickets_gesamt": 164,
+      "tickets_kartenverkauf": 164,
       "stornos": 2,
-      "umsatz_gesamt": 3867.8,
-      "avg_preis": 24.17,
+      "umsatz_gesamt": 3914.8,
+      "avg_preis": 23.87,
       "kapazitaet": 278,
       "frei_verkaufbar": 245,
       "kontingente": 33,
       "reserviert": 5,
       "freie_plaetze": 92,
       "pending": 5,
-      "auslastung_gesamt_pct": 57.6,
-      "auslastung_verkauf_pct": 65.3,
+      "auslastung_gesamt_pct": 59.0,
+      "auslastung_verkauf_pct": 66.9,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 57.4,
-        "ci_lower_90_pct": 52.6,
-        "ci_upper_90_pct": 62.3
+        "auslastung_forecast_pct": 58.9,
+        "ci_lower_90_pct": 54.0,
+        "ci_upper_90_pct": 63.6
       },
-      "tickets_1d": 7,
-      "tickets_3d": 13,
-      "tickets_7d": 25,
-      "tickets_30d": 109,
-      "velocity_7d": 3.57,
-      "velocity_7d_ci_lower": 2.81,
-      "velocity_7d_ci_upper": 6.16,
+      "tickets_1d": 11,
+      "tickets_3d": 17,
+      "tickets_7d": 29,
+      "tickets_30d": 113,
+      "velocity_7d": 4.14,
+      "velocity_7d_ci_lower": 2.88,
+      "velocity_7d_ci_upper": 6.34,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -1893,7 +1893,7 @@
           "velocity_7d": 1.0,
           "auslastung_gesamt_pct": 57.7,
           "auslastung_verkauf_pct": 63.8,
-          "rate_share": 0.1875
+          "rate_share": 0.1829
         },
         {
           "platzgruppe": "b",
@@ -1910,58 +1910,58 @@
           "velocity_7d": 1.14,
           "auslastung_gesamt_pct": 30.2,
           "auslastung_verkauf_pct": 33.9,
-          "rate_share": 0.1187
+          "rate_share": 0.1159
         },
         {
           "platzgruppe": "c",
-          "verkauft": 20,
+          "verkauft": 21,
           "reserviert": 1,
           "kontingente": 15,
           "kapazitaet": 49,
           "frei_verkaufbar": 34,
           "freie_plaetze": 13,
           "pending": 2,
-          "umsatz": 511.0,
-          "avg_preis": 25.55,
-          "tickets_7d": 2,
-          "velocity_7d": 0.29,
-          "auslastung_gesamt_pct": 40.8,
-          "auslastung_verkauf_pct": 58.8,
-          "rate_share": 0.125
+          "umsatz": 513.5,
+          "avg_preis": 24.45,
+          "tickets_7d": 3,
+          "velocity_7d": 0.43,
+          "auslastung_gesamt_pct": 42.9,
+          "auslastung_verkauf_pct": 61.8,
+          "rate_share": 0.128
         },
         {
           "platzgruppe": "d",
-          "verkauft": 48,
+          "verkauft": 50,
           "reserviert": 2,
           "kontingente": 6,
           "kapazitaet": 71,
           "frei_verkaufbar": 65,
           "freie_plaetze": 16,
           "pending": 0,
-          "umsatz": 1162.0,
-          "avg_preis": 24.21,
-          "tickets_7d": 4,
-          "velocity_7d": 0.57,
-          "auslastung_gesamt_pct": 67.6,
-          "auslastung_verkauf_pct": 73.8,
-          "rate_share": 0.3
+          "umsatz": 1192.5,
+          "avg_preis": 23.85,
+          "tickets_7d": 6,
+          "velocity_7d": 0.86,
+          "auslastung_gesamt_pct": 70.4,
+          "auslastung_verkauf_pct": 76.9,
+          "rate_share": 0.3049
         },
         {
           "platzgruppe": "e",
-          "verkauft": 35,
+          "verkauft": 36,
           "reserviert": 0,
           "kontingente": 0,
           "kapazitaet": 35,
           "frei_verkaufbar": 35,
           "freie_plaetze": 4,
           "pending": 0,
-          "umsatz": 470.0,
-          "avg_preis": 13.43,
-          "tickets_7d": 4,
-          "velocity_7d": 0.57,
-          "auslastung_gesamt_pct": 100.0,
-          "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.2188
+          "umsatz": 484.0,
+          "avg_preis": 13.44,
+          "tickets_7d": 5,
+          "velocity_7d": 0.71,
+          "auslastung_gesamt_pct": 102.9,
+          "auslastung_verkauf_pct": 102.9,
+          "rate_share": 0.2195
         },
         {
           "platzgruppe": "f",
@@ -1978,15 +1978,15 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.05
+          "rate_share": 0.0488
         }
       ],
-      "pg_shift_score": 0.4126,
-      "kanal_hhi": 0.2168,
-      "velocity_zscore": -0.22,
+      "pg_shift_score": 0.4146,
+      "kanal_hhi": 0.2121,
+      "velocity_zscore": -0.11,
       "alert_level": "normal",
-      "alpha_score": -29.41,
-      "alpha_score_norm": -0.98
+      "alpha_score": -28.44,
+      "alpha_score_norm": -0.93
     },
     {
       "va_nr": 13526,
@@ -2018,7 +2018,7 @@
       "tickets_7d": 7,
       "tickets_30d": 24,
       "velocity_7d": 1.0,
-      "velocity_7d_ci_lower": 0.44,
+      "velocity_7d_ci_lower": 0.25,
       "velocity_7d_ci_upper": 2.66,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
@@ -2062,10 +2062,10 @@
       ],
       "pg_shift_score": 0.5116,
       "kanal_hhi": 0.1796,
-      "velocity_zscore": -0.89,
+      "velocity_zscore": -0.91,
       "alert_level": "normal",
-      "alpha_score": 6.49,
-      "alpha_score_norm": 0.22
+      "alpha_score": 5.86,
+      "alpha_score_norm": 0.19
     },
     {
       "va_nr": 13518,
@@ -2097,8 +2097,8 @@
       "tickets_7d": 3,
       "tickets_30d": 285,
       "velocity_7d": 0.43,
-      "velocity_7d_ci_lower": 7.19,
-      "velocity_7d_ci_upper": 16.75,
+      "velocity_7d_ci_lower": 6.38,
+      "velocity_7d_ci_upper": 17.0,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -2209,10 +2209,10 @@
       ],
       "pg_shift_score": 0.383,
       "kanal_hhi": 0.1806,
-      "velocity_zscore": -1.03,
+      "velocity_zscore": -1.06,
       "alert_level": "normal",
-      "alpha_score": 16.42,
-      "alpha_score_norm": 0.55
+      "alpha_score": 15.26,
+      "alpha_score_norm": 0.5
     },
     {
       "va_nr": 13527,
@@ -2244,8 +2244,8 @@
       "tickets_7d": 7,
       "tickets_30d": 22,
       "velocity_7d": 1.0,
-      "velocity_7d_ci_lower": 0.22,
-      "velocity_7d_ci_upper": 3.22,
+      "velocity_7d_ci_lower": 0.16,
+      "velocity_7d_ci_upper": 3.19,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -2288,10 +2288,10 @@
       ],
       "pg_shift_score": 0.3334,
       "kanal_hhi": 0.2277,
-      "velocity_zscore": -0.89,
+      "velocity_zscore": -0.91,
       "alert_level": "normal",
-      "alpha_score": 21.12,
-      "alpha_score_norm": 0.71
+      "alpha_score": 19.96,
+      "alpha_score_norm": 0.65
     },
     {
       "va_nr": 13519,
@@ -2323,8 +2323,8 @@
       "tickets_7d": 7,
       "tickets_30d": 315,
       "velocity_7d": 1.0,
-      "velocity_7d_ci_lower": 6.78,
-      "velocity_7d_ci_upper": 18.31,
+      "velocity_7d_ci_lower": 6.62,
+      "velocity_7d_ci_upper": 18.12,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -2435,10 +2435,10 @@
       ],
       "pg_shift_score": 0.3816,
       "kanal_hhi": 0.1717,
-      "velocity_zscore": -0.89,
+      "velocity_zscore": -0.91,
       "alert_level": "normal",
-      "alpha_score": 21.17,
-      "alpha_score_norm": 0.71
+      "alpha_score": 21.06,
+      "alpha_score_norm": 0.69
     },
     {
       "va_nr": 13524,
@@ -2447,31 +2447,31 @@
       "name": "Streitraum: Können wir aus Weimar lernen?",
       "datum": "2026-03-15",
       "uhrzeit": "12:00",
-      "tickets_gesamt": 257,
-      "tickets_kartenverkauf": 257,
+      "tickets_gesamt": 258,
+      "tickets_kartenverkauf": 258,
       "stornos": 2,
-      "umsatz_gesamt": 2141.7,
-      "avg_preis": 8.33,
+      "umsatz_gesamt": 2150.7,
+      "avg_preis": 8.34,
       "kapazitaet": 270,
       "frei_verkaufbar": 236,
       "kontingente": 34,
       "reserviert": 0,
       "freie_plaetze": 0,
       "pending": 3,
-      "auslastung_gesamt_pct": 95.2,
-      "auslastung_verkauf_pct": 108.9,
+      "auslastung_gesamt_pct": 95.6,
+      "auslastung_verkauf_pct": 109.3,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 94.5,
-        "ci_lower_90_pct": 92.1,
-        "ci_upper_90_pct": 96.6
+        "auslastung_forecast_pct": 94.9,
+        "ci_lower_90_pct": 92.5,
+        "ci_upper_90_pct": 96.9
       },
-      "tickets_1d": 5,
-      "tickets_3d": 19,
-      "tickets_7d": 23,
-      "tickets_30d": 71,
-      "velocity_7d": 3.29,
-      "velocity_7d_ci_lower": 0.0,
-      "velocity_7d_ci_upper": 12.19,
+      "tickets_1d": 6,
+      "tickets_3d": 20,
+      "tickets_7d": 24,
+      "tickets_30d": 72,
+      "velocity_7d": 3.43,
+      "velocity_7d_ci_lower": -0.19,
+      "velocity_7d_ci_upper": 12.09,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -2479,28 +2479,28 @@
       "platzgruppen": [
         {
           "platzgruppe": "a",
-          "verkauft": 257,
+          "verkauft": 258,
           "reserviert": 0,
           "kontingente": 34,
           "kapazitaet": 270,
           "frei_verkaufbar": 236,
           "freie_plaetze": 0,
           "pending": 3,
-          "umsatz": 2141.7,
-          "avg_preis": 8.33,
-          "tickets_7d": 23,
-          "velocity_7d": 3.29,
-          "auslastung_gesamt_pct": 95.2,
-          "auslastung_verkauf_pct": 108.9,
+          "umsatz": 2150.7,
+          "avg_preis": 8.34,
+          "tickets_7d": 24,
+          "velocity_7d": 3.43,
+          "auslastung_gesamt_pct": 95.6,
+          "auslastung_verkauf_pct": 109.3,
           "rate_share": 1.0
         }
       ],
       "pg_shift_score": 0.0,
-      "kanal_hhi": 0.2393,
+      "kanal_hhi": 0.2407,
       "velocity_zscore": -0.29,
       "alert_level": "normal",
-      "alpha_score": 34.27,
-      "alpha_score_norm": 1.14
+      "alpha_score": 34.56,
+      "alpha_score_norm": 1.13
     },
     {
       "va_nr": 13520,
@@ -2532,8 +2532,8 @@
       "tickets_7d": 27,
       "tickets_30d": 298,
       "velocity_7d": 3.86,
-      "velocity_7d_ci_lower": 7.38,
-      "velocity_7d_ci_upper": 16.44,
+      "velocity_7d_ci_lower": 7.19,
+      "velocity_7d_ci_upper": 17.0,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -2644,10 +2644,10 @@
       ],
       "pg_shift_score": 0.3844,
       "kanal_hhi": 0.1583,
-      "velocity_zscore": -0.15,
+      "velocity_zscore": -0.18,
       "alert_level": "normal",
-      "alpha_score": 28.05,
-      "alpha_score_norm": 0.94
+      "alpha_score": 26.78,
+      "alpha_score_norm": 0.88
     },
     {
       "va_nr": 13533,
@@ -2679,8 +2679,8 @@
       "tickets_7d": 54,
       "tickets_30d": 173,
       "velocity_7d": 7.71,
-      "velocity_7d_ci_lower": 4.12,
-      "velocity_7d_ci_upper": 9.12,
+      "velocity_7d_ci_lower": 4.22,
+      "velocity_7d_ci_upper": 9.06,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -2791,10 +2791,10 @@
       ],
       "pg_shift_score": 0.3465,
       "kanal_hhi": 0.2148,
-      "velocity_zscore": 0.85,
+      "velocity_zscore": 0.8,
       "alert_level": "normal",
-      "alpha_score": 4.49,
-      "alpha_score_norm": 0.15
+      "alpha_score": 2.6,
+      "alpha_score_norm": 0.09
     },
     {
       "va_nr": 13534,
@@ -2826,8 +2826,8 @@
       "tickets_7d": 43,
       "tickets_30d": 142,
       "velocity_7d": 6.14,
-      "velocity_7d_ci_lower": 3.5,
-      "velocity_7d_ci_upper": 9.41,
+      "velocity_7d_ci_lower": 3.66,
+      "velocity_7d_ci_upper": 9.53,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -2938,10 +2938,10 @@
       ],
       "pg_shift_score": 0.4203,
       "kanal_hhi": 0.2846,
-      "velocity_zscore": 0.44,
+      "velocity_zscore": 0.4,
       "alert_level": "normal",
-      "alpha_score": 14.3,
-      "alpha_score_norm": 0.48
+      "alpha_score": 14.48,
+      "alpha_score_norm": 0.47
     },
     {
       "va_nr": 13541,
@@ -2973,7 +2973,7 @@
       "tickets_7d": 26,
       "tickets_30d": 63,
       "velocity_7d": 3.71,
-      "velocity_7d_ci_lower": 1.59,
+      "velocity_7d_ci_lower": 1.53,
       "velocity_7d_ci_upper": 2.94,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
@@ -3000,10 +3000,10 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.1716,
-      "velocity_zscore": -0.19,
+      "velocity_zscore": -0.22,
       "alert_level": "normal",
-      "alpha_score": -4.2,
-      "alpha_score_norm": -0.14
+      "alpha_score": -4.02,
+      "alpha_score_norm": -0.13
     },
     {
       "va_nr": 13542,
@@ -3035,8 +3035,8 @@
       "tickets_7d": 20,
       "tickets_30d": 64,
       "velocity_7d": 2.86,
-      "velocity_7d_ci_lower": 1.56,
-      "velocity_7d_ci_upper": 3.22,
+      "velocity_7d_ci_lower": 1.75,
+      "velocity_7d_ci_upper": 3.31,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -3062,10 +3062,10 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.2738,
-      "velocity_zscore": -0.41,
+      "velocity_zscore": -0.44,
       "alert_level": "normal",
-      "alpha_score": -3.82,
-      "alpha_score_norm": -0.13
+      "alpha_score": -3.51,
+      "alpha_score_norm": -0.11
     },
     {
       "va_nr": 13543,
@@ -3124,10 +3124,10 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.2344,
-      "velocity_zscore": -0.81,
+      "velocity_zscore": -0.84,
       "alert_level": "normal",
-      "alpha_score": 6.4,
-      "alpha_score_norm": 0.21
+      "alpha_score": 5.91,
+      "alpha_score_norm": 0.19
     },
     {
       "va_nr": 13528,
@@ -3159,8 +3159,8 @@
       "tickets_7d": 26,
       "tickets_30d": 150,
       "velocity_7d": 3.71,
-      "velocity_7d_ci_lower": 2.09,
-      "velocity_7d_ci_upper": 14.16,
+      "velocity_7d_ci_lower": 2.31,
+      "velocity_7d_ci_upper": 14.28,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -3271,10 +3271,10 @@
       ],
       "pg_shift_score": 0.3587,
       "kanal_hhi": 0.1365,
-      "velocity_zscore": -0.19,
+      "velocity_zscore": -0.22,
       "alert_level": "normal",
-      "alpha_score": 15.54,
-      "alpha_score_norm": 0.52
+      "alpha_score": 14.52,
+      "alpha_score_norm": 0.48
     },
     {
       "va_nr": 13535,
@@ -3283,31 +3283,31 @@
       "name": "Erinnerung eines Mädchens",
       "datum": "2026-03-21",
       "uhrzeit": "20:30",
-      "tickets_gesamt": 139,
-      "tickets_kartenverkauf": 139,
+      "tickets_gesamt": 140,
+      "tickets_kartenverkauf": 140,
       "stornos": 0,
-      "umsatz_gesamt": 2923.5,
-      "avg_preis": 21.03,
+      "umsatz_gesamt": 2926.5,
+      "avg_preis": 20.9,
       "kapazitaet": 277,
       "frei_verkaufbar": 233,
       "kontingente": 44,
       "reserviert": 0,
       "freie_plaetze": 103,
       "pending": 2,
-      "auslastung_gesamt_pct": 50.2,
-      "auslastung_verkauf_pct": 59.7,
+      "auslastung_gesamt_pct": 50.5,
+      "auslastung_verkauf_pct": 60.1,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 50.2,
-        "ci_lower_90_pct": 45.3,
-        "ci_upper_90_pct": 55.1
+        "auslastung_forecast_pct": 50.5,
+        "ci_lower_90_pct": 45.6,
+        "ci_upper_90_pct": 55.4
       },
-      "tickets_1d": 4,
-      "tickets_3d": 11,
-      "tickets_7d": 18,
-      "tickets_30d": 74,
-      "velocity_7d": 2.57,
-      "velocity_7d_ci_lower": 1.34,
-      "velocity_7d_ci_upper": 6.09,
+      "tickets_1d": 5,
+      "tickets_3d": 12,
+      "tickets_7d": 19,
+      "tickets_30d": 75,
+      "velocity_7d": 2.71,
+      "velocity_7d_ci_lower": 1.09,
+      "velocity_7d_ci_upper": 6.19,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -3315,20 +3315,20 @@
       "platzgruppen": [
         {
           "platzgruppe": "a",
-          "verkauft": 27,
+          "verkauft": 28,
           "reserviert": 0,
           "kontingente": 5,
           "kapazitaet": 43,
           "frei_verkaufbar": 38,
           "freie_plaetze": 16,
           "pending": 0,
-          "umsatz": 684.0,
-          "avg_preis": 25.33,
-          "tickets_7d": 9,
-          "velocity_7d": 1.29,
-          "auslastung_gesamt_pct": 62.8,
-          "auslastung_verkauf_pct": 71.1,
-          "rate_share": 0.1942
+          "umsatz": 687.0,
+          "avg_preis": 24.54,
+          "tickets_7d": 10,
+          "velocity_7d": 1.43,
+          "auslastung_gesamt_pct": 65.1,
+          "auslastung_verkauf_pct": 73.7,
+          "rate_share": 0.2
         },
         {
           "platzgruppe": "b",
@@ -3345,7 +3345,7 @@
           "velocity_7d": 0.14,
           "auslastung_gesamt_pct": 36.9,
           "auslastung_verkauf_pct": 41.4,
-          "rate_share": 0.1727
+          "rate_share": 0.1714
         },
         {
           "platzgruppe": "c",
@@ -3362,7 +3362,7 @@
           "velocity_7d": 0.86,
           "auslastung_gesamt_pct": 30.2,
           "auslastung_verkauf_pct": 44.2,
-          "rate_share": 0.1367
+          "rate_share": 0.1357
         },
         {
           "platzgruppe": "d",
@@ -3379,7 +3379,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 64.2,
           "auslastung_verkauf_pct": 78.2,
-          "rate_share": 0.3094
+          "rate_share": 0.3071
         },
         {
           "platzgruppe": "e",
@@ -3396,15 +3396,15 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 66.7,
           "auslastung_verkauf_pct": 66.7,
-          "rate_share": 0.1871
+          "rate_share": 0.1857
         }
       ],
-      "pg_shift_score": 0.2187,
-      "kanal_hhi": 0.2714,
-      "velocity_zscore": -0.48,
+      "pg_shift_score": 0.2143,
+      "kanal_hhi": 0.2677,
+      "velocity_zscore": -0.47,
       "alert_level": "normal",
-      "alpha_score": -18.96,
-      "alpha_score_norm": -0.63
+      "alpha_score": -19.58,
+      "alpha_score_norm": -0.64
     },
     {
       "va_nr": 13529,
@@ -3436,8 +3436,8 @@
       "tickets_7d": 43,
       "tickets_30d": 166,
       "velocity_7d": 6.14,
-      "velocity_7d_ci_lower": 3.47,
-      "velocity_7d_ci_upper": 12.09,
+      "velocity_7d_ci_lower": 3.75,
+      "velocity_7d_ci_upper": 11.94,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -3548,10 +3548,10 @@
       ],
       "pg_shift_score": 0.3936,
       "kanal_hhi": 0.1304,
-      "velocity_zscore": 0.44,
+      "velocity_zscore": 0.4,
       "alert_level": "normal",
-      "alpha_score": 16.88,
-      "alpha_score_norm": 0.56
+      "alpha_score": 16.92,
+      "alpha_score_norm": 0.55
     },
     {
       "va_nr": 13536,
@@ -3678,10 +3678,10 @@
       ],
       "pg_shift_score": 0.419,
       "kanal_hhi": 0.2036,
-      "velocity_zscore": -0.48,
+      "velocity_zscore": -0.51,
       "alert_level": "normal",
-      "alpha_score": -22.62,
-      "alpha_score_norm": -0.76
+      "alpha_score": -22.58,
+      "alpha_score_norm": -0.74
     },
     {
       "va_nr": 13530,
@@ -3690,31 +3690,31 @@
       "name": "Sabotage",
       "datum": "2026-03-23",
       "uhrzeit": "20:00",
-      "tickets_gesamt": 258,
-      "tickets_kartenverkauf": 258,
+      "tickets_gesamt": 260,
+      "tickets_kartenverkauf": 260,
       "stornos": 6,
-      "umsatz_gesamt": 6769.1,
-      "avg_preis": 26.24,
+      "umsatz_gesamt": 6787.1,
+      "avg_preis": 26.1,
       "kapazitaet": 436,
       "frei_verkaufbar": 340,
       "kontingente": 96,
       "reserviert": 0,
       "freie_plaetze": 105,
       "pending": 2,
-      "auslastung_gesamt_pct": 59.2,
-      "auslastung_verkauf_pct": 75.9,
+      "auslastung_gesamt_pct": 59.6,
+      "auslastung_verkauf_pct": 76.5,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 59.1,
-        "ci_lower_90_pct": 55.2,
-        "ci_upper_90_pct": 62.9
+        "auslastung_forecast_pct": 59.5,
+        "ci_lower_90_pct": 55.7,
+        "ci_upper_90_pct": 63.4
       },
-      "tickets_1d": 8,
-      "tickets_3d": 19,
-      "tickets_7d": 32,
-      "tickets_30d": 157,
-      "velocity_7d": 4.57,
-      "velocity_7d_ci_lower": 3.66,
-      "velocity_7d_ci_upper": 9.97,
+      "tickets_1d": 10,
+      "tickets_3d": 21,
+      "tickets_7d": 34,
+      "tickets_30d": 159,
+      "velocity_7d": 4.86,
+      "velocity_7d_ci_lower": 3.19,
+      "velocity_7d_ci_upper": 10.06,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -3722,20 +3722,20 @@
       "platzgruppen": [
         {
           "platzgruppe": "a",
-          "verkauft": 28,
+          "verkauft": 30,
           "reserviert": 0,
           "kontingente": 26,
           "kapazitaet": 84,
           "frei_verkaufbar": 58,
           "freie_plaetze": 34,
           "pending": 0,
-          "umsatz": 1086.0,
-          "avg_preis": 38.79,
-          "tickets_7d": 7,
-          "velocity_7d": 1.0,
-          "auslastung_gesamt_pct": 33.3,
-          "auslastung_verkauf_pct": 48.3,
-          "rate_share": 0.1085
+          "umsatz": 1104.0,
+          "avg_preis": 36.8,
+          "tickets_7d": 9,
+          "velocity_7d": 1.29,
+          "auslastung_gesamt_pct": 35.7,
+          "auslastung_verkauf_pct": 51.7,
+          "rate_share": 0.1154
         },
         {
           "platzgruppe": "b",
@@ -3752,7 +3752,7 @@
           "velocity_7d": 0.86,
           "auslastung_gesamt_pct": 30.0,
           "auslastung_verkauf_pct": 39.5,
-          "rate_share": 0.1163
+          "rate_share": 0.1154
         },
         {
           "platzgruppe": "c",
@@ -3769,7 +3769,7 @@
           "velocity_7d": 2.0,
           "auslastung_gesamt_pct": 57.0,
           "auslastung_verkauf_pct": 87.7,
-          "rate_share": 0.2209
+          "rate_share": 0.2192
         },
         {
           "platzgruppe": "d",
@@ -3786,7 +3786,7 @@
           "velocity_7d": 0.43,
           "auslastung_gesamt_pct": 96.8,
           "auslastung_verkauf_pct": 102.3,
-          "rate_share": 0.3488
+          "rate_share": 0.3462
         },
         {
           "platzgruppe": "e",
@@ -3803,7 +3803,7 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 91.8,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.1744
+          "rate_share": 0.1731
         },
         {
           "platzgruppe": "f",
@@ -3820,15 +3820,15 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 80.0,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.031
+          "rate_share": 0.0308
         }
       ],
-      "pg_shift_score": 0.4883,
-      "kanal_hhi": 0.1641,
-      "velocity_zscore": 0.04,
+      "pg_shift_score": 0.4769,
+      "kanal_hhi": 0.162,
+      "velocity_zscore": 0.08,
       "alert_level": "normal",
-      "alpha_score": 12.36,
-      "alpha_score_norm": 0.41
+      "alpha_score": 11.84,
+      "alpha_score_norm": 0.39
     },
     {
       "va_nr": 13537,
@@ -3860,8 +3860,8 @@
       "tickets_7d": 22,
       "tickets_30d": 129,
       "velocity_7d": 3.14,
-      "velocity_7d_ci_lower": 1.16,
-      "velocity_7d_ci_upper": 7.88,
+      "velocity_7d_ci_lower": 0.91,
+      "velocity_7d_ci_upper": 7.84,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -3955,10 +3955,10 @@
       ],
       "pg_shift_score": 0.2953,
       "kanal_hhi": 0.2048,
-      "velocity_zscore": -0.33,
+      "velocity_zscore": -0.36,
       "alert_level": "normal",
-      "alpha_score": 9.86,
-      "alpha_score_norm": 0.33
+      "alpha_score": 8.74,
+      "alpha_score_norm": 0.29
     },
     {
       "va_nr": 13531,
@@ -3967,31 +3967,31 @@
       "name": "Sabotage",
       "datum": "2026-03-24",
       "uhrzeit": "20:00",
-      "tickets_gesamt": 258,
-      "tickets_kartenverkauf": 258,
+      "tickets_gesamt": 259,
+      "tickets_kartenverkauf": 259,
       "stornos": 2,
-      "umsatz_gesamt": 5621.6,
-      "avg_preis": 21.79,
+      "umsatz_gesamt": 5628.6,
+      "avg_preis": 21.73,
       "kapazitaet": 436,
       "frei_verkaufbar": 336,
       "kontingente": 100,
       "reserviert": 0,
       "freie_plaetze": 87,
       "pending": 3,
-      "auslastung_gesamt_pct": 59.2,
-      "auslastung_verkauf_pct": 76.8,
+      "auslastung_gesamt_pct": 59.4,
+      "auslastung_verkauf_pct": 77.1,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 59.1,
-        "ci_lower_90_pct": 55.2,
-        "ci_upper_90_pct": 62.9
+        "auslastung_forecast_pct": 59.3,
+        "ci_lower_90_pct": 55.4,
+        "ci_upper_90_pct": 63.1
       },
-      "tickets_1d": 1,
-      "tickets_3d": 9,
-      "tickets_7d": 26,
-      "tickets_30d": 166,
-      "velocity_7d": 3.71,
-      "velocity_7d_ci_lower": 3.97,
-      "velocity_7d_ci_upper": 11.03,
+      "tickets_1d": 2,
+      "tickets_3d": 10,
+      "tickets_7d": 27,
+      "tickets_30d": 167,
+      "velocity_7d": 3.86,
+      "velocity_7d_ci_lower": 4.0,
+      "velocity_7d_ci_upper": 10.91,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -4012,7 +4012,7 @@
           "velocity_7d": 0.86,
           "auslastung_gesamt_pct": 41.7,
           "auslastung_verkauf_pct": 60.3,
-          "rate_share": 0.1357
+          "rate_share": 0.1351
         },
         {
           "platzgruppe": "b",
@@ -4029,7 +4029,7 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 22.0,
           "auslastung_verkauf_pct": 29.7,
-          "rate_share": 0.0853
+          "rate_share": 0.0849
         },
         {
           "platzgruppe": "c",
@@ -4046,7 +4046,7 @@
           "velocity_7d": 2.43,
           "auslastung_gesamt_pct": 60.0,
           "auslastung_verkauf_pct": 95.2,
-          "rate_share": 0.2326
+          "rate_share": 0.2317
         },
         {
           "platzgruppe": "d",
@@ -4063,7 +4063,7 @@
           "velocity_7d": 0.14,
           "auslastung_gesamt_pct": 94.6,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.3411
+          "rate_share": 0.3398
         },
         {
           "platzgruppe": "e",
@@ -4080,32 +4080,32 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 91.8,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.1744
+          "rate_share": 0.1737
         },
         {
           "platzgruppe": "f",
-          "verkauft": 8,
+          "verkauft": 9,
           "reserviert": 0,
           "kontingente": 2,
           "kapazitaet": 10,
           "frei_verkaufbar": 8,
           "freie_plaetze": 0,
           "pending": 0,
-          "umsatz": 56.0,
+          "umsatz": 63.0,
           "avg_preis": 7.0,
-          "tickets_7d": 0,
-          "velocity_7d": 0.0,
-          "auslastung_gesamt_pct": 80.0,
-          "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.031
+          "tickets_7d": 1,
+          "velocity_7d": 0.14,
+          "auslastung_gesamt_pct": 90.0,
+          "auslastung_verkauf_pct": 112.5,
+          "rate_share": 0.0347
         }
       ],
-      "pg_shift_score": 0.4961,
-      "kanal_hhi": 0.125,
-      "velocity_zscore": -0.19,
+      "pg_shift_score": 0.4905,
+      "kanal_hhi": 0.1261,
+      "velocity_zscore": -0.18,
       "alert_level": "normal",
-      "alpha_score": 0.3,
-      "alpha_score_norm": 0.01
+      "alpha_score": -1.14,
+      "alpha_score_norm": -0.04
     },
     {
       "va_nr": 13532,
@@ -4137,8 +4137,8 @@
       "tickets_7d": 35,
       "tickets_30d": 156,
       "velocity_7d": 5.0,
-      "velocity_7d_ci_lower": 1.59,
-      "velocity_7d_ci_upper": 13.16,
+      "velocity_7d_ci_lower": 2.28,
+      "velocity_7d_ci_upper": 12.94,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -4249,10 +4249,10 @@
       ],
       "pg_shift_score": 0.394,
       "kanal_hhi": 0.1109,
-      "velocity_zscore": 0.15,
+      "velocity_zscore": 0.11,
       "alert_level": "normal",
-      "alpha_score": 10.01,
-      "alpha_score_norm": 0.33
+      "alpha_score": 10.34,
+      "alpha_score_norm": 0.34
     },
     {
       "va_nr": 13551,
@@ -4284,8 +4284,8 @@
       "tickets_7d": 0,
       "tickets_30d": 8,
       "velocity_7d": 0.0,
-      "velocity_7d_ci_lower": -1.78,
-      "velocity_7d_ci_upper": 4.34,
+      "velocity_7d_ci_lower": -1.69,
+      "velocity_7d_ci_upper": 4.31,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -4311,10 +4311,10 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.3004,
-      "velocity_zscore": -1.15,
+      "velocity_zscore": -1.17,
       "alert_level": "normal",
-      "alpha_score": 12.39,
-      "alpha_score_norm": 0.41
+      "alpha_score": 12.85,
+      "alpha_score_norm": 0.42
     },
     {
       "va_nr": 13538,
@@ -4346,8 +4346,8 @@
       "tickets_7d": 17,
       "tickets_30d": 121,
       "velocity_7d": 2.43,
-      "velocity_7d_ci_lower": 2.59,
-      "velocity_7d_ci_upper": 7.19,
+      "velocity_7d_ci_lower": 2.78,
+      "velocity_7d_ci_upper": 7.16,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -4458,10 +4458,10 @@
       ],
       "pg_shift_score": 0.383,
       "kanal_hhi": 0.1196,
-      "velocity_zscore": -0.52,
+      "velocity_zscore": -0.54,
       "alert_level": "normal",
-      "alpha_score": 4.11,
-      "alpha_score_norm": 0.14
+      "alpha_score": 3.77,
+      "alpha_score_norm": 0.12
     },
     {
       "va_nr": 13552,
@@ -4493,8 +4493,8 @@
       "tickets_7d": 0,
       "tickets_30d": 10,
       "velocity_7d": 0.0,
-      "velocity_7d_ci_lower": -1.56,
-      "velocity_7d_ci_upper": 4.62,
+      "velocity_7d_ci_lower": -1.41,
+      "velocity_7d_ci_upper": 4.56,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -4520,10 +4520,10 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.3799,
-      "velocity_zscore": -1.15,
+      "velocity_zscore": -1.17,
       "alert_level": "normal",
-      "alpha_score": 17.51,
-      "alpha_score_norm": 0.58
+      "alpha_score": 17.17,
+      "alpha_score_norm": 0.56
     },
     {
       "va_nr": 13539,
@@ -4556,7 +4556,7 @@
       "tickets_30d": 88,
       "velocity_7d": 3.57,
       "velocity_7d_ci_lower": 2.34,
-      "velocity_7d_ci_upper": 5.25,
+      "velocity_7d_ci_upper": 5.44,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -4667,10 +4667,10 @@
       ],
       "pg_shift_score": 0.4203,
       "kanal_hhi": 0.1666,
-      "velocity_zscore": -0.22,
+      "velocity_zscore": -0.25,
       "alert_level": "normal",
-      "alpha_score": -8.95,
-      "alpha_score_norm": -0.3
+      "alpha_score": -9.82,
+      "alpha_score_norm": -0.32
     },
     {
       "va_nr": 13553,
@@ -4679,31 +4679,31 @@
       "name": "Egal",
       "datum": "2026-03-28",
       "uhrzeit": "20:30",
-      "tickets_gesamt": 88,
-      "tickets_kartenverkauf": 88,
+      "tickets_gesamt": 91,
+      "tickets_kartenverkauf": 91,
       "stornos": 3,
-      "umsatz_gesamt": 1529.5,
-      "avg_preis": 17.38,
+      "umsatz_gesamt": 1567.5,
+      "avg_preis": 17.23,
       "kapazitaet": 98,
       "frei_verkaufbar": 80,
       "kontingente": 18,
       "reserviert": 0,
       "freie_plaetze": 0,
       "pending": 0,
-      "auslastung_gesamt_pct": 89.8,
-      "auslastung_verkauf_pct": 110.0,
+      "auslastung_gesamt_pct": 92.9,
+      "auslastung_verkauf_pct": 113.8,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 88.2,
-        "ci_lower_90_pct": 82.6,
-        "ci_upper_90_pct": 93.0
+        "auslastung_forecast_pct": 91.2,
+        "ci_lower_90_pct": 86.2,
+        "ci_upper_90_pct": 95.3
       },
-      "tickets_1d": 7,
-      "tickets_3d": 7,
-      "tickets_7d": 7,
-      "tickets_30d": 19,
-      "velocity_7d": 1.0,
-      "velocity_7d_ci_lower": -1.31,
-      "velocity_7d_ci_upper": 4.72,
+      "tickets_1d": 10,
+      "tickets_3d": 10,
+      "tickets_7d": 10,
+      "tickets_30d": 22,
+      "velocity_7d": 1.43,
+      "velocity_7d_ci_lower": -1.03,
+      "velocity_7d_ci_upper": 4.91,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -4711,28 +4711,28 @@
       "platzgruppen": [
         {
           "platzgruppe": "a",
-          "verkauft": 88,
+          "verkauft": 91,
           "reserviert": 0,
           "kontingente": 18,
           "kapazitaet": 98,
           "frei_verkaufbar": 80,
           "freie_plaetze": 0,
           "pending": 0,
-          "umsatz": 1529.5,
-          "avg_preis": 17.38,
-          "tickets_7d": 7,
-          "velocity_7d": 1.0,
-          "auslastung_gesamt_pct": 89.8,
-          "auslastung_verkauf_pct": 110.0,
+          "umsatz": 1567.5,
+          "avg_preis": 17.23,
+          "tickets_7d": 10,
+          "velocity_7d": 1.43,
+          "auslastung_gesamt_pct": 92.9,
+          "auslastung_verkauf_pct": 113.8,
           "rate_share": 1.0
         }
       ],
       "pg_shift_score": 0.0,
-      "kanal_hhi": 0.2526,
-      "velocity_zscore": -0.89,
+      "kanal_hhi": 0.2383,
+      "velocity_zscore": -0.8,
       "alert_level": "normal",
-      "alpha_score": 37.45,
-      "alpha_score_norm": 1.25
+      "alpha_score": 40.38,
+      "alpha_score_norm": 1.32
     },
     {
       "va_nr": 13540,
@@ -4764,8 +4764,8 @@
       "tickets_7d": 23,
       "tickets_30d": 106,
       "velocity_7d": 3.29,
-      "velocity_7d_ci_lower": 1.25,
-      "velocity_7d_ci_upper": 8.66,
+      "velocity_7d_ci_lower": 0.88,
+      "velocity_7d_ci_upper": 8.59,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -4876,10 +4876,10 @@
       ],
       "pg_shift_score": 0.3433,
       "kanal_hhi": 0.4974,
-      "velocity_zscore": -0.29,
+      "velocity_zscore": -0.33,
       "alert_level": "normal",
-      "alpha_score": 24.89,
-      "alpha_score_norm": 0.83
+      "alpha_score": 25.08,
+      "alpha_score_norm": 0.82
     },
     {
       "va_nr": 13607,
@@ -4888,31 +4888,31 @@
       "name": "Der Geizige",
       "datum": "2026-04-02",
       "uhrzeit": "20:00",
-      "tickets_gesamt": 100,
-      "tickets_kartenverkauf": 100,
+      "tickets_gesamt": 102,
+      "tickets_kartenverkauf": 102,
       "stornos": 1,
-      "umsatz_gesamt": 5506.0,
-      "avg_preis": 55.06,
+      "umsatz_gesamt": 5530.0,
+      "avg_preis": 54.22,
       "kapazitaet": 397,
       "frei_verkaufbar": 110,
       "kontingente": 287,
       "reserviert": 20,
       "freie_plaetze": 0,
       "pending": 0,
-      "auslastung_gesamt_pct": 25.2,
-      "auslastung_verkauf_pct": 90.9,
+      "auslastung_gesamt_pct": 25.7,
+      "auslastung_verkauf_pct": 92.7,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 25.4,
-        "ci_lower_90_pct": 21.9,
-        "ci_upper_90_pct": 29.1
+        "auslastung_forecast_pct": 25.9,
+        "ci_lower_90_pct": 22.4,
+        "ci_upper_90_pct": 29.6
       },
-      "tickets_1d": 5,
-      "tickets_3d": 9,
-      "tickets_7d": 99,
+      "tickets_1d": 7,
+      "tickets_3d": 11,
+      "tickets_7d": 101,
       "tickets_30d": null,
-      "velocity_7d": 14.14,
-      "velocity_7d_ci_lower": 2.25,
-      "velocity_7d_ci_upper": 21.5,
+      "velocity_7d": 14.43,
+      "velocity_7d_ci_lower": 4.38,
+      "velocity_7d_ci_upper": 21.25,
       "vvk_start": "2026-02-26",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -4933,24 +4933,24 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 23.4,
           "auslastung_verkauf_pct": 93.5,
-          "rate_share": 0.29
+          "rate_share": 0.2843
         },
         {
           "platzgruppe": "b",
-          "verkauft": 17,
+          "verkauft": 19,
           "reserviert": 4,
           "kontingente": 28,
           "kapazitaet": 48,
           "frei_verkaufbar": 20,
           "freie_plaetze": 0,
           "pending": 0,
-          "umsatz": 1275.0,
-          "avg_preis": 75.0,
-          "tickets_7d": 16,
-          "velocity_7d": 2.29,
-          "auslastung_gesamt_pct": 35.4,
-          "auslastung_verkauf_pct": 85.0,
-          "rate_share": 0.17
+          "umsatz": 1299.0,
+          "avg_preis": 68.37,
+          "tickets_7d": 18,
+          "velocity_7d": 2.57,
+          "auslastung_gesamt_pct": 39.6,
+          "auslastung_verkauf_pct": 95.0,
+          "rate_share": 0.1863
         },
         {
           "platzgruppe": "c",
@@ -4967,7 +4967,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 39.5,
           "auslastung_verkauf_pct": 88.2,
-          "rate_share": 0.3
+          "rate_share": 0.2941
         },
         {
           "platzgruppe": "d",
@@ -4984,7 +4984,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 24.4,
           "auslastung_verkauf_pct": 105.6,
-          "rate_share": 0.19
+          "rate_share": 0.1863
         },
         {
           "platzgruppe": "e",
@@ -5001,7 +5001,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 6.5,
           "auslastung_verkauf_pct": 80.0,
-          "rate_share": 0.04
+          "rate_share": 0.0392
         },
         {
           "platzgruppe": "f",
@@ -5018,15 +5018,15 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 11.1,
           "auslastung_verkauf_pct": 50.0,
-          "rate_share": 0.01
+          "rate_share": 0.0098
         }
       ],
-      "pg_shift_score": 0.5667,
-      "kanal_hhi": 0.1822,
+      "pg_shift_score": 0.5687,
+      "kanal_hhi": 0.1759,
       "velocity_zscore": 2.52,
       "alert_level": "chance",
-      "alpha_score": -33.59,
-      "alpha_score_norm": -1.12
+      "alpha_score": -32.71,
+      "alpha_score_norm": -1.07
     },
     {
       "va_nr": 13558,
@@ -5172,8 +5172,8 @@
       "kanal_hhi": 0.1909,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -65.55,
-      "alpha_score_norm": -2.19
+      "alpha_score": -67.03,
+      "alpha_score_norm": -2.2
     },
     {
       "va_nr": 13608,
@@ -5205,8 +5205,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 9.71,
-      "velocity_7d_ci_upper": 62.57,
+      "velocity_7d_ci_lower": 10.14,
+      "velocity_7d_ci_upper": 62.29,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -5319,8 +5319,8 @@
       "kanal_hhi": 0.1394,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -8.64,
-      "alpha_score_norm": -0.29
+      "alpha_score": -10.88,
+      "alpha_score_norm": -0.36
     },
     {
       "va_nr": 13559,
@@ -5466,8 +5466,8 @@
       "kanal_hhi": 0.5,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -51.6,
-      "alpha_score_norm": -1.72
+      "alpha_score": -51.26,
+      "alpha_score_norm": -1.68
     },
     {
       "va_nr": 13561,
@@ -5528,8 +5528,8 @@
       "kanal_hhi": 0.3719,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -57.97,
-      "alpha_score_norm": -1.94
+      "alpha_score": -58.92,
+      "alpha_score_norm": -1.93
     },
     {
       "va_nr": 13609,
@@ -5561,8 +5561,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 3.0,
-      "velocity_7d_ci_upper": 63.86,
+      "velocity_7d_ci_lower": 3.29,
+      "velocity_7d_ci_upper": 63.43,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -5675,8 +5675,8 @@
       "kanal_hhi": 0.1805,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -2.49,
-      "alpha_score_norm": -0.08
+      "alpha_score": -3.68,
+      "alpha_score_norm": -0.12
     },
     {
       "va_nr": 13560,
@@ -5822,7 +5822,7 @@
       "kanal_hhi": 0.2244,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -40.11,
+      "alpha_score": -40.95,
       "alpha_score_norm": -1.34
     },
     {
@@ -5884,8 +5884,8 @@
       "kanal_hhi": 0.3333,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -51.79,
-      "alpha_score_norm": -1.73
+      "alpha_score": -53.91,
+      "alpha_score_norm": -1.77
     },
     {
       "va_nr": 13610,
@@ -5894,31 +5894,31 @@
       "name": "Der Geizige",
       "datum": "2026-04-06",
       "uhrzeit": "20:00",
-      "tickets_gesamt": 163,
-      "tickets_kartenverkauf": 163,
+      "tickets_gesamt": 167,
+      "tickets_kartenverkauf": 167,
       "stornos": 1,
-      "umsatz_gesamt": 7941.75,
-      "avg_preis": 48.72,
+      "umsatz_gesamt": 8073.75,
+      "avg_preis": 48.35,
       "kapazitaet": 397,
       "frei_verkaufbar": 200,
       "kontingente": 197,
       "reserviert": 69,
       "freie_plaetze": 0,
       "pending": 0,
-      "auslastung_gesamt_pct": 41.1,
-      "auslastung_verkauf_pct": 81.5,
+      "auslastung_gesamt_pct": 42.1,
+      "auslastung_verkauf_pct": 83.5,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 41.1,
-        "ci_lower_90_pct": 37.1,
-        "ci_upper_90_pct": 45.2
+        "auslastung_forecast_pct": 42.1,
+        "ci_lower_90_pct": 38.1,
+        "ci_upper_90_pct": 46.2
       },
-      "tickets_1d": 9,
-      "tickets_3d": 31,
+      "tickets_1d": 13,
+      "tickets_3d": 35,
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 12.43,
-      "velocity_7d_ci_upper": 32.71,
+      "velocity_7d_ci_lower": 13.0,
+      "velocity_7d_ci_upper": 33.57,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -5939,7 +5939,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 31.5,
           "auslastung_verkauf_pct": 81.2,
-          "rate_share": 0.2393
+          "rate_share": 0.2335
         },
         {
           "platzgruppe": "b",
@@ -5956,7 +5956,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 47.9,
           "auslastung_verkauf_pct": 67.6,
-          "rate_share": 0.1411
+          "rate_share": 0.1377
         },
         {
           "platzgruppe": "c",
@@ -5973,24 +5973,24 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 53.9,
           "auslastung_verkauf_pct": 95.3,
-          "rate_share": 0.2515
+          "rate_share": 0.2455
         },
         {
           "platzgruppe": "d",
-          "verkauft": 37,
+          "verkauft": 41,
           "reserviert": 9,
           "kontingente": 34,
           "kapazitaet": 78,
           "frei_verkaufbar": 44,
           "freie_plaetze": 0,
           "pending": 0,
-          "umsatz": 1311.0,
-          "avg_preis": 35.43,
+          "umsatz": 1443.0,
+          "avg_preis": 35.2,
           "tickets_7d": null,
           "velocity_7d": null,
-          "auslastung_gesamt_pct": 47.4,
-          "auslastung_verkauf_pct": 84.1,
-          "rate_share": 0.227
+          "auslastung_gesamt_pct": 52.6,
+          "auslastung_verkauf_pct": 93.2,
+          "rate_share": 0.2455
         },
         {
           "platzgruppe": "e",
@@ -6007,7 +6007,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 25.8,
           "auslastung_verkauf_pct": 72.7,
-          "rate_share": 0.0982
+          "rate_share": 0.0958
         },
         {
           "platzgruppe": "f",
@@ -6024,14 +6024,14 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 77.8,
           "auslastung_verkauf_pct": 77.8,
-          "rate_share": 0.0429
+          "rate_share": 0.0419
         }
       ],
-      "pg_shift_score": 0.4356,
-      "kanal_hhi": 0.2488,
+      "pg_shift_score": 0.4491,
+      "kanal_hhi": 0.254,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -12.81,
+      "alpha_score": -13.16,
       "alpha_score_norm": -0.43
     },
     {
@@ -6064,8 +6064,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 8.43,
-      "velocity_7d_ci_upper": 63.57,
+      "velocity_7d_ci_lower": -5.86,
+      "velocity_7d_ci_upper": 64.14,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -6178,8 +6178,8 @@
       "kanal_hhi": 0.1994,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -22.37,
-      "alpha_score_norm": -0.75
+      "alpha_score": -25.34,
+      "alpha_score_norm": -0.83
     },
     {
       "va_nr": 13612,
@@ -6211,8 +6211,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 5.0,
-      "velocity_7d_ci_upper": 42.71,
+      "velocity_7d_ci_lower": 6.86,
+      "velocity_7d_ci_upper": 42.43,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -6325,8 +6325,8 @@
       "kanal_hhi": 0.1933,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -11.47,
-      "alpha_score_norm": -0.38
+      "alpha_score": -12.36,
+      "alpha_score_norm": -0.41
     },
     {
       "va_nr": 13613,
@@ -6358,8 +6358,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 3.29,
-      "velocity_7d_ci_upper": 49.43,
+      "velocity_7d_ci_lower": 2.43,
+      "velocity_7d_ci_upper": 50.43,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -6472,8 +6472,8 @@
       "kanal_hhi": 0.1986,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -23.38,
-      "alpha_score_norm": -0.78
+      "alpha_score": -24.15,
+      "alpha_score_norm": -0.79
     },
     {
       "va_nr": 13564,
@@ -6482,26 +6482,26 @@
       "name": "Egal",
       "datum": "2026-04-10",
       "uhrzeit": "19:30",
-      "tickets_gesamt": 71,
-      "tickets_kartenverkauf": 71,
+      "tickets_gesamt": 75,
+      "tickets_kartenverkauf": 75,
       "stornos": 2,
-      "umsatz_gesamt": 1555.0,
-      "avg_preis": 21.9,
+      "umsatz_gesamt": 1655.0,
+      "avg_preis": 22.07,
       "kapazitaet": 98,
       "frei_verkaufbar": 55,
       "kontingente": 43,
       "reserviert": 13,
       "freie_plaetze": 0,
       "pending": 0,
-      "auslastung_gesamt_pct": 72.4,
-      "auslastung_verkauf_pct": 129.1,
+      "auslastung_gesamt_pct": 76.5,
+      "auslastung_verkauf_pct": 136.4,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 71.6,
-        "ci_lower_90_pct": 64.0,
-        "ci_upper_90_pct": 78.6
+        "auslastung_forecast_pct": 75.5,
+        "ci_lower_90_pct": 68.2,
+        "ci_upper_90_pct": 82.2
       },
-      "tickets_1d": 21,
-      "tickets_3d": 27,
+      "tickets_1d": 25,
+      "tickets_3d": 31,
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
@@ -6514,28 +6514,28 @@
       "platzgruppen": [
         {
           "platzgruppe": "a",
-          "verkauft": 71,
+          "verkauft": 75,
           "reserviert": 13,
           "kontingente": 43,
           "kapazitaet": 98,
           "frei_verkaufbar": 55,
           "freie_plaetze": 0,
           "pending": 0,
-          "umsatz": 1555.0,
-          "avg_preis": 21.9,
+          "umsatz": 1655.0,
+          "avg_preis": 22.07,
           "tickets_7d": null,
           "velocity_7d": null,
-          "auslastung_gesamt_pct": 72.4,
-          "auslastung_verkauf_pct": 129.1,
+          "auslastung_gesamt_pct": 76.5,
+          "auslastung_verkauf_pct": 136.4,
           "rate_share": 1.0
         }
       ],
       "pg_shift_score": 0.0,
-      "kanal_hhi": 0.1391,
+      "kanal_hhi": 0.1388,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 44.26,
-      "alpha_score_norm": 1.48
+      "alpha_score": 50.23,
+      "alpha_score_norm": 1.65
     },
     {
       "va_nr": 13614,
@@ -6567,8 +6567,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 5.43,
-      "velocity_7d_ci_upper": 46.0,
+      "velocity_7d_ci_lower": 4.57,
+      "velocity_7d_ci_upper": 47.29,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -6681,8 +6681,8 @@
       "kanal_hhi": 0.1557,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -20.76,
-      "alpha_score_norm": -0.69
+      "alpha_score": -22.33,
+      "alpha_score_norm": -0.73
     },
     {
       "va_nr": 13563,
@@ -6691,26 +6691,26 @@
       "name": "Call me Paris",
       "datum": "2026-04-11",
       "uhrzeit": "20:00",
-      "tickets_gesamt": 73,
-      "tickets_kartenverkauf": 73,
+      "tickets_gesamt": 75,
+      "tickets_kartenverkauf": 75,
       "stornos": 2,
-      "umsatz_gesamt": 1491.0,
-      "avg_preis": 20.42,
+      "umsatz_gesamt": 1545.0,
+      "avg_preis": 20.6,
       "kapazitaet": 277,
       "frei_verkaufbar": 169,
       "kontingente": 108,
       "reserviert": 0,
       "freie_plaetze": 112,
       "pending": 0,
-      "auslastung_gesamt_pct": 26.4,
-      "auslastung_verkauf_pct": 43.2,
+      "auslastung_gesamt_pct": 27.1,
+      "auslastung_verkauf_pct": 44.4,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 26.7,
-        "ci_lower_90_pct": 22.5,
-        "ci_upper_90_pct": 31.1
+        "auslastung_forecast_pct": 27.4,
+        "ci_lower_90_pct": 23.1,
+        "ci_upper_90_pct": 31.9
       },
-      "tickets_1d": 8,
-      "tickets_3d": 16,
+      "tickets_1d": 10,
+      "tickets_3d": 18,
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
@@ -6736,24 +6736,24 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 36.0,
           "auslastung_verkauf_pct": 94.7,
-          "rate_share": 0.2466
+          "rate_share": 0.24
         },
         {
           "platzgruppe": "b",
-          "verkauft": 11,
+          "verkauft": 13,
           "reserviert": 0,
           "kontingente": 31,
           "kapazitaet": 50,
           "frei_verkaufbar": 19,
           "freie_plaetze": 10,
           "pending": 0,
-          "umsatz": 297.0,
+          "umsatz": 351.0,
           "avg_preis": 27.0,
           "tickets_7d": null,
           "velocity_7d": null,
-          "auslastung_gesamt_pct": 22.0,
-          "auslastung_verkauf_pct": 57.9,
-          "rate_share": 0.1507
+          "auslastung_gesamt_pct": 26.0,
+          "auslastung_verkauf_pct": 68.4,
+          "rate_share": 0.1733
         },
         {
           "platzgruppe": "c",
@@ -6770,7 +6770,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 37.3,
           "auslastung_verkauf_pct": 71.4,
-          "rate_share": 0.3425
+          "rate_share": 0.3333
         },
         {
           "platzgruppe": "d",
@@ -6787,7 +6787,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 26.8,
           "auslastung_verkauf_pct": 33.3,
-          "rate_share": 0.2603
+          "rate_share": 0.2533
         },
         {
           "platzgruppe": "e",
@@ -6807,11 +6807,11 @@
           "rate_share": 0.0
         }
       ],
-      "pg_shift_score": 0.4555,
-      "kanal_hhi": 0.3211,
+      "pg_shift_score": 0.4233,
+      "kanal_hhi": 0.3319,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -31.7,
+      "alpha_score": -32.36,
       "alpha_score_norm": -1.06
     },
     {
@@ -6821,31 +6821,31 @@
       "name": "Egal",
       "datum": "2026-04-11",
       "uhrzeit": "19:30",
-      "tickets_gesamt": 53,
-      "tickets_kartenverkauf": 53,
+      "tickets_gesamt": 63,
+      "tickets_kartenverkauf": 63,
       "stornos": 0,
-      "umsatz_gesamt": 1176.0,
-      "avg_preis": 22.19,
+      "umsatz_gesamt": 1410.0,
+      "avg_preis": 22.38,
       "kapazitaet": 98,
       "frei_verkaufbar": 51,
       "kontingente": 47,
       "reserviert": 2,
       "freie_plaetze": 8,
       "pending": 0,
-      "auslastung_gesamt_pct": 54.1,
-      "auslastung_verkauf_pct": 103.9,
+      "auslastung_gesamt_pct": 64.3,
+      "auslastung_verkauf_pct": 123.5,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 53.9,
-        "ci_lower_90_pct": 45.8,
-        "ci_upper_90_pct": 62.0
+        "auslastung_forecast_pct": 63.7,
+        "ci_lower_90_pct": 55.8,
+        "ci_upper_90_pct": 71.4
       },
-      "tickets_1d": 4,
-      "tickets_3d": 12,
+      "tickets_1d": 14,
+      "tickets_3d": 22,
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 2.86,
-      "velocity_7d_ci_upper": 12.57,
+      "velocity_7d_ci_lower": 3.29,
+      "velocity_7d_ci_upper": 14.43,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -6853,28 +6853,28 @@
       "platzgruppen": [
         {
           "platzgruppe": "a",
-          "verkauft": 53,
+          "verkauft": 63,
           "reserviert": 2,
           "kontingente": 47,
           "kapazitaet": 98,
           "frei_verkaufbar": 51,
           "freie_plaetze": 8,
           "pending": 0,
-          "umsatz": 1176.0,
-          "avg_preis": 22.19,
+          "umsatz": 1410.0,
+          "avg_preis": 22.38,
           "tickets_7d": null,
           "velocity_7d": null,
-          "auslastung_gesamt_pct": 54.1,
-          "auslastung_verkauf_pct": 103.9,
+          "auslastung_gesamt_pct": 64.3,
+          "auslastung_verkauf_pct": 123.5,
           "rate_share": 1.0
         }
       ],
       "pg_shift_score": 0.0,
-      "kanal_hhi": 0.1769,
+      "kanal_hhi": 0.1922,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 0.57,
-      "alpha_score_norm": 0.02
+      "alpha_score": 18.08,
+      "alpha_score_norm": 0.59
     },
     {
       "va_nr": 13566,
@@ -6883,31 +6883,31 @@
       "name": "Egal",
       "datum": "2026-04-12",
       "uhrzeit": "19:30",
-      "tickets_gesamt": 60,
-      "tickets_kartenverkauf": 60,
+      "tickets_gesamt": 64,
+      "tickets_kartenverkauf": 64,
       "stornos": 0,
-      "umsatz_gesamt": 1420.0,
-      "avg_preis": 23.67,
+      "umsatz_gesamt": 1520.0,
+      "avg_preis": 23.75,
       "kapazitaet": 98,
       "frei_verkaufbar": 52,
       "kontingente": 46,
       "reserviert": 2,
       "freie_plaetze": 0,
       "pending": 0,
-      "auslastung_gesamt_pct": 61.2,
-      "auslastung_verkauf_pct": 115.4,
+      "auslastung_gesamt_pct": 65.3,
+      "auslastung_verkauf_pct": 123.1,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 60.8,
-        "ci_lower_90_pct": 52.7,
-        "ci_upper_90_pct": 68.6
+        "auslastung_forecast_pct": 64.7,
+        "ci_lower_90_pct": 56.8,
+        "ci_upper_90_pct": 72.3
       },
-      "tickets_1d": 10,
-      "tickets_3d": 10,
+      "tickets_1d": 14,
+      "tickets_3d": 14,
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 0.57,
-      "velocity_7d_ci_upper": 14.86,
+      "velocity_7d_ci_lower": 2.29,
+      "velocity_7d_ci_upper": 15.43,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -6915,28 +6915,28 @@
       "platzgruppen": [
         {
           "platzgruppe": "a",
-          "verkauft": 60,
+          "verkauft": 64,
           "reserviert": 2,
           "kontingente": 46,
           "kapazitaet": 98,
           "frei_verkaufbar": 52,
           "freie_plaetze": 0,
           "pending": 0,
-          "umsatz": 1420.0,
-          "avg_preis": 23.67,
+          "umsatz": 1520.0,
+          "avg_preis": 23.75,
           "tickets_7d": null,
           "velocity_7d": null,
-          "auslastung_gesamt_pct": 61.2,
-          "auslastung_verkauf_pct": 115.4,
+          "auslastung_gesamt_pct": 65.3,
+          "auslastung_verkauf_pct": 123.1,
           "rate_share": 1.0
         }
       ],
       "pg_shift_score": 0.0,
-      "kanal_hhi": 0.205,
+      "kanal_hhi": 0.2095,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 22.22,
-      "alpha_score_norm": 0.74
+      "alpha_score": 28.88,
+      "alpha_score_norm": 0.95
     },
     {
       "va_nr": 13615,
@@ -6968,8 +6968,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 2.86,
-      "velocity_7d_ci_upper": 64.0,
+      "velocity_7d_ci_lower": 10.0,
+      "velocity_7d_ci_upper": 63.29,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -7082,8 +7082,8 @@
       "kanal_hhi": 0.1535,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 1.42,
-      "alpha_score_norm": 0.05
+      "alpha_score": 0.38,
+      "alpha_score_norm": 0.01
     },
     {
       "va_nr": 13616,
@@ -7115,8 +7115,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 5.86,
-      "velocity_7d_ci_upper": 39.14,
+      "velocity_7d_ci_lower": 7.29,
+      "velocity_7d_ci_upper": 37.43,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -7229,8 +7229,8 @@
       "kanal_hhi": 0.1017,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -5.65,
-      "alpha_score_norm": -0.19
+      "alpha_score": -6.4,
+      "alpha_score_norm": -0.21
     },
     {
       "va_nr": 13567,
@@ -7291,8 +7291,8 @@
       "kanal_hhi": 0.2739,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 47.35,
-      "alpha_score_norm": 1.58
+      "alpha_score": 46.97,
+      "alpha_score_norm": 1.54
     },
     {
       "va_nr": 13579,
@@ -7324,8 +7324,8 @@
       "tickets_7d": 75,
       "tickets_30d": null,
       "velocity_7d": 10.71,
-      "velocity_7d_ci_lower": 3.38,
-      "velocity_7d_ci_upper": 15.62,
+      "velocity_7d_ci_lower": 2.75,
+      "velocity_7d_ci_upper": 14.75,
       "vvk_start": "2026-02-26",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -7402,10 +7402,10 @@
       ],
       "pg_shift_score": 0.7895,
       "kanal_hhi": 0.1835,
-      "velocity_zscore": 1.63,
+      "velocity_zscore": 1.57,
       "alert_level": "normal",
-      "alpha_score": 2.93,
-      "alpha_score_norm": 0.1
+      "alpha_score": 2.31,
+      "alpha_score_norm": 0.08
     },
     {
       "va_nr": 13576,
@@ -7414,26 +7414,26 @@
       "name": "Egal",
       "datum": "2026-04-17",
       "uhrzeit": "20:30",
-      "tickets_gesamt": 63,
-      "tickets_kartenverkauf": 63,
+      "tickets_gesamt": 67,
+      "tickets_kartenverkauf": 67,
       "stornos": 2,
-      "umsatz_gesamt": 1368.0,
-      "avg_preis": 21.71,
+      "umsatz_gesamt": 1452.0,
+      "avg_preis": 21.67,
       "kapazitaet": 98,
       "frei_verkaufbar": 49,
       "kontingente": 49,
       "reserviert": 0,
       "freie_plaetze": 0,
       "pending": 0,
-      "auslastung_gesamt_pct": 64.3,
-      "auslastung_verkauf_pct": 128.6,
+      "auslastung_gesamt_pct": 68.4,
+      "auslastung_verkauf_pct": 136.7,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 63.7,
-        "ci_lower_90_pct": 55.8,
-        "ci_upper_90_pct": 71.4
+        "auslastung_forecast_pct": 67.6,
+        "ci_lower_90_pct": 59.9,
+        "ci_upper_90_pct": 75.0
       },
-      "tickets_1d": 4,
-      "tickets_3d": 14,
+      "tickets_1d": 8,
+      "tickets_3d": 18,
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
@@ -7446,28 +7446,28 @@
       "platzgruppen": [
         {
           "platzgruppe": "a",
-          "verkauft": 63,
+          "verkauft": 67,
           "reserviert": 0,
           "kontingente": 49,
           "kapazitaet": 98,
           "frei_verkaufbar": 49,
           "freie_plaetze": 0,
           "pending": 0,
-          "umsatz": 1368.0,
-          "avg_preis": 21.71,
+          "umsatz": 1452.0,
+          "avg_preis": 21.67,
           "tickets_7d": null,
           "velocity_7d": null,
-          "auslastung_gesamt_pct": 64.3,
-          "auslastung_verkauf_pct": 128.6,
+          "auslastung_gesamt_pct": 68.4,
+          "auslastung_verkauf_pct": 136.7,
           "rate_share": 1.0
         }
       ],
       "pg_shift_score": 0.0,
-      "kanal_hhi": 0.2441,
+      "kanal_hhi": 0.235,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 49.87,
-      "alpha_score_norm": 1.67
+      "alpha_score": 56.79,
+      "alpha_score_norm": 1.86
     },
     {
       "va_nr": 13580,
@@ -7499,8 +7499,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -2.43,
-      "velocity_7d_ci_upper": 20.71,
+      "velocity_7d_ci_lower": -2.14,
+      "velocity_7d_ci_upper": 20.86,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -7579,8 +7579,8 @@
       "kanal_hhi": 0.161,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -0.85,
-      "alpha_score_norm": -0.03
+      "alpha_score": -2.27,
+      "alpha_score_norm": -0.07
     },
     {
       "va_nr": 13582,
@@ -7692,8 +7692,8 @@
       "kanal_hhi": 0.1925,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 31.17,
-      "alpha_score_norm": 1.04
+      "alpha_score": 29.99,
+      "alpha_score_norm": 0.98
     },
     {
       "va_nr": 13584,
@@ -7702,31 +7702,31 @@
       "name": "Bluets",
       "datum": "2026-04-17",
       "uhrzeit": "19:00",
-      "tickets_gesamt": 174,
-      "tickets_kartenverkauf": 174,
+      "tickets_gesamt": 179,
+      "tickets_kartenverkauf": 179,
       "stornos": 2,
-      "umsatz_gesamt": 3563.3,
-      "avg_preis": 20.48,
+      "umsatz_gesamt": 3682.3,
+      "avg_preis": 20.57,
       "kapazitaet": 429,
       "frei_verkaufbar": 307,
       "kontingente": 122,
       "reserviert": 0,
       "freie_plaetze": 161,
       "pending": 0,
-      "auslastung_gesamt_pct": 40.6,
-      "auslastung_verkauf_pct": 56.7,
+      "auslastung_gesamt_pct": 41.7,
+      "auslastung_verkauf_pct": 58.3,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 40.6,
-        "ci_lower_90_pct": 36.8,
-        "ci_upper_90_pct": 44.5
+        "auslastung_forecast_pct": 41.8,
+        "ci_lower_90_pct": 37.9,
+        "ci_upper_90_pct": 45.7
       },
-      "tickets_1d": 11,
-      "tickets_3d": 26,
+      "tickets_1d": 16,
+      "tickets_3d": 31,
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -6.57,
-      "velocity_7d_ci_upper": 44.29,
+      "velocity_7d_ci_lower": -2.29,
+      "velocity_7d_ci_upper": 44.86,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -7734,20 +7734,20 @@
       "platzgruppen": [
         {
           "platzgruppe": "a",
-          "verkauft": 16,
+          "verkauft": 20,
           "reserviert": 0,
           "kontingente": 26,
           "kapazitaet": 85,
           "frei_verkaufbar": 59,
           "freie_plaetze": 45,
           "pending": 0,
-          "umsatz": 648.0,
-          "avg_preis": 40.5,
+          "umsatz": 737.0,
+          "avg_preis": 36.85,
           "tickets_7d": null,
           "velocity_7d": null,
-          "auslastung_gesamt_pct": 18.8,
-          "auslastung_verkauf_pct": 27.1,
-          "rate_share": 0.092
+          "auslastung_gesamt_pct": 23.5,
+          "auslastung_verkauf_pct": 33.9,
+          "rate_share": 0.1117
         },
         {
           "platzgruppe": "b",
@@ -7764,24 +7764,24 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 20.0,
           "auslastung_verkauf_pct": 27.0,
-          "rate_share": 0.1149
+          "rate_share": 0.1117
         },
         {
           "platzgruppe": "c",
-          "verkauft": 48,
+          "verkauft": 49,
           "reserviert": 0,
           "kontingente": 49,
           "kapazitaet": 102,
           "frei_verkaufbar": 53,
           "freie_plaetze": 16,
           "pending": 0,
-          "umsatz": 764.0,
-          "avg_preis": 15.92,
+          "umsatz": 794.0,
+          "avg_preis": 16.2,
           "tickets_7d": null,
           "velocity_7d": null,
-          "auslastung_gesamt_pct": 47.1,
-          "auslastung_verkauf_pct": 90.6,
-          "rate_share": 0.2759
+          "auslastung_gesamt_pct": 48.0,
+          "auslastung_verkauf_pct": 92.5,
+          "rate_share": 0.2737
         },
         {
           "platzgruppe": "d",
@@ -7798,7 +7798,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 47.3,
           "auslastung_verkauf_pct": 58.1,
-          "rate_share": 0.2471
+          "rate_share": 0.2402
         },
         {
           "platzgruppe": "e",
@@ -7815,7 +7815,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 95.1,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.2241
+          "rate_share": 0.2179
         },
         {
           "platzgruppe": "f",
@@ -7832,15 +7832,15 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 80.0,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.046
+          "rate_share": 0.0447
         }
       ],
-      "pg_shift_score": 0.4942,
-      "kanal_hhi": 0.1785,
+      "pg_shift_score": 0.4637,
+      "kanal_hhi": 0.1797,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -50.45,
-      "alpha_score_norm": -1.68
+      "alpha_score": -50.27,
+      "alpha_score_norm": -1.65
     },
     {
       "va_nr": 13587,
@@ -7986,8 +7986,8 @@
       "kanal_hhi": 0.137,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -24.85,
-      "alpha_score_norm": -0.83
+      "alpha_score": -26.27,
+      "alpha_score_norm": -0.86
     },
     {
       "va_nr": 13589,
@@ -8019,8 +8019,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 4.0,
-      "velocity_7d_ci_upper": 10.86,
+      "velocity_7d_ci_lower": 3.57,
+      "velocity_7d_ci_upper": 11.0,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -8048,8 +8048,8 @@
       "kanal_hhi": 0.0903,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 14.25,
-      "alpha_score_norm": 0.48
+      "alpha_score": 12.83,
+      "alpha_score_norm": 0.42
     },
     {
       "va_nr": 13577,
@@ -8110,8 +8110,8 @@
       "kanal_hhi": 0.1972,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 56.71,
-      "alpha_score_norm": 1.89
+      "alpha_score": 55.0,
+      "alpha_score_norm": 1.8
     },
     {
       "va_nr": 13581,
@@ -8143,8 +8143,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -2.14,
-      "velocity_7d_ci_upper": 24.71,
+      "velocity_7d_ci_lower": -2.57,
+      "velocity_7d_ci_upper": 24.43,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -8223,8 +8223,8 @@
       "kanal_hhi": 0.1546,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 21.08,
-      "alpha_score_norm": 0.7
+      "alpha_score": 19.14,
+      "alpha_score_norm": 0.63
     },
     {
       "va_nr": 13583,
@@ -8256,8 +8256,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -1.86,
-      "velocity_7d_ci_upper": 23.86,
+      "velocity_7d_ci_lower": -1.43,
+      "velocity_7d_ci_upper": 24.14,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -8336,8 +8336,8 @@
       "kanal_hhi": 0.1302,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 23.08,
-      "alpha_score_norm": 0.77
+      "alpha_score": 21.14,
+      "alpha_score_norm": 0.69
     },
     {
       "va_nr": 13585,
@@ -8369,7 +8369,7 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 2.43,
+      "velocity_7d_ci_lower": 2.0,
       "velocity_7d_ci_upper": 19.86,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -8483,8 +8483,8 @@
       "kanal_hhi": 0.2275,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -70.62,
-      "alpha_score_norm": -2.36
+      "alpha_score": -72.56,
+      "alpha_score_norm": -2.38
     },
     {
       "va_nr": 13588,
@@ -8516,7 +8516,7 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -1.43,
+      "velocity_7d_ci_lower": -0.57,
       "velocity_7d_ci_upper": 42.14,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -8630,8 +8630,8 @@
       "kanal_hhi": 0.1822,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -8.42,
-      "alpha_score_norm": -0.28
+      "alpha_score": -10.36,
+      "alpha_score_norm": -0.34
     },
     {
       "va_nr": 13590,
@@ -8663,8 +8663,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 0.14,
-      "velocity_7d_ci_upper": 16.57,
+      "velocity_7d_ci_lower": 1.71,
+      "velocity_7d_ci_upper": 16.71,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -8692,8 +8692,8 @@
       "kanal_hhi": 0.1276,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 18.58,
-      "alpha_score_norm": 0.62
+      "alpha_score": 16.64,
+      "alpha_score_norm": 0.55
     },
     {
       "va_nr": 13578,
@@ -8754,8 +8754,8 @@
       "kanal_hhi": 0.1588,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 63.35,
-      "alpha_score_norm": 2.12
+      "alpha_score": 62.7,
+      "alpha_score_norm": 2.05
     },
     {
       "va_nr": 13586,
@@ -8787,7 +8787,7 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -2.86,
+      "velocity_7d_ci_lower": -3.29,
       "velocity_7d_ci_upper": 31.29,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -8901,8 +8901,8 @@
       "kanal_hhi": 0.1889,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -47.77,
-      "alpha_score_norm": -1.6
+      "alpha_score": -48.66,
+      "alpha_score_norm": -1.59
     },
     {
       "va_nr": 13591,
@@ -8934,8 +8934,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -0.29,
-      "velocity_7d_ci_upper": 16.86,
+      "velocity_7d_ci_lower": 0.0,
+      "velocity_7d_ci_upper": 16.43,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -8963,8 +8963,8 @@
       "kanal_hhi": 0.2654,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 37.43,
-      "alpha_score_norm": 1.25
+      "alpha_score": 36.54,
+      "alpha_score_norm": 1.2
     },
     {
       "va_nr": 13592,
@@ -8996,8 +8996,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 2.43,
-      "velocity_7d_ci_upper": 37.43,
+      "velocity_7d_ci_lower": 2.29,
+      "velocity_7d_ci_upper": 36.43,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -9025,7 +9025,7 @@
       "kanal_hhi": 0.2899,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -38.57,
+      "alpha_score": -39.46,
       "alpha_score_norm": -1.29
     },
     {
@@ -9058,7 +9058,7 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -1.29,
+      "velocity_7d_ci_lower": -2.14,
       "velocity_7d_ci_upper": 16.57,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -9087,8 +9087,8 @@
       "kanal_hhi": 0.183,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 31.13,
-      "alpha_score_norm": 1.04
+      "alpha_score": 30.24,
+      "alpha_score_norm": 0.99
     },
     {
       "va_nr": 13593,
@@ -9120,8 +9120,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 2.86,
-      "velocity_7d_ci_upper": 13.43,
+      "velocity_7d_ci_lower": 2.57,
+      "velocity_7d_ci_upper": 13.57,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -9149,8 +9149,8 @@
       "kanal_hhi": 0.1332,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 25.31,
-      "alpha_score_norm": 0.85
+      "alpha_score": 23.25,
+      "alpha_score_norm": 0.76
     },
     {
       "va_nr": 13594,
@@ -9182,7 +9182,7 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -7.43,
+      "velocity_7d_ci_lower": -6.86,
       "velocity_7d_ci_upper": 21.86,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -9211,8 +9211,8 @@
       "kanal_hhi": 0.2958,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 4.95,
-      "alpha_score_norm": 0.17
+      "alpha_score": 2.28,
+      "alpha_score_norm": 0.07
     },
     {
       "va_nr": 13595,
@@ -9244,7 +9244,7 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -6.14,
+      "velocity_7d_ci_lower": -7.29,
       "velocity_7d_ci_upper": 22.86,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -9273,8 +9273,8 @@
       "kanal_hhi": 0.3171,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 2.36,
-      "alpha_score_norm": 0.08
+      "alpha_score": 1.76,
+      "alpha_score_norm": 0.06
     },
     {
       "va_nr": 13596,
@@ -9306,7 +9306,7 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 2.14,
+      "velocity_7d_ci_lower": 2.0,
       "velocity_7d_ci_upper": 8.43,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -9335,8 +9335,8 @@
       "kanal_hhi": 0.108,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 12.16,
-      "alpha_score_norm": 0.41
+      "alpha_score": 11.56,
+      "alpha_score_norm": 0.38
     },
     {
       "va_nr": 13600,
@@ -9368,8 +9368,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 4.14,
-      "velocity_7d_ci_upper": 28.71,
+      "velocity_7d_ci_lower": 3.14,
+      "velocity_7d_ci_upper": 28.29,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -9482,8 +9482,8 @@
       "kanal_hhi": 0.1353,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 6.06,
-      "alpha_score_norm": 0.2
+      "alpha_score": 5.46,
+      "alpha_score_norm": 0.18
     },
     {
       "va_nr": 13597,
@@ -9515,8 +9515,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 1.29,
-      "velocity_7d_ci_upper": 15.0,
+      "velocity_7d_ci_lower": 1.43,
+      "velocity_7d_ci_upper": 16.14,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -9544,8 +9544,8 @@
       "kanal_hhi": 0.1201,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 6.84,
-      "alpha_score_norm": 0.23
+      "alpha_score": 6.37,
+      "alpha_score_norm": 0.21
     },
     {
       "va_nr": 13601,
@@ -9577,8 +9577,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -1.0,
-      "velocity_7d_ci_upper": 31.29,
+      "velocity_7d_ci_lower": 2.43,
+      "velocity_7d_ci_upper": 31.0,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -9691,8 +9691,8 @@
       "kanal_hhi": 0.145,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -0.36,
-      "alpha_score_norm": -0.01
+      "alpha_score": -0.83,
+      "alpha_score_norm": -0.03
     },
     {
       "va_nr": 13618,
@@ -9753,8 +9753,8 @@
       "kanal_hhi": 0.3584,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 68.47,
-      "alpha_score_norm": 2.29
+      "alpha_score": 68.23,
+      "alpha_score_norm": 2.24
     },
     {
       "va_nr": 13568,
@@ -9763,26 +9763,26 @@
       "name": "Orlando",
       "datum": "2026-04-24",
       "uhrzeit": "18:30",
-      "tickets_gesamt": 95,
-      "tickets_kartenverkauf": 95,
+      "tickets_gesamt": 97,
+      "tickets_kartenverkauf": 97,
       "stornos": 1,
-      "umsatz_gesamt": 2065.2,
-      "avg_preis": 21.74,
+      "umsatz_gesamt": 2125.2,
+      "avg_preis": 21.91,
       "kapazitaet": 427,
       "frei_verkaufbar": 389,
       "kontingente": 38,
       "reserviert": 2,
       "freie_plaetze": 324,
       "pending": 0,
-      "auslastung_gesamt_pct": 22.2,
-      "auslastung_verkauf_pct": 24.4,
+      "auslastung_gesamt_pct": 22.7,
+      "auslastung_verkauf_pct": 24.9,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 22.5,
-        "ci_lower_90_pct": 19.3,
-        "ci_upper_90_pct": 25.9
+        "auslastung_forecast_pct": 23.0,
+        "ci_lower_90_pct": 19.7,
+        "ci_upper_90_pct": 26.4
       },
-      "tickets_1d": 6,
-      "tickets_3d": 32,
+      "tickets_1d": 8,
+      "tickets_3d": 34,
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
@@ -9808,7 +9808,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 5.3,
           "auslastung_verkauf_pct": 6.3,
-          "rate_share": 0.0421
+          "rate_share": 0.0412
         },
         {
           "platzgruppe": "b",
@@ -9825,24 +9825,24 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 13.5,
           "auslastung_verkauf_pct": 14.0,
-          "rate_share": 0.1474
+          "rate_share": 0.1443
         },
         {
           "platzgruppe": "c",
-          "verkauft": 36,
+          "verkauft": 38,
           "reserviert": 0,
           "kontingente": 9,
           "kapazitaet": 118,
           "frei_verkaufbar": 109,
           "freie_plaetze": 78,
           "pending": 0,
-          "umsatz": 768.0,
-          "avg_preis": 21.33,
+          "umsatz": 828.0,
+          "avg_preis": 21.79,
           "tickets_7d": null,
           "velocity_7d": null,
-          "auslastung_gesamt_pct": 30.5,
-          "auslastung_verkauf_pct": 33.0,
-          "rate_share": 0.3789
+          "auslastung_gesamt_pct": 32.2,
+          "auslastung_verkauf_pct": 34.9,
+          "rate_share": 0.3918
         },
         {
           "platzgruppe": "d",
@@ -9859,7 +9859,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 9.2,
           "auslastung_verkauf_pct": 10.6,
-          "rate_share": 0.0947
+          "rate_share": 0.0928
         },
         {
           "platzgruppe": "e",
@@ -9876,7 +9876,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.2211
+          "rate_share": 0.2165
         },
         {
           "platzgruppe": "f",
@@ -9893,15 +9893,15 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.1158
+          "rate_share": 0.1134
         }
       ],
-      "pg_shift_score": 0.5333,
-      "kanal_hhi": 0.2401,
+      "pg_shift_score": 0.5499,
+      "kanal_hhi": 0.2473,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -48.22,
-      "alpha_score_norm": -1.61
+      "alpha_score": -48.75,
+      "alpha_score_norm": -1.6
     },
     {
       "va_nr": 13598,
@@ -9962,8 +9962,8 @@
       "kanal_hhi": 0.1566,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 54.28,
-      "alpha_score_norm": 1.81
+      "alpha_score": 53.25,
+      "alpha_score_norm": 1.75
     },
     {
       "va_nr": 13602,
@@ -9995,8 +9995,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -1.57,
-      "velocity_7d_ci_upper": 29.43,
+      "velocity_7d_ci_lower": -1.86,
+      "velocity_7d_ci_upper": 29.57,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -10109,8 +10109,8 @@
       "kanal_hhi": 0.1862,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -1.84,
-      "alpha_score_norm": -0.06
+      "alpha_score": -3.11,
+      "alpha_score_norm": -0.1
     },
     {
       "va_nr": 13603,
@@ -10142,8 +10142,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -1.0,
-      "velocity_7d_ci_upper": 47.43,
+      "velocity_7d_ci_lower": 0.14,
+      "velocity_7d_ci_upper": 47.86,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -10256,8 +10256,8 @@
       "kanal_hhi": 0.1668,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 20.66,
-      "alpha_score_norm": 0.69
+      "alpha_score": 19.39,
+      "alpha_score_norm": 0.64
     },
     {
       "va_nr": 13569,
@@ -10266,26 +10266,26 @@
       "name": "Orlando",
       "datum": "2026-04-25",
       "uhrzeit": "20:30",
-      "tickets_gesamt": 58,
-      "tickets_kartenverkauf": 58,
+      "tickets_gesamt": 61,
+      "tickets_kartenverkauf": 61,
       "stornos": 0,
-      "umsatz_gesamt": 1524.1,
-      "avg_preis": 26.28,
+      "umsatz_gesamt": 1566.1,
+      "avg_preis": 25.67,
       "kapazitaet": 427,
       "frei_verkaufbar": 389,
       "kontingente": 38,
       "reserviert": 2,
       "freie_plaetze": 339,
       "pending": 0,
-      "auslastung_gesamt_pct": 13.6,
-      "auslastung_verkauf_pct": 14.9,
+      "auslastung_gesamt_pct": 14.3,
+      "auslastung_verkauf_pct": 15.7,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 13.9,
-        "ci_lower_90_pct": 11.3,
-        "ci_upper_90_pct": 16.8
+        "auslastung_forecast_pct": 14.6,
+        "ci_lower_90_pct": 11.9,
+        "ci_upper_90_pct": 17.5
       },
-      "tickets_1d": 3,
-      "tickets_3d": 10,
+      "tickets_1d": 6,
+      "tickets_3d": 13,
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
@@ -10311,7 +10311,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 16.0,
           "auslastung_verkauf_pct": 19.0,
-          "rate_share": 0.2069
+          "rate_share": 0.1967
         },
         {
           "platzgruppe": "b",
@@ -10328,7 +10328,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 10.6,
           "auslastung_verkauf_pct": 11.0,
-          "rate_share": 0.1897
+          "rate_share": 0.1803
         },
         {
           "platzgruppe": "c",
@@ -10345,7 +10345,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 16.9,
           "auslastung_verkauf_pct": 18.3,
-          "rate_share": 0.3448
+          "rate_share": 0.3279
         },
         {
           "platzgruppe": "d",
@@ -10362,24 +10362,24 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 3.1,
           "auslastung_verkauf_pct": 3.5,
-          "rate_share": 0.0517
+          "rate_share": 0.0492
         },
         {
           "platzgruppe": "e",
-          "verkauft": 2,
+          "verkauft": 5,
           "reserviert": 0,
           "kontingente": 0,
           "kapazitaet": 21,
           "frei_verkaufbar": 21,
           "freie_plaetze": 21,
           "pending": 0,
-          "umsatz": 28.0,
+          "umsatz": 70.0,
           "avg_preis": 14.0,
           "tickets_7d": null,
           "velocity_7d": null,
-          "auslastung_gesamt_pct": 9.5,
-          "auslastung_verkauf_pct": 9.5,
-          "rate_share": 0.0345
+          "auslastung_gesamt_pct": 23.8,
+          "auslastung_verkauf_pct": 23.8,
+          "rate_share": 0.082
         },
         {
           "platzgruppe": "f",
@@ -10396,15 +10396,15 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 90.9,
           "auslastung_verkauf_pct": 90.9,
-          "rate_share": 0.1724
+          "rate_share": 0.1639
         }
       ],
-      "pg_shift_score": 0.4943,
-      "kanal_hhi": 0.3276,
+      "pg_shift_score": 0.4098,
+      "kanal_hhi": 0.326,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -33.21,
-      "alpha_score_norm": -1.11
+      "alpha_score": -32.68,
+      "alpha_score_norm": -1.07
     },
     {
       "va_nr": 13599,
@@ -10436,8 +10436,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 2.29,
-      "velocity_7d_ci_upper": 15.0,
+      "velocity_7d_ci_lower": 1.86,
+      "velocity_7d_ci_upper": 15.14,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -10465,8 +10465,8 @@
       "kanal_hhi": 0.124,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 34.39,
-      "alpha_score_norm": 1.15
+      "alpha_score": 32.6,
+      "alpha_score_norm": 1.07
     },
     {
       "va_nr": 13604,
@@ -10475,31 +10475,31 @@
       "name": "Needles and Opium",
       "datum": "2026-04-25",
       "uhrzeit": "18:30",
-      "tickets_gesamt": 257,
-      "tickets_kartenverkauf": 257,
+      "tickets_gesamt": 258,
+      "tickets_kartenverkauf": 258,
       "stornos": 4,
-      "umsatz_gesamt": 6508.1,
-      "avg_preis": 25.32,
+      "umsatz_gesamt": 6544.1,
+      "avg_preis": 25.36,
       "kapazitaet": 380,
       "frei_verkaufbar": 215,
       "kontingente": 165,
       "reserviert": 6,
       "freie_plaetze": 0,
       "pending": 0,
-      "auslastung_gesamt_pct": 67.6,
-      "auslastung_verkauf_pct": 119.5,
+      "auslastung_gesamt_pct": 67.9,
+      "auslastung_verkauf_pct": 120.0,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 67.4,
-        "ci_lower_90_pct": 63.5,
-        "ci_upper_90_pct": 71.3
+        "auslastung_forecast_pct": 67.7,
+        "ci_lower_90_pct": 63.7,
+        "ci_upper_90_pct": 71.6
       },
-      "tickets_1d": 5,
-      "tickets_3d": 45,
+      "tickets_1d": 6,
+      "tickets_3d": 46,
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 9.57,
-      "velocity_7d_ci_upper": 59.43,
+      "velocity_7d_ci_lower": 9.0,
+      "velocity_7d_ci_upper": 60.29,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -10520,7 +10520,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 59.5,
           "auslastung_verkauf_pct": 118.9,
-          "rate_share": 0.1712
+          "rate_share": 0.1705
         },
         {
           "platzgruppe": "b",
@@ -10537,24 +10537,24 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 39.1,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.1401
+          "rate_share": 0.1395
         },
         {
           "platzgruppe": "c",
-          "verkauft": 71,
+          "verkauft": 72,
           "reserviert": 4,
           "kontingente": 44,
           "kapazitaet": 104,
           "frei_verkaufbar": 60,
           "freie_plaetze": 0,
           "pending": 0,
-          "umsatz": 1481.5,
-          "avg_preis": 20.87,
+          "umsatz": 1517.5,
+          "avg_preis": 21.08,
           "tickets_7d": null,
           "velocity_7d": null,
-          "auslastung_gesamt_pct": 68.3,
-          "auslastung_verkauf_pct": 118.3,
-          "rate_share": 0.2763
+          "auslastung_gesamt_pct": 69.2,
+          "auslastung_verkauf_pct": 120.0,
+          "rate_share": 0.2791
         },
         {
           "platzgruppe": "d",
@@ -10571,7 +10571,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 93.6,
           "auslastung_verkauf_pct": 146.0,
-          "rate_share": 0.284
+          "rate_share": 0.2829
         },
         {
           "platzgruppe": "e",
@@ -10588,7 +10588,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 104.3,
           "auslastung_verkauf_pct": 104.3,
-          "rate_share": 0.0934
+          "rate_share": 0.093
         },
         {
           "platzgruppe": "f",
@@ -10605,15 +10605,15 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.035
+          "rate_share": 0.0349
         }
       ],
-      "pg_shift_score": 0.463,
-      "kanal_hhi": 0.1372,
+      "pg_shift_score": 0.4651,
+      "kanal_hhi": 0.1384,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 28.39,
-      "alpha_score_norm": 0.95
+      "alpha_score": 27.1,
+      "alpha_score_norm": 0.89
     },
     {
       "va_nr": 13606,
@@ -10674,8 +10674,8 @@
       "kanal_hhi": 0.25,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -59.28,
-      "alpha_score_norm": -1.98
+      "alpha_score": -60.84,
+      "alpha_score_norm": -1.99
     },
     {
       "va_nr": 13570,
@@ -10684,26 +10684,26 @@
       "name": "Orlando",
       "datum": "2026-04-26",
       "uhrzeit": "15:00",
-      "tickets_gesamt": 54,
-      "tickets_kartenverkauf": 54,
+      "tickets_gesamt": 55,
+      "tickets_kartenverkauf": 55,
       "stornos": 4,
-      "umsatz_gesamt": 1253.8,
-      "avg_preis": 23.22,
+      "umsatz_gesamt": 1295.8,
+      "avg_preis": 23.56,
       "kapazitaet": 427,
       "frei_verkaufbar": 389,
       "kontingente": 38,
       "reserviert": 0,
       "freie_plaetze": 354,
       "pending": 0,
-      "auslastung_gesamt_pct": 12.6,
-      "auslastung_verkauf_pct": 13.9,
+      "auslastung_gesamt_pct": 12.9,
+      "auslastung_verkauf_pct": 14.1,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 13.0,
-        "ci_lower_90_pct": 10.4,
-        "ci_upper_90_pct": 15.7
+        "auslastung_forecast_pct": 13.2,
+        "ci_lower_90_pct": 10.6,
+        "ci_upper_90_pct": 16.0
       },
-      "tickets_1d": 9,
-      "tickets_3d": 15,
+      "tickets_1d": 10,
+      "tickets_3d": 16,
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
@@ -10716,20 +10716,20 @@
       "platzgruppen": [
         {
           "platzgruppe": "a",
-          "verkauft": 7,
+          "verkauft": 8,
           "reserviert": 0,
           "kontingente": 12,
           "kapazitaet": 75,
           "frei_verkaufbar": 63,
           "freie_plaetze": 58,
           "pending": 0,
-          "umsatz": 288.0,
-          "avg_preis": 41.14,
+          "umsatz": 330.0,
+          "avg_preis": 41.25,
           "tickets_7d": null,
           "velocity_7d": null,
-          "auslastung_gesamt_pct": 9.3,
-          "auslastung_verkauf_pct": 11.1,
-          "rate_share": 0.1296
+          "auslastung_gesamt_pct": 10.7,
+          "auslastung_verkauf_pct": 12.7,
+          "rate_share": 0.1455
         },
         {
           "platzgruppe": "b",
@@ -10746,7 +10746,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 6.7,
           "auslastung_verkauf_pct": 7.0,
-          "rate_share": 0.1296
+          "rate_share": 0.1273
         },
         {
           "platzgruppe": "c",
@@ -10763,7 +10763,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 11.9,
           "auslastung_verkauf_pct": 12.8,
-          "rate_share": 0.2593
+          "rate_share": 0.2545
         },
         {
           "platzgruppe": "d",
@@ -10780,7 +10780,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 7.1,
           "auslastung_verkauf_pct": 8.2,
-          "rate_share": 0.1296
+          "rate_share": 0.1273
         },
         {
           "platzgruppe": "e",
@@ -10797,7 +10797,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 47.6,
           "auslastung_verkauf_pct": 47.6,
-          "rate_share": 0.1852
+          "rate_share": 0.1818
         },
         {
           "platzgruppe": "f",
@@ -10814,15 +10814,15 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 81.8,
           "auslastung_verkauf_pct": 81.8,
-          "rate_share": 0.1667
+          "rate_share": 0.1636
         }
       ],
-      "pg_shift_score": 0.2224,
-      "kanal_hhi": 0.2469,
+      "pg_shift_score": 0.2059,
+      "kanal_hhi": 0.2536,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -38.64,
-      "alpha_score_norm": -1.29
+      "alpha_score": -38.94,
+      "alpha_score_norm": -1.28
     },
     {
       "va_nr": 13573,
@@ -10854,7 +10854,7 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -1.86,
+      "velocity_7d_ci_lower": -1.57,
       "velocity_7d_ci_upper": 15.43,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -10968,8 +10968,8 @@
       "kanal_hhi": 0.2346,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -32.16,
-      "alpha_score_norm": -1.07
+      "alpha_score": -32.9,
+      "alpha_score_norm": -1.08
     },
     {
       "va_nr": 13605,
@@ -10978,31 +10978,31 @@
       "name": "Needles and Opium",
       "datum": "2026-04-26",
       "uhrzeit": "19:30",
-      "tickets_gesamt": 251,
-      "tickets_kartenverkauf": 251,
+      "tickets_gesamt": 253,
+      "tickets_kartenverkauf": 253,
       "stornos": 3,
-      "umsatz_gesamt": 5988.2,
-      "avg_preis": 23.86,
+      "umsatz_gesamt": 6060.2,
+      "avg_preis": 23.95,
       "kapazitaet": 380,
       "frei_verkaufbar": 211,
       "kontingente": 169,
       "reserviert": 3,
       "freie_plaetze": 0,
       "pending": 0,
-      "auslastung_gesamt_pct": 66.1,
-      "auslastung_verkauf_pct": 119.0,
+      "auslastung_gesamt_pct": 66.6,
+      "auslastung_verkauf_pct": 119.9,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 65.9,
-        "ci_lower_90_pct": 61.9,
-        "ci_upper_90_pct": 69.8
+        "auslastung_forecast_pct": 66.4,
+        "ci_lower_90_pct": 62.4,
+        "ci_upper_90_pct": 70.3
       },
-      "tickets_1d": 16,
-      "tickets_3d": 40,
+      "tickets_1d": 18,
+      "tickets_3d": 42,
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 1.14,
-      "velocity_7d_ci_upper": 60.43,
+      "velocity_7d_ci_lower": -4.86,
+      "velocity_7d_ci_upper": 60.14,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -11023,7 +11023,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 52.7,
           "auslastung_verkauf_pct": 105.4,
-          "rate_share": 0.1554
+          "rate_share": 0.1542
         },
         {
           "platzgruppe": "b",
@@ -11040,24 +11040,24 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 44.6,
           "auslastung_verkauf_pct": 110.8,
-          "rate_share": 0.1633
+          "rate_share": 0.1621
         },
         {
           "platzgruppe": "c",
-          "verkauft": 69,
+          "verkauft": 71,
           "reserviert": 0,
           "kontingente": 51,
           "kapazitaet": 104,
           "frei_verkaufbar": 53,
           "freie_plaetze": 0,
           "pending": 0,
-          "umsatz": 1175.0,
-          "avg_preis": 17.03,
+          "umsatz": 1247.0,
+          "avg_preis": 17.56,
           "tickets_7d": null,
           "velocity_7d": null,
-          "auslastung_gesamt_pct": 66.3,
-          "auslastung_verkauf_pct": 130.2,
-          "rate_share": 0.2749
+          "auslastung_gesamt_pct": 68.3,
+          "auslastung_verkauf_pct": 134.0,
+          "rate_share": 0.2806
         },
         {
           "platzgruppe": "d",
@@ -11074,7 +11074,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 89.7,
           "auslastung_verkauf_pct": 129.6,
-          "rate_share": 0.2789
+          "rate_share": 0.2767
         },
         {
           "platzgruppe": "e",
@@ -11091,7 +11091,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 109.5,
-          "rate_share": 0.0916
+          "rate_share": 0.0909
         },
         {
           "platzgruppe": "f",
@@ -11108,15 +11108,15 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
-          "rate_share": 0.0359
+          "rate_share": 0.0356
         }
       ],
-      "pg_shift_score": 0.4409,
-      "kanal_hhi": 0.152,
+      "pg_shift_score": 0.4478,
+      "kanal_hhi": 0.1544,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 38.04,
-      "alpha_score_norm": 1.27
+      "alpha_score": 38.2,
+      "alpha_score_norm": 1.25
     },
     {
       "va_nr": 13571,
@@ -11125,31 +11125,31 @@
       "name": "Egal",
       "datum": "2026-04-27",
       "uhrzeit": "20:30",
-      "tickets_gesamt": 62,
-      "tickets_kartenverkauf": 62,
+      "tickets_gesamt": 68,
+      "tickets_kartenverkauf": 68,
       "stornos": 0,
-      "umsatz_gesamt": 1306.0,
-      "avg_preis": 21.06,
+      "umsatz_gesamt": 1456.0,
+      "avg_preis": 21.41,
       "kapazitaet": 98,
       "frei_verkaufbar": 59,
       "kontingente": 39,
       "reserviert": 9,
       "freie_plaetze": 0,
       "pending": 0,
-      "auslastung_gesamt_pct": 63.3,
-      "auslastung_verkauf_pct": 105.1,
+      "auslastung_gesamt_pct": 69.4,
+      "auslastung_verkauf_pct": 115.3,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 62.7,
-        "ci_lower_90_pct": 54.8,
-        "ci_upper_90_pct": 70.4
+        "auslastung_forecast_pct": 68.6,
+        "ci_lower_90_pct": 60.9,
+        "ci_upper_90_pct": 75.9
       },
-      "tickets_1d": 10,
-      "tickets_3d": 12,
+      "tickets_1d": 16,
+      "tickets_3d": 18,
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -0.57,
-      "velocity_7d_ci_upper": 15.14,
+      "velocity_7d_ci_lower": 1.43,
+      "velocity_7d_ci_upper": 16.57,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -11157,28 +11157,28 @@
       "platzgruppen": [
         {
           "platzgruppe": "a",
-          "verkauft": 62,
+          "verkauft": 68,
           "reserviert": 9,
           "kontingente": 39,
           "kapazitaet": 98,
           "frei_verkaufbar": 59,
           "freie_plaetze": 0,
           "pending": 0,
-          "umsatz": 1306.0,
-          "avg_preis": 21.06,
+          "umsatz": 1456.0,
+          "avg_preis": 21.41,
           "tickets_7d": null,
           "velocity_7d": null,
-          "auslastung_gesamt_pct": 63.3,
-          "auslastung_verkauf_pct": 105.1,
+          "auslastung_gesamt_pct": 69.4,
+          "auslastung_verkauf_pct": 115.3,
           "rate_share": 1.0
         }
       ],
       "pg_shift_score": 0.0,
-      "kanal_hhi": 0.1909,
+      "kanal_hhi": 0.1994,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 29.12,
-      "alpha_score_norm": 0.97
+      "alpha_score": 37.41,
+      "alpha_score_norm": 1.23
     },
     {
       "va_nr": 13572,
@@ -11187,31 +11187,31 @@
       "name": "Egal",
       "datum": "2026-04-28",
       "uhrzeit": "20:30",
-      "tickets_gesamt": 60,
-      "tickets_kartenverkauf": 60,
+      "tickets_gesamt": 66,
+      "tickets_kartenverkauf": 66,
       "stornos": 0,
-      "umsatz_gesamt": 1324.0,
-      "avg_preis": 22.07,
+      "umsatz_gesamt": 1474.0,
+      "avg_preis": 22.33,
       "kapazitaet": 98,
       "frei_verkaufbar": 48,
       "kontingente": 50,
       "reserviert": 1,
       "freie_plaetze": 0,
       "pending": 0,
-      "auslastung_gesamt_pct": 61.2,
-      "auslastung_verkauf_pct": 125.0,
+      "auslastung_gesamt_pct": 67.3,
+      "auslastung_verkauf_pct": 137.5,
       "auslastung_forecast": {
-        "auslastung_forecast_pct": 60.8,
-        "ci_lower_90_pct": 52.7,
-        "ci_upper_90_pct": 68.6
+        "auslastung_forecast_pct": 66.7,
+        "ci_lower_90_pct": 58.8,
+        "ci_upper_90_pct": 74.1
       },
-      "tickets_1d": 3,
-      "tickets_3d": 13,
+      "tickets_1d": 9,
+      "tickets_3d": 19,
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -0.14,
-      "velocity_7d_ci_upper": 14.43,
+      "velocity_7d_ci_lower": 2.86,
+      "velocity_7d_ci_upper": 15.57,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -11219,28 +11219,28 @@
       "platzgruppen": [
         {
           "platzgruppe": "a",
-          "verkauft": 60,
+          "verkauft": 66,
           "reserviert": 1,
           "kontingente": 50,
           "kapazitaet": 98,
           "frei_verkaufbar": 48,
           "freie_plaetze": 0,
           "pending": 0,
-          "umsatz": 1324.0,
-          "avg_preis": 22.07,
+          "umsatz": 1474.0,
+          "avg_preis": 22.33,
           "tickets_7d": null,
           "velocity_7d": null,
-          "auslastung_gesamt_pct": 61.2,
-          "auslastung_verkauf_pct": 125.0,
+          "auslastung_gesamt_pct": 67.3,
+          "auslastung_verkauf_pct": 137.5,
           "rate_share": 1.0
         }
       ],
       "pg_shift_score": 0.0,
-      "kanal_hhi": 0.2044,
+      "kanal_hhi": 0.2268,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": 36.06,
-      "alpha_score_norm": 1.2
+      "alpha_score": 46.04,
+      "alpha_score_norm": 1.51
     },
     {
       "va_nr": 13574,
@@ -11386,8 +11386,8 @@
       "kanal_hhi": 0.2747,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -23.44,
-      "alpha_score_norm": -0.78
+      "alpha_score": -24.44,
+      "alpha_score_norm": -0.8
     },
     {
       "va_nr": 13575,
@@ -11533,8 +11533,8 @@
       "kanal_hhi": 0.3515,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -31.04,
-      "alpha_score_norm": -1.04
+      "alpha_score": -29.96,
+      "alpha_score_norm": -0.98
     },
     {
       "va_nr": 13619,
@@ -11680,8 +11680,8 @@
       "kanal_hhi": 0.3333,
       "velocity_zscore": null,
       "alert_level": null,
-      "alpha_score": -62.32,
-      "alpha_score_norm": -2.08
+      "alpha_score": -62.41,
+      "alpha_score_norm": -2.05
     }
   ],
   "produktionen": [
@@ -11745,38 +11745,38 @@
     {
       "produktionsnummer": 1341,
       "name": "Bluets",
-      "tickets_kartenverkauf": 550,
+      "tickets_kartenverkauf": 555,
       "kontingente": 584,
-      "umsatz_gesamt": 11597.2,
-      "avg_preis": 21.09,
+      "umsatz_gesamt": 11716.2,
+      "avg_preis": 21.11,
       "velocity_7d_avg": null,
       "velocity_7d_median": null,
-      "pg_shift_score_avg": 0.5716,
-      "kanal_hhi_avg": 0.1741,
+      "pg_shift_score_avg": 0.5639,
+      "kanal_hhi_avg": 0.1744,
       "anzahl_veranstaltungen": 4,
       "kapazitaet_gesamt": 1716,
-      "auslastung_pct": 48.6,
-      "tickets_1d": 33,
-      "tickets_3d": 86,
+      "auslastung_pct": 49.0,
+      "tickets_1d": 38,
+      "tickets_3d": 91,
       "tickets_7d": null,
       "tickets_30d": null
     },
     {
       "produktionsnummer": 1333,
       "name": "Call me Paris",
-      "tickets_kartenverkauf": 662,
+      "tickets_kartenverkauf": 664,
       "kontingente": 608,
-      "umsatz_gesamt": 13444.8,
-      "avg_preis": 20.31,
+      "umsatz_gesamt": 13498.8,
+      "avg_preis": 20.33,
       "velocity_7d_avg": 3.1,
       "velocity_7d_median": 3.29,
-      "pg_shift_score_avg": 0.664,
-      "kanal_hhi_avg": 0.2886,
+      "pg_shift_score_avg": 0.6594,
+      "kanal_hhi_avg": 0.2901,
       "anzahl_veranstaltungen": 7,
       "kapazitaet_gesamt": 1939,
-      "auslastung_pct": 49.7,
-      "tickets_1d": 24,
-      "tickets_3d": 50,
+      "auslastung_pct": 49.9,
+      "tickets_1d": 26,
+      "tickets_3d": 52,
       "tickets_7d": 65,
       "tickets_30d": 315
     },
@@ -11802,40 +11802,40 @@
     {
       "produktionsnummer": 1350,
       "name": "Der Geizige",
-      "tickets_kartenverkauf": 1845,
+      "tickets_kartenverkauf": 1851,
       "kontingente": 1559,
-      "umsatz_gesamt": 85994.25,
-      "avg_preis": 46.61,
-      "velocity_7d_avg": 14.14,
-      "velocity_7d_median": 14.14,
-      "pg_shift_score_avg": 0.399,
-      "kanal_hhi_avg": 0.1835,
+      "umsatz_gesamt": 86150.25,
+      "avg_preis": 46.54,
+      "velocity_7d_avg": 14.43,
+      "velocity_7d_median": 14.43,
+      "pg_shift_score_avg": 0.4007,
+      "kanal_hhi_avg": 0.1834,
       "anzahl_veranstaltungen": 9,
       "kapazitaet_gesamt": 3549,
-      "auslastung_pct": 92.7,
-      "tickets_1d": 58,
-      "tickets_3d": 229,
-      "tickets_7d": 99,
+      "auslastung_pct": 93.0,
+      "tickets_1d": 64,
+      "tickets_3d": 235,
+      "tickets_7d": 101,
       "tickets_30d": null
     },
     {
       "produktionsnummer": 1330,
       "name": "Die Seherin",
-      "tickets_kartenverkauf": 704,
+      "tickets_kartenverkauf": 713,
       "kontingente": 710,
-      "umsatz_gesamt": 16838.1,
-      "avg_preis": 23.92,
-      "velocity_7d_avg": 3.48,
-      "velocity_7d_median": 3.57,
+      "umsatz_gesamt": 17043.1,
+      "avg_preis": 23.9,
+      "velocity_7d_avg": 3.9,
+      "velocity_7d_median": 4.14,
       "pg_shift_score_avg": 0.5345,
-      "kanal_hhi_avg": 0.2463,
+      "kanal_hhi_avg": 0.2456,
       "anzahl_veranstaltungen": 7,
       "kapazitaet_gesamt": 1942,
-      "auslastung_pct": 57.1,
-      "tickets_1d": 28,
-      "tickets_3d": 72,
-      "tickets_7d": 73,
-      "tickets_30d": 364
+      "auslastung_pct": 57.9,
+      "tickets_1d": 37,
+      "tickets_3d": 81,
+      "tickets_7d": 82,
+      "tickets_30d": 373
     },
     {
       "produktionsnummer": 1329,
@@ -11859,59 +11859,59 @@
     {
       "produktionsnummer": 1338,
       "name": "Egal",
-      "tickets_kartenverkauf": 1164,
+      "tickets_kartenverkauf": 1201,
       "kontingente": 549,
-      "umsatz_gesamt": 23700.0,
-      "avg_preis": 20.36,
-      "velocity_7d_avg": 0.74,
+      "umsatz_gesamt": 24556.0,
+      "avg_preis": 20.45,
+      "velocity_7d_avg": 0.81,
       "velocity_7d_median": 1.0,
       "pg_shift_score_avg": 0.0877,
-      "kanal_hhi_avg": 0.2292,
+      "kanal_hhi_avg": 0.2309,
       "anzahl_veranstaltungen": 16,
       "kapazitaet_gesamt": 1568,
-      "auslastung_pct": 114.2,
-      "tickets_1d": 89,
-      "tickets_3d": 186,
-      "tickets_7d": 31,
-      "tickets_30d": 112
+      "auslastung_pct": 117.9,
+      "tickets_1d": 126,
+      "tickets_3d": 223,
+      "tickets_7d": 34,
+      "tickets_30d": 115
     },
     {
       "produktionsnummer": 1192,
       "name": "Erinnerung eines Mädchens",
-      "tickets_kartenverkauf": 412,
+      "tickets_kartenverkauf": 413,
       "kontingente": 140,
-      "umsatz_gesamt": 7108.0,
-      "avg_preis": 17.25,
-      "velocity_7d_avg": 2.76,
-      "velocity_7d_median": 2.57,
-      "pg_shift_score_avg": 0.311,
-      "kanal_hhi_avg": 0.2266,
+      "umsatz_gesamt": 7111.0,
+      "avg_preis": 17.22,
+      "velocity_7d_avg": 2.81,
+      "velocity_7d_median": 2.71,
+      "pg_shift_score_avg": 0.3095,
+      "kanal_hhi_avg": 0.2254,
       "anzahl_veranstaltungen": 3,
       "kapazitaet_gesamt": 831,
-      "auslastung_pct": 59.6,
-      "tickets_1d": 9,
-      "tickets_3d": 28,
-      "tickets_7d": 58,
-      "tickets_30d": 277
+      "auslastung_pct": 59.8,
+      "tickets_1d": 10,
+      "tickets_3d": 29,
+      "tickets_7d": 59,
+      "tickets_30d": 278
     },
     {
       "produktionsnummer": 1307,
       "name": "Ex",
-      "tickets_kartenverkauf": 737,
+      "tickets_kartenverkauf": 743,
       "kontingente": 28,
-      "umsatz_gesamt": 21398.6,
-      "avg_preis": 29.03,
-      "velocity_7d_avg": 8.19,
-      "velocity_7d_median": 8.14,
-      "pg_shift_score_avg": 0.29,
-      "kanal_hhi_avg": 0.1927,
+      "umsatz_gesamt": 21542.6,
+      "avg_preis": 28.99,
+      "velocity_7d_avg": 8.48,
+      "velocity_7d_median": 8.86,
+      "pg_shift_score_avg": 0.2919,
+      "kanal_hhi_avg": 0.191,
       "anzahl_veranstaltungen": 3,
       "kapazitaet_gesamt": 828,
-      "auslastung_pct": 92.1,
-      "tickets_1d": 25,
-      "tickets_3d": 62,
-      "tickets_7d": 172,
-      "tickets_30d": 545
+      "auslastung_pct": 92.9,
+      "tickets_1d": 31,
+      "tickets_3d": 68,
+      "tickets_7d": 178,
+      "tickets_30d": 551
     },
     {
       "produktionsnummer": 1249,
@@ -11954,40 +11954,40 @@
     {
       "produktionsnummer": 1348,
       "name": "Needles and Opium",
-      "tickets_kartenverkauf": 704,
+      "tickets_kartenverkauf": 707,
       "kontingente": 553,
-      "umsatz_gesamt": 16980.3,
-      "avg_preis": 24.12,
+      "umsatz_gesamt": 17088.3,
+      "avg_preis": 24.17,
       "velocity_7d_avg": null,
       "velocity_7d_median": null,
-      "pg_shift_score_avg": 0.5145,
-      "kanal_hhi_avg": 0.152,
+      "pg_shift_score_avg": 0.5175,
+      "kanal_hhi_avg": 0.1532,
       "anzahl_veranstaltungen": 3,
       "kapazitaet_gesamt": 1140,
-      "auslastung_pct": 119.9,
-      "tickets_1d": 33,
-      "tickets_3d": 119,
+      "auslastung_pct": 120.4,
+      "tickets_1d": 36,
+      "tickets_3d": 122,
       "tickets_7d": null,
       "tickets_30d": null
     },
     {
       "produktionsnummer": 1132,
       "name": "Orlando",
-      "tickets_kartenverkauf": 1311,
+      "tickets_kartenverkauf": 1324,
       "kontingente": 162,
-      "umsatz_gesamt": 31409.6,
-      "avg_preis": 23.96,
-      "velocity_7d_avg": 13.19,
-      "velocity_7d_median": 13.86,
-      "pg_shift_score_avg": 0.469,
-      "kanal_hhi_avg": 0.2009,
+      "umsatz_gesamt": 31704.6,
+      "avg_preis": 23.95,
+      "velocity_7d_avg": 13.52,
+      "velocity_7d_median": 14.0,
+      "pg_shift_score_avg": 0.4555,
+      "kanal_hhi_avg": 0.2025,
       "anzahl_veranstaltungen": 6,
       "kapazitaet_gesamt": 2563,
-      "auslastung_pct": 54.6,
-      "tickets_1d": 75,
-      "tickets_3d": 194,
-      "tickets_7d": 277,
-      "tickets_30d": 791
+      "auslastung_pct": 55.1,
+      "tickets_1d": 88,
+      "tickets_3d": 207,
+      "tickets_7d": 284,
+      "tickets_30d": 798
     },
     {
       "produktionsnummer": 1349,
@@ -12011,59 +12011,59 @@
     {
       "produktionsnummer": 1318,
       "name": "Paradiesische Zustände",
-      "tickets_kartenverkauf": 160,
+      "tickets_kartenverkauf": 167,
       "kontingente": 54,
-      "umsatz_gesamt": 2536.0,
-      "avg_preis": 15.85,
-      "velocity_7d_avg": 2.86,
-      "velocity_7d_median": 2.86,
+      "umsatz_gesamt": 2654.0,
+      "avg_preis": 15.89,
+      "velocity_7d_avg": 3.36,
+      "velocity_7d_median": 3.36,
       "pg_shift_score_avg": 0.0,
-      "kanal_hhi_avg": 0.3388,
+      "kanal_hhi_avg": 0.3445,
       "anzahl_veranstaltungen": 4,
       "kapazitaet_gesamt": 411,
-      "auslastung_pct": 44.8,
-      "tickets_1d": 5,
-      "tickets_3d": 30,
-      "tickets_7d": 40,
-      "tickets_30d": 120
+      "auslastung_pct": 46.8,
+      "tickets_1d": 12,
+      "tickets_3d": 37,
+      "tickets_7d": 47,
+      "tickets_30d": 127
     },
     {
       "produktionsnummer": 1336,
       "name": "Sabotage",
-      "tickets_kartenverkauf": 1443,
+      "tickets_kartenverkauf": 1446,
       "kontingente": 466,
-      "umsatz_gesamt": 37917.4,
-      "avg_preis": 26.28,
-      "velocity_7d_avg": 4.63,
-      "velocity_7d_median": 4.57,
-      "pg_shift_score_avg": 0.4261,
-      "kanal_hhi_avg": 0.1334,
+      "umsatz_gesamt": 37942.4,
+      "avg_preis": 26.24,
+      "velocity_7d_avg": 4.71,
+      "velocity_7d_median": 4.86,
+      "pg_shift_score_avg": 0.4227,
+      "kanal_hhi_avg": 0.1332,
       "anzahl_veranstaltungen": 5,
       "kapazitaet_gesamt": 2180,
-      "auslastung_pct": 84.2,
-      "tickets_1d": 28,
-      "tickets_3d": 66,
-      "tickets_7d": 162,
-      "tickets_30d": 795
+      "auslastung_pct": 84.4,
+      "tickets_1d": 31,
+      "tickets_3d": 69,
+      "tickets_7d": 165,
+      "tickets_30d": 798
     },
     {
       "produktionsnummer": 1340,
       "name": "Salome",
-      "tickets_kartenverkauf": 2112,
+      "tickets_kartenverkauf": 2114,
       "kontingente": 31,
-      "umsatz_gesamt": 68660.4,
+      "umsatz_gesamt": 68720.4,
       "avg_preis": 32.51,
-      "velocity_7d_avg": 1.37,
-      "velocity_7d_median": 0.86,
-      "pg_shift_score_avg": 0.3833,
-      "kanal_hhi_avg": 0.1495,
+      "velocity_7d_avg": 1.43,
+      "velocity_7d_median": 1.0,
+      "pg_shift_score_avg": 0.382,
+      "kanal_hhi_avg": 0.1493,
       "anzahl_veranstaltungen": 5,
       "kapazitaet_gesamt": 2180,
-      "auslastung_pct": 98.3,
-      "tickets_1d": 3,
-      "tickets_3d": 12,
-      "tickets_7d": 48,
-      "tickets_30d": 1436
+      "auslastung_pct": 98.4,
+      "tickets_1d": 5,
+      "tickets_3d": 14,
+      "tickets_7d": 50,
+      "tickets_30d": 1438
     },
     {
       "produktionsnummer": 1345,
@@ -12087,21 +12087,21 @@
     {
       "produktionsnummer": 700,
       "name": "Streitraum",
-      "tickets_kartenverkauf": 416,
+      "tickets_kartenverkauf": 417,
       "kontingente": 128,
-      "umsatz_gesamt": 3475.6,
-      "avg_preis": 8.35,
-      "velocity_7d_avg": 3.29,
-      "velocity_7d_median": 3.29,
+      "umsatz_gesamt": 3484.6,
+      "avg_preis": 8.36,
+      "velocity_7d_avg": 3.43,
+      "velocity_7d_median": 3.43,
       "pg_shift_score_avg": 0.0,
-      "kanal_hhi_avg": 0.2646,
+      "kanal_hhi_avg": 0.2653,
       "anzahl_veranstaltungen": 2,
       "kapazitaet_gesamt": 692,
-      "auslastung_pct": 73.8,
-      "tickets_1d": 26,
-      "tickets_3d": 70,
-      "tickets_7d": 23,
-      "tickets_30d": 71
+      "auslastung_pct": 73.9,
+      "tickets_1d": 27,
+      "tickets_3d": 71,
+      "tickets_7d": 24,
+      "tickets_30d": 72
     },
     {
       "produktionsnummer": 1250,
@@ -12343,9 +12343,9 @@
     },
     {
       "datum": "2026-03-05",
-      "tagesverkauf": 535,
+      "tagesverkauf": 630,
       "ersterfassung": 0,
-      "kumuliert": 15168,
+      "kumuliert": 15263,
       "tage_zwischen": 1
     }
   ],
@@ -12390,7 +12390,7 @@
       "produktion": "Streitraum",
       "verkaufsart": "Normalpreis (Web)",
       "verkaufsartnummer": 480,
-      "anzahl": 184
+      "anzahl": 185
     },
     {
       "produktionsnummer": 700,
@@ -12446,7 +12446,7 @@
       "produktion": "Orlando",
       "verkaufsart": "24€ Rush Sale 10-14Uhr",
       "verkaufsartnummer": 5261,
-      "anzahl": 4
+      "anzahl": 6
     },
     {
       "produktionsnummer": 1132,
@@ -12461,6 +12461,13 @@
       "verkaufsart": "Arbeitslos (Web) Kat. 3-5",
       "verkaufsartnummer": 985,
       "anzahl": 5
+    },
+    {
+      "produktionsnummer": 1132,
+      "produktion": "Orlando",
+      "verkaufsart": "Arbeitslos/Sozialhilfe",
+      "verkaufsartnummer": 433,
+      "anzahl": 2
     },
     {
       "produktionsnummer": 1132,
@@ -12516,7 +12523,7 @@
       "produktion": "Orlando",
       "verkaufsart": "Normalpreis (Web)",
       "verkaufsartnummer": 480,
-      "anzahl": 359
+      "anzahl": 362
     },
     {
       "produktionsnummer": 1132,
@@ -12607,7 +12614,7 @@
       "produktion": "Orlando",
       "verkaufsart": "Starterpreis 2026",
       "verkaufsartnummer": 4001,
-      "anzahl": 170
+      "anzahl": 172
     },
     {
       "produktionsnummer": 1132,
@@ -12663,7 +12670,7 @@
       "produktion": "Orlando",
       "verkaufsart": "Studierende (Web) Kat. 1-5",
       "verkaufsartnummer": 883,
-      "anzahl": 185
+      "anzahl": 186
     },
     {
       "produktionsnummer": 1132,
@@ -12691,7 +12698,7 @@
       "produktion": "Orlando",
       "verkaufsart": "Vollpreis (App)",
       "verkaufsartnummer": 770,
-      "anzahl": 112
+      "anzahl": 115
     },
     {
       "produktionsnummer": 1132,
@@ -12747,7 +12754,7 @@
       "produktion": "Erinnerung eines Mädchens",
       "verkaufsart": "Berlin-Pass/Geflüchtete",
       "verkaufsartnummer": 435,
-      "anzahl": 1
+      "anzahl": 2
     },
     {
       "produktionsnummer": 1192,
@@ -13230,7 +13237,7 @@
       "produktion": "Ex",
       "verkaufsart": "Normalpreis",
       "verkaufsartnummer": 401,
-      "anzahl": 26
+      "anzahl": 28
     },
     {
       "produktionsnummer": 1307,
@@ -13342,7 +13349,7 @@
       "produktion": "Ex",
       "verkaufsart": "Studierende (Web) Kat. 1-5",
       "verkaufsartnummer": 883,
-      "anzahl": 58
+      "anzahl": 62
     },
     {
       "produktionsnummer": 1307,
@@ -13419,7 +13426,7 @@
       "produktion": "Paradiesische Zustände",
       "verkaufsart": "Normalpreis (Web)",
       "verkaufsartnummer": 480,
-      "anzahl": 78
+      "anzahl": 83
     },
     {
       "produktionsnummer": 1318,
@@ -13433,7 +13440,7 @@
       "produktion": "Paradiesische Zustände",
       "verkaufsart": "Schüler (Web) Kat. 1-5",
       "verkaufsartnummer": 884,
-      "anzahl": 2
+      "anzahl": 3
     },
     {
       "produktionsnummer": 1318,
@@ -13461,7 +13468,7 @@
       "produktion": "Paradiesische Zustände",
       "verkaufsart": "Studierende (Web) Kat. 1-5",
       "verkaufsartnummer": 883,
-      "anzahl": 30
+      "anzahl": 31
     },
     {
       "produktionsnummer": 1318,
@@ -13704,6 +13711,13 @@
     {
       "produktionsnummer": 1330,
       "produktion": "Die Seherin",
+      "verkaufsart": "Arbeitslos/Sozialhilfe",
+      "verkaufsartnummer": 433,
+      "anzahl": 2
+    },
+    {
+      "produktionsnummer": 1330,
+      "produktion": "Die Seherin",
       "verkaufsart": "Begleitkarte",
       "verkaufsartnummer": 486,
       "anzahl": 1
@@ -13734,7 +13748,7 @@
       "produktion": "Die Seherin",
       "verkaufsart": "Normalpreis",
       "verkaufsartnummer": 401,
-      "anzahl": 23
+      "anzahl": 24
     },
     {
       "produktionsnummer": 1330,
@@ -13748,7 +13762,7 @@
       "produktion": "Die Seherin",
       "verkaufsart": "Normalpreis (Web)",
       "verkaufsartnummer": 480,
-      "anzahl": 246
+      "anzahl": 248
     },
     {
       "produktionsnummer": 1330,
@@ -13881,14 +13895,14 @@
       "produktion": "Die Seherin",
       "verkaufsart": "Teamkarte",
       "verkaufsartnummer": 506,
-      "anzahl": 9
+      "anzahl": 11
     },
     {
       "produktionsnummer": 1330,
       "produktion": "Die Seherin",
       "verkaufsart": "Vollpreis (App)",
       "verkaufsartnummer": 770,
-      "anzahl": 72
+      "anzahl": 74
     },
     {
       "produktionsnummer": 1330,
@@ -13965,7 +13979,7 @@
       "produktion": "Call me Paris",
       "verkaufsart": "Normalpreis (Web)",
       "verkaufsartnummer": 480,
-      "anzahl": 283
+      "anzahl": 285
     },
     {
       "produktionsnummer": 1333,
@@ -14210,7 +14224,7 @@
       "produktion": "Sabotage",
       "verkaufsart": "Normalpreis (Web)",
       "verkaufsartnummer": 480,
-      "anzahl": 400
+      "anzahl": 401
     },
     {
       "produktionsnummer": 1336,
@@ -14357,7 +14371,7 @@
       "produktion": "Sabotage",
       "verkaufsart": "Studierende (Web) Kat. 1-5",
       "verkaufsartnummer": 883,
-      "anzahl": 49
+      "anzahl": 51
     },
     {
       "produktionsnummer": 1336,
@@ -14504,7 +14518,7 @@
       "produktion": "Egal",
       "verkaufsart": "Normalpreis (Web)",
       "verkaufsartnummer": 480,
-      "anzahl": 289
+      "anzahl": 299
     },
     {
       "produktionsnummer": 1338,
@@ -14581,14 +14595,14 @@
       "produktion": "Egal",
       "verkaufsart": "Studierende (App) Kat. 1-5",
       "verkaufsartnummer": 771,
-      "anzahl": 3
+      "anzahl": 5
     },
     {
       "produktionsnummer": 1338,
       "produktion": "Egal",
       "verkaufsart": "Studierende (App) Kat. 3-5",
       "verkaufsartnummer": 775,
-      "anzahl": 47
+      "anzahl": 49
     },
     {
       "produktionsnummer": 1338,
@@ -14637,7 +14651,7 @@
       "produktion": "Egal",
       "verkaufsart": "Vollpreis (App)",
       "verkaufsartnummer": 770,
-      "anzahl": 238
+      "anzahl": 261
     },
     {
       "produktionsnummer": 1338,
@@ -14700,7 +14714,7 @@
       "produktion": "Salome",
       "verkaufsart": "Begleitung SB/Rollst.",
       "verkaufsartnummer": 625,
-      "anzahl": 16
+      "anzahl": 17
     },
     {
       "produktionsnummer": 1340,
@@ -14826,7 +14840,7 @@
       "produktion": "Salome",
       "verkaufsart": "Schwerbehindert Web",
       "verkaufsartnummer": 623,
-      "anzahl": 51
+      "anzahl": 52
     },
     {
       "produktionsnummer": 1340,
@@ -15050,7 +15064,7 @@
       "produktion": "Bluets",
       "verkaufsart": "Normalpreis (Web)",
       "verkaufsartnummer": 480,
-      "anzahl": 163
+      "anzahl": 166
     },
     {
       "produktionsnummer": 1341,
@@ -15141,7 +15155,7 @@
       "produktion": "Bluets",
       "verkaufsart": "Teamkarte",
       "verkaufsartnummer": 506,
-      "anzahl": 4
+      "anzahl": 6
     },
     {
       "produktionsnummer": 1341,
@@ -16093,7 +16107,7 @@
       "produktion": "Needles and Opium",
       "verkaufsart": "Normalpreis (Web)",
       "verkaufsartnummer": 480,
-      "anzahl": 216
+      "anzahl": 219
     },
     {
       "produktionsnummer": 1348,
@@ -16331,7 +16345,7 @@
       "produktion": "Der Geizige",
       "verkaufsart": "Normalpreis",
       "verkaufsartnummer": 401,
-      "anzahl": 475
+      "anzahl": 478
     },
     {
       "produktionsnummer": 1350,
@@ -16401,7 +16415,7 @@
       "produktion": "Der Geizige",
       "verkaufsart": "Studierende",
       "verkaufsartnummer": 403,
-      "anzahl": 20
+      "anzahl": 23
     },
     {
       "produktionsnummer": 1350,
@@ -16490,15 +16504,15 @@
   ],
   "vvk_warnungen": [],
   "validierung": [
-    "Abweichungen Auslastung vs. Gesamt-Export: 248 von 401 Kombinationen",
-    "  Davon durch Kontingente erklaert: -19",
-    "  Unerklaert (|diff| > 5): 267",
+    "Abweichungen Auslastung vs. Gesamt-Export: 253 von 401 Kombinationen",
+    "  Davon durch Kontingente erklaert: -15",
+    "  Unerklaert (|diff| > 5): 268",
     "    VA 13483 PG a: Auslastung=104, Gesamt=108, Kont=4, Unerklaert=-8",
     "    VA 13483 PG b: Auslastung=100, Gesamt=107, Kont=2, Unerklaert=-9",
-    "    VA 13508 PG b: Auslastung=63, Gesamt=86, Kont=0, Unerklaert=-23",
-    "    VA 13508 PG c: Auslastung=99, Gesamt=114, Kont=0, Unerklaert=-15",
+    "    VA 13508 PG b: Auslastung=63, Gesamt=84, Kont=0, Unerklaert=-21",
+    "    VA 13508 PG c: Auslastung=99, Gesamt=115, Kont=0, Unerklaert=-16",
     "    VA 13508 PG d: Auslastung=92, Gesamt=94, Kont=4, Unerklaert=-6",
-    "    VA 13509 PG b: Auslastung=80, Gesamt=96, Kont=0, Unerklaert=-16",
+    "    VA 13509 PG b: Auslastung=80, Gesamt=97, Kont=0, Unerklaert=-17",
     "    VA 13509 PG c: Auslastung=98, Gesamt=113, Kont=4, Unerklaert=-19",
     "    VA 13509 PG d: Auslastung=66, Gesamt=87, Kont=30, Unerklaert=-51",
     "    VA 13510 PG a: Auslastung=45, Gesamt=49, Kont=2, Unerklaert=-6",

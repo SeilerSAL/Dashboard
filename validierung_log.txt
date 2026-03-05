@@ -1,19 +1,19 @@
-Validierungslog — 2026-03-05 17:34
+Validierungslog — 2026-03-05 17:38
 ============================================================
 
 VVK-WARNUNGEN:
   Keine Auffaelligkeiten
 
 VALIDIERUNG (Auslastung vs. Gesamt-Export):
-  Abweichungen Auslastung vs. Gesamt-Export: 248 von 401 Kombinationen
-    Davon durch Kontingente erklaert: -19
-    Unerklaert (|diff| > 5): 267
+  Abweichungen Auslastung vs. Gesamt-Export: 253 von 401 Kombinationen
+    Davon durch Kontingente erklaert: -15
+    Unerklaert (|diff| > 5): 268
       VA 13483 PG a: Auslastung=104, Gesamt=108, Kont=4, Unerklaert=-8
       VA 13483 PG b: Auslastung=100, Gesamt=107, Kont=2, Unerklaert=-9
-      VA 13508 PG b: Auslastung=63, Gesamt=86, Kont=0, Unerklaert=-23
-      VA 13508 PG c: Auslastung=99, Gesamt=114, Kont=0, Unerklaert=-15
+      VA 13508 PG b: Auslastung=63, Gesamt=84, Kont=0, Unerklaert=-21
+      VA 13508 PG c: Auslastung=99, Gesamt=115, Kont=0, Unerklaert=-16
       VA 13508 PG d: Auslastung=92, Gesamt=94, Kont=4, Unerklaert=-6
-      VA 13509 PG b: Auslastung=80, Gesamt=96, Kont=0, Unerklaert=-16
+      VA 13509 PG b: Auslastung=80, Gesamt=97, Kont=0, Unerklaert=-17
       VA 13509 PG c: Auslastung=98, Gesamt=113, Kont=4, Unerklaert=-19
       VA 13509 PG d: Auslastung=66, Gesamt=87, Kont=30, Unerklaert=-51
       VA 13510 PG a: Auslastung=45, Gesamt=49, Kont=2, Unerklaert=-6
