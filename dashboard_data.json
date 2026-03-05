@@ -1,6 +1,6 @@
 {
   "meta": {
-    "erstellt": "2026-03-05T21:06:33.972264",
+    "erstellt": "2026-03-05T21:37:41.436988",
     "aktuellster_snapshot": "2026-03-05",
     "anzahl_snapshots": 33,
     "snapshot_zeitraum": "2026-02-01 bis 2026-03-05",
@@ -41,6 +41,7 @@
       "pending": 10,
       "auslastung_gesamt_pct": 99.7,
       "auslastung_verkauf_pct": 101.3,
+      "auslastung_effektiv_pct": 99.7,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 99.2,
         "ci_lower_90_pct": 98.4,
@@ -51,8 +52,8 @@
       "tickets_7d": 26,
       "tickets_30d": 157,
       "velocity_7d": 3.71,
-      "velocity_7d_ci_lower": 3.97,
-      "velocity_7d_ci_upper": 8.12,
+      "velocity_7d_ci_lower": 4.09,
+      "velocity_7d_ci_upper": 8.09,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -73,6 +74,7 @@
           "velocity_7d": 0.71,
           "auslastung_gesamt_pct": 102.8,
           "auslastung_verkauf_pct": 106.7,
+          "auslastung_effektiv_pct": 102.8,
           "rate_share": 0.2824
         },
         {
@@ -90,6 +92,7 @@
           "velocity_7d": 2.43,
           "auslastung_gesamt_pct": 100.9,
           "auslastung_verkauf_pct": 102.8,
+          "auslastung_effektiv_pct": 100.9,
           "rate_share": 0.2799
         },
         {
@@ -107,6 +110,7 @@
           "velocity_7d": 0.43,
           "auslastung_gesamt_pct": 94.9,
           "auslastung_verkauf_pct": 94.9,
+          "auslastung_effektiv_pct": 94.9,
           "rate_share": 0.1883
         },
         {
@@ -124,6 +128,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 96.3,
           "auslastung_verkauf_pct": 96.3,
+          "auslastung_effektiv_pct": 96.3,
           "rate_share": 0.1323
         },
         {
@@ -141,6 +146,7 @@
           "velocity_7d": 0.14,
           "auslastung_gesamt_pct": 102.9,
           "auslastung_verkauf_pct": 102.9,
+          "auslastung_effektiv_pct": 102.9,
           "rate_share": 0.0916
         },
         {
@@ -158,6 +164,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0254
         }
       ],
@@ -188,6 +195,7 @@
       "pending": 22,
       "auslastung_gesamt_pct": 92.7,
       "auslastung_verkauf_pct": 93.6,
+      "auslastung_effektiv_pct": 92.7,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 92.3,
         "ci_lower_90_pct": 90.1,
@@ -198,8 +206,8 @@
       "tickets_7d": 98,
       "tickets_30d": 282,
       "velocity_7d": 14.0,
-      "velocity_7d_ci_lower": 8.12,
-      "velocity_7d_ci_upper": 13.47,
+      "velocity_7d_ci_lower": 8.03,
+      "velocity_7d_ci_upper": 13.75,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -220,6 +228,7 @@
           "velocity_7d": 2.0,
           "auslastung_gesamt_pct": 89.3,
           "auslastung_verkauf_pct": 89.3,
+          "auslastung_effektiv_pct": 89.3,
           "rate_share": 0.1692
         },
         {
@@ -237,6 +246,7 @@
           "velocity_7d": 7.43,
           "auslastung_gesamt_pct": 82.7,
           "auslastung_verkauf_pct": 82.7,
+          "auslastung_effektiv_pct": 82.7,
           "rate_share": 0.2172
         },
         {
@@ -254,6 +264,7 @@
           "velocity_7d": 4.29,
           "auslastung_gesamt_pct": 99.2,
           "auslastung_verkauf_pct": 99.2,
+          "auslastung_effektiv_pct": 99.2,
           "rate_share": 0.2955
         },
         {
@@ -271,6 +282,7 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 95.9,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 95.9,
           "rate_share": 0.2374
         },
         {
@@ -288,6 +300,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.053
         },
         {
@@ -305,6 +318,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0278
         }
       ],
@@ -335,6 +349,7 @@
       "pending": 5,
       "auslastung_gesamt_pct": 97.8,
       "auslastung_verkauf_pct": 100.0,
+      "auslastung_effektiv_pct": 97.8,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 97.1,
         "ci_lower_90_pct": 95.3,
@@ -345,8 +360,8 @@
       "tickets_7d": 65,
       "tickets_30d": 208,
       "velocity_7d": 9.29,
-      "velocity_7d_ci_lower": 5.41,
-      "velocity_7d_ci_upper": 10.56,
+      "velocity_7d_ci_lower": 5.34,
+      "velocity_7d_ci_upper": 10.5,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -367,6 +382,7 @@
           "velocity_7d": 1.57,
           "auslastung_gesamt_pct": 97.9,
           "auslastung_verkauf_pct": 102.2,
+          "auslastung_effektiv_pct": 97.9,
           "rate_share": 0.1741
         },
         {
@@ -384,6 +400,7 @@
           "velocity_7d": 4.29,
           "auslastung_gesamt_pct": 94.8,
           "auslastung_verkauf_pct": 94.8,
+          "auslastung_effektiv_pct": 94.8,
           "rate_share": 0.2037
         },
         {
@@ -401,6 +418,7 @@
           "velocity_7d": 2.71,
           "auslastung_gesamt_pct": 93.1,
           "auslastung_verkauf_pct": 96.4,
+          "auslastung_effektiv_pct": 93.1,
           "rate_share": 0.2
         },
         {
@@ -418,6 +436,7 @@
           "velocity_7d": 0.71,
           "auslastung_gesamt_pct": 103.1,
           "auslastung_verkauf_pct": 106.3,
+          "auslastung_effektiv_pct": 103.1,
           "rate_share": 0.2481
         },
         {
@@ -435,6 +454,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.1296
         },
         {
@@ -452,6 +472,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0444
         }
       ],
@@ -482,6 +503,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 94.9,
       "auslastung_verkauf_pct": 98.9,
+      "auslastung_effektiv_pct": 94.9,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 93.2,
         "ci_lower_90_pct": 88.7,
@@ -492,8 +514,8 @@
       "tickets_7d": 27,
       "tickets_30d": 85,
       "velocity_7d": 3.86,
-      "velocity_7d_ci_lower": 2.09,
-      "velocity_7d_ci_upper": 3.56,
+      "velocity_7d_ci_lower": 2.16,
+      "velocity_7d_ci_upper": 3.62,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -514,6 +536,7 @@
           "velocity_7d": 3.86,
           "auslastung_gesamt_pct": 94.9,
           "auslastung_verkauf_pct": 98.9,
+          "auslastung_effektiv_pct": 94.9,
           "rate_share": 1.0
         }
       ],
@@ -544,6 +567,7 @@
       "pending": 25,
       "auslastung_gesamt_pct": 89.5,
       "auslastung_verkauf_pct": 97.2,
+      "auslastung_effektiv_pct": 89.5,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 89.1,
         "ci_lower_90_pct": 86.6,
@@ -554,8 +578,8 @@
       "tickets_7d": 115,
       "tickets_30d": 289,
       "velocity_7d": 16.43,
-      "velocity_7d_ci_lower": 7.88,
-      "velocity_7d_ci_upper": 14.22,
+      "velocity_7d_ci_lower": 7.91,
+      "velocity_7d_ci_upper": 14.16,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -576,6 +600,7 @@
           "velocity_7d": 1.14,
           "auslastung_gesamt_pct": 70.7,
           "auslastung_verkauf_pct": 70.7,
+          "auslastung_effektiv_pct": 70.7,
           "rate_share": 0.1384
         },
         {
@@ -593,6 +618,7 @@
           "velocity_7d": 5.14,
           "auslastung_gesamt_pct": 93.3,
           "auslastung_verkauf_pct": 93.3,
+          "auslastung_effektiv_pct": 93.3,
           "rate_share": 0.2533
         },
         {
@@ -610,6 +636,7 @@
           "velocity_7d": 6.29,
           "auslastung_gesamt_pct": 96.6,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 96.6,
           "rate_share": 0.2977
         },
         {
@@ -627,6 +654,7 @@
           "velocity_7d": 3.86,
           "auslastung_gesamt_pct": 87.9,
           "auslastung_verkauf_pct": 126.1,
+          "auslastung_effektiv_pct": 87.9,
           "rate_share": 0.2272
         },
         {
@@ -644,6 +672,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0548
         },
         {
@@ -661,6 +690,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0287
         }
       ],
@@ -691,6 +721,7 @@
       "pending": 4,
       "auslastung_gesamt_pct": 90.2,
       "auslastung_verkauf_pct": 94.3,
+      "auslastung_effektiv_pct": 90.2,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 89.6,
         "ci_lower_90_pct": 86.5,
@@ -701,8 +732,8 @@
       "tickets_7d": 62,
       "tickets_30d": 177,
       "velocity_7d": 8.86,
-      "velocity_7d_ci_lower": 4.66,
-      "velocity_7d_ci_upper": 9.47,
+      "velocity_7d_ci_lower": 4.59,
+      "velocity_7d_ci_upper": 9.34,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -723,6 +754,7 @@
           "velocity_7d": 2.29,
           "auslastung_gesamt_pct": 95.8,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 95.8,
           "rate_share": 0.1847
         },
         {
@@ -740,6 +772,7 @@
           "velocity_7d": 2.71,
           "auslastung_gesamt_pct": 75.9,
           "auslastung_verkauf_pct": 81.5,
+          "auslastung_effektiv_pct": 75.9,
           "rate_share": 0.1767
         },
         {
@@ -757,6 +790,7 @@
           "velocity_7d": 2.43,
           "auslastung_gesamt_pct": 87.9,
           "auslastung_verkauf_pct": 92.7,
+          "auslastung_effektiv_pct": 87.9,
           "rate_share": 0.2048
         },
         {
@@ -774,6 +808,7 @@
           "velocity_7d": 1.29,
           "auslastung_gesamt_pct": 93.8,
           "auslastung_verkauf_pct": 98.4,
+          "auslastung_effektiv_pct": 93.8,
           "rate_share": 0.245
         },
         {
@@ -791,6 +826,7 @@
           "velocity_7d": 0.14,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.1406
         },
         {
@@ -808,6 +844,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0482
         }
       ],
@@ -838,6 +875,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 51.0,
       "auslastung_verkauf_pct": 54.3,
+      "auslastung_effektiv_pct": 51.0,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 51.0,
         "ci_lower_90_pct": 42.9,
@@ -849,7 +887,7 @@
       "tickets_30d": 42,
       "velocity_7d": 2.86,
       "velocity_7d_ci_lower": 0.91,
-      "velocity_7d_ci_upper": 1.88,
+      "velocity_7d_ci_upper": 1.94,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -870,6 +908,7 @@
           "velocity_7d": 2.86,
           "auslastung_gesamt_pct": 51.0,
           "auslastung_verkauf_pct": 54.3,
+          "auslastung_effektiv_pct": 51.0,
           "rate_share": 1.0
         }
       ],
@@ -900,6 +939,7 @@
       "pending": 23,
       "auslastung_gesamt_pct": 77.8,
       "auslastung_verkauf_pct": 79.6,
+      "auslastung_effektiv_pct": 77.8,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 77.5,
         "ci_lower_90_pct": 74.1,
@@ -910,7 +950,7 @@
       "tickets_7d": 71,
       "tickets_30d": 227,
       "velocity_7d": 10.14,
-      "velocity_7d_ci_lower": 6.44,
+      "velocity_7d_ci_lower": 6.47,
       "velocity_7d_ci_upper": 12.0,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
@@ -932,6 +972,7 @@
           "velocity_7d": 0.86,
           "auslastung_gesamt_pct": 66.7,
           "auslastung_verkauf_pct": 68.5,
+          "auslastung_effektiv_pct": 66.7,
           "rate_share": 0.1506
         },
         {
@@ -949,6 +990,7 @@
           "velocity_7d": 3.29,
           "auslastung_gesamt_pct": 58.7,
           "auslastung_verkauf_pct": 59.8,
+          "auslastung_effektiv_pct": 58.7,
           "rate_share": 0.1837
         },
         {
@@ -966,6 +1008,7 @@
           "velocity_7d": 5.14,
           "auslastung_gesamt_pct": 80.5,
           "auslastung_verkauf_pct": 81.9,
+          "auslastung_effektiv_pct": 80.5,
           "rate_share": 0.2861
         },
         {
@@ -983,6 +1026,7 @@
           "velocity_7d": 0.86,
           "auslastung_gesamt_pct": 95.9,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 95.9,
           "rate_share": 0.2831
         },
         {
@@ -1000,6 +1044,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0633
         },
         {
@@ -1017,6 +1062,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0331
         }
       ],
@@ -1047,6 +1093,7 @@
       "pending": 15,
       "auslastung_gesamt_pct": 81.2,
       "auslastung_verkauf_pct": 84.2,
+      "auslastung_effektiv_pct": 81.2,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 80.7,
         "ci_lower_90_pct": 76.7,
@@ -1057,8 +1104,8 @@
       "tickets_7d": 51,
       "tickets_30d": 166,
       "velocity_7d": 7.29,
-      "velocity_7d_ci_lower": 4.44,
-      "velocity_7d_ci_upper": 8.47,
+      "velocity_7d_ci_lower": 4.5,
+      "velocity_7d_ci_upper": 8.28,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -1079,6 +1126,7 @@
           "velocity_7d": 1.86,
           "auslastung_gesamt_pct": 87.5,
           "auslastung_verkauf_pct": 91.3,
+          "auslastung_effektiv_pct": 87.5,
           "rate_share": 0.1875
         },
         {
@@ -1096,6 +1144,7 @@
           "velocity_7d": 2.0,
           "auslastung_gesamt_pct": 60.3,
           "auslastung_verkauf_pct": 62.5,
+          "auslastung_effektiv_pct": 60.3,
           "rate_share": 0.1562
         },
         {
@@ -1113,6 +1162,7 @@
           "velocity_7d": 0.86,
           "auslastung_gesamt_pct": 72.4,
           "auslastung_verkauf_pct": 76.4,
+          "auslastung_effektiv_pct": 72.4,
           "rate_share": 0.1875
         },
         {
@@ -1130,6 +1180,7 @@
           "velocity_7d": 1.86,
           "auslastung_gesamt_pct": 89.2,
           "auslastung_verkauf_pct": 93.5,
+          "auslastung_effektiv_pct": 89.2,
           "rate_share": 0.2589
         },
         {
@@ -1147,6 +1198,7 @@
           "velocity_7d": 0.71,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.1562
         },
         {
@@ -1164,6 +1216,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0536
         }
       ],
@@ -1194,6 +1247,7 @@
       "pending": 4,
       "auslastung_gesamt_pct": 88.8,
       "auslastung_verkauf_pct": 99.2,
+      "auslastung_effektiv_pct": 88.8,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 88.3,
         "ci_lower_90_pct": 85.0,
@@ -1204,8 +1258,8 @@
       "tickets_7d": 35,
       "tickets_30d": 142,
       "velocity_7d": 5.0,
-      "velocity_7d_ci_lower": 2.47,
-      "velocity_7d_ci_upper": 10.88,
+      "velocity_7d_ci_lower": 2.66,
+      "velocity_7d_ci_upper": 10.81,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -1226,6 +1280,7 @@
           "velocity_7d": 1.43,
           "auslastung_gesamt_pct": 92.3,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 92.3,
           "rate_share": 0.1943
         },
         {
@@ -1243,6 +1298,7 @@
           "velocity_7d": 1.43,
           "auslastung_gesamt_pct": 81.0,
           "auslastung_verkauf_pct": 86.4,
+          "auslastung_effektiv_pct": 81.0,
           "rate_share": 0.2065
         },
         {
@@ -1260,6 +1316,7 @@
           "velocity_7d": 1.57,
           "auslastung_gesamt_pct": 75.5,
           "auslastung_verkauf_pct": 108.8,
+          "auslastung_effektiv_pct": 75.5,
           "rate_share": 0.1498
         },
         {
@@ -1277,6 +1334,7 @@
           "velocity_7d": 0.57,
           "auslastung_gesamt_pct": 94.4,
           "auslastung_verkauf_pct": 103.1,
+          "auslastung_effektiv_pct": 94.4,
           "rate_share": 0.2713
         },
         {
@@ -1294,6 +1352,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.1417
         },
         {
@@ -1311,6 +1370,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 112.5,
           "auslastung_verkauf_pct": 112.5,
+          "auslastung_effektiv_pct": 112.5,
           "rate_share": 0.0364
         }
       ],
@@ -1341,6 +1401,7 @@
       "pending": 58,
       "auslastung_gesamt_pct": 95.2,
       "auslastung_verkauf_pct": 96.3,
+      "auslastung_effektiv_pct": 95.2,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 94.8,
         "ci_lower_90_pct": 92.9,
@@ -1351,8 +1412,8 @@
       "tickets_7d": 7,
       "tickets_30d": 273,
       "velocity_7d": 1.0,
-      "velocity_7d_ci_lower": 6.22,
-      "velocity_7d_ci_upper": 16.34,
+      "velocity_7d_ci_lower": 6.44,
+      "velocity_7d_ci_upper": 16.38,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -1373,6 +1434,7 @@
           "velocity_7d": 0.57,
           "auslastung_gesamt_pct": 85.0,
           "auslastung_verkauf_pct": 86.1,
+          "auslastung_effektiv_pct": 85.0,
           "rate_share": 0.1639
         },
         {
@@ -1390,6 +1452,7 @@
           "velocity_7d": 0.14,
           "auslastung_gesamt_pct": 94.2,
           "auslastung_verkauf_pct": 94.2,
+          "auslastung_effektiv_pct": 94.2,
           "rate_share": 0.2361
         },
         {
@@ -1407,6 +1470,7 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 98.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 98.0,
           "rate_share": 0.241
         },
         {
@@ -1424,6 +1488,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 95.6,
           "auslastung_verkauf_pct": 97.8,
+          "auslastung_effektiv_pct": 95.6,
           "rate_share": 0.2096
         },
         {
@@ -1441,6 +1506,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 106.1,
           "auslastung_verkauf_pct": 106.1,
+          "auslastung_effektiv_pct": 106.1,
           "rate_share": 0.1253
         },
         {
@@ -1458,6 +1524,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0241
         }
       ],
@@ -1488,6 +1555,7 @@
       "pending": 2,
       "auslastung_gesamt_pct": 63.7,
       "auslastung_verkauf_pct": 79.7,
+      "auslastung_effektiv_pct": 63.7,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 63.5,
         "ci_lower_90_pct": 58.7,
@@ -1498,8 +1566,8 @@
       "tickets_7d": 18,
       "tickets_30d": 118,
       "velocity_7d": 2.57,
-      "velocity_7d_ci_lower": 3.28,
-      "velocity_7d_ci_upper": 6.66,
+      "velocity_7d_ci_lower": 3.38,
+      "velocity_7d_ci_upper": 6.84,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -1520,6 +1588,7 @@
           "velocity_7d": 0.57,
           "auslastung_gesamt_pct": 63.5,
           "auslastung_verkauf_pct": 75.0,
+          "auslastung_effektiv_pct": 63.5,
           "rate_share": 0.1864
         },
         {
@@ -1537,6 +1606,7 @@
           "velocity_7d": 0.57,
           "auslastung_gesamt_pct": 46.0,
           "auslastung_verkauf_pct": 64.4,
+          "auslastung_effektiv_pct": 46.0,
           "rate_share": 0.1638
         },
         {
@@ -1554,6 +1624,7 @@
           "velocity_7d": 0.57,
           "auslastung_gesamt_pct": 44.9,
           "auslastung_verkauf_pct": 84.6,
+          "auslastung_effektiv_pct": 44.9,
           "rate_share": 0.1243
         },
         {
@@ -1571,6 +1642,7 @@
           "velocity_7d": 0.86,
           "auslastung_gesamt_pct": 70.4,
           "auslastung_verkauf_pct": 78.1,
+          "auslastung_effektiv_pct": 70.4,
           "rate_share": 0.2825
         },
         {
@@ -1588,6 +1660,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.1977
         },
         {
@@ -1605,6 +1678,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0452
         }
       ],
@@ -1635,6 +1709,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 96.9,
       "auslastung_verkauf_pct": 114.5,
+      "auslastung_effektiv_pct": 96.9,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 95.1,
         "ci_lower_90_pct": 91.2,
@@ -1645,8 +1720,8 @@
       "tickets_7d": 10,
       "tickets_30d": 29,
       "velocity_7d": 1.43,
-      "velocity_7d_ci_lower": 0.69,
-      "velocity_7d_ci_upper": 3.19,
+      "velocity_7d_ci_lower": 0.62,
+      "velocity_7d_ci_upper": 3.12,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -1667,6 +1742,7 @@
           "velocity_7d": 1.43,
           "auslastung_gesamt_pct": 96.1,
           "auslastung_verkauf_pct": 119.4,
+          "auslastung_effektiv_pct": 96.1,
           "rate_share": 0.7789
         },
         {
@@ -1684,6 +1760,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.2211
         }
       ],
@@ -1714,6 +1791,7 @@
       "pending": 55,
       "auslastung_gesamt_pct": 100.2,
       "auslastung_verkauf_pct": 100.9,
+      "auslastung_effektiv_pct": 100.2,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 99.5,
         "ci_lower_90_pct": 98.9,
@@ -1724,8 +1802,8 @@
       "tickets_7d": 6,
       "tickets_30d": 267,
       "velocity_7d": 0.86,
-      "velocity_7d_ci_lower": 4.94,
-      "velocity_7d_ci_upper": 20.22,
+      "velocity_7d_ci_lower": 4.56,
+      "velocity_7d_ci_upper": 19.72,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -1746,6 +1824,7 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 101.2,
           "auslastung_verkauf_pct": 102.4,
+          "auslastung_effektiv_pct": 101.2,
           "rate_share": 0.1945
         },
         {
@@ -1763,6 +1842,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.2288
         },
         {
@@ -1780,6 +1860,7 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 98.0,
           "auslastung_verkauf_pct": 98.0,
+          "auslastung_effektiv_pct": 98.0,
           "rate_share": 0.2288
         },
         {
@@ -1797,6 +1878,7 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 102.2,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.2082
         },
         {
@@ -1814,6 +1896,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 104.1,
           "auslastung_verkauf_pct": 104.1,
+          "auslastung_effektiv_pct": 104.1,
           "rate_share": 0.1167
         },
         {
@@ -1831,6 +1914,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0229
         }
       ],
@@ -1861,6 +1945,7 @@
       "pending": 5,
       "auslastung_gesamt_pct": 59.0,
       "auslastung_verkauf_pct": 66.9,
+      "auslastung_effektiv_pct": 59.0,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 58.9,
         "ci_lower_90_pct": 54.0,
@@ -1871,8 +1956,8 @@
       "tickets_7d": 29,
       "tickets_30d": 113,
       "velocity_7d": 4.14,
-      "velocity_7d_ci_lower": 2.72,
-      "velocity_7d_ci_upper": 6.47,
+      "velocity_7d_ci_lower": 2.75,
+      "velocity_7d_ci_upper": 6.41,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -1893,6 +1978,7 @@
           "velocity_7d": 1.0,
           "auslastung_gesamt_pct": 57.7,
           "auslastung_verkauf_pct": 63.8,
+          "auslastung_effektiv_pct": 57.7,
           "rate_share": 0.1829
         },
         {
@@ -1910,6 +1996,7 @@
           "velocity_7d": 1.14,
           "auslastung_gesamt_pct": 30.2,
           "auslastung_verkauf_pct": 33.9,
+          "auslastung_effektiv_pct": 30.2,
           "rate_share": 0.1159
         },
         {
@@ -1927,6 +2014,7 @@
           "velocity_7d": 0.43,
           "auslastung_gesamt_pct": 42.9,
           "auslastung_verkauf_pct": 61.8,
+          "auslastung_effektiv_pct": 42.9,
           "rate_share": 0.128
         },
         {
@@ -1944,6 +2032,7 @@
           "velocity_7d": 0.86,
           "auslastung_gesamt_pct": 70.4,
           "auslastung_verkauf_pct": 76.9,
+          "auslastung_effektiv_pct": 70.4,
           "rate_share": 0.3049
         },
         {
@@ -1961,6 +2050,7 @@
           "velocity_7d": 0.71,
           "auslastung_gesamt_pct": 102.9,
           "auslastung_verkauf_pct": 102.9,
+          "auslastung_effektiv_pct": 102.9,
           "rate_share": 0.2195
         },
         {
@@ -1978,6 +2068,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0488
         }
       ],
@@ -2008,6 +2099,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 87.8,
       "auslastung_verkauf_pct": 101.2,
+      "auslastung_effektiv_pct": 87.8,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 86.3,
         "ci_lower_90_pct": 80.3,
@@ -2018,8 +2110,8 @@
       "tickets_7d": 7,
       "tickets_30d": 24,
       "velocity_7d": 1.0,
-      "velocity_7d_ci_lower": 0.34,
-      "velocity_7d_ci_upper": 2.62,
+      "velocity_7d_ci_lower": 0.38,
+      "velocity_7d_ci_upper": 2.69,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -2040,6 +2132,7 @@
           "velocity_7d": 1.0,
           "auslastung_gesamt_pct": 84.4,
           "auslastung_verkauf_pct": 101.6,
+          "auslastung_effektiv_pct": 84.4,
           "rate_share": 0.7558
         },
         {
@@ -2057,6 +2150,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.2442
         }
       ],
@@ -2087,6 +2181,7 @@
       "pending": 40,
       "auslastung_gesamt_pct": 98.6,
       "auslastung_verkauf_pct": 101.2,
+      "auslastung_effektiv_pct": 98.6,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 98.2,
         "ci_lower_90_pct": 97.0,
@@ -2097,8 +2192,8 @@
       "tickets_7d": 3,
       "tickets_30d": 285,
       "velocity_7d": 0.43,
-      "velocity_7d_ci_lower": 7.06,
-      "velocity_7d_ci_upper": 17.22,
+      "velocity_7d_ci_lower": 7.16,
+      "velocity_7d_ci_upper": 16.69,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -2119,6 +2214,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 101.2,
           "auslastung_verkauf_pct": 103.7,
+          "auslastung_effektiv_pct": 101.2,
           "rate_share": 0.1977
         },
         {
@@ -2136,6 +2232,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 97.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 97.0,
           "rate_share": 0.2256
         },
         {
@@ -2153,6 +2250,7 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 96.1,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 96.1,
           "rate_share": 0.2279
         },
         {
@@ -2170,6 +2268,7 @@
           "velocity_7d": 0.14,
           "auslastung_gesamt_pct": 97.8,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 97.8,
           "rate_share": 0.207
         },
         {
@@ -2187,6 +2286,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 104.1,
           "auslastung_verkauf_pct": 104.1,
+          "auslastung_effektiv_pct": 104.1,
           "rate_share": 0.1186
         },
         {
@@ -2204,6 +2304,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0233
         }
       ],
@@ -2234,6 +2335,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 91.8,
       "auslastung_verkauf_pct": 105.9,
+      "auslastung_effektiv_pct": 91.8,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 90.2,
         "ci_lower_90_pct": 85.0,
@@ -2244,7 +2346,7 @@
       "tickets_7d": 7,
       "tickets_30d": 22,
       "velocity_7d": 1.0,
-      "velocity_7d_ci_lower": 0.06,
+      "velocity_7d_ci_lower": -0.09,
       "velocity_7d_ci_upper": 3.22,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
@@ -2266,6 +2368,7 @@
           "velocity_7d": 0.71,
           "auslastung_gesamt_pct": 85.7,
           "auslastung_verkauf_pct": 105.3,
+          "auslastung_effektiv_pct": 85.7,
           "rate_share": 0.6667
         },
         {
@@ -2283,6 +2386,7 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 107.1,
           "auslastung_verkauf_pct": 107.1,
+          "auslastung_effektiv_pct": 107.1,
           "rate_share": 0.3333
         }
       ],
@@ -2313,6 +2417,7 @@
       "pending": 75,
       "auslastung_gesamt_pct": 95.0,
       "auslastung_verkauf_pct": 95.8,
+      "auslastung_effektiv_pct": 95.0,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 94.5,
         "ci_lower_90_pct": 92.7,
@@ -2323,8 +2428,8 @@
       "tickets_7d": 7,
       "tickets_30d": 315,
       "velocity_7d": 1.0,
-      "velocity_7d_ci_lower": 6.41,
-      "velocity_7d_ci_upper": 17.91,
+      "velocity_7d_ci_lower": 6.16,
+      "velocity_7d_ci_upper": 17.78,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -2345,6 +2450,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 96.0,
           "auslastung_verkauf_pct": 96.0,
+          "auslastung_effektiv_pct": 96.0,
           "rate_share": 0.1739
         },
         {
@@ -2362,6 +2468,7 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 89.9,
           "auslastung_verkauf_pct": 91.6,
+          "auslastung_effektiv_pct": 89.9,
           "rate_share": 0.2367
         },
         {
@@ -2379,6 +2486,7 @@
           "velocity_7d": 0.43,
           "auslastung_gesamt_pct": 92.2,
           "auslastung_verkauf_pct": 92.2,
+          "auslastung_effektiv_pct": 92.2,
           "rate_share": 0.2295
         },
         {
@@ -2396,6 +2504,7 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 102.3,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.2174
         },
         {
@@ -2413,6 +2522,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.1184
         },
         {
@@ -2430,6 +2540,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0242
         }
       ],
@@ -2460,6 +2571,7 @@
       "pending": 3,
       "auslastung_gesamt_pct": 95.6,
       "auslastung_verkauf_pct": 109.3,
+      "auslastung_effektiv_pct": 95.6,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 94.9,
         "ci_lower_90_pct": 92.5,
@@ -2470,8 +2582,8 @@
       "tickets_7d": 24,
       "tickets_30d": 72,
       "velocity_7d": 3.43,
-      "velocity_7d_ci_lower": 0.03,
-      "velocity_7d_ci_upper": 12.34,
+      "velocity_7d_ci_lower": -0.47,
+      "velocity_7d_ci_upper": 12.31,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -2492,6 +2604,7 @@
           "velocity_7d": 3.43,
           "auslastung_gesamt_pct": 95.6,
           "auslastung_verkauf_pct": 109.3,
+          "auslastung_effektiv_pct": 95.6,
           "rate_share": 1.0
         }
       ],
@@ -2522,6 +2635,7 @@
       "pending": 49,
       "auslastung_gesamt_pct": 95.9,
       "auslastung_verkauf_pct": 97.7,
+      "auslastung_effektiv_pct": 95.9,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 95.5,
         "ci_lower_90_pct": 93.7,
@@ -2532,8 +2646,8 @@
       "tickets_7d": 27,
       "tickets_30d": 298,
       "velocity_7d": 3.86,
-      "velocity_7d_ci_lower": 6.81,
-      "velocity_7d_ci_upper": 16.84,
+      "velocity_7d_ci_lower": 7.34,
+      "velocity_7d_ci_upper": 16.69,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -2554,6 +2668,7 @@
           "velocity_7d": 0.86,
           "auslastung_gesamt_pct": 85.7,
           "auslastung_verkauf_pct": 87.8,
+          "auslastung_effektiv_pct": 85.7,
           "rate_share": 0.1722
         },
         {
@@ -2571,6 +2686,7 @@
           "velocity_7d": 1.57,
           "auslastung_gesamt_pct": 101.0,
           "auslastung_verkauf_pct": 104.1,
+          "auslastung_effektiv_pct": 101.0,
           "rate_share": 0.2416
         },
         {
@@ -2588,6 +2704,7 @@
           "velocity_7d": 1.14,
           "auslastung_gesamt_pct": 94.1,
           "auslastung_verkauf_pct": 94.1,
+          "auslastung_effektiv_pct": 94.1,
           "rate_share": 0.2297
         },
         {
@@ -2605,6 +2722,7 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 98.9,
           "auslastung_verkauf_pct": 102.3,
+          "auslastung_effektiv_pct": 98.9,
           "rate_share": 0.2153
         },
         {
@@ -2622,6 +2740,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.1172
         },
         {
@@ -2639,6 +2758,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0239
         }
       ],
@@ -2669,6 +2789,7 @@
       "pending": 1,
       "auslastung_gesamt_pct": 82.7,
       "auslastung_verkauf_pct": 87.1,
+      "auslastung_effektiv_pct": 82.7,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 82.2,
         "ci_lower_90_pct": 78.3,
@@ -2679,8 +2800,8 @@
       "tickets_7d": 54,
       "tickets_30d": 173,
       "velocity_7d": 7.71,
-      "velocity_7d_ci_lower": 4.03,
-      "velocity_7d_ci_upper": 9.06,
+      "velocity_7d_ci_lower": 4.44,
+      "velocity_7d_ci_upper": 9.0,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -2701,6 +2822,7 @@
           "velocity_7d": 2.0,
           "auslastung_gesamt_pct": 91.0,
           "auslastung_verkauf_pct": 91.0,
+          "auslastung_effektiv_pct": 91.0,
           "rate_share": 0.2664
         },
         {
@@ -2718,6 +2840,7 @@
           "velocity_7d": 2.0,
           "auslastung_gesamt_pct": 74.5,
           "auslastung_verkauf_pct": 92.7,
+          "auslastung_effektiv_pct": 74.5,
           "rate_share": 0.1659
         },
         {
@@ -2735,6 +2858,7 @@
           "velocity_7d": 2.0,
           "auslastung_gesamt_pct": 67.9,
           "auslastung_verkauf_pct": 70.6,
+          "auslastung_effektiv_pct": 67.9,
           "rate_share": 0.1572
         },
         {
@@ -2752,6 +2876,7 @@
           "velocity_7d": 1.71,
           "auslastung_gesamt_pct": 82.1,
           "auslastung_verkauf_pct": 84.6,
+          "auslastung_effektiv_pct": 82.1,
           "rate_share": 0.2402
         },
         {
@@ -2769,6 +2894,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.1354
         },
         {
@@ -2786,6 +2912,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0349
         }
       ],
@@ -2816,6 +2943,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 83.0,
       "auslastung_verkauf_pct": 98.3,
+      "auslastung_effektiv_pct": 83.0,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 82.6,
         "ci_lower_90_pct": 78.7,
@@ -2826,7 +2954,7 @@
       "tickets_7d": 43,
       "tickets_30d": 142,
       "velocity_7d": 6.14,
-      "velocity_7d_ci_lower": 3.09,
+      "velocity_7d_ci_lower": 3.66,
       "velocity_7d_ci_upper": 9.53,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
@@ -2848,6 +2976,7 @@
           "velocity_7d": 2.43,
           "auslastung_gesamt_pct": 88.1,
           "auslastung_verkauf_pct": 111.3,
+          "auslastung_effektiv_pct": 88.1,
           "rate_share": 0.2565
         },
         {
@@ -2865,6 +2994,7 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 62.7,
           "auslastung_verkauf_pct": 84.2,
+          "auslastung_effektiv_pct": 62.7,
           "rate_share": 0.1391
         },
         {
@@ -2882,6 +3012,7 @@
           "velocity_7d": 1.71,
           "auslastung_gesamt_pct": 64.2,
           "auslastung_verkauf_pct": 85.0,
+          "auslastung_effektiv_pct": 64.2,
           "rate_share": 0.1478
         },
         {
@@ -2899,6 +3030,7 @@
           "velocity_7d": 1.71,
           "auslastung_gesamt_pct": 98.5,
           "auslastung_verkauf_pct": 103.1,
+          "auslastung_effektiv_pct": 98.5,
           "rate_share": 0.287
         },
         {
@@ -2916,6 +3048,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.1348
         },
         {
@@ -2933,6 +3066,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0348
         }
       ],
@@ -2963,6 +3097,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 73.1,
       "auslastung_verkauf_pct": 79.8,
+      "auslastung_effektiv_pct": 73.1,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 72.3,
         "ci_lower_90_pct": 65.2,
@@ -2973,8 +3108,8 @@
       "tickets_7d": 26,
       "tickets_30d": 63,
       "velocity_7d": 3.71,
-      "velocity_7d_ci_lower": 1.59,
-      "velocity_7d_ci_upper": 3.0,
+      "velocity_7d_ci_lower": 1.5,
+      "velocity_7d_ci_upper": 2.97,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -2995,6 +3130,7 @@
           "velocity_7d": 3.71,
           "auslastung_gesamt_pct": 73.1,
           "auslastung_verkauf_pct": 79.8,
+          "auslastung_effektiv_pct": 73.1,
           "rate_share": 1.0
         }
       ],
@@ -3025,6 +3161,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 82.4,
       "auslastung_verkauf_pct": 89.9,
+      "auslastung_effektiv_pct": 82.4,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 81.2,
         "ci_lower_90_pct": 74.9,
@@ -3035,7 +3172,7 @@
       "tickets_7d": 20,
       "tickets_30d": 64,
       "velocity_7d": 2.86,
-      "velocity_7d_ci_lower": 1.66,
+      "velocity_7d_ci_lower": 1.59,
       "velocity_7d_ci_upper": 3.31,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
@@ -3057,6 +3194,7 @@
           "velocity_7d": 2.86,
           "auslastung_gesamt_pct": 82.4,
           "auslastung_verkauf_pct": 89.9,
+          "auslastung_effektiv_pct": 82.4,
           "rate_share": 1.0
         }
       ],
@@ -3087,6 +3225,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 88.9,
       "auslastung_verkauf_pct": 95.0,
+      "auslastung_effektiv_pct": 88.9,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 87.5,
         "ci_lower_90_pct": 82.0,
@@ -3097,8 +3236,8 @@
       "tickets_7d": 9,
       "tickets_30d": 50,
       "velocity_7d": 1.29,
-      "velocity_7d_ci_lower": 1.09,
-      "velocity_7d_ci_upper": 3.75,
+      "velocity_7d_ci_lower": 1.0,
+      "velocity_7d_ci_upper": 3.81,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -3119,6 +3258,7 @@
           "velocity_7d": 1.29,
           "auslastung_gesamt_pct": 88.9,
           "auslastung_verkauf_pct": 95.0,
+          "auslastung_effektiv_pct": 88.9,
           "rate_share": 1.0
         }
       ],
@@ -3149,6 +3289,7 @@
       "pending": 5,
       "auslastung_gesamt_pct": 78.7,
       "auslastung_verkauf_pct": 94.2,
+      "auslastung_effektiv_pct": 78.7,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 78.4,
         "ci_lower_90_pct": 75.1,
@@ -3159,8 +3300,8 @@
       "tickets_7d": 26,
       "tickets_30d": 150,
       "velocity_7d": 3.71,
-      "velocity_7d_ci_lower": 2.22,
-      "velocity_7d_ci_upper": 14.12,
+      "velocity_7d_ci_lower": 2.34,
+      "velocity_7d_ci_upper": 14.09,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -3181,6 +3322,7 @@
           "velocity_7d": 1.14,
           "auslastung_gesamt_pct": 64.3,
           "auslastung_verkauf_pct": 77.1,
+          "auslastung_effektiv_pct": 64.3,
           "rate_share": 0.1574
         },
         {
@@ -3198,6 +3340,7 @@
           "velocity_7d": 1.43,
           "auslastung_gesamt_pct": 72.0,
           "auslastung_verkauf_pct": 88.9,
+          "auslastung_effektiv_pct": 72.0,
           "rate_share": 0.2099
         },
         {
@@ -3215,6 +3358,7 @@
           "velocity_7d": 0.71,
           "auslastung_gesamt_pct": 69.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 69.0,
           "rate_share": 0.2012
         },
         {
@@ -3232,6 +3376,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 98.9,
           "auslastung_verkauf_pct": 104.5,
+          "auslastung_effektiv_pct": 98.9,
           "rate_share": 0.2682
         },
         {
@@ -3249,6 +3394,7 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 95.9,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 95.9,
           "rate_share": 0.137
         },
         {
@@ -3266,6 +3412,7 @@
           "velocity_7d": 0.14,
           "auslastung_gesamt_pct": 90.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 90.0,
           "rate_share": 0.0262
         }
       ],
@@ -3296,6 +3443,7 @@
       "pending": 2,
       "auslastung_gesamt_pct": 50.5,
       "auslastung_verkauf_pct": 60.1,
+      "auslastung_effektiv_pct": 50.5,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 50.5,
         "ci_lower_90_pct": 45.6,
@@ -3306,8 +3454,8 @@
       "tickets_7d": 19,
       "tickets_30d": 75,
       "velocity_7d": 2.71,
-      "velocity_7d_ci_lower": 1.66,
-      "velocity_7d_ci_upper": 6.19,
+      "velocity_7d_ci_lower": 1.09,
+      "velocity_7d_ci_upper": 6.22,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -3328,6 +3476,7 @@
           "velocity_7d": 1.43,
           "auslastung_gesamt_pct": 65.1,
           "auslastung_verkauf_pct": 73.7,
+          "auslastung_effektiv_pct": 65.1,
           "rate_share": 0.2
         },
         {
@@ -3345,6 +3494,7 @@
           "velocity_7d": 0.14,
           "auslastung_gesamt_pct": 36.9,
           "auslastung_verkauf_pct": 41.4,
+          "auslastung_effektiv_pct": 36.9,
           "rate_share": 0.1714
         },
         {
@@ -3362,6 +3512,7 @@
           "velocity_7d": 0.86,
           "auslastung_gesamt_pct": 30.2,
           "auslastung_verkauf_pct": 44.2,
+          "auslastung_effektiv_pct": 30.2,
           "rate_share": 0.1357
         },
         {
@@ -3379,6 +3530,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 64.2,
           "auslastung_verkauf_pct": 78.2,
+          "auslastung_effektiv_pct": 64.2,
           "rate_share": 0.3071
         },
         {
@@ -3396,6 +3548,7 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 66.7,
           "auslastung_verkauf_pct": 66.7,
+          "auslastung_effektiv_pct": 66.7,
           "rate_share": 0.1857
         }
       ],
@@ -3426,6 +3579,7 @@
       "pending": 3,
       "auslastung_gesamt_pct": 65.8,
       "auslastung_verkauf_pct": 85.4,
+      "auslastung_effektiv_pct": 65.8,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 65.7,
         "ci_lower_90_pct": 61.9,
@@ -3436,8 +3590,8 @@
       "tickets_7d": 43,
       "tickets_30d": 166,
       "velocity_7d": 6.14,
-      "velocity_7d_ci_lower": 3.03,
-      "velocity_7d_ci_upper": 12.03,
+      "velocity_7d_ci_lower": 3.5,
+      "velocity_7d_ci_upper": 11.88,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -3458,6 +3612,7 @@
           "velocity_7d": 1.86,
           "auslastung_gesamt_pct": 52.4,
           "auslastung_verkauf_pct": 75.9,
+          "auslastung_effektiv_pct": 52.4,
           "rate_share": 0.1533
         },
         {
@@ -3475,6 +3630,7 @@
           "velocity_7d": 1.29,
           "auslastung_gesamt_pct": 35.0,
           "auslastung_verkauf_pct": 47.3,
+          "auslastung_effektiv_pct": 35.0,
           "rate_share": 0.122
         },
         {
@@ -3492,6 +3648,7 @@
           "velocity_7d": 2.43,
           "auslastung_gesamt_pct": 62.0,
           "auslastung_verkauf_pct": 98.4,
+          "auslastung_effektiv_pct": 62.0,
           "rate_share": 0.216
         },
         {
@@ -3509,6 +3666,7 @@
           "velocity_7d": 0.14,
           "auslastung_gesamt_pct": 94.6,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 94.6,
           "rate_share": 0.3066
         },
         {
@@ -3526,6 +3684,7 @@
           "velocity_7d": 0.43,
           "auslastung_gesamt_pct": 102.0,
           "auslastung_verkauf_pct": 111.1,
+          "auslastung_effektiv_pct": 102.0,
           "rate_share": 0.1742
         },
         {
@@ -3543,6 +3702,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 80.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 80.0,
           "rate_share": 0.0279
         }
       ],
@@ -3573,6 +3733,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 37.9,
       "auslastung_verkauf_pct": 45.9,
+      "auslastung_effektiv_pct": 37.9,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 38.1,
         "ci_lower_90_pct": 33.4,
@@ -3583,7 +3744,7 @@
       "tickets_7d": 18,
       "tickets_30d": 74,
       "velocity_7d": 2.57,
-      "velocity_7d_ci_lower": 1.75,
+      "velocity_7d_ci_lower": 1.62,
       "velocity_7d_ci_upper": 4.38,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
@@ -3605,6 +3766,7 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 41.9,
           "auslastung_verkauf_pct": 47.4,
+          "auslastung_effektiv_pct": 41.9,
           "rate_share": 0.1714
         },
         {
@@ -3622,6 +3784,7 @@
           "velocity_7d": 1.43,
           "auslastung_gesamt_pct": 33.8,
           "auslastung_verkauf_pct": 39.3,
+          "auslastung_effektiv_pct": 33.8,
           "rate_share": 0.2095
         },
         {
@@ -3639,6 +3802,7 @@
           "velocity_7d": 0.57,
           "auslastung_gesamt_pct": 25.4,
           "auslastung_verkauf_pct": 37.2,
+          "auslastung_effektiv_pct": 25.4,
           "rate_share": 0.1524
         },
         {
@@ -3656,6 +3820,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 62.7,
           "auslastung_verkauf_pct": 79.2,
+          "auslastung_effektiv_pct": 62.7,
           "rate_share": 0.4
         },
         {
@@ -3673,6 +3838,7 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 17.9,
           "auslastung_verkauf_pct": 17.9,
+          "auslastung_effektiv_pct": 17.9,
           "rate_share": 0.0667
         }
       ],
@@ -3703,6 +3869,7 @@
       "pending": 2,
       "auslastung_gesamt_pct": 59.6,
       "auslastung_verkauf_pct": 76.5,
+      "auslastung_effektiv_pct": 59.6,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 59.5,
         "ci_lower_90_pct": 55.7,
@@ -3713,8 +3880,8 @@
       "tickets_7d": 34,
       "tickets_30d": 159,
       "velocity_7d": 4.86,
-      "velocity_7d_ci_lower": 3.88,
-      "velocity_7d_ci_upper": 10.44,
+      "velocity_7d_ci_lower": 3.5,
+      "velocity_7d_ci_upper": 10.19,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -3735,6 +3902,7 @@
           "velocity_7d": 1.29,
           "auslastung_gesamt_pct": 35.7,
           "auslastung_verkauf_pct": 51.7,
+          "auslastung_effektiv_pct": 35.7,
           "rate_share": 0.1154
         },
         {
@@ -3752,6 +3920,7 @@
           "velocity_7d": 0.86,
           "auslastung_gesamt_pct": 30.0,
           "auslastung_verkauf_pct": 39.5,
+          "auslastung_effektiv_pct": 30.0,
           "rate_share": 0.1154
         },
         {
@@ -3769,6 +3938,7 @@
           "velocity_7d": 2.0,
           "auslastung_gesamt_pct": 57.0,
           "auslastung_verkauf_pct": 87.7,
+          "auslastung_effektiv_pct": 57.0,
           "rate_share": 0.2192
         },
         {
@@ -3786,6 +3956,7 @@
           "velocity_7d": 0.43,
           "auslastung_gesamt_pct": 96.8,
           "auslastung_verkauf_pct": 102.3,
+          "auslastung_effektiv_pct": 96.8,
           "rate_share": 0.3462
         },
         {
@@ -3803,6 +3974,7 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 91.8,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 91.8,
           "rate_share": 0.1731
         },
         {
@@ -3820,6 +3992,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 80.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 80.0,
           "rate_share": 0.0308
         }
       ],
@@ -3850,6 +4023,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 60.6,
       "auslastung_verkauf_pct": 73.4,
+      "auslastung_effektiv_pct": 60.6,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 60.5,
         "ci_lower_90_pct": 55.7,
@@ -3860,8 +4034,8 @@
       "tickets_7d": 22,
       "tickets_30d": 129,
       "velocity_7d": 3.14,
-      "velocity_7d_ci_lower": 1.12,
-      "velocity_7d_ci_upper": 7.72,
+      "velocity_7d_ci_lower": 0.97,
+      "velocity_7d_ci_upper": 7.91,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -3882,6 +4056,7 @@
           "velocity_7d": 1.29,
           "auslastung_gesamt_pct": 72.1,
           "auslastung_verkauf_pct": 81.6,
+          "auslastung_effektiv_pct": 72.1,
           "rate_share": 0.1845
         },
         {
@@ -3899,6 +4074,7 @@
           "velocity_7d": 0.57,
           "auslastung_gesamt_pct": 41.5,
           "auslastung_verkauf_pct": 48.2,
+          "auslastung_effektiv_pct": 41.5,
           "rate_share": 0.1607
         },
         {
@@ -3916,6 +4092,7 @@
           "velocity_7d": 0.86,
           "auslastung_gesamt_pct": 28.6,
           "auslastung_verkauf_pct": 41.9,
+          "auslastung_effektiv_pct": 28.6,
           "rate_share": 0.1071
         },
         {
@@ -3933,6 +4110,7 @@
           "velocity_7d": 0.14,
           "auslastung_gesamt_pct": 79.1,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 79.1,
           "rate_share": 0.3155
         },
         {
@@ -3950,6 +4128,7 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.2321
         }
       ],
@@ -3980,6 +4159,7 @@
       "pending": 3,
       "auslastung_gesamt_pct": 59.4,
       "auslastung_verkauf_pct": 77.1,
+      "auslastung_effektiv_pct": 59.4,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 59.3,
         "ci_lower_90_pct": 55.4,
@@ -3990,8 +4170,8 @@
       "tickets_7d": 27,
       "tickets_30d": 167,
       "velocity_7d": 3.86,
-      "velocity_7d_ci_lower": 4.34,
-      "velocity_7d_ci_upper": 11.25,
+      "velocity_7d_ci_lower": 3.62,
+      "velocity_7d_ci_upper": 11.03,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -4012,6 +4192,7 @@
           "velocity_7d": 0.86,
           "auslastung_gesamt_pct": 41.7,
           "auslastung_verkauf_pct": 60.3,
+          "auslastung_effektiv_pct": 41.7,
           "rate_share": 0.1351
         },
         {
@@ -4029,6 +4210,7 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 22.0,
           "auslastung_verkauf_pct": 29.7,
+          "auslastung_effektiv_pct": 22.0,
           "rate_share": 0.0849
         },
         {
@@ -4046,6 +4228,7 @@
           "velocity_7d": 2.43,
           "auslastung_gesamt_pct": 60.0,
           "auslastung_verkauf_pct": 95.2,
+          "auslastung_effektiv_pct": 60.0,
           "rate_share": 0.2317
         },
         {
@@ -4063,6 +4246,7 @@
           "velocity_7d": 0.14,
           "auslastung_gesamt_pct": 94.6,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 94.6,
           "rate_share": 0.3398
         },
         {
@@ -4080,6 +4264,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 91.8,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 91.8,
           "rate_share": 0.1737
         },
         {
@@ -4097,6 +4282,7 @@
           "velocity_7d": 0.14,
           "auslastung_gesamt_pct": 90.0,
           "auslastung_verkauf_pct": 112.5,
+          "auslastung_effektiv_pct": 90.0,
           "rate_share": 0.0347
         }
       ],
@@ -4127,6 +4313,7 @@
       "pending": 2,
       "auslastung_gesamt_pct": 68.1,
       "auslastung_verkauf_pct": 87.9,
+      "auslastung_effektiv_pct": 68.1,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 68.0,
         "ci_lower_90_pct": 64.3,
@@ -4137,8 +4324,8 @@
       "tickets_7d": 35,
       "tickets_30d": 156,
       "velocity_7d": 5.0,
-      "velocity_7d_ci_lower": 2.59,
-      "velocity_7d_ci_upper": 13.03,
+      "velocity_7d_ci_lower": 1.84,
+      "velocity_7d_ci_upper": 13.0,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -4159,6 +4346,7 @@
           "velocity_7d": 1.0,
           "auslastung_gesamt_pct": 41.7,
           "auslastung_verkauf_pct": 60.3,
+          "auslastung_effektiv_pct": 41.7,
           "rate_share": 0.1178
         },
         {
@@ -4176,6 +4364,7 @@
           "velocity_7d": 1.86,
           "auslastung_gesamt_pct": 57.0,
           "auslastung_verkauf_pct": 77.0,
+          "auslastung_effektiv_pct": 57.0,
           "rate_share": 0.1919
         },
         {
@@ -4193,6 +4382,7 @@
           "velocity_7d": 1.86,
           "auslastung_gesamt_pct": 62.0,
           "auslastung_verkauf_pct": 98.4,
+          "auslastung_effektiv_pct": 62.0,
           "rate_share": 0.2088
         },
         {
@@ -4210,6 +4400,7 @@
           "velocity_7d": 0.14,
           "auslastung_gesamt_pct": 94.6,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 94.6,
           "rate_share": 0.2963
         },
         {
@@ -4227,6 +4418,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 91.8,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 91.8,
           "rate_share": 0.1515
         },
         {
@@ -4244,6 +4436,7 @@
           "velocity_7d": 0.14,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0337
         }
       ],
@@ -4274,6 +4467,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 82.7,
       "auslastung_verkauf_pct": 100.0,
+      "auslastung_effektiv_pct": 82.7,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 81.4,
         "ci_lower_90_pct": 74.7,
@@ -4284,7 +4478,7 @@
       "tickets_7d": 0,
       "tickets_30d": 8,
       "velocity_7d": 0.0,
-      "velocity_7d_ci_lower": -1.69,
+      "velocity_7d_ci_lower": -0.19,
       "velocity_7d_ci_upper": 4.31,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
@@ -4306,6 +4500,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 82.7,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 82.7,
           "rate_share": 1.0
         }
       ],
@@ -4336,6 +4531,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 65.3,
       "auslastung_verkauf_pct": 86.6,
+      "auslastung_effektiv_pct": 65.3,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 65.1,
         "ci_lower_90_pct": 60.4,
@@ -4346,8 +4542,8 @@
       "tickets_7d": 17,
       "tickets_30d": 121,
       "velocity_7d": 2.43,
-      "velocity_7d_ci_lower": 2.75,
-      "velocity_7d_ci_upper": 7.12,
+      "velocity_7d_ci_lower": 2.88,
+      "velocity_7d_ci_upper": 7.19,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -4368,6 +4564,7 @@
           "velocity_7d": 1.0,
           "auslastung_gesamt_pct": 56.0,
           "auslastung_verkauf_pct": 84.8,
+          "auslastung_effektiv_pct": 56.0,
           "rate_share": 0.1547
         },
         {
@@ -4385,6 +4582,7 @@
           "velocity_7d": 0.43,
           "auslastung_gesamt_pct": 34.0,
           "auslastung_verkauf_pct": 39.5,
+          "auslastung_effektiv_pct": 34.0,
           "rate_share": 0.0939
         },
         {
@@ -4402,6 +4600,7 @@
           "velocity_7d": 0.43,
           "auslastung_gesamt_pct": 56.7,
           "auslastung_verkauf_pct": 102.7,
+          "auslastung_effektiv_pct": 56.7,
           "rate_share": 0.2099
         },
         {
@@ -4419,6 +4618,7 @@
           "velocity_7d": 0.43,
           "auslastung_gesamt_pct": 80.3,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 80.3,
           "rate_share": 0.3149
         },
         {
@@ -4436,6 +4636,7 @@
           "velocity_7d": 0.14,
           "auslastung_gesamt_pct": 107.4,
           "auslastung_verkauf_pct": 107.4,
+          "auslastung_effektiv_pct": 107.4,
           "rate_share": 0.1602
         },
         {
@@ -4453,6 +4654,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0663
         }
       ],
@@ -4483,6 +4685,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 87.8,
       "auslastung_verkauf_pct": 100.0,
+      "auslastung_effektiv_pct": 87.8,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 86.3,
         "ci_lower_90_pct": 80.3,
@@ -4493,8 +4696,8 @@
       "tickets_7d": 0,
       "tickets_30d": 10,
       "velocity_7d": 0.0,
-      "velocity_7d_ci_lower": -1.41,
-      "velocity_7d_ci_upper": 4.59,
+      "velocity_7d_ci_lower": -1.5,
+      "velocity_7d_ci_upper": 4.56,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -4515,6 +4718,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 87.8,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 87.8,
           "rate_share": 1.0
         }
       ],
@@ -4545,6 +4749,7 @@
       "pending": 1,
       "auslastung_gesamt_pct": 49.8,
       "auslastung_verkauf_pct": 63.6,
+      "auslastung_effektiv_pct": 49.8,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 49.8,
         "ci_lower_90_pct": 44.9,
@@ -4555,8 +4760,8 @@
       "tickets_7d": 25,
       "tickets_30d": 88,
       "velocity_7d": 3.57,
-      "velocity_7d_ci_lower": 2.31,
-      "velocity_7d_ci_upper": 5.44,
+      "velocity_7d_ci_lower": 2.47,
+      "velocity_7d_ci_upper": 5.38,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -4577,6 +4782,7 @@
           "velocity_7d": 1.86,
           "auslastung_gesamt_pct": 42.0,
           "auslastung_verkauf_pct": 63.6,
+          "auslastung_effektiv_pct": 42.0,
           "rate_share": 0.1522
         },
         {
@@ -4594,6 +4800,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 14.0,
           "auslastung_verkauf_pct": 16.3,
+          "auslastung_effektiv_pct": 14.0,
           "rate_share": 0.0507
         },
         {
@@ -4611,6 +4818,7 @@
           "velocity_7d": 0.14,
           "auslastung_gesamt_pct": 35.8,
           "auslastung_verkauf_pct": 54.5,
+          "auslastung_effektiv_pct": 35.8,
           "rate_share": 0.1739
         },
         {
@@ -4628,6 +4836,7 @@
           "velocity_7d": 1.14,
           "auslastung_gesamt_pct": 69.0,
           "auslastung_verkauf_pct": 84.5,
+          "auslastung_effektiv_pct": 69.0,
           "rate_share": 0.3551
         },
         {
@@ -4645,6 +4854,7 @@
           "velocity_7d": 0.43,
           "auslastung_gesamt_pct": 92.6,
           "auslastung_verkauf_pct": 92.6,
+          "auslastung_effektiv_pct": 92.6,
           "rate_share": 0.1812
         },
         {
@@ -4662,6 +4872,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.087
         }
       ],
@@ -4692,6 +4903,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 92.9,
       "auslastung_verkauf_pct": 113.8,
+      "auslastung_effektiv_pct": 92.9,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 91.2,
         "ci_lower_90_pct": 86.2,
@@ -4702,8 +4914,8 @@
       "tickets_7d": 10,
       "tickets_30d": 22,
       "velocity_7d": 1.43,
-      "velocity_7d_ci_lower": -1.12,
-      "velocity_7d_ci_upper": 4.91,
+      "velocity_7d_ci_lower": -1.25,
+      "velocity_7d_ci_upper": 4.88,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -4724,6 +4936,7 @@
           "velocity_7d": 1.43,
           "auslastung_gesamt_pct": 92.9,
           "auslastung_verkauf_pct": 113.8,
+          "auslastung_effektiv_pct": 92.9,
           "rate_share": 1.0
         }
       ],
@@ -4754,6 +4967,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 72.2,
       "auslastung_verkauf_pct": 87.3,
+      "auslastung_effektiv_pct": 72.2,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 71.9,
         "ci_lower_90_pct": 67.4,
@@ -4764,8 +4978,8 @@
       "tickets_7d": 23,
       "tickets_30d": 106,
       "velocity_7d": 3.29,
-      "velocity_7d_ci_lower": 1.25,
-      "velocity_7d_ci_upper": 8.56,
+      "velocity_7d_ci_lower": 1.53,
+      "velocity_7d_ci_upper": 8.53,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -4786,6 +5000,7 @@
           "velocity_7d": 0.29,
           "auslastung_gesamt_pct": 66.0,
           "auslastung_verkauf_pct": 76.7,
+          "auslastung_effektiv_pct": 66.0,
           "rate_share": 0.165
         },
         {
@@ -4803,6 +5018,7 @@
           "velocity_7d": 1.43,
           "auslastung_gesamt_pct": 54.0,
           "auslastung_verkauf_pct": 62.8,
+          "auslastung_effektiv_pct": 54.0,
           "rate_share": 0.135
         },
         {
@@ -4820,6 +5036,7 @@
           "velocity_7d": 1.14,
           "auslastung_gesamt_pct": 65.7,
           "auslastung_verkauf_pct": 93.6,
+          "auslastung_effektiv_pct": 65.7,
           "rate_share": 0.22
         },
         {
@@ -4837,6 +5054,7 @@
           "velocity_7d": 0.43,
           "auslastung_gesamt_pct": 80.3,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 80.3,
           "rate_share": 0.285
         },
         {
@@ -4854,6 +5072,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.135
         },
         {
@@ -4871,6 +5090,7 @@
           "velocity_7d": 0.0,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.06
         }
       ],
@@ -4901,6 +5121,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 25.7,
       "auslastung_verkauf_pct": 92.7,
+      "auslastung_effektiv_pct": 25.7,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 25.9,
         "ci_lower_90_pct": 22.4,
@@ -4911,8 +5132,8 @@
       "tickets_7d": 101,
       "tickets_30d": null,
       "velocity_7d": 14.43,
-      "velocity_7d_ci_lower": 3.25,
-      "velocity_7d_ci_upper": 21.25,
+      "velocity_7d_ci_lower": 3.0,
+      "velocity_7d_ci_upper": 21.12,
       "vvk_start": "2026-02-26",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -4933,6 +5154,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 23.4,
           "auslastung_verkauf_pct": 93.5,
+          "auslastung_effektiv_pct": 23.4,
           "rate_share": 0.2843
         },
         {
@@ -4950,6 +5172,7 @@
           "velocity_7d": 2.57,
           "auslastung_gesamt_pct": 39.6,
           "auslastung_verkauf_pct": 95.0,
+          "auslastung_effektiv_pct": 39.6,
           "rate_share": 0.1863
         },
         {
@@ -4967,6 +5190,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 39.5,
           "auslastung_verkauf_pct": 88.2,
+          "auslastung_effektiv_pct": 39.5,
           "rate_share": 0.2941
         },
         {
@@ -4984,6 +5208,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 24.4,
           "auslastung_verkauf_pct": 105.6,
+          "auslastung_effektiv_pct": 24.4,
           "rate_share": 0.1863
         },
         {
@@ -5001,6 +5226,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 6.5,
           "auslastung_verkauf_pct": 80.0,
+          "auslastung_effektiv_pct": 6.5,
           "rate_share": 0.0392
         },
         {
@@ -5018,6 +5244,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 11.1,
           "auslastung_verkauf_pct": 50.0,
+          "auslastung_effektiv_pct": 11.1,
           "rate_share": 0.0098
         }
       ],
@@ -5048,6 +5275,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 15.5,
       "auslastung_verkauf_pct": 25.4,
+      "auslastung_effektiv_pct": 15.5,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 16.0,
         "ci_lower_90_pct": 12.6,
@@ -5080,6 +5308,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 14.0,
           "auslastung_verkauf_pct": 36.8,
+          "auslastung_effektiv_pct": 14.0,
           "rate_share": 0.1628
         },
         {
@@ -5097,6 +5326,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 12.0,
           "auslastung_verkauf_pct": 31.6,
+          "auslastung_effektiv_pct": 12.0,
           "rate_share": 0.1395
         },
         {
@@ -5114,6 +5344,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 23.9,
           "auslastung_verkauf_pct": 45.7,
+          "auslastung_effektiv_pct": 23.9,
           "rate_share": 0.3721
         },
         {
@@ -5131,6 +5362,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 2.8,
           "auslastung_verkauf_pct": 3.5,
+          "auslastung_effektiv_pct": 2.8,
           "rate_share": 0.0465
         },
         {
@@ -5148,6 +5380,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 40.7,
           "auslastung_verkauf_pct": 40.7,
+          "auslastung_effektiv_pct": 40.7,
           "rate_share": 0.2558
         },
         {
@@ -5165,6 +5398,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 8.3,
           "auslastung_verkauf_pct": 8.3,
+          "auslastung_effektiv_pct": 8.3,
           "rate_share": 0.0233
         }
       ],
@@ -5195,6 +5429,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 66.2,
       "auslastung_verkauf_pct": 100.8,
+      "auslastung_effektiv_pct": 66.2,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 66.1,
         "ci_lower_90_pct": 62.1,
@@ -5205,8 +5440,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 11.43,
-      "velocity_7d_ci_upper": 61.57,
+      "velocity_7d_ci_lower": 10.86,
+      "velocity_7d_ci_upper": 63.57,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -5227,6 +5462,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 43.5,
           "auslastung_verkauf_pct": 90.0,
+          "auslastung_effektiv_pct": 43.5,
           "rate_share": 0.2069
         },
         {
@@ -5244,6 +5480,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 68.8,
           "auslastung_verkauf_pct": 122.2,
+          "auslastung_effektiv_pct": 68.8,
           "rate_share": 0.1264
         },
         {
@@ -5261,6 +5498,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 59.2,
           "auslastung_verkauf_pct": 112.5,
+          "auslastung_effektiv_pct": 59.2,
           "rate_share": 0.1724
         },
         {
@@ -5278,6 +5516,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 84.6,
           "auslastung_verkauf_pct": 103.1,
+          "auslastung_effektiv_pct": 84.6,
           "rate_share": 0.2529
         },
         {
@@ -5295,6 +5534,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 91.5,
           "auslastung_verkauf_pct": 91.5,
+          "auslastung_effektiv_pct": 91.5,
           "rate_share": 0.2069
         },
         {
@@ -5312,6 +5552,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0345
         }
       ],
@@ -5342,6 +5583,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 2.9,
       "auslastung_verkauf_pct": 4.7,
+      "auslastung_effektiv_pct": 2.9,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 3.6,
         "ci_lower_90_pct": 2.0,
@@ -5374,6 +5616,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 10.0,
           "auslastung_verkauf_pct": 26.3,
+          "auslastung_effektiv_pct": 10.0,
           "rate_share": 0.625
         },
         {
@@ -5391,6 +5634,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 0.0,
           "auslastung_verkauf_pct": 0.0,
+          "auslastung_effektiv_pct": 0.0,
           "rate_share": 0.0
         },
         {
@@ -5408,6 +5652,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 1.5,
           "auslastung_verkauf_pct": 2.9,
+          "auslastung_effektiv_pct": 1.5,
           "rate_share": 0.125
         },
         {
@@ -5425,6 +5670,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 2.8,
           "auslastung_verkauf_pct": 3.5,
+          "auslastung_effektiv_pct": 2.8,
           "rate_share": 0.25
         },
         {
@@ -5442,6 +5688,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 0.0,
           "auslastung_verkauf_pct": 0.0,
+          "auslastung_effektiv_pct": 0.0,
           "rate_share": 0.0
         },
         {
@@ -5459,6 +5706,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 0.0,
           "auslastung_verkauf_pct": 0.0,
+          "auslastung_effektiv_pct": 0.0,
           "rate_share": 0.0
         }
       ],
@@ -5489,6 +5737,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 10.3,
       "auslastung_verkauf_pct": 12.9,
+      "auslastung_effektiv_pct": 10.3,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 11.7,
         "ci_lower_90_pct": 7.1,
@@ -5521,6 +5770,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 10.3,
           "auslastung_verkauf_pct": 12.9,
+          "auslastung_effektiv_pct": 10.3,
           "rate_share": 1.0
         }
       ],
@@ -5551,6 +5801,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 61.5,
       "auslastung_verkauf_pct": 96.8,
+      "auslastung_effektiv_pct": 61.5,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 61.3,
         "ci_lower_90_pct": 57.3,
@@ -5561,8 +5812,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 5.43,
-      "velocity_7d_ci_upper": 63.14,
+      "velocity_7d_ci_lower": 5.29,
+      "velocity_7d_ci_upper": 63.57,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -5583,6 +5834,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 37.9,
           "auslastung_verkauf_pct": 95.9,
+          "auslastung_effektiv_pct": 37.9,
           "rate_share": 0.1926
         },
         {
@@ -5600,6 +5852,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 62.5,
           "auslastung_verkauf_pct": 107.1,
+          "auslastung_effektiv_pct": 62.5,
           "rate_share": 0.123
         },
         {
@@ -5617,6 +5870,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 59.2,
           "auslastung_verkauf_pct": 102.3,
+          "auslastung_effektiv_pct": 59.2,
           "rate_share": 0.1844
         },
         {
@@ -5634,6 +5888,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 73.1,
           "auslastung_verkauf_pct": 95.0,
+          "auslastung_effektiv_pct": 73.1,
           "rate_share": 0.2336
         },
         {
@@ -5651,6 +5906,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 90.3,
           "auslastung_verkauf_pct": 90.3,
+          "auslastung_effektiv_pct": 90.3,
           "rate_share": 0.2295
         },
         {
@@ -5668,6 +5924,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0369
         }
       ],
@@ -5698,6 +5955,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 6.9,
       "auslastung_verkauf_pct": 11.2,
+      "auslastung_effektiv_pct": 6.9,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 7.5,
         "ci_lower_90_pct": 5.1,
@@ -5730,6 +5988,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 4.0,
           "auslastung_verkauf_pct": 10.5,
+          "auslastung_effektiv_pct": 4.0,
           "rate_share": 0.1053
         },
         {
@@ -5747,6 +6006,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 0.0,
           "auslastung_verkauf_pct": 0.0,
+          "auslastung_effektiv_pct": 0.0,
           "rate_share": 0.0
         },
         {
@@ -5764,6 +6024,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 14.9,
           "auslastung_verkauf_pct": 28.6,
+          "auslastung_effektiv_pct": 14.9,
           "rate_share": 0.5263
         },
         {
@@ -5781,6 +6042,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 5.6,
           "auslastung_verkauf_pct": 7.0,
+          "auslastung_effektiv_pct": 5.6,
           "rate_share": 0.2105
         },
         {
@@ -5798,6 +6060,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 3.7,
           "auslastung_verkauf_pct": 3.7,
+          "auslastung_effektiv_pct": 3.7,
           "rate_share": 0.0526
         },
         {
@@ -5815,6 +6078,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 16.7,
           "auslastung_verkauf_pct": 16.7,
+          "auslastung_effektiv_pct": 16.7,
           "rate_share": 0.1053
         }
       ],
@@ -5845,6 +6109,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 11.2,
       "auslastung_verkauf_pct": 14.1,
+      "auslastung_effektiv_pct": 11.2,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 12.6,
         "ci_lower_90_pct": 7.9,
@@ -5877,6 +6142,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 11.2,
           "auslastung_verkauf_pct": 14.1,
+          "auslastung_effektiv_pct": 11.2,
           "rate_share": 1.0
         }
       ],
@@ -5907,6 +6173,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 42.1,
       "auslastung_verkauf_pct": 83.5,
+      "auslastung_effektiv_pct": 42.1,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 42.1,
         "ci_lower_90_pct": 38.1,
@@ -5917,7 +6184,7 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 12.86,
+      "velocity_7d_ci_lower": 13.86,
       "velocity_7d_ci_upper": 33.57,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -5939,6 +6206,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 31.5,
           "auslastung_verkauf_pct": 81.2,
+          "auslastung_effektiv_pct": 31.5,
           "rate_share": 0.2335
         },
         {
@@ -5956,6 +6224,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 47.9,
           "auslastung_verkauf_pct": 67.6,
+          "auslastung_effektiv_pct": 47.9,
           "rate_share": 0.1377
         },
         {
@@ -5973,6 +6242,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 53.9,
           "auslastung_verkauf_pct": 95.3,
+          "auslastung_effektiv_pct": 53.9,
           "rate_share": 0.2455
         },
         {
@@ -5990,6 +6260,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 52.6,
           "auslastung_verkauf_pct": 93.2,
+          "auslastung_effektiv_pct": 52.6,
           "rate_share": 0.2455
         },
         {
@@ -6007,6 +6278,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 25.8,
           "auslastung_verkauf_pct": 72.7,
+          "auslastung_effektiv_pct": 25.8,
           "rate_share": 0.0958
         },
         {
@@ -6024,6 +6296,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 77.8,
           "auslastung_verkauf_pct": 77.8,
+          "auslastung_effektiv_pct": 77.8,
           "rate_share": 0.0419
         }
       ],
@@ -6054,6 +6327,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 66.5,
       "auslastung_verkauf_pct": 84.9,
+      "auslastung_effektiv_pct": 66.5,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 66.3,
         "ci_lower_90_pct": 62.4,
@@ -6064,8 +6338,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -8.57,
-      "velocity_7d_ci_upper": 63.71,
+      "velocity_7d_ci_lower": -5.29,
+      "velocity_7d_ci_upper": 63.57,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -6086,6 +6360,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 36.3,
           "auslastung_verkauf_pct": 67.2,
+          "auslastung_effektiv_pct": 36.3,
           "rate_share": 0.1705
         },
         {
@@ -6103,6 +6378,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 64.6,
           "auslastung_verkauf_pct": 79.5,
+          "auslastung_effektiv_pct": 64.6,
           "rate_share": 0.1174
         },
         {
@@ -6120,6 +6396,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 73.7,
           "auslastung_verkauf_pct": 93.3,
+          "auslastung_effektiv_pct": 73.7,
           "rate_share": 0.2121
         },
         {
@@ -6137,6 +6414,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 91.0,
           "auslastung_verkauf_pct": 95.9,
+          "auslastung_effektiv_pct": 91.0,
           "rate_share": 0.2689
         },
         {
@@ -6154,6 +6432,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 83.9,
           "auslastung_verkauf_pct": 83.9,
+          "auslastung_effektiv_pct": 83.9,
           "rate_share": 0.197
         },
         {
@@ -6171,6 +6450,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0341
         }
       ],
@@ -6201,6 +6481,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 46.5,
       "auslastung_verkauf_pct": 97.2,
+      "auslastung_effektiv_pct": 46.5,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 46.6,
         "ci_lower_90_pct": 42.4,
@@ -6211,8 +6492,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 8.29,
-      "velocity_7d_ci_upper": 42.43,
+      "velocity_7d_ci_lower": 7.0,
+      "velocity_7d_ci_upper": 42.71,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -6233,6 +6514,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 35.9,
           "auslastung_verkauf_pct": 97.4,
+          "auslastung_effektiv_pct": 35.9,
           "rate_share": 0.2114
         },
         {
@@ -6250,6 +6532,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 43.8,
           "auslastung_verkauf_pct": 77.8,
+          "auslastung_effektiv_pct": 43.8,
           "rate_share": 0.12
         },
         {
@@ -6267,6 +6550,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 26.3,
           "auslastung_verkauf_pct": 111.1,
+          "auslastung_effektiv_pct": 26.3,
           "rate_share": 0.1143
         },
         {
@@ -6284,6 +6568,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 43.6,
           "auslastung_verkauf_pct": 109.7,
+          "auslastung_effektiv_pct": 43.6,
           "rate_share": 0.1943
         },
         {
@@ -6301,6 +6586,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 87.1,
           "auslastung_verkauf_pct": 94.7,
+          "auslastung_effektiv_pct": 87.1,
           "rate_share": 0.3086
         },
         {
@@ -6318,6 +6604,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0514
         }
       ],
@@ -6348,6 +6635,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 47.6,
       "auslastung_verkauf_pct": 95.0,
+      "auslastung_effektiv_pct": 47.6,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 47.6,
         "ci_lower_90_pct": 43.5,
@@ -6358,7 +6646,7 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 3.14,
+      "velocity_7d_ci_lower": 3.29,
       "velocity_7d_ci_upper": 50.57,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -6380,6 +6668,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 33.1,
           "auslastung_verkauf_pct": 87.2,
+          "auslastung_effektiv_pct": 33.1,
           "rate_share": 0.2169
         },
         {
@@ -6397,6 +6686,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 52.1,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 52.1,
           "rate_share": 0.1323
         },
         {
@@ -6414,6 +6704,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 32.9,
           "auslastung_verkauf_pct": 96.2,
+          "auslastung_effektiv_pct": 32.9,
           "rate_share": 0.1323
         },
         {
@@ -6431,6 +6722,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 43.6,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 43.6,
           "rate_share": 0.1799
         },
         {
@@ -6448,6 +6740,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 87.1,
           "auslastung_verkauf_pct": 93.1,
+          "auslastung_effektiv_pct": 87.1,
           "rate_share": 0.2857
         },
         {
@@ -6465,6 +6758,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 111.1,
           "auslastung_verkauf_pct": 111.1,
+          "auslastung_effektiv_pct": 111.1,
           "rate_share": 0.0529
         }
       ],
@@ -6495,6 +6789,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 76.5,
       "auslastung_verkauf_pct": 136.4,
+      "auslastung_effektiv_pct": 76.5,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 75.5,
         "ci_lower_90_pct": 68.2,
@@ -6527,6 +6822,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 76.5,
           "auslastung_verkauf_pct": 136.4,
+          "auslastung_effektiv_pct": 76.5,
           "rate_share": 1.0
         }
       ],
@@ -6557,6 +6853,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 46.9,
       "auslastung_verkauf_pct": 92.5,
+      "auslastung_effektiv_pct": 46.9,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 46.9,
         "ci_lower_90_pct": 42.8,
@@ -6567,8 +6864,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 4.43,
-      "velocity_7d_ci_upper": 47.0,
+      "velocity_7d_ci_lower": 5.29,
+      "velocity_7d_ci_upper": 46.86,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -6589,6 +6886,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 39.5,
           "auslastung_verkauf_pct": 86.0,
+          "auslastung_effektiv_pct": 39.5,
           "rate_share": 0.2634
         },
         {
@@ -6606,6 +6904,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 52.1,
           "auslastung_verkauf_pct": 92.6,
+          "auslastung_effektiv_pct": 52.1,
           "rate_share": 0.1344
         },
         {
@@ -6623,6 +6922,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 27.6,
           "auslastung_verkauf_pct": 91.3,
+          "auslastung_effektiv_pct": 27.6,
           "rate_share": 0.1129
         },
         {
@@ -6640,6 +6940,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 43.6,
           "auslastung_verkauf_pct": 97.1,
+          "auslastung_effektiv_pct": 43.6,
           "rate_share": 0.1828
         },
         {
@@ -6657,6 +6958,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 77.4,
           "auslastung_verkauf_pct": 96.0,
+          "auslastung_effektiv_pct": 77.4,
           "rate_share": 0.2581
         },
         {
@@ -6674,6 +6976,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0484
         }
       ],
@@ -6704,6 +7007,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 27.1,
       "auslastung_verkauf_pct": 44.4,
+      "auslastung_effektiv_pct": 27.1,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 27.4,
         "ci_lower_90_pct": 23.1,
@@ -6736,6 +7040,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 36.0,
           "auslastung_verkauf_pct": 94.7,
+          "auslastung_effektiv_pct": 36.0,
           "rate_share": 0.24
         },
         {
@@ -6753,6 +7058,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 26.0,
           "auslastung_verkauf_pct": 68.4,
+          "auslastung_effektiv_pct": 26.0,
           "rate_share": 0.1733
         },
         {
@@ -6770,6 +7076,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 37.3,
           "auslastung_verkauf_pct": 71.4,
+          "auslastung_effektiv_pct": 37.3,
           "rate_share": 0.3333
         },
         {
@@ -6787,6 +7094,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 26.8,
           "auslastung_verkauf_pct": 33.3,
+          "auslastung_effektiv_pct": 26.8,
           "rate_share": 0.2533
         },
         {
@@ -6804,6 +7112,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 0.0,
           "auslastung_verkauf_pct": 0.0,
+          "auslastung_effektiv_pct": 0.0,
           "rate_share": 0.0
         }
       ],
@@ -6834,6 +7143,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 64.3,
       "auslastung_verkauf_pct": 123.5,
+      "auslastung_effektiv_pct": 64.3,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 63.7,
         "ci_lower_90_pct": 55.8,
@@ -6844,7 +7154,7 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 3.71,
+      "velocity_7d_ci_lower": 3.43,
       "velocity_7d_ci_upper": 14.14,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -6866,6 +7176,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 64.3,
           "auslastung_verkauf_pct": 123.5,
+          "auslastung_effektiv_pct": 64.3,
           "rate_share": 1.0
         }
       ],
@@ -6896,6 +7207,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 65.3,
       "auslastung_verkauf_pct": 123.1,
+      "auslastung_effektiv_pct": 65.3,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 64.7,
         "ci_lower_90_pct": 56.8,
@@ -6906,8 +7218,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 1.71,
-      "velocity_7d_ci_upper": 15.71,
+      "velocity_7d_ci_lower": 0.0,
+      "velocity_7d_ci_upper": 15.43,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -6928,6 +7240,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 65.3,
           "auslastung_verkauf_pct": 123.1,
+          "auslastung_effektiv_pct": 65.3,
           "rate_share": 1.0
         }
       ],
@@ -6958,6 +7271,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 66.2,
       "auslastung_verkauf_pct": 94.6,
+      "auslastung_effektiv_pct": 66.2,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 66.1,
         "ci_lower_90_pct": 62.2,
@@ -6968,8 +7282,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 7.57,
-      "velocity_7d_ci_upper": 62.86,
+      "velocity_7d_ci_lower": 2.86,
+      "velocity_7d_ci_upper": 63.29,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -6990,6 +7304,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 46.0,
           "auslastung_verkauf_pct": 107.5,
+          "auslastung_effektiv_pct": 46.0,
           "rate_share": 0.2167
         },
         {
@@ -7007,6 +7322,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 79.2,
           "auslastung_verkauf_pct": 102.7,
+          "auslastung_effektiv_pct": 79.2,
           "rate_share": 0.1445
         },
         {
@@ -7024,6 +7340,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 53.9,
           "auslastung_verkauf_pct": 83.7,
+          "auslastung_effektiv_pct": 53.9,
           "rate_share": 0.1559
         },
         {
@@ -7041,6 +7358,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 79.5,
           "auslastung_verkauf_pct": 91.2,
+          "auslastung_effektiv_pct": 79.5,
           "rate_share": 0.2357
         },
         {
@@ -7058,6 +7376,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 90.3,
           "auslastung_verkauf_pct": 90.3,
+          "auslastung_effektiv_pct": 90.3,
           "rate_share": 0.2129
         },
         {
@@ -7075,6 +7394,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0342
         }
       ],
@@ -7105,6 +7425,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 36.8,
       "auslastung_verkauf_pct": 96.9,
+      "auslastung_effektiv_pct": 36.8,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 37.0,
         "ci_lower_90_pct": 33.2,
@@ -7115,8 +7436,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 4.57,
-      "velocity_7d_ci_upper": 39.71,
+      "velocity_7d_ci_lower": 6.0,
+      "velocity_7d_ci_upper": 36.14,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -7137,6 +7458,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 23.5,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 23.5,
           "rate_share": 0.1266
         },
         {
@@ -7154,6 +7476,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 36.0,
           "auslastung_verkauf_pct": 87.8,
+          "auslastung_effektiv_pct": 36.0,
           "rate_share": 0.2278
         },
         {
@@ -7171,6 +7494,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 40.2,
           "auslastung_verkauf_pct": 102.5,
+          "auslastung_effektiv_pct": 40.2,
           "rate_share": 0.2595
         },
         {
@@ -7188,6 +7512,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 44.0,
           "auslastung_verkauf_pct": 97.6,
+          "auslastung_effektiv_pct": 44.0,
           "rate_share": 0.2532
         },
         {
@@ -7205,6 +7530,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 31.7,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 31.7,
           "rate_share": 0.0823
         },
         {
@@ -7222,6 +7548,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 80.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 80.0,
           "rate_share": 0.0506
         }
       ],
@@ -7252,6 +7579,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 64.3,
       "auslastung_verkauf_pct": 131.2,
+      "auslastung_effektiv_pct": 64.3,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 63.7,
         "ci_lower_90_pct": 55.8,
@@ -7284,6 +7612,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 64.3,
           "auslastung_verkauf_pct": 131.2,
+          "auslastung_effektiv_pct": 64.3,
           "rate_share": 1.0
         }
       ],
@@ -7314,6 +7643,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 50.0,
       "auslastung_verkauf_pct": 115.2,
+      "auslastung_effektiv_pct": 50.0,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 50.0,
         "ci_lower_90_pct": 43.4,
@@ -7324,8 +7654,8 @@
       "tickets_7d": 75,
       "tickets_30d": null,
       "velocity_7d": 10.71,
-      "velocity_7d_ci_lower": 3.38,
-      "velocity_7d_ci_upper": 14.75,
+      "velocity_7d_ci_lower": 3.0,
+      "velocity_7d_ci_upper": 15.5,
       "vvk_start": "2026-02-26",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -7346,6 +7676,7 @@
           "velocity_7d": 5.0,
           "auslastung_gesamt_pct": 34.3,
           "auslastung_verkauf_pct": 133.3,
+          "auslastung_effektiv_pct": 34.3,
           "rate_share": 0.4737
         },
         {
@@ -7363,6 +7694,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 0.0,
           "auslastung_verkauf_pct": null,
+          "auslastung_effektiv_pct": 0.0,
           "rate_share": 0.0
         },
         {
@@ -7380,6 +7712,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 103.2,
           "auslastung_verkauf_pct": 103.2,
+          "auslastung_effektiv_pct": 103.2,
           "rate_share": 0.4211
         },
         {
@@ -7397,6 +7730,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.1053
         }
       ],
@@ -7427,6 +7761,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 68.4,
       "auslastung_verkauf_pct": 136.7,
+      "auslastung_effektiv_pct": 68.4,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 67.6,
         "ci_lower_90_pct": 59.9,
@@ -7459,6 +7794,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 68.4,
           "auslastung_verkauf_pct": 136.7,
+          "auslastung_effektiv_pct": 68.4,
           "rate_share": 1.0
         }
       ],
@@ -7489,6 +7825,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 55.3,
       "auslastung_verkauf_pct": 106.3,
+      "auslastung_effektiv_pct": 55.3,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 55.1,
         "ci_lower_90_pct": 48.6,
@@ -7499,7 +7836,7 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -2.29,
+      "velocity_7d_ci_lower": -1.71,
       "velocity_7d_ci_upper": 20.86,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -7521,6 +7858,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 35.2,
           "auslastung_verkauf_pct": 115.6,
+          "auslastung_effektiv_pct": 35.2,
           "rate_share": 0.4405
         },
         {
@@ -7538,6 +7876,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.2381
         },
         {
@@ -7555,6 +7894,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.2262
         },
         {
@@ -7572,6 +7912,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0952
         }
       ],
@@ -7602,6 +7943,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 58.6,
       "auslastung_verkauf_pct": 109.9,
+      "auslastung_effektiv_pct": 58.6,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 58.3,
         "ci_lower_90_pct": 51.8,
@@ -7634,6 +7976,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 40.0,
           "auslastung_verkauf_pct": 123.5,
+          "auslastung_effektiv_pct": 40.0,
           "rate_share": 0.4719
         },
         {
@@ -7651,6 +7994,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.2247
         },
         {
@@ -7668,6 +8012,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.2135
         },
         {
@@ -7685,6 +8030,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0899
         }
       ],
@@ -7715,6 +8061,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 41.7,
       "auslastung_verkauf_pct": 58.3,
+      "auslastung_effektiv_pct": 41.7,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 41.8,
         "ci_lower_90_pct": 37.9,
@@ -7725,8 +8072,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -5.86,
-      "velocity_7d_ci_upper": 44.0,
+      "velocity_7d_ci_lower": -4.29,
+      "velocity_7d_ci_upper": 44.71,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -7747,6 +8094,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 23.5,
           "auslastung_verkauf_pct": 33.9,
+          "auslastung_effektiv_pct": 23.5,
           "rate_share": 0.1117
         },
         {
@@ -7764,6 +8112,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 20.0,
           "auslastung_verkauf_pct": 27.0,
+          "auslastung_effektiv_pct": 20.0,
           "rate_share": 0.1117
         },
         {
@@ -7781,6 +8130,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 48.0,
           "auslastung_verkauf_pct": 92.5,
+          "auslastung_effektiv_pct": 48.0,
           "rate_share": 0.2737
         },
         {
@@ -7798,6 +8148,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 47.3,
           "auslastung_verkauf_pct": 58.1,
+          "auslastung_effektiv_pct": 47.3,
           "rate_share": 0.2402
         },
         {
@@ -7815,6 +8166,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 95.1,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 95.1,
           "rate_share": 0.2179
         },
         {
@@ -7832,6 +8184,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 80.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 80.0,
           "rate_share": 0.0447
         }
       ],
@@ -7862,6 +8215,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 35.4,
       "auslastung_verkauf_pct": 82.3,
+      "auslastung_effektiv_pct": 35.4,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 35.6,
         "ci_lower_90_pct": 31.6,
@@ -7872,8 +8226,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 4.29,
-      "velocity_7d_ci_upper": 31.0,
+      "velocity_7d_ci_lower": 6.0,
+      "velocity_7d_ci_upper": 31.14,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -7894,6 +8248,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 12.2,
           "auslastung_verkauf_pct": 37.5,
+          "auslastung_effektiv_pct": 12.2,
           "rate_share": 0.0667
         },
         {
@@ -7911,6 +8266,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 15.1,
           "auslastung_verkauf_pct": 66.7,
+          "auslastung_effektiv_pct": 15.1,
           "rate_share": 0.1037
         },
         {
@@ -7928,6 +8284,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 40.4,
           "auslastung_verkauf_pct": 113.5,
+          "auslastung_effektiv_pct": 40.4,
           "rate_share": 0.3111
         },
         {
@@ -7945,6 +8302,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 48.7,
           "auslastung_verkauf_pct": 73.1,
+          "auslastung_effektiv_pct": 48.7,
           "rate_share": 0.2815
         },
         {
@@ -7962,6 +8320,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 109.5,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.1704
         },
         {
@@ -7979,6 +8338,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0667
         }
       ],
@@ -8009,6 +8369,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 52.0,
       "auslastung_verkauf_pct": 121.4,
+      "auslastung_effektiv_pct": 52.0,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 52.0,
         "ci_lower_90_pct": 43.8,
@@ -8020,7 +8381,7 @@
       "tickets_30d": null,
       "velocity_7d": null,
       "velocity_7d_ci_lower": 3.57,
-      "velocity_7d_ci_upper": 10.71,
+      "velocity_7d_ci_upper": 10.43,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -8041,6 +8402,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 52.0,
           "auslastung_verkauf_pct": 121.4,
+          "auslastung_effektiv_pct": 52.0,
           "rate_share": 1.0
         }
       ],
@@ -8071,6 +8433,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 70.4,
       "auslastung_verkauf_pct": 125.5,
+      "auslastung_effektiv_pct": 70.4,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 69.6,
         "ci_lower_90_pct": 61.9,
@@ -8103,6 +8466,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 70.4,
           "auslastung_verkauf_pct": 125.5,
+          "auslastung_effektiv_pct": 70.4,
           "rate_share": 1.0
         }
       ],
@@ -8133,6 +8497,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 63.8,
       "auslastung_verkauf_pct": 118.3,
+      "auslastung_effektiv_pct": 63.8,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 63.5,
         "ci_lower_90_pct": 57.0,
@@ -8143,7 +8508,7 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -1.29,
+      "velocity_7d_ci_lower": -2.43,
       "velocity_7d_ci_upper": 24.29,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -8165,6 +8530,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 47.6,
           "auslastung_verkauf_pct": 142.9,
+          "auslastung_effektiv_pct": 47.6,
           "rate_share": 0.5155
         },
         {
@@ -8182,6 +8548,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.2062
         },
         {
@@ -8199,6 +8566,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.1959
         },
         {
@@ -8216,6 +8584,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0825
         }
       ],
@@ -8246,6 +8615,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 62.5,
       "auslastung_verkauf_pct": 120.3,
+      "auslastung_effektiv_pct": 62.5,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 62.2,
         "ci_lower_90_pct": 55.7,
@@ -8256,8 +8626,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 1.0,
-      "velocity_7d_ci_upper": 23.86,
+      "velocity_7d_ci_lower": -2.71,
+      "velocity_7d_ci_upper": 23.71,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -8278,6 +8648,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 45.7,
           "auslastung_verkauf_pct": 150.0,
+          "auslastung_effektiv_pct": 45.7,
           "rate_share": 0.5053
         },
         {
@@ -8295,6 +8666,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.2105
         },
         {
@@ -8312,6 +8684,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.2
         },
         {
@@ -8329,6 +8702,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0842
         }
       ],
@@ -8359,6 +8733,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 20.5,
       "auslastung_verkauf_pct": 26.6,
+      "auslastung_effektiv_pct": 20.5,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 20.8,
         "ci_lower_90_pct": 17.7,
@@ -8391,6 +8766,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 2.4,
           "auslastung_verkauf_pct": 3.4,
+          "auslastung_effektiv_pct": 2.4,
           "rate_share": 0.0227
         },
         {
@@ -8408,6 +8784,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 8.0,
           "auslastung_verkauf_pct": 10.8,
+          "auslastung_effektiv_pct": 8.0,
           "rate_share": 0.0909
         },
         {
@@ -8425,6 +8802,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 25.5,
           "auslastung_verkauf_pct": 40.0,
+          "auslastung_effektiv_pct": 25.5,
           "rate_share": 0.2955
         },
         {
@@ -8442,6 +8820,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 6.6,
           "auslastung_verkauf_pct": 7.0,
+          "auslastung_effektiv_pct": 6.6,
           "rate_share": 0.0682
         },
         {
@@ -8459,6 +8838,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 92.7,
           "auslastung_verkauf_pct": 97.4,
+          "auslastung_effektiv_pct": 92.7,
           "rate_share": 0.4318
         },
         {
@@ -8476,6 +8856,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 80.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 80.0,
           "rate_share": 0.0909
         }
       ],
@@ -8506,6 +8887,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 47.8,
       "auslastung_verkauf_pct": 88.8,
+      "auslastung_effektiv_pct": 47.8,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 47.8,
         "ci_lower_90_pct": 43.6,
@@ -8516,8 +8898,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -1.0,
-      "velocity_7d_ci_upper": 42.14,
+      "velocity_7d_ci_lower": -0.57,
+      "velocity_7d_ci_upper": 41.86,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -8538,6 +8920,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 16.2,
           "auslastung_verkauf_pct": 28.6,
+          "auslastung_effektiv_pct": 16.2,
           "rate_share": 0.0659
         },
         {
@@ -8555,6 +8938,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 28.0,
           "auslastung_verkauf_pct": 78.8,
+          "auslastung_effektiv_pct": 28.0,
           "rate_share": 0.1429
         },
         {
@@ -8572,6 +8956,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 52.9,
           "auslastung_verkauf_pct": 114.6,
+          "auslastung_effektiv_pct": 52.9,
           "rate_share": 0.3022
         },
         {
@@ -8589,6 +8974,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 70.5,
           "auslastung_verkauf_pct": 105.8,
+          "auslastung_effektiv_pct": 70.5,
           "rate_share": 0.3022
         },
         {
@@ -8606,6 +8992,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 108.7,
           "auslastung_verkauf_pct": 119.0,
+          "auslastung_effektiv_pct": 108.7,
           "rate_share": 0.1374
         },
         {
@@ -8623,6 +9010,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0495
         }
       ],
@@ -8653,6 +9041,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 67.3,
       "auslastung_verkauf_pct": 115.8,
+      "auslastung_effektiv_pct": 67.3,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 66.7,
         "ci_lower_90_pct": 58.8,
@@ -8663,8 +9052,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 0.14,
-      "velocity_7d_ci_upper": 16.43,
+      "velocity_7d_ci_lower": 0.86,
+      "velocity_7d_ci_upper": 16.29,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -8685,6 +9074,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 67.3,
           "auslastung_verkauf_pct": 115.8,
+          "auslastung_effektiv_pct": 67.3,
           "rate_share": 1.0
         }
       ],
@@ -8715,6 +9105,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 62.2,
       "auslastung_verkauf_pct": 122.0,
+      "auslastung_effektiv_pct": 62.2,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 61.8,
         "ci_lower_90_pct": 53.8,
@@ -8747,6 +9138,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 62.2,
           "auslastung_verkauf_pct": 122.0,
+          "auslastung_effektiv_pct": 62.2,
           "rate_share": 1.0
         }
       ],
@@ -8777,6 +9169,7 @@
       "pending": 2,
       "auslastung_gesamt_pct": 30.3,
       "auslastung_verkauf_pct": 39.3,
+      "auslastung_effektiv_pct": 30.3,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 30.5,
         "ci_lower_90_pct": 26.9,
@@ -8787,8 +9180,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -3.29,
-      "velocity_7d_ci_upper": 31.57,
+      "velocity_7d_ci_lower": -3.0,
+      "velocity_7d_ci_upper": 31.14,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -8809,6 +9202,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 14.1,
           "auslastung_verkauf_pct": 20.3,
+          "auslastung_effektiv_pct": 14.1,
           "rate_share": 0.0923
         },
         {
@@ -8826,6 +9220,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 11.0,
           "auslastung_verkauf_pct": 14.9,
+          "auslastung_effektiv_pct": 11.0,
           "rate_share": 0.0846
         },
         {
@@ -8843,6 +9238,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 33.3,
           "auslastung_verkauf_pct": 52.3,
+          "auslastung_effektiv_pct": 33.3,
           "rate_share": 0.2615
         },
         {
@@ -8860,6 +9256,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 28.6,
           "auslastung_verkauf_pct": 30.2,
+          "auslastung_effektiv_pct": 28.6,
           "rate_share": 0.2
         },
         {
@@ -8877,6 +9274,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 95.1,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 95.1,
           "rate_share": 0.3
         },
         {
@@ -8894,6 +9292,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 80.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 80.0,
           "rate_share": 0.0615
         }
       ],
@@ -8924,6 +9323,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 67.3,
       "auslastung_verkauf_pct": 124.5,
+      "auslastung_effektiv_pct": 67.3,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 66.7,
         "ci_lower_90_pct": 58.8,
@@ -8935,7 +9335,7 @@
       "tickets_30d": null,
       "velocity_7d": null,
       "velocity_7d_ci_lower": 0.14,
-      "velocity_7d_ci_upper": 16.86,
+      "velocity_7d_ci_upper": 16.43,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -8956,6 +9356,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 67.3,
           "auslastung_verkauf_pct": 124.5,
+          "auslastung_effektiv_pct": 67.3,
           "rate_share": 1.0
         }
       ],
@@ -8986,6 +9387,7 @@
       "pending": 1,
       "auslastung_gesamt_pct": 37.7,
       "auslastung_verkauf_pct": 48.5,
+      "auslastung_effektiv_pct": 37.7,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 37.8,
         "ci_lower_90_pct": 34.0,
@@ -8996,8 +9398,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 6.43,
-      "velocity_7d_ci_upper": 37.43,
+      "velocity_7d_ci_lower": 5.29,
+      "velocity_7d_ci_upper": 37.57,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -9018,6 +9420,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 37.7,
           "auslastung_verkauf_pct": 48.5,
+          "auslastung_effektiv_pct": 37.7,
           "rate_share": 1.0
         }
       ],
@@ -9048,6 +9451,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 66.3,
       "auslastung_verkauf_pct": 118.2,
+      "auslastung_effektiv_pct": 66.3,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 65.7,
         "ci_lower_90_pct": 57.8,
@@ -9058,7 +9462,7 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -2.43,
+      "velocity_7d_ci_lower": -1.86,
       "velocity_7d_ci_upper": 16.57,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -9080,6 +9484,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 66.3,
           "auslastung_verkauf_pct": 118.2,
+          "auslastung_effektiv_pct": 66.3,
           "rate_share": 1.0
         }
       ],
@@ -9110,6 +9515,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 54.2,
       "auslastung_verkauf_pct": 107.4,
+      "auslastung_effektiv_pct": 54.2,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 54.1,
         "ci_lower_90_pct": 46.3,
@@ -9120,8 +9526,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 1.86,
-      "velocity_7d_ci_upper": 13.43,
+      "velocity_7d_ci_lower": 2.43,
+      "velocity_7d_ci_upper": 13.29,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -9142,6 +9548,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 54.2,
           "auslastung_verkauf_pct": 107.4,
+          "auslastung_effektiv_pct": 54.2,
           "rate_share": 1.0
         }
       ],
@@ -9172,6 +9579,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 75.7,
       "auslastung_verkauf_pct": 100.0,
+      "auslastung_effektiv_pct": 75.7,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 74.8,
         "ci_lower_90_pct": 67.8,
@@ -9182,7 +9590,7 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -6.86,
+      "velocity_7d_ci_lower": -6.43,
       "velocity_7d_ci_upper": 21.86,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -9204,6 +9612,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 75.7,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 75.7,
           "rate_share": 1.0
         }
       ],
@@ -9234,6 +9643,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 76.6,
       "auslastung_verkauf_pct": 98.8,
+      "auslastung_effektiv_pct": 76.6,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 75.7,
         "ci_lower_90_pct": 68.7,
@@ -9244,8 +9654,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -6.0,
-      "velocity_7d_ci_upper": 22.86,
+      "velocity_7d_ci_lower": -6.29,
+      "velocity_7d_ci_upper": 22.71,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -9266,6 +9676,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 76.6,
           "auslastung_verkauf_pct": 98.8,
+          "auslastung_effektiv_pct": 76.6,
           "rate_share": 1.0
         }
       ],
@@ -9296,6 +9707,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 38.8,
       "auslastung_verkauf_pct": 108.6,
+      "auslastung_effektiv_pct": 38.8,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 39.2,
         "ci_lower_90_pct": 31.4,
@@ -9306,8 +9718,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 2.14,
-      "velocity_7d_ci_upper": 8.0,
+      "velocity_7d_ci_lower": 1.86,
+      "velocity_7d_ci_upper": 8.57,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -9328,6 +9740,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 38.8,
           "auslastung_verkauf_pct": 108.6,
+          "auslastung_effektiv_pct": 38.8,
           "rate_share": 1.0
         }
       ],
@@ -9358,6 +9771,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 46.2,
       "auslastung_verkauf_pct": 102.5,
+      "auslastung_effektiv_pct": 46.2,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 46.3,
         "ci_lower_90_pct": 41.3,
@@ -9368,8 +9782,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 3.0,
-      "velocity_7d_ci_upper": 28.71,
+      "velocity_7d_ci_lower": 4.29,
+      "velocity_7d_ci_upper": 28.29,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -9390,6 +9804,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 25.0,
           "auslastung_verkauf_pct": 107.7,
+          "auslastung_effektiv_pct": 25.0,
           "rate_share": 0.1138
         },
         {
@@ -9407,6 +9822,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 9.6,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 9.6,
           "rate_share": 0.0407
         },
         {
@@ -9424,6 +9840,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 37.7,
           "auslastung_verkauf_pct": 125.0,
+          "auslastung_effektiv_pct": 37.7,
           "rate_share": 0.1626
         },
         {
@@ -9441,6 +9858,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 68.2,
           "auslastung_verkauf_pct": 95.7,
+          "auslastung_effektiv_pct": 68.2,
           "rate_share": 0.3659
         },
         {
@@ -9458,6 +9876,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.252
         },
         {
@@ -9475,6 +9894,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.065
         }
       ],
@@ -9505,6 +9925,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 62.2,
       "auslastung_verkauf_pct": 113.0,
+      "auslastung_effektiv_pct": 62.2,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 61.8,
         "ci_lower_90_pct": 53.8,
@@ -9515,8 +9936,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 1.29,
-      "velocity_7d_ci_upper": 15.0,
+      "velocity_7d_ci_lower": 1.43,
+      "velocity_7d_ci_upper": 16.14,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -9537,6 +9958,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 62.2,
           "auslastung_verkauf_pct": 113.0,
+          "auslastung_effektiv_pct": 62.2,
           "rate_share": 1.0
         }
       ],
@@ -9567,6 +9989,7 @@
       "pending": 2,
       "auslastung_gesamt_pct": 48.1,
       "auslastung_verkauf_pct": 105.8,
+      "auslastung_effektiv_pct": 48.1,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 48.1,
         "ci_lower_90_pct": 43.2,
@@ -9577,8 +10000,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 1.57,
-      "velocity_7d_ci_upper": 31.71,
+      "velocity_7d_ci_lower": 3.43,
+      "velocity_7d_ci_upper": 31.57,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -9599,6 +10022,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 30.4,
           "auslastung_verkauf_pct": 188.9,
+          "auslastung_effektiv_pct": 30.4,
           "rate_share": 0.1328
         },
         {
@@ -9616,6 +10040,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 26.9,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 26.9,
           "rate_share": 0.1094
         },
         {
@@ -9633,6 +10058,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 18.9,
           "auslastung_verkauf_pct": 142.9,
+          "auslastung_effektiv_pct": 18.9,
           "rate_share": 0.0781
         },
         {
@@ -9650,6 +10076,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 72.7,
           "auslastung_verkauf_pct": 92.3,
+          "auslastung_effektiv_pct": 72.7,
           "rate_share": 0.375
         },
         {
@@ -9667,6 +10094,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.2422
         },
         {
@@ -9684,6 +10112,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0625
         }
       ],
@@ -9714,6 +10143,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 77.6,
       "auslastung_verkauf_pct": 146.2,
+      "auslastung_effektiv_pct": 77.6,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 76.5,
         "ci_lower_90_pct": 69.3,
@@ -9746,6 +10176,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 77.6,
           "auslastung_verkauf_pct": 146.2,
+          "auslastung_effektiv_pct": 77.6,
           "rate_share": 1.0
         }
       ],
@@ -9776,6 +10207,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 22.7,
       "auslastung_verkauf_pct": 24.9,
+      "auslastung_effektiv_pct": 22.7,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 23.0,
         "ci_lower_90_pct": 19.7,
@@ -9808,6 +10240,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 5.3,
           "auslastung_verkauf_pct": 6.3,
+          "auslastung_effektiv_pct": 5.3,
           "rate_share": 0.0412
         },
         {
@@ -9825,6 +10258,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 13.5,
           "auslastung_verkauf_pct": 14.0,
+          "auslastung_effektiv_pct": 13.5,
           "rate_share": 0.1443
         },
         {
@@ -9842,6 +10276,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 32.2,
           "auslastung_verkauf_pct": 34.9,
+          "auslastung_effektiv_pct": 32.2,
           "rate_share": 0.3918
         },
         {
@@ -9859,6 +10294,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 9.2,
           "auslastung_verkauf_pct": 10.6,
+          "auslastung_effektiv_pct": 9.2,
           "rate_share": 0.0928
         },
         {
@@ -9876,6 +10312,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.2165
         },
         {
@@ -9893,6 +10330,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.1134
         }
       ],
@@ -9923,6 +10361,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 67.3,
       "auslastung_verkauf_pct": 126.9,
+      "auslastung_effektiv_pct": 67.3,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 66.7,
         "ci_lower_90_pct": 58.8,
@@ -9955,6 +10394,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 67.3,
           "auslastung_verkauf_pct": 126.9,
+          "auslastung_effektiv_pct": 67.3,
           "rate_share": 1.0
         }
       ],
@@ -9985,6 +10425,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 44.0,
       "auslastung_verkauf_pct": 99.2,
+      "auslastung_effektiv_pct": 44.0,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 44.1,
         "ci_lower_90_pct": 39.1,
@@ -9995,8 +10436,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -2.0,
-      "velocity_7d_ci_upper": 29.0,
+      "velocity_7d_ci_lower": -2.43,
+      "velocity_7d_ci_upper": 29.57,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -10017,6 +10458,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 12.5,
           "auslastung_verkauf_pct": 140.0,
+          "auslastung_effektiv_pct": 12.5,
           "rate_share": 0.0598
         },
         {
@@ -10034,6 +10476,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 28.8,
           "auslastung_verkauf_pct": 107.1,
+          "auslastung_effektiv_pct": 28.8,
           "rate_share": 0.1282
         },
         {
@@ -10051,6 +10494,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 35.8,
           "auslastung_verkauf_pct": 237.5,
+          "auslastung_effektiv_pct": 35.8,
           "rate_share": 0.1624
         },
         {
@@ -10068,6 +10512,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 57.6,
           "auslastung_verkauf_pct": 73.1,
+          "auslastung_effektiv_pct": 57.6,
           "rate_share": 0.3248
         },
         {
@@ -10085,6 +10530,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 96.8,
           "auslastung_verkauf_pct": 96.8,
+          "auslastung_effektiv_pct": 96.8,
           "rate_share": 0.2564
         },
         {
@@ -10102,6 +10548,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0684
         }
       ],
@@ -10132,6 +10579,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 51.6,
       "auslastung_verkauf_pct": 121.7,
+      "auslastung_effektiv_pct": 51.6,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 51.6,
         "ci_lower_90_pct": 47.4,
@@ -10142,8 +10590,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 2.86,
-      "velocity_7d_ci_upper": 47.14,
+      "velocity_7d_ci_lower": 0.71,
+      "velocity_7d_ci_upper": 47.43,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -10164,6 +10612,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 27.0,
           "auslastung_verkauf_pct": 111.1,
+          "auslastung_effektiv_pct": 27.0,
           "rate_share": 0.102
         },
         {
@@ -10181,6 +10630,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 17.4,
           "auslastung_verkauf_pct": 145.5,
+          "auslastung_effektiv_pct": 17.4,
           "rate_share": 0.0816
         },
         {
@@ -10198,6 +10648,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 54.8,
           "auslastung_verkauf_pct": 135.7,
+          "auslastung_effektiv_pct": 54.8,
           "rate_share": 0.2908
         },
         {
@@ -10215,6 +10666,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 91.0,
           "auslastung_verkauf_pct": 118.3,
+          "auslastung_effektiv_pct": 91.0,
           "rate_share": 0.3622
         },
         {
@@ -10232,6 +10684,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 109.5,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.1173
         },
         {
@@ -10249,6 +10702,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0459
         }
       ],
@@ -10279,6 +10733,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 14.3,
       "auslastung_verkauf_pct": 15.7,
+      "auslastung_effektiv_pct": 14.3,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 14.6,
         "ci_lower_90_pct": 11.9,
@@ -10311,6 +10766,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 16.0,
           "auslastung_verkauf_pct": 19.0,
+          "auslastung_effektiv_pct": 16.0,
           "rate_share": 0.1967
         },
         {
@@ -10328,6 +10784,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 10.6,
           "auslastung_verkauf_pct": 11.0,
+          "auslastung_effektiv_pct": 10.6,
           "rate_share": 0.1803
         },
         {
@@ -10345,6 +10802,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 16.9,
           "auslastung_verkauf_pct": 18.3,
+          "auslastung_effektiv_pct": 16.9,
           "rate_share": 0.3279
         },
         {
@@ -10362,6 +10820,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 3.1,
           "auslastung_verkauf_pct": 3.5,
+          "auslastung_effektiv_pct": 3.1,
           "rate_share": 0.0492
         },
         {
@@ -10379,6 +10838,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 23.8,
           "auslastung_verkauf_pct": 23.8,
+          "auslastung_effektiv_pct": 23.8,
           "rate_share": 0.082
         },
         {
@@ -10396,6 +10856,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 90.9,
           "auslastung_verkauf_pct": 90.9,
+          "auslastung_effektiv_pct": 90.9,
           "rate_share": 0.1639
         }
       ],
@@ -10426,6 +10887,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 65.3,
       "auslastung_verkauf_pct": 125.5,
+      "auslastung_effektiv_pct": 65.3,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 64.7,
         "ci_lower_90_pct": 56.8,
@@ -10436,8 +10898,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 2.57,
-      "velocity_7d_ci_upper": 14.71,
+      "velocity_7d_ci_lower": 1.71,
+      "velocity_7d_ci_upper": 14.57,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -10458,6 +10920,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 65.3,
           "auslastung_verkauf_pct": 125.5,
+          "auslastung_effektiv_pct": 65.3,
           "rate_share": 1.0
         }
       ],
@@ -10488,6 +10951,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 67.9,
       "auslastung_verkauf_pct": 120.0,
+      "auslastung_effektiv_pct": 67.9,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 67.7,
         "ci_lower_90_pct": 63.7,
@@ -10498,8 +10962,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 10.29,
-      "velocity_7d_ci_upper": 58.86,
+      "velocity_7d_ci_lower": 8.0,
+      "velocity_7d_ci_upper": 58.71,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -10520,6 +10984,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 59.5,
           "auslastung_verkauf_pct": 118.9,
+          "auslastung_effektiv_pct": 59.5,
           "rate_share": 0.1705
         },
         {
@@ -10537,6 +11002,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 39.1,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 39.1,
           "rate_share": 0.1395
         },
         {
@@ -10554,6 +11020,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 69.2,
           "auslastung_verkauf_pct": 120.0,
+          "auslastung_effektiv_pct": 69.2,
           "rate_share": 0.2791
         },
         {
@@ -10571,6 +11038,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 93.6,
           "auslastung_verkauf_pct": 146.0,
+          "auslastung_effektiv_pct": 93.6,
           "rate_share": 0.2829
         },
         {
@@ -10588,6 +11056,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 104.3,
           "auslastung_verkauf_pct": 104.3,
+          "auslastung_effektiv_pct": 104.3,
           "rate_share": 0.093
         },
         {
@@ -10605,6 +11074,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0349
         }
       ],
@@ -10635,6 +11105,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 2.1,
       "auslastung_verkauf_pct": 3.4,
+      "auslastung_effektiv_pct": 2.1,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 2.6,
         "ci_lower_90_pct": 1.4,
@@ -10667,6 +11138,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 2.1,
           "auslastung_verkauf_pct": 3.4,
+          "auslastung_effektiv_pct": 2.1,
           "rate_share": 1.0
         }
       ],
@@ -10697,6 +11169,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 12.9,
       "auslastung_verkauf_pct": 14.1,
+      "auslastung_effektiv_pct": 12.9,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 13.2,
         "ci_lower_90_pct": 10.6,
@@ -10729,6 +11202,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 10.7,
           "auslastung_verkauf_pct": 12.7,
+          "auslastung_effektiv_pct": 10.7,
           "rate_share": 0.1455
         },
         {
@@ -10746,6 +11220,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 6.7,
           "auslastung_verkauf_pct": 7.0,
+          "auslastung_effektiv_pct": 6.7,
           "rate_share": 0.1273
         },
         {
@@ -10763,6 +11238,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 11.9,
           "auslastung_verkauf_pct": 12.8,
+          "auslastung_effektiv_pct": 11.9,
           "rate_share": 0.2545
         },
         {
@@ -10780,6 +11256,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 7.1,
           "auslastung_verkauf_pct": 8.2,
+          "auslastung_effektiv_pct": 7.1,
           "rate_share": 0.1273
         },
         {
@@ -10797,6 +11274,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 47.6,
           "auslastung_verkauf_pct": 47.6,
+          "auslastung_effektiv_pct": 47.6,
           "rate_share": 0.1818
         },
         {
@@ -10814,6 +11292,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 81.8,
           "auslastung_verkauf_pct": 81.8,
+          "auslastung_effektiv_pct": 81.8,
           "rate_share": 0.1636
         }
       ],
@@ -10844,6 +11323,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 22.7,
       "auslastung_verkauf_pct": 48.8,
+      "auslastung_effektiv_pct": 22.7,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 23.1,
         "ci_lower_90_pct": 19.1,
@@ -10854,8 +11334,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 2.29,
-      "velocity_7d_ci_upper": 15.43,
+      "velocity_7d_ci_lower": -1.71,
+      "velocity_7d_ci_upper": 15.57,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -10876,6 +11356,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 18.2,
           "auslastung_verkauf_pct": 250.0,
+          "auslastung_effektiv_pct": 18.2,
           "rate_share": 0.1587
         },
         {
@@ -10893,6 +11374,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 20.3,
           "auslastung_verkauf_pct": 63.2,
+          "auslastung_effektiv_pct": 20.3,
           "rate_share": 0.1905
         },
         {
@@ -10910,6 +11392,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 21.1,
           "auslastung_verkauf_pct": 85.7,
+          "auslastung_effektiv_pct": 21.1,
           "rate_share": 0.1905
         },
         {
@@ -10927,6 +11410,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 9.0,
           "auslastung_verkauf_pct": 11.3,
+          "auslastung_effektiv_pct": 9.0,
           "rate_share": 0.0952
         },
         {
@@ -10944,6 +11428,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 54.8,
           "auslastung_verkauf_pct": 54.8,
+          "auslastung_effektiv_pct": 54.8,
           "rate_share": 0.2698
         },
         {
@@ -10961,6 +11446,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 75.0,
           "auslastung_verkauf_pct": 75.0,
+          "auslastung_effektiv_pct": 75.0,
           "rate_share": 0.0952
         }
       ],
@@ -10991,6 +11477,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 66.6,
       "auslastung_verkauf_pct": 119.9,
+      "auslastung_effektiv_pct": 66.6,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 66.4,
         "ci_lower_90_pct": 62.4,
@@ -11001,8 +11488,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": -3.29,
-      "velocity_7d_ci_upper": 60.14,
+      "velocity_7d_ci_lower": -3.14,
+      "velocity_7d_ci_upper": 60.86,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -11023,6 +11510,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 52.7,
           "auslastung_verkauf_pct": 105.4,
+          "auslastung_effektiv_pct": 52.7,
           "rate_share": 0.1542
         },
         {
@@ -11040,6 +11528,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 44.6,
           "auslastung_verkauf_pct": 110.8,
+          "auslastung_effektiv_pct": 44.6,
           "rate_share": 0.1621
         },
         {
@@ -11057,6 +11546,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 68.3,
           "auslastung_verkauf_pct": 134.0,
+          "auslastung_effektiv_pct": 68.3,
           "rate_share": 0.2806
         },
         {
@@ -11074,6 +11564,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 89.7,
           "auslastung_verkauf_pct": 129.6,
+          "auslastung_effektiv_pct": 89.7,
           "rate_share": 0.2767
         },
         {
@@ -11091,6 +11582,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 109.5,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0909
         },
         {
@@ -11108,6 +11600,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 100.0,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 100.0,
           "rate_share": 0.0356
         }
       ],
@@ -11138,6 +11631,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 69.4,
       "auslastung_verkauf_pct": 115.3,
+      "auslastung_effektiv_pct": 69.4,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 68.6,
         "ci_lower_90_pct": 60.9,
@@ -11148,7 +11642,7 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 1.14,
+      "velocity_7d_ci_lower": 0.57,
       "velocity_7d_ci_upper": 16.86,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -11170,6 +11664,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 69.4,
           "auslastung_verkauf_pct": 115.3,
+          "auslastung_effektiv_pct": 69.4,
           "rate_share": 1.0
         }
       ],
@@ -11200,6 +11695,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 67.3,
       "auslastung_verkauf_pct": 137.5,
+      "auslastung_effektiv_pct": 67.3,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 66.7,
         "ci_lower_90_pct": 58.8,
@@ -11210,8 +11706,8 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 1.43,
-      "velocity_7d_ci_upper": 15.86,
+      "velocity_7d_ci_lower": 1.29,
+      "velocity_7d_ci_upper": 15.57,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -11232,6 +11728,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 67.3,
           "auslastung_verkauf_pct": 137.5,
+          "auslastung_effektiv_pct": 67.3,
           "rate_share": 1.0
         }
       ],
@@ -11262,6 +11759,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 10.5,
       "auslastung_verkauf_pct": 22.5,
+      "auslastung_effektiv_pct": 10.5,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 11.0,
         "ci_lower_90_pct": 8.1,
@@ -11294,6 +11792,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 5.5,
           "auslastung_verkauf_pct": 100.0,
+          "auslastung_effektiv_pct": 5.5,
           "rate_share": 0.1034
         },
         {
@@ -11311,6 +11810,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 11.9,
           "auslastung_verkauf_pct": 36.8,
+          "auslastung_effektiv_pct": 11.9,
           "rate_share": 0.2414
         },
         {
@@ -11328,6 +11828,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 12.3,
           "auslastung_verkauf_pct": 46.7,
+          "auslastung_effektiv_pct": 12.3,
           "rate_share": 0.2414
         },
         {
@@ -11345,6 +11846,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 13.4,
           "auslastung_verkauf_pct": 17.0,
+          "auslastung_effektiv_pct": 13.4,
           "rate_share": 0.3103
         },
         {
@@ -11362,6 +11864,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 3.2,
           "auslastung_verkauf_pct": 3.2,
+          "auslastung_effektiv_pct": 3.2,
           "rate_share": 0.0345
         },
         {
@@ -11379,6 +11882,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 25.0,
           "auslastung_verkauf_pct": 25.0,
+          "auslastung_effektiv_pct": 25.0,
           "rate_share": 0.069
         }
       ],
@@ -11409,6 +11913,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 7.6,
       "auslastung_verkauf_pct": 16.3,
+      "auslastung_effektiv_pct": 7.6,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 8.2,
         "ci_lower_90_pct": 5.7,
@@ -11441,6 +11946,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 0.0,
           "auslastung_verkauf_pct": 0.0,
+          "auslastung_effektiv_pct": 0.0,
           "rate_share": 0.0
         },
         {
@@ -11458,6 +11964,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 5.1,
           "auslastung_verkauf_pct": 15.8,
+          "auslastung_effektiv_pct": 5.1,
           "rate_share": 0.1429
         },
         {
@@ -11475,6 +11982,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 5.3,
           "auslastung_verkauf_pct": 20.0,
+          "auslastung_effektiv_pct": 5.3,
           "rate_share": 0.1429
         },
         {
@@ -11492,6 +12000,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 11.9,
           "auslastung_verkauf_pct": 15.1,
+          "auslastung_effektiv_pct": 11.9,
           "rate_share": 0.381
         },
         {
@@ -11509,6 +12018,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 22.6,
           "auslastung_verkauf_pct": 22.6,
+          "auslastung_effektiv_pct": 22.6,
           "rate_share": 0.3333
         },
         {
@@ -11526,6 +12036,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 0.0,
           "auslastung_verkauf_pct": 0.0,
+          "auslastung_effektiv_pct": 0.0,
           "rate_share": 0.0
         }
       ],
@@ -11556,6 +12067,7 @@
       "pending": 0,
       "auslastung_gesamt_pct": 4.3,
       "auslastung_verkauf_pct": 9.3,
+      "auslastung_effektiv_pct": 4.3,
       "auslastung_forecast": {
         "auslastung_forecast_pct": 5.0,
         "ci_lower_90_pct": 3.0,
@@ -11588,6 +12100,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 0.0,
           "auslastung_verkauf_pct": 0.0,
+          "auslastung_effektiv_pct": 0.0,
           "rate_share": 0.0
         },
         {
@@ -11605,6 +12118,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 6.8,
           "auslastung_verkauf_pct": 21.1,
+          "auslastung_effektiv_pct": 6.8,
           "rate_share": 0.3333
         },
         {
@@ -11622,6 +12136,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 3.5,
           "auslastung_verkauf_pct": 13.3,
+          "auslastung_effektiv_pct": 3.5,
           "rate_share": 0.1667
         },
         {
@@ -11639,6 +12154,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 0.0,
           "auslastung_verkauf_pct": 0.0,
+          "auslastung_effektiv_pct": 0.0,
           "rate_share": 0.0
         },
         {
@@ -11656,6 +12172,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 6.5,
           "auslastung_verkauf_pct": 6.5,
+          "auslastung_effektiv_pct": 6.5,
           "rate_share": 0.1667
         },
         {
@@ -11673,6 +12190,7 @@
           "velocity_7d": null,
           "auslastung_gesamt_pct": 50.0,
           "auslastung_verkauf_pct": 50.0,
+          "auslastung_effektiv_pct": 50.0,
           "rate_share": 0.3333
         }
       ],
