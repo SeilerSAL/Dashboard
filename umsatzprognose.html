@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Umsatzprognose — Schaubühne</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root {
+  --gold: #8b6914;
+  --gold-light: #c9a84c;
+  --gold-dim: rgba(139,105,20,0.15);
+  --bg: #0f0f0f;
+  --bg-card: #181818;
+  --bg-card2: #212121;
+  --border: #2a2a2a;
+  --text: #e8e4dc;
+  --text-muted: #888;
+  --text-dim: #555;
+  --green: #4caf7d;
+  --green-dim: rgba(76,175,125,0.15);
+  --blue: #5b9bd5;
+  --blue-dim: rgba(91,155,213,0.15);
+  --orange: #e0924a;
+  --orange-dim: rgba(224,146,74,0.15);
+  --red: #c95b5b;
+  --mono: 'JetBrains Mono', monospace;
+  --radius: 10px;
+  --shadow: 0 2px 12px rgba(0,0,0,0.4);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* ── Header ── */
+.header {
+  border-bottom: 1px solid var(--border);
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  position: sticky;
+  top: 0;
+  background: rgba(15,15,15,0.96);
+  backdrop-filter: blur(8px);
+  z-index: 100;
+}
+.header-left { display: flex; align-items: center; gap: 16px; }
+.header-logo {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+}
+.header-sep { width: 1px; height: 20px; background: var(--border); }
+.header-title { font-size: 13px; color: var(--text-muted); font-weight: 400; }
+.header-meta { font-size: 11px; color: var(--text-dim); font-family: var(--mono); }
+
+/* ── Main ── */
+.main { padding: 28px 32px 60px; max-width: 1400px; margin: 0 auto; }
+
+/* ── Section label ── */
+.section-label {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 14px;
+  margin-top: 32px;
+}
+.section-label:first-child { margin-top: 0; }
+
+/* ── Szenario-Toggle ── */
+.scenario-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+.scenario-label { font-size: 12px; color: var(--text-muted); margin-right: 4px; }
+.sc-btn {
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.18s;
+}
+.sc-btn:hover { border-color: var(--gold); color: var(--gold-light); }
+.sc-btn.active-pess { background: var(--red); border-color: var(--red); color: #fff; }
+.sc-btn.active-real { background: var(--gold); border-color: var(--gold); color: #fff; }
+.sc-btn.active-opt  { background: var(--green); border-color: var(--green); color: #fff; }
+
+.scenario-hint {
+  font-size: 11px;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-left: 8px;
+}
+
+/* ── Freigabequote-Slider ── */
+.slider-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: auto;
+}
+.slider-row label { font-size: 12px; color: var(--text-muted); white-space: nowrap; }
+input[type=range] {
+  width: 110px;
+  accent-color: var(--gold-light);
+  cursor: pointer;
+}
+.slider-val {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--gold-light);
+  min-width: 34px;
+}
+
+/* ── Hero KPIs ── */
+.kpi-hero-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 28px;
+}
+.kpi-hero {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 22px 18px;
+  position: relative;
+  overflow: hidden;
+}
+.kpi-hero::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+}
+.kpi-hero.h-gold::before { background: var(--gold-light); }
+.kpi-hero.h-green::before { background: var(--green); }
+.kpi-hero.h-blue::before { background: var(--blue); }
+
+.kpi-hero-label {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.kpi-hero-val {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+.kpi-hero.h-gold .kpi-hero-val { color: var(--gold-light); }
+.kpi-hero.h-green .kpi-hero-val { color: var(--green); }
+.kpi-hero.h-blue .kpi-hero-val { color: var(--blue); }
+
+.kpi-hero-sub {
+  font-size: 11px;
+  color: var(--text-dim);
+  line-height: 1.4;
+}
+.kpi-hero-sub b { color: var(--text-muted); font-weight: 500; }
+
+/* ── Chart card ── */
+.chart-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 22px 24px 18px;
+  margin-bottom: 20px;
+}
+.chart-card-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.chart-card-title { font-size: 13px; font-weight: 600; color: var(--text); }
+.chart-card-sub { font-size: 11px; color: var(--text-dim); margin-top: 2px; }
+
+.chart-legend {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.leg-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
+.leg-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+
+.chart-wrap { position: relative; height: 340px; }
+
+/* ── Produktion-Tabelle ── */
+.prod-table-wrap {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+thead th {
+  padding: 10px 14px;
+  text-align: left;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  background: var(--bg-card2);
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+thead th.r { text-align: right; }
+tbody tr { border-bottom: 1px solid rgba(255,255,255,0.04); transition: background 0.12s; }
+tbody tr:last-child { border-bottom: none; }
+tbody tr:hover { background: rgba(255,255,255,0.03); }
+tbody td { padding: 10px 14px; vertical-align: middle; }
+tbody td.r { text-align: right; font-family: var(--mono); font-size: 11px; }
+tbody td.prod-name { font-weight: 500; font-size: 12px; }
+tbody td.prod-name small { display: block; font-size: 10px; color: var(--text-dim); font-weight: 400; margin-top: 1px; }
+
+.bar-stack {
+  height: 6px;
+  border-radius: 3px;
+  background: var(--border);
+  overflow: hidden;
+  display: flex;
+  min-width: 80px;
+}
+.bar-ist { background: var(--gold-light); height: 100%; }
+.bar-fore { background: var(--green); height: 100%; opacity: 0.8; }
+.bar-up { background: var(--blue); height: 100%; opacity: 0.6; }
+
+.badge {
+  display: inline-block;
+  padding: 2px 7px;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: var(--mono);
+}
+.badge-gold { background: var(--gold-dim); color: var(--gold-light); }
+.badge-green { background: var(--green-dim); color: var(--green); }
+.badge-blue { background: var(--blue-dim); color: var(--blue); }
+.badge-orange { background: var(--orange-dim); color: var(--orange); }
+
+/* ── Annahmen-Box ── */
+.annahmen {
+  background: var(--bg-card2);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+.annahmen strong { color: var(--text); font-weight: 600; display: block; margin-bottom: 6px; }
+.annahmen code { font-family: var(--mono); font-size: 10px; color: var(--gold-light); background: var(--gold-dim); padding: 1px 5px; border-radius: 3px; }
+
+/* ── Error / Loading ── */
+.state-msg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 280px;
+  gap: 12px;
+  color: var(--text-dim);
+  font-size: 13px;
+  text-align: center;
+}
+.state-msg .icon { font-size: 32px; }
+.state-msg code { font-family: var(--mono); font-size: 11px; color: var(--red); background: rgba(201,91,91,0.1); padding: 4px 10px; border-radius: 4px; }
+
+/* ── Responsive ── */
+@media (max-width: 900px) {
+  .main { padding: 20px 16px 40px; }
+  .kpi-hero-row { grid-template-columns: 1fr 1fr; }
+  .header { padding: 0 16px; }
+  .chart-wrap { height: 260px; }
+}
+@media (max-width: 600px) {
+  .kpi-hero-row { grid-template-columns: 1fr; }
+  .kpi-hero-val { font-size: 22px; }
+  .slider-row { display: none; }
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-left">
+    <span class="header-logo">Schaubühne</span>
+    <div class="header-sep"></div>
+    <span class="header-title">Umsatzprognose</span>
+  </div>
+  <span class="header-meta" id="hMeta">—</span>
+</header>
+
+<div class="main">
+
+  <!-- Szenario-Steuerung -->
+  <div class="scenario-bar">
+    <span class="scenario-label">Szenario:</span>
+    <button class="sc-btn" data-sc="pess" onclick="setSzenario('pess')">Pessimistisch</button>
+    <button class="sc-btn active-real" data-sc="real" onclick="setSzenario('real')">Realistisch</button>
+    <button class="sc-btn" data-sc="opt" onclick="setSzenario('opt')">Optimistisch</button>
+    <span class="scenario-hint" id="scHint">Abschlussquote: 55 % · Freie Plätze</span>
+
+    <div class="slider-row">
+      <label for="freigabeSlider">Freigabequote Kontingente:</label>
+      <input type="range" id="freigabeSlider" min="0" max="80" value="35" step="5" oninput="onSlider()">
+      <span class="slider-val" id="freigabeVal">35 %</span>
+    </div>
+  </div>
+
+  <!-- Hero KPIs -->
+  <div class="kpi-hero-row">
+    <div class="kpi-hero h-gold">
+      <div class="kpi-hero-label">Ist-Umsatz</div>
+      <div class="kpi-hero-val" id="kIst">—</div>
+      <div class="kpi-hero-sub" id="kIstSub">Aus verkauften Tickets</div>
+    </div>
+    <div class="kpi-hero h-green">
+      <div class="kpi-hero-label">Prognose-Umsatz</div>
+      <div class="kpi-hero-val" id="kFore">—</div>
+      <div class="kpi-hero-sub" id="kForeSub">Ist + Forecast Restverkauf</div>
+    </div>
+    <div class="kpi-hero h-blue">
+      <div class="kpi-hero-label">Maximal-Potenzial</div>
+      <div class="kpi-hero-val" id="kMax">—</div>
+      <div class="kpi-hero-sub" id="kMaxSub">Inkl. Kontingent-Upside</div>
+    </div>
+  </div>
+
+  <!-- Annahmen -->
+  <div class="annahmen">
+    <strong>Methodik &amp; Annahmen</strong>
+    <span id="annahmenText">—</span>
+  </div>
+
+  <!-- Balkendiagramm -->
+  <div class="section-label">Umsatzstruktur pro Produktion</div>
+  <div class="chart-card">
+    <div class="chart-card-head">
+      <div>
+        <div class="chart-card-title">Ist · Forecast · Kontingent-Upside</div>
+        <div class="chart-card-sub">Gestapelt pro Produktion, sortiert nach Gesamtpotenzial</div>
+      </div>
+      <div class="chart-legend">
+        <div class="leg-item"><div class="leg-dot" style="background:var(--gold-light)"></div>Ist-Umsatz</div>
+        <div class="leg-item"><div class="leg-dot" style="background:var(--green)"></div>Forecast Restverkauf</div>
+        <div class="leg-item"><div class="leg-dot" style="background:var(--blue)"></div>Kontingent-Upside</div>
+      </div>
+    </div>
+    <div class="chart-wrap"><canvas id="chartStacked"></canvas></div>
+  </div>
+
+  <!-- Tabelle -->
+  <div class="section-label">Detail pro Produktion</div>
+  <div class="prod-table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Produktion</th>
+          <th class="r">VA</th>
+          <th class="r">Ausl. %</th>
+          <th class="r">Ist-Umsatz</th>
+          <th class="r">Ø Preis</th>
+          <th class="r">Forecast</th>
+          <th class="r">Upside</th>
+          <th class="r">Gesamt-Potenzial</th>
+          <th style="min-width:120px">Verteilung</th>
+        </tr>
+      </thead>
+      <tbody id="tblBody">
+        <tr><td colspan="9"><div class="state-msg"><span class="icon">⏳</span>Lade Daten…</div></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+</div><!-- /main -->
+
+<script>
+// ─────────────────────────────────────────────
+// KONFIGURATION
+// ─────────────────────────────────────────────
+const NORMALPREISE = { a: 60, b: 54, c: 40, d: 28, e: 14, f: 7, studio: 20 };
+
+const SZENARIEN = {
+  pess: { abschlussQuote: 0.35, label: 'Abschlussquote: 35 % · freie Plätze (konservativ)' },
+  real: { abschlussQuote: 0.55, label: 'Abschlussquote: 55 % · freie Plätze (realistisch)' },
+  opt:  { abschlussQuote: 0.80, label: 'Abschlussquote: 80 % · freie Plätze (optimistisch)' },
+};
+
+// ─────────────────────────────────────────────
+// STATE
+// ─────────────────────────────────────────────
+let _data = null;
+let _szenario = 'real';
+let _freigabeQuote = 0.35;
+let _chart = null;
+
+// ─────────────────────────────────────────────
+// LADEN
+// ─────────────────────────────────────────────
+async function loadData() {
+  try {
+    const r = await fetch('dashboard_data.json');
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    _data = await r.json();
+    render();
+  } catch(e) {
+    showError(e.message);
+  }
+}
+
+function showError(msg) {
+  document.querySelector('.scenario-bar').style.display = 'none';
+  document.querySelector('.kpi-hero-row').innerHTML = `
+    <div class="kpi-hero h-gold" style="grid-column:1/-1">
+      <div class="state-msg">
+        <span class="icon">⚠️</span>
+        <div>dashboard_data.json konnte nicht geladen werden.</div>
+        <code>${msg}</code>
+        <div style="font-size:11px;color:var(--text-dim);margin-top:4px">
+          Stelle sicher, dass diese Datei im selben Verzeichnis liegt wie umsatzprognose.html.
+        </div>
+      </div>
+    </div>`;
+  document.querySelectorAll('.section-label, .chart-card, .annahmen, .prod-table-wrap').forEach(el => el.style.display = 'none');
+}
+
+// ─────────────────────────────────────────────
+// BERECHNUNGEN
+// ─────────────────────────────────────────────
+function calcPrognose(prod, abschlussQuote, freigabeQuote) {
+  const istUmsatz = prod.umsatz_gesamt || 0;
+  const avgPreis = prod.avg_preis || 0;
+
+  // Freie Plätze aus VA-Daten rekonstruieren (Summe über VA der Produktion)
+  const freiePlaetze = prod._freie_plaetze || 0;
+  const kontingente  = prod.kontingente || 0;
+
+  // Forecast: freie Plätze × Abschlussquote × avg_preis (bester verfügbarer Preis)
+  const forecastUmsatz = freiePlaetze * abschlussQuote * avgPreis;
+
+  // Upside: Kontingente × Freigabequote × Normalpreis (PG-gewichteter Schnitt)
+  const normPreisAvg = prod._norm_preis_avg || avgPreis;
+  const upsideUmsatz = kontingente * freigabeQuote * normPreisAvg;
+
+  return { istUmsatz, forecastUmsatz, upsideUmsatz };
+}
+
+function buildProdData() {
+  if (!_data || !_data.produktionen || !_data.veranstaltungen) return [];
+
+  // Index: va-Daten für Enrichment
+  const vaByProd = {};
+  for (const va of _data.veranstaltungen) {
+    const p = va.produktion || va.name;
+    if (!vaByProd[p]) vaByProd[p] = [];
+    vaByProd[p].push(va);
+  }
+
+  return _data.produktionen.map(prod => {
+    const name = prod.name;
+    const vas = vaByProd[name] || [];
+
+    // Freie Plätze summieren
+    const freiePlaetze = vas.reduce((s, va) => s + (va.freie_plaetze || 0), 0);
+
+    // Normalpreis-Durchschnitt gewichtet nach Kapazität pro PG
+    let normSum = 0, normKap = 0;
+    for (const va of vas) {
+      if (va.platzgruppen) {
+        for (const pg of va.platzgruppen) {
+          const np = NORMALPREISE[pg.platzgruppe] || NORMALPREISE['a'];
+          const kap = pg.kapazitaet || 1;
+          normSum += np * kap;
+          normKap += kap;
+        }
+      }
+    }
+    const normPreisAvg = normKap > 0 ? normSum / normKap : (prod.avg_preis || 50);
+
+    return {
+      ...prod,
+      _freie_plaetze: freiePlaetze,
+      _norm_preis_avg: normPreisAvg,
+    };
+  });
+}
+
+// ─────────────────────────────────────────────
+// RENDER
+// ─────────────────────────────────────────────
+function render() {
+  if (!_data) return;
+  const sc = SZENARIEN[_szenario];
+  const prods = buildProdData();
+
+  // Meta
+  const snap = _data.meta?.aktuellster_snapshot || '—';
+  document.getElementById('hMeta').textContent = `Stand: ${snap}`;
+
+  // Szenario-Hint
+  document.getElementById('scHint').textContent = sc.label + ` · Freigabequote: ${Math.round(_freigabeQuote*100)} %`;
+
+  // Annahmen
+  document.getElementById('annahmenText').innerHTML =
+    `<b>Ist-Umsatz</b>: direkt aus Pipeline (<code>umsatz_gesamt</code> pro Produktion). ` +
+    `<b>Forecast Restverkauf</b>: freie Plätze × Abschlussquote (${Math.round(sc.abschlussQuote*100)} %) × ` +
+    `Ø Preis (<code>avg_preis</code>). ` +
+    `<b>Kontingent-Upside</b>: Kontingente × Freigabequote (${Math.round(_freigabeQuote*100)} %) × ` +
+    `kapazitätsgewichteter Normalpreis (aus Preisstufentabelle). ` +
+    `Alle Werte beziehen sich auf <b>zukünftige Veranstaltungen</b>.`;
+
+  // Pro-Produktion-Berechnung
+  const rows = prods.map(prod => {
+    const { istUmsatz, forecastUmsatz, upsideUmsatz } = calcPrognose(prod, sc.abschlussQuote, _freigabeQuote);
+    return { prod, istUmsatz, forecastUmsatz, upsideUmsatz, total: istUmsatz + forecastUmsatz + upsideUmsatz };
+  }).sort((a, b) => b.total - a.total);
+
+  // Gesamt-KPIs
+  const sumIst   = rows.reduce((s, r) => s + r.istUmsatz, 0);
+  const sumFore  = rows.reduce((s, r) => s + r.forecastUmsatz, 0);
+  const sumUp    = rows.reduce((s, r) => s + r.upsideUmsatz, 0);
+
+  document.getElementById('kIst').textContent  = fmt(sumIst);
+  document.getElementById('kIstSub').textContent = `${rows.reduce((s,r)=>s+(r.prod.tickets_kartenverkauf||0),0).toLocaleString('de')} Tickets bereits verkauft`;
+
+  document.getElementById('kFore').textContent  = fmt(sumIst + sumFore);
+  document.getElementById('kForeSub').innerHTML = `+${fmt(sumFore)} Forecast Restverkauf`;
+
+  document.getElementById('kMax').textContent   = fmt(sumIst + sumFore + sumUp);
+  document.getElementById('kMaxSub').innerHTML  = `+${fmt(sumUp)} Kontingent-Upside (${Math.round(_freigabeQuote*100)} %)`;
+
+  renderChart(rows);
+  renderTable(rows);
+}
+
+function renderChart(rows) {
+  const ctx = document.getElementById('chartStacked').getContext('2d');
+  const labels = rows.map(r => shortName(r.prod.name));
+  const istData  = rows.map(r => Math.round(r.istUmsatz));
+  const foreData = rows.map(r => Math.round(r.forecastUmsatz));
+  const upData   = rows.map(r => Math.round(r.upsideUmsatz));
+
+  if (_chart) { _chart.destroy(); }
+  _chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [
+        {
+          label: 'Ist-Umsatz',
+          data: istData,
+          backgroundColor: 'rgba(201,168,76,0.85)',
+          borderRadius: 0,
+          stack: 'stack',
+        },
+        {
+          label: 'Forecast Restverkauf',
+          data: foreData,
+          backgroundColor: 'rgba(76,175,125,0.7)',
+          borderRadius: 0,
+          stack: 'stack',
+        },
+        {
+          label: 'Kontingent-Upside',
+          data: upData,
+          backgroundColor: 'rgba(91,155,213,0.55)',
+          borderRadius: 4,
+          stack: 'stack',
+        },
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#1e1e1e',
+          borderColor: '#333',
+          borderWidth: 1,
+          titleColor: '#aaa',
+          bodyColor: '#e8e4dc',
+          callbacks: {
+            label: ctx => `  ${ctx.dataset.label}: ${fmtK(ctx.parsed.y)}`,
+            footer: items => {
+              const total = items.reduce((s, i) => s + i.parsed.y, 0);
+              return `  Gesamt: ${fmtK(total)}`;
+            }
+          }
+        }
+      },
+      scales: {
+        x: {
+          stacked: true,
+          ticks: { color: '#666', font: { size: 10, family: 'DM Sans' }, maxRotation: 35, minRotation: 20 },
+          grid: { color: 'rgba(255,255,255,0.04)' },
+        },
+        y: {
+          stacked: true,
+          ticks: {
+            color: '#666',
+            font: { size: 10, family: 'JetBrains Mono' },
+            callback: v => fmtK(v)
+          },
+          grid: { color: 'rgba(255,255,255,0.06)' },
+        }
+      }
+    }
+  });
+}
+
+function renderTable(rows) {
+  const maxTotal = rows[0]?.total || 1;
+  const tbody = document.getElementById('tblBody');
+  tbody.innerHTML = rows.map(r => {
+    const { prod, istUmsatz, forecastUmsatz, upsideUmsatz, total } = r;
+    const ausl = prod.auslastung_pct != null ? prod.auslastung_pct.toFixed(1) + ' %' : '—';
+    const auslClass = (prod.auslastung_pct||0) >= 75 ? 'badge-green' : (prod.auslastung_pct||0) >= 50 ? 'badge-orange' : 'badge-gold';
+    const istPct  = total > 0 ? istUmsatz / total * 100 : 0;
+    const forePct = total > 0 ? forecastUmsatz / total * 100 : 0;
+    const upPct   = total > 0 ? upsideUmsatz / total * 100 : 0;
+
+    return `<tr>
+      <td class="prod-name">
+        ${esc(prod.name)}
+        <small>${prod.anzahl_veranstaltungen} VA · ${(prod.tickets_kartenverkauf||0).toLocaleString('de')} Tickets</small>
+      </td>
+      <td class="r">${prod.anzahl_veranstaltungen || '—'}</td>
+      <td class="r"><span class="badge ${auslClass}">${ausl}</span></td>
+      <td class="r">${fmtK(istUmsatz)}</td>
+      <td class="r">${prod.avg_preis ? prod.avg_preis.toFixed(2).replace('.',',') + ' €' : '—'}</td>
+      <td class="r" style="color:var(--green)">${fmtK(forecastUmsatz)}</td>
+      <td class="r" style="color:var(--blue)">${fmtK(upsideUmsatz)}</td>
+      <td class="r" style="color:var(--text);font-weight:600">${fmtK(total)}</td>
+      <td>
+        <div class="bar-stack">
+          <div class="bar-ist" style="width:${istPct}%"></div>
+          <div class="bar-fore" style="width:${forePct}%"></div>
+          <div class="bar-up" style="width:${upPct}%"></div>
+        </div>
+      </td>
+    </tr>`;
+  }).join('');
+}
+
+// ─────────────────────────────────────────────
+// CONTROLS
+// ─────────────────────────────────────────────
+function setSzenario(sc) {
+  _szenario = sc;
+  document.querySelectorAll('.sc-btn').forEach(b => {
+    b.className = 'sc-btn';
+    if (b.dataset.sc === sc) b.classList.add(`active-${sc}`);
+  });
+  render();
+}
+
+function onSlider() {
+  const v = parseInt(document.getElementById('freigabeSlider').value);
+  _freigabeQuote = v / 100;
+  document.getElementById('freigabeVal').textContent = v + ' %';
+  render();
+}
+
+// ─────────────────────────────────────────────
+// UTILS
+// ─────────────────────────────────────────────
+function fmt(v) {
+  if (v == null || isNaN(v)) return '—';
+  return new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 }).format(v);
+}
+function fmtK(v) {
+  if (v == null || isNaN(v)) return '—';
+  if (Math.abs(v) >= 1000) return (v/1000).toFixed(1).replace('.',',') + ' k €';
+  return v.toFixed(0) + ' €';
+}
+function shortName(n) {
+  if (!n) return '—';
+  return n.length > 22 ? n.slice(0, 20) + '…' : n;
+}
+function esc(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// ─────────────────────────────────────────────
+// START
+// ─────────────────────────────────────────────
+loadData();
+</script>
+</body>
+</html>
