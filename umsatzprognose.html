@@ -8,314 +8,130 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 :root {
-  --gold: #8b6914;
-  --gold-light: #c9a84c;
-  --gold-dim: rgba(139,105,20,0.15);
-  --bg: #0f0f0f;
-  --bg-card: #181818;
-  --bg-card2: #212121;
-  --border: #2a2a2a;
-  --text: #e8e4dc;
-  --text-muted: #888;
-  --text-dim: #555;
-  --green: #4caf7d;
-  --green-dim: rgba(76,175,125,0.15);
-  --blue: #5b9bd5;
-  --blue-dim: rgba(91,155,213,0.15);
-  --orange: #e0924a;
-  --orange-dim: rgba(224,146,74,0.15);
-  --red: #c95b5b;
-  --mono: 'JetBrains Mono', monospace;
-  --radius: 10px;
-  --shadow: 0 2px 12px rgba(0,0,0,0.4);
+  --gold:#8b6914;--gold-light:#c9a84c;--gold-dim:rgba(139,105,20,0.15);
+  --bg:#0f0f0f;--bg-card:#181818;--bg-card2:#212121;--bg-card3:#1d1d1d;
+  --border:#2a2a2a;--border2:#333;
+  --text:#e8e4dc;--text-muted:#888;--text-dim:#555;
+  --green:#4caf7d;--green-dim:rgba(76,175,125,0.15);
+  --blue:#5b9bd5;--blue-dim:rgba(91,155,213,0.15);
+  --orange:#e0924a;--orange-dim:rgba(224,146,74,0.15);
+  --red:#c95b5b;--red-dim:rgba(201,91,91,0.15);
+  --purple:#9b7dd4;--purple-dim:rgba(155,125,212,0.15);
+  --mono:'JetBrains Mono',monospace;
+  --radius:10px;
 }
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;font-size:14px;line-height:1.5}
 
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+.header{border-bottom:1px solid var(--border);padding:0 32px;display:flex;align-items:center;justify-content:space-between;height:56px;position:sticky;top:0;background:rgba(15,15,15,0.96);backdrop-filter:blur(8px);z-index:100}
+.header-left{display:flex;align-items:center;gap:16px}
+.header-logo{font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-light)}
+.header-sep{width:1px;height:20px;background:var(--border)}
+.header-title{font-size:13px;color:var(--text-muted);font-weight:400}
+.header-meta{font-size:11px;color:var(--text-dim);font-family:var(--mono)}
 
-body {
-  font-family: 'DM Sans', sans-serif;
-  background: var(--bg);
-  color: var(--text);
-  min-height: 100vh;
-  font-size: 14px;
-  line-height: 1.5;
-}
+.main{padding:28px 32px 60px;max-width:1500px;margin:0 auto}
+.section-label{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--text-dim);margin-bottom:14px;margin-top:32px}
+.section-label:first-child{margin-top:0}
 
-/* ── Header ── */
-.header {
-  border-bottom: 1px solid var(--border);
-  padding: 0 32px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 56px;
-  position: sticky;
-  top: 0;
-  background: rgba(15,15,15,0.96);
-  backdrop-filter: blur(8px);
-  z-index: 100;
-}
-.header-left { display: flex; align-items: center; gap: 16px; }
-.header-logo {
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--gold-light);
-}
-.header-sep { width: 1px; height: 20px; background: var(--border); }
-.header-title { font-size: 13px; color: var(--text-muted); font-weight: 400; }
-.header-meta { font-size: 11px; color: var(--text-dim); font-family: var(--mono); }
+.view-bar{display:flex;align-items:center;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.view-label{font-size:12px;color:var(--text-muted);margin-right:4px}
+.vb-btn{padding:6px 16px;border-radius:20px;border:1px solid var(--border);background:transparent;color:var(--text-muted);font-family:'DM Sans',sans-serif;font-size:12px;font-weight:500;cursor:pointer;transition:all .18s}
+.vb-btn:hover{border-color:var(--gold);color:var(--gold-light)}
+.vb-btn.active{background:var(--gold);border-color:var(--gold);color:#fff}
+.vb-btn.active-g{background:var(--purple);border-color:var(--purple);color:#fff}
 
-/* ── Main ── */
-.main { padding: 28px 32px 60px; max-width: 1400px; margin: 0 auto; }
+.controls-row{display:flex;align-items:center;gap:8px;margin-bottom:24px;flex-wrap:wrap}
+.sc-label{font-size:12px;color:var(--text-muted);margin-right:4px}
+.sc-btn{padding:5px 14px;border-radius:20px;border:1px solid var(--border);background:transparent;color:var(--text-muted);font-family:'DM Sans',sans-serif;font-size:12px;font-weight:500;cursor:pointer;transition:all .18s}
+.sc-btn:hover{border-color:var(--gold);color:var(--gold-light)}
+.sc-btn.ap{background:var(--red);border-color:var(--red);color:#fff}
+.sc-btn.ar{background:var(--gold);border-color:var(--gold);color:#fff}
+.sc-btn.ao{background:var(--green);border-color:var(--green);color:#fff}
+.ctrl-sep{width:1px;height:18px;background:var(--border);margin:0 4px}
+.slider-row{display:flex;align-items:center;gap:10px}
+.slider-row label{font-size:12px;color:var(--text-muted);white-space:nowrap}
+input[type=range]{width:100px;accent-color:var(--gold-light);cursor:pointer}
+.slider-val{font-family:var(--mono);font-size:12px;color:var(--gold-light);min-width:34px}
 
-/* ── Section label ── */
-.section-label {
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--text-dim);
-  margin-bottom: 14px;
-  margin-top: 32px;
-}
-.section-label:first-child { margin-top: 0; }
+.gs-banner{background:linear-gradient(135deg,rgba(155,125,212,0.07),rgba(139,105,20,0.05));border:1px solid rgba(155,125,212,0.22);border-left:3px solid var(--purple);border-radius:var(--radius);padding:12px 18px;margin-bottom:18px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.gs-pill{background:var(--purple-dim);color:var(--purple);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:3px 10px;border-radius:10px;white-space:nowrap}
+.gs-info{font-size:12px;color:var(--text-muted)}
+.gs-info strong{color:var(--text)}
 
-/* ── Szenario-Toggle ── */
-.scenario-bar {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 28px;
-  flex-wrap: wrap;
-}
-.scenario-label { font-size: 12px; color: var(--text-muted); margin-right: 4px; }
-.sc-btn {
-  padding: 6px 16px;
-  border-radius: 20px;
-  border: 1px solid var(--border);
-  background: transparent;
-  color: var(--text-muted);
-  font-family: 'DM Sans', sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.18s;
-}
-.sc-btn:hover { border-color: var(--gold); color: var(--gold-light); }
-.sc-btn.active-pess { background: var(--red); border-color: var(--red); color: #fff; }
-.sc-btn.active-real { background: var(--gold); border-color: var(--gold); color: #fff; }
-.sc-btn.active-opt  { background: var(--green); border-color: var(--green); color: #fff; }
+.kond-warn{background:var(--orange-dim);border:1px solid var(--orange);border-radius:8px;padding:9px 16px;font-size:11px;color:var(--orange);margin-bottom:14px;display:none}
 
-.scenario-hint {
-  font-size: 11px;
-  color: var(--text-dim);
-  font-style: italic;
-  margin-left: 8px;
-}
+.kpi-hero-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:16px}
+.kpi-hero{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:18px 20px 14px;position:relative;overflow:hidden}
+.kpi-hero::before{content:'';position:absolute;top:0;left:0;right:0;height:3px}
+.kpi-hero.hg::before{background:var(--gold-light)}
+.kpi-hero.hgr::before{background:var(--green)}
+.kpi-hero.hb::before{background:var(--blue)}
+.kpi-hero.hp::before{background:var(--purple)}
+.kpi-hero-label{font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted);margin-bottom:6px}
+.kpi-hero-val{font-size:22px;font-weight:700;letter-spacing:-.5px;line-height:1;margin-bottom:4px}
+.hg .kpi-hero-val{color:var(--gold-light)}
+.hgr .kpi-hero-val{color:var(--green)}
+.hb .kpi-hero-val{color:var(--blue)}
+.hp .kpi-hero-val{color:var(--purple)}
+.kpi-hero-sub{font-size:11px;color:var(--text-dim);line-height:1.4}
 
-/* ── Freigabequote-Slider ── */
-.slider-row {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-left: auto;
-}
-.slider-row label { font-size: 12px; color: var(--text-muted); white-space: nowrap; }
-input[type=range] {
-  width: 110px;
-  accent-color: var(--gold-light);
-  cursor: pointer;
-}
-.slider-val {
-  font-family: var(--mono);
-  font-size: 12px;
-  color: var(--gold-light);
-  min-width: 34px;
-}
+.kpi-sec-row{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:24px}
+.kpi-sec{background:var(--bg-card2);border:1px solid var(--border);border-radius:8px;padding:11px 13px}
+.kpi-sec-label{font-size:10px;color:var(--text-dim);margin-bottom:3px;text-transform:uppercase;letter-spacing:.08em}
+.kpi-sec-val{font-size:15px;font-weight:600;font-family:var(--mono);color:var(--text)}
+.kpi-sec-val.cg{color:var(--green)}.kpi-sec-val.co{color:var(--orange)}.kpi-sec-val.cr{color:var(--red)}.kpi-sec-val.cb{color:var(--blue)}
+.kpi-sec-sub{font-size:10px;color:var(--text-dim);margin-top:2px}
 
-/* ── Hero KPIs ── */
-.kpi-hero-row {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-  margin-bottom: 28px;
-}
-.kpi-hero {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 20px 22px 18px;
-  position: relative;
-  overflow: hidden;
-}
-.kpi-hero::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 3px;
-}
-.kpi-hero.h-gold::before { background: var(--gold-light); }
-.kpi-hero.h-green::before { background: var(--green); }
-.kpi-hero.h-blue::before { background: var(--blue); }
+.chart-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:18px 20px 14px;margin-bottom:16px}
+.chart-card-head{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:14px;gap:12px;flex-wrap:wrap}
+.chart-card-title{font-size:13px;font-weight:600;color:var(--text)}
+.chart-card-sub{font-size:11px;color:var(--text-dim);margin-top:2px}
+.chart-legend{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.leg-item{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--text-muted)}
+.leg-dot{width:10px;height:10px;border-radius:2px;flex-shrink:0}
+.chart-wrap{position:relative;height:300px}
+.chart-wrap-sm{position:relative;height:190px}
+.chart-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:16px}
 
-.kpi-hero-label {
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--text-muted);
-  margin-bottom: 8px;
-}
-.kpi-hero-val {
-  font-size: 28px;
-  font-weight: 700;
-  letter-spacing: -0.5px;
-  line-height: 1;
-  margin-bottom: 6px;
-}
-.kpi-hero.h-gold .kpi-hero-val { color: var(--gold-light); }
-.kpi-hero.h-green .kpi-hero-val { color: var(--green); }
-.kpi-hero.h-blue .kpi-hero-val { color: var(--blue); }
+.tbl-wrap{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;margin-bottom:16px}
+table{width:100%;border-collapse:collapse;font-size:12px}
+thead th{padding:8px 12px;text-align:left;font-size:10px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:var(--text-dim);background:var(--bg-card2);border-bottom:1px solid var(--border);white-space:nowrap}
+thead th.r{text-align:right}thead th.c{text-align:center}
+tbody tr{border-bottom:1px solid rgba(255,255,255,0.04);transition:background .12s}
+tbody tr:last-child{border-bottom:none}
+tbody tr:hover{background:rgba(255,255,255,0.025)}
+tbody td{padding:8px 12px;vertical-align:middle}
+tbody td.r{text-align:right;font-family:var(--mono);font-size:11px}
+tbody td.c{text-align:center}
+tbody td.pn{font-weight:500;font-size:12px}
+tbody td.pn small{display:block;font-size:10px;color:var(--text-dim);font-weight:400;margin-top:1px}
+tr.gh td{background:rgba(155,125,212,0.07);color:var(--purple);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:6px 12px;border-bottom:1px solid rgba(155,125,212,0.15)}
+tr.st td{background:rgba(139,105,20,0.06);font-weight:600;border-top:1px solid var(--border2)}
 
-.kpi-hero-sub {
-  font-size: 11px;
-  color: var(--text-dim);
-  line-height: 1.4;
-}
-.kpi-hero-sub b { color: var(--text-muted); font-weight: 500; }
+.badge{display:inline-block;padding:2px 6px;border-radius:10px;font-size:10px;font-weight:600;font-family:var(--mono)}
+.badge-gold{background:var(--gold-dim);color:var(--gold-light)}
+.badge-green{background:var(--green-dim);color:var(--green)}
+.badge-blue{background:var(--blue-dim);color:var(--blue)}
+.badge-orange{background:var(--orange-dim);color:var(--orange)}
+.badge-red{background:var(--red-dim);color:var(--red)}
+.badge-purple{background:var(--purple-dim);color:var(--purple)}
+.badge-gray{background:rgba(255,255,255,0.06);color:var(--text-dim)}
 
-/* ── Chart card ── */
-.chart-card {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 22px 24px 18px;
-  margin-bottom: 20px;
-}
-.chart-card-head {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin-bottom: 18px;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-.chart-card-title { font-size: 13px; font-weight: 600; color: var(--text); }
-.chart-card-sub { font-size: 11px; color: var(--text-dim); margin-top: 2px; }
+.bar-stack{height:5px;border-radius:3px;background:var(--border);overflow:hidden;display:flex;min-width:70px}
+.bi{background:var(--gold-light);height:100%}
+.bf{background:var(--green);height:100%;opacity:.8}
+.bu{background:var(--blue);height:100%;opacity:.6}
 
-.chart-legend {
-  display: flex;
-  gap: 14px;
-  flex-wrap: wrap;
-  align-items: center;
-}
-.leg-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-.leg-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+.annahmen{background:var(--bg-card2);border:1px solid var(--border);border-left:3px solid var(--gold);border-radius:var(--radius);padding:12px 18px;margin-bottom:18px;font-size:11px;color:var(--text-muted);line-height:1.8}
+.annahmen strong{color:var(--text);font-weight:600;display:block;margin-bottom:3px}
+code{font-family:var(--mono);font-size:10px;color:var(--gold-light);background:var(--gold-dim);padding:1px 5px;border-radius:3px}
 
-.chart-wrap { position: relative; height: 340px; }
+.state-msg{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:180px;gap:10px;color:var(--text-dim);font-size:13px;text-align:center}
+.state-msg .icon{font-size:30px}
 
-/* ── Produktion-Tabelle ── */
-.prod-table-wrap {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  overflow: hidden;
-}
-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 12px;
-}
-thead th {
-  padding: 10px 14px;
-  text-align: left;
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--text-dim);
-  background: var(--bg-card2);
-  border-bottom: 1px solid var(--border);
-  white-space: nowrap;
-}
-thead th.r { text-align: right; }
-tbody tr { border-bottom: 1px solid rgba(255,255,255,0.04); transition: background 0.12s; }
-tbody tr:last-child { border-bottom: none; }
-tbody tr:hover { background: rgba(255,255,255,0.03); }
-tbody td { padding: 10px 14px; vertical-align: middle; }
-tbody td.r { text-align: right; font-family: var(--mono); font-size: 11px; }
-tbody td.prod-name { font-weight: 500; font-size: 12px; }
-tbody td.prod-name small { display: block; font-size: 10px; color: var(--text-dim); font-weight: 400; margin-top: 1px; }
-
-.bar-stack {
-  height: 6px;
-  border-radius: 3px;
-  background: var(--border);
-  overflow: hidden;
-  display: flex;
-  min-width: 80px;
-}
-.bar-ist { background: var(--gold-light); height: 100%; }
-.bar-fore { background: var(--green); height: 100%; opacity: 0.8; }
-.bar-up { background: var(--blue); height: 100%; opacity: 0.6; }
-
-.badge {
-  display: inline-block;
-  padding: 2px 7px;
-  border-radius: 10px;
-  font-size: 10px;
-  font-weight: 600;
-  font-family: var(--mono);
-}
-.badge-gold { background: var(--gold-dim); color: var(--gold-light); }
-.badge-green { background: var(--green-dim); color: var(--green); }
-.badge-blue { background: var(--blue-dim); color: var(--blue); }
-.badge-orange { background: var(--orange-dim); color: var(--orange); }
-
-/* ── Annahmen-Box ── */
-.annahmen {
-  background: var(--bg-card2);
-  border: 1px solid var(--border);
-  border-left: 3px solid var(--gold);
-  border-radius: var(--radius);
-  padding: 16px 20px;
-  margin-bottom: 20px;
-  font-size: 11px;
-  color: var(--text-muted);
-  line-height: 1.7;
-}
-.annahmen strong { color: var(--text); font-weight: 600; display: block; margin-bottom: 6px; }
-.annahmen code { font-family: var(--mono); font-size: 10px; color: var(--gold-light); background: var(--gold-dim); padding: 1px 5px; border-radius: 3px; }
-
-/* ── Error / Loading ── */
-.state-msg {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 280px;
-  gap: 12px;
-  color: var(--text-dim);
-  font-size: 13px;
-  text-align: center;
-}
-.state-msg .icon { font-size: 32px; }
-.state-msg code { font-family: var(--mono); font-size: 11px; color: var(--red); background: rgba(201,91,91,0.1); padding: 4px 10px; border-radius: 4px; }
-
-/* ── Responsive ── */
-@media (max-width: 900px) {
-  .main { padding: 20px 16px 40px; }
-  .kpi-hero-row { grid-template-columns: 1fr 1fr; }
-  .header { padding: 0 16px; }
-  .chart-wrap { height: 260px; }
-}
-@media (max-width: 600px) {
-  .kpi-hero-row { grid-template-columns: 1fr; }
-  .kpi-hero-val { font-size: 22px; }
-  .slider-row { display: none; }
-}
+@media(max-width:1100px){.kpi-hero-row{grid-template-columns:repeat(2,1fr)}.kpi-sec-row{grid-template-columns:repeat(3,1fr)}.chart-grid{grid-template-columns:1fr}}
+@media(max-width:700px){.main{padding:16px 14px 40px}.kpi-hero-row{grid-template-columns:1fr}.header{padding:0 14px}}
 </style>
 </head>
 <body>
@@ -331,53 +147,43 @@ tbody td.prod-name small { display: block; font-size: 10px; color: var(--text-di
 
 <div class="main">
 
-  <!-- Szenario-Steuerung -->
-  <div class="scenario-bar">
-    <span class="scenario-label">Szenario:</span>
-    <button class="sc-btn" data-sc="pess" onclick="setSzenario('pess')">Pessimistisch</button>
-    <button class="sc-btn active-real" data-sc="real" onclick="setSzenario('real')">Realistisch</button>
-    <button class="sc-btn" data-sc="opt" onclick="setSzenario('opt')">Optimistisch</button>
-    <span class="scenario-hint" id="scHint">Abschlussquote: 55 % · Freie Plätze</span>
+  <div class="view-bar">
+    <span class="view-label">Ansicht:</span>
+    <button class="vb-btn active" data-v="gesamt" onclick="setView('gesamt')">Alle Produktionen</button>
+    <button class="vb-btn" data-v="gastspiel" onclick="setView('gastspiel')">Gastspiele</button>
+    <button class="vb-btn" data-v="haus" onclick="setView('haus')">Eigenproduktionen</button>
+  </div>
 
+  <div class="controls-row">
+    <span class="sc-label">Szenario:</span>
+    <button class="sc-btn" data-sc="pess" onclick="setSz('pess')">Pessimistisch</button>
+    <button class="sc-btn ar" data-sc="real" onclick="setSz('real')">Realistisch</button>
+    <button class="sc-btn" data-sc="opt" onclick="setSz('opt')">Optimistisch</button>
+    <div class="ctrl-sep"></div>
     <div class="slider-row">
-      <label for="freigabeSlider">Freigabequote Kontingente:</label>
-      <input type="range" id="freigabeSlider" min="0" max="80" value="35" step="5" oninput="onSlider()">
-      <span class="slider-val" id="freigabeVal">35 %</span>
+      <label>Freigabequote Kont.:</label>
+      <input type="range" id="fSlider" min="0" max="80" value="35" step="5" oninput="onSlider()">
+      <span class="slider-val" id="fVal">35 %</span>
     </div>
   </div>
 
-  <!-- Hero KPIs -->
-  <div class="kpi-hero-row">
-    <div class="kpi-hero h-gold">
-      <div class="kpi-hero-label">Ist-Umsatz</div>
-      <div class="kpi-hero-val" id="kIst">—</div>
-      <div class="kpi-hero-sub" id="kIstSub">Aus verkauften Tickets</div>
-    </div>
-    <div class="kpi-hero h-green">
-      <div class="kpi-hero-label">Prognose-Umsatz</div>
-      <div class="kpi-hero-val" id="kFore">—</div>
-      <div class="kpi-hero-sub" id="kForeSub">Ist + Forecast Restverkauf</div>
-    </div>
-    <div class="kpi-hero h-blue">
-      <div class="kpi-hero-label">Maximal-Potenzial</div>
-      <div class="kpi-hero-val" id="kMax">—</div>
-      <div class="kpi-hero-sub" id="kMaxSub">Inkl. Kontingent-Upside</div>
-    </div>
+  <div class="gs-banner" id="gsBanner" style="display:none">
+    <span class="gs-pill">Gastspiele</span>
+    <span class="gs-info" id="gsInfo">—</span>
   </div>
 
-  <!-- Annahmen -->
-  <div class="annahmen">
-    <strong>Methodik &amp; Annahmen</strong>
-    <span id="annahmenText">—</span>
-  </div>
+  <div class="kond-warn" id="kondWarn">⚠ OLS-Konditionszahl hoch — Alpha-Scores mit Vorsicht interpretieren</div>
 
-  <!-- Balkendiagramm -->
+  <div class="kpi-hero-row" id="heroRow"></div>
+  <div class="kpi-sec-row" id="secRow"></div>
+  <div class="annahmen"><strong>Methodik</strong><span id="methText">—</span></div>
+
   <div class="section-label">Umsatzstruktur pro Produktion</div>
   <div class="chart-card">
     <div class="chart-card-head">
       <div>
         <div class="chart-card-title">Ist · Forecast · Kontingent-Upside</div>
-        <div class="chart-card-sub">Gestapelt pro Produktion, sortiert nach Gesamtpotenzial</div>
+        <div class="chart-card-sub">Gestapelt, sortiert nach Gesamtpotenzial</div>
       </div>
       <div class="chart-legend">
         <div class="leg-item"><div class="leg-dot" style="background:var(--gold-light)"></div>Ist-Umsatz</div>
@@ -385,345 +191,306 @@ tbody td.prod-name small { display: block; font-size: 10px; color: var(--text-di
         <div class="leg-item"><div class="leg-dot" style="background:var(--blue)"></div>Kontingent-Upside</div>
       </div>
     </div>
-    <div class="chart-wrap"><canvas id="chartStacked"></canvas></div>
+    <div class="chart-wrap"><canvas id="cStacked"></canvas></div>
   </div>
 
-  <!-- Tabelle -->
+  <div class="chart-grid">
+    <div class="chart-card">
+      <div class="chart-card-head">
+        <div><div class="chart-card-title">Alpha-Score (bereinigtes Signal)</div>
+        <div class="chart-card-sub">OLS-Residuum — positiv = besser als erwartet</div></div>
+      </div>
+      <div class="chart-wrap-sm"><canvas id="cAlpha"></canvas></div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-card-head">
+        <div><div class="chart-card-title">Auslastungs-Forecast (Beta-Binomial)</div>
+        <div class="chart-card-sub">Posterior-Erwartung Endauslastung vs. Ist</div></div>
+      </div>
+      <div class="chart-wrap-sm"><canvas id="cFore"></canvas></div>
+    </div>
+  </div>
+
   <div class="section-label">Detail pro Produktion</div>
-  <div class="prod-table-wrap">
+  <div class="tbl-wrap">
     <table>
-      <thead>
-        <tr>
-          <th>Produktion</th>
-          <th class="r">VA</th>
-          <th class="r">Ausl. %</th>
-          <th class="r">Ist-Umsatz</th>
-          <th class="r">Ø Preis</th>
-          <th class="r">Forecast</th>
-          <th class="r">Upside</th>
-          <th class="r">Gesamt-Potenzial</th>
-          <th style="min-width:120px">Verteilung</th>
-        </tr>
-      </thead>
-      <tbody id="tblBody">
-        <tr><td colspan="9"><div class="state-msg"><span class="icon">⏳</span>Lade Daten…</div></td></tr>
-      </tbody>
+      <thead><tr>
+        <th>Produktion</th><th class="r">VA</th><th class="r">Ausl. %</th>
+        <th class="r">Ist-Umsatz</th><th class="r">Ø Preis</th><th class="r">Freie Pl.</th>
+        <th class="r">Forecast</th><th class="r">Upside</th><th class="r">Potenzial</th>
+        <th style="min-width:80px">Verteilung</th>
+      </tr></thead>
+      <tbody id="tblProd"></tbody>
     </table>
   </div>
 
-</div><!-- /main -->
+  <div id="vaSection" style="display:none">
+    <div class="section-label">Veranstaltungen — Gastspiele (alle Pipeline-Felder)</div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr>
+          <th>Produktion</th><th>Datum</th><th class="r">KV</th>
+          <th class="r">Ausl. VK%</th><th class="r">Ø Preis</th>
+          <th class="r">Fore.Ausl%</th><th class="r">Ist €</th>
+          <th class="r">Forecast €</th><th class="r">Upside €</th>
+          <th class="c">α-Score</th><th class="c">Alert</th><th class="r">Vel./d</th>
+        </tr></thead>
+        <tbody id="tblVA"></tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
 
 <script>
-// ─────────────────────────────────────────────
-// KONFIGURATION
-// ─────────────────────────────────────────────
-const NORMALPREISE = { a: 60, b: 54, c: 40, d: 28, e: 14, f: 7, studio: 20 };
+const GASTSPIELE=new Set(['Panel: No Place of Safety?','Stabat Mater','Cow | Deer','Macacos','11 ÅR','A place of safety','Arv og miljø','Needles and Opium','Bluets']);
+const NP={a:60,b:54,c:40,d:28,e:14,f:7,studio:20};
+const SZ={pess:{q:.35,l:'35 % Abschlussquote (pessimistisch)'},real:{q:.55,l:'55 % Abschlussquote (realistisch)'},opt:{q:.80,l:'80 % Abschlussquote (optimistisch)'}};
 
-const SZENARIEN = {
-  pess: { abschlussQuote: 0.35, label: 'Abschlussquote: 35 % · freie Plätze (konservativ)' },
-  real: { abschlussQuote: 0.55, label: 'Abschlussquote: 55 % · freie Plätze (realistisch)' },
-  opt:  { abschlussQuote: 0.80, label: 'Abschlussquote: 80 % · freie Plätze (optimistisch)' },
-};
+let D=null,sz='real',fq=.35,view='gesamt',CH={};
 
-// ─────────────────────────────────────────────
-// STATE
-// ─────────────────────────────────────────────
-let _data = null;
-let _szenario = 'real';
-let _freigabeQuote = 0.35;
-let _chart = null;
-
-// ─────────────────────────────────────────────
-// LADEN
-// ─────────────────────────────────────────────
-async function loadData() {
-  try {
-    const r = await fetch('dashboard_data.json');
-    if (!r.ok) throw new Error(`HTTP ${r.status}`);
-    _data = await r.json();
+async function loadData(){
+  try{
+    const r=await fetch('dashboard_data.json');
+    if(!r.ok)throw new Error('HTTP '+r.status);
+    D=await r.json();
+    if(D.meta?.alpha_score_meta?.kondition_warnung) document.getElementById('kondWarn').style.display='block';
     render();
-  } catch(e) {
-    showError(e.message);
+  }catch(e){
+    document.getElementById('heroRow').innerHTML=`<div class="kpi-hero hg" style="grid-column:1/-1"><div class="state-msg"><span class="icon">⚠️</span><div>dashboard_data.json nicht gefunden</div><code>${esc(e.message)}</code></div></div>`;
   }
 }
 
-function showError(msg) {
-  document.querySelector('.scenario-bar').style.display = 'none';
-  document.querySelector('.kpi-hero-row').innerHTML = `
-    <div class="kpi-hero h-gold" style="grid-column:1/-1">
-      <div class="state-msg">
-        <span class="icon">⚠️</span>
-        <div>dashboard_data.json konnte nicht geladen werden.</div>
-        <code>${msg}</code>
-        <div style="font-size:11px;color:var(--text-dim);margin-top:4px">
-          Stelle sicher, dass diese Datei im selben Verzeichnis liegt wie umsatzprognose.html.
-        </div>
-      </div>
-    </div>`;
-  document.querySelectorAll('.section-label, .chart-card, .annahmen, .prod-table-wrap').forEach(el => el.style.display = 'none');
+function enrich(){
+  const vi={};
+  for(const v of(D.veranstaltungen||[])){const k=v.produktion||v.name;if(!vi[k])vi[k]=[];vi[k].push(v);}
+  return (D.produktionen||[]).map(p=>{
+    const vs=vi[p.name]||[];
+    const fp=vs.reduce((s,v)=>s+(v.freie_plaetze||0),0);
+    let ns=0,nk=0;
+    for(const v of vs)for(const pg of(v.platzgruppen||[])){const n=NP[pg.platzgruppe]||NP.a;ns+=n*(pg.kapazitaet||1);nk+=(pg.kapazitaet||1);}
+    const np=nk>0?ns/nk:(p.avg_preis||40);
+    const al=vs.map(v=>v.alpha_score_norm).filter(v=>v!=null);
+    const fo=vs.map(v=>v.auslastung_forecast?.auslastung_forecast_pct).filter(v=>v!=null);
+    const vl=vs.map(v=>v.velocity_7d).filter(v=>v!=null);
+    return{...p,_fp:fp,_np:np,
+      _alpha:al.length?al.reduce((a,b)=>a+b)/al.length:null,
+      _fore:fo.length?fo.reduce((a,b)=>a+b)/fo.length:null,
+      _vel:vl.length?vl.reduce((a,b)=>a+b)/vl.length:null,
+      _vas:vs};
+  });
 }
 
-// ─────────────────────────────────────────────
-// BERECHNUNGEN
-// ─────────────────────────────────────────────
-function calcPrognose(prod, abschlussQuote, freigabeQuote) {
-  const istUmsatz = prod.umsatz_gesamt || 0;
-  const avgPreis = prod.avg_preis || 0;
-
-  // Freie Plätze aus VA-Daten rekonstruieren (Summe über VA der Produktion)
-  const freiePlaetze = prod._freie_plaetze || 0;
-  const kontingente  = prod.kontingente || 0;
-
-  // Forecast: freie Plätze × Abschlussquote × avg_preis (bester verfügbarer Preis)
-  const forecastUmsatz = freiePlaetze * abschlussQuote * avgPreis;
-
-  // Upside: Kontingente × Freigabequote × Normalpreis (PG-gewichteter Schnitt)
-  const normPreisAvg = prod._norm_preis_avg || avgPreis;
-  const upsideUmsatz = kontingente * freigabeQuote * normPreisAvg;
-
-  return { istUmsatz, forecastUmsatz, upsideUmsatz };
+function calc(p){
+  const ist=p.umsatz_gesamt||0;
+  const fore=p._fp*SZ[sz].q*(p.avg_preis||0);
+  const up=(p.kontingente||0)*fq*p._np;
+  return{ist,fore,up,total:ist+fore+up};
 }
 
-function buildProdData() {
-  if (!_data || !_data.produktionen || !_data.veranstaltungen) return [];
+function filt(prods){
+  if(view==='gastspiel')return prods.filter(p=>GASTSPIELE.has(p.name));
+  if(view==='haus')return prods.filter(p=>!GASTSPIELE.has(p.name));
+  return prods;
+}
 
-  // Index: va-Daten für Enrichment
-  const vaByProd = {};
-  for (const va of _data.veranstaltungen) {
-    const p = va.produktion || va.name;
-    if (!vaByProd[p]) vaByProd[p] = [];
-    vaByProd[p].push(va);
+function render(){
+  if(!D)return;
+  const all=enrich();
+  const prods=filt(all);
+  const rows=prods.map(p=>({p,...calc(p)})).sort((a,b)=>b.total-a.total);
+
+  const sI=rows.reduce((s,r)=>s+r.ist,0);
+  const sF=rows.reduce((s,r)=>s+r.fore,0);
+  const sU=rows.reduce((s,r)=>s+r.up,0);
+  const sT=sI+sF+sU;
+  const sKV=rows.reduce((s,r)=>s+(r.p.tickets_kartenverkauf||0),0);
+  const sKont=rows.reduce((s,r)=>s+(r.p.kontingente||0),0);
+  const sFP=rows.reduce((s,r)=>s+(r.p._fp||0),0);
+  const vAusl=rows.filter(r=>r.p.auslastung_pct!=null);
+  const avgAusl=vAusl.length?vAusl.reduce((s,r)=>s+(r.p.auslastung_pct||0),0)/vAusl.length:0;
+  const vAlpha=rows.filter(r=>r.p._alpha!=null);
+  const avgAlpha=vAlpha.length?vAlpha.reduce((s,r)=>s+(r.p._alpha||0),0)/vAlpha.length:null;
+
+  document.getElementById('hMeta').textContent='Stand: '+(D.meta?.aktuellster_snapshot||'—');
+
+  // Banner
+  const isG=view==='gastspiel';
+  document.getElementById('gsBanner').style.display=isG?'flex':'none';
+  document.getElementById('vaSection').style.display=isG?'block':'none';
+  if(isG){
+    const vc=rows.reduce((s,r)=>s+(r.p.anzahl_veranstaltungen||0),0);
+    document.getElementById('gsInfo').innerHTML=`<strong>${rows.length} Produktionen</strong> · ${vc} Veranstaltungen · Gruppe: Gastspiele`;
+    renderVA(all);
   }
 
-  return _data.produktionen.map(prod => {
-    const name = prod.name;
-    const vas = vaByProd[name] || [];
+  // Methodik
+  document.getElementById('methText').innerHTML=
+    ` <b>Ist-Umsatz</b>: <code>umsatz_gesamt</code> (exakt). `+
+    `<b>Forecast</b>: freie Plätze × ${Math.round(SZ[sz].q*100)} % × <code>avg_preis</code>. `+
+    `<b>Upside</b>: <code>kontingente</code> × ${Math.round(fq*100)} % × Normalpreis (kap.-gewichtet). `+
+    `<b>Alpha-Score</b>: OLS-Residuum <code>alpha_score_norm</code>. `+
+    `<b>Fore.Ausl.</b>: Beta-Binomial Posterior <code>auslastung_forecast</code>.`;
 
-    // Freie Plätze summieren
-    const freiePlaetze = vas.reduce((s, va) => s + (va.freie_plaetze || 0), 0);
+  // Hero
+  const hc=isG?'hp':'hg';
+  document.getElementById('heroRow').innerHTML=`
+    <div class="kpi-hero ${hc}"><div class="kpi-hero-label">Ist-Umsatz</div><div class="kpi-hero-val">${fmt(sI)}</div><div class="kpi-hero-sub">Realisiert aus Ticketverkäufen</div></div>
+    <div class="kpi-hero hgr"><div class="kpi-hero-label">Prognose (${SZ[sz].q*100|0} %)</div><div class="kpi-hero-val">${fmt(sI+sF)}</div><div class="kpi-hero-sub">+${fmt(sF)} Forecast Restverkauf</div></div>
+    <div class="kpi-hero hb"><div class="kpi-hero-label">Maximal-Potenzial</div><div class="kpi-hero-val">${fmt(sT)}</div><div class="kpi-hero-sub">+${fmt(sU)} Kontingent-Upside (${Math.round(fq*100)} %)</div></div>
+    <div class="kpi-hero hg"><div class="kpi-hero-label">Uplift-Faktor</div><div class="kpi-hero-val">${sI>0?(sT/sI).toFixed(2)+'×':'—'}</div><div class="kpi-hero-sub">Potenzial vs. Ist-Umsatz</div></div>`;
 
-    // Normalpreis-Durchschnitt gewichtet nach Kapazität pro PG
-    let normSum = 0, normKap = 0;
-    for (const va of vas) {
-      if (va.platzgruppen) {
-        for (const pg of va.platzgruppen) {
-          const np = NORMALPREISE[pg.platzgruppe] || NORMALPREISE['a'];
-          const kap = pg.kapazitaet || 1;
-          normSum += np * kap;
-          normKap += kap;
-        }
-      }
-    }
-    const normPreisAvg = normKap > 0 ? normSum / normKap : (prod.avg_preis || 50);
+  // Sek
+  const acl=avgAlpha!=null?(avgAlpha>.3?'cg':avgAlpha<-.3?'cr':''):'';
+  const acl2=avgAusl>=80?'cg':avgAusl>=50?'co':'cr';
+  document.getElementById('secRow').innerHTML=`
+    <div class="kpi-sec"><div class="kpi-sec-label">Tickets KV</div><div class="kpi-sec-val">${sKV.toLocaleString('de')}</div><div class="kpi-sec-sub">Kartenverkauf</div></div>
+    <div class="kpi-sec"><div class="kpi-sec-label">Ø Auslastung VK</div><div class="kpi-sec-val ${acl2}">${avgAusl.toFixed(1)} %</div><div class="kpi-sec-sub">Reale VK-Basis</div></div>
+    <div class="kpi-sec"><div class="kpi-sec-label">Freie Plätze</div><div class="kpi-sec-val co">${sFP.toLocaleString('de')}</div><div class="kpi-sec-sub">Forecast-Basis</div></div>
+    <div class="kpi-sec"><div class="kpi-sec-label">Kontingente</div><div class="kpi-sec-val cb">${sKont.toLocaleString('de')}</div><div class="kpi-sec-sub">Upside-Basis</div></div>
+    <div class="kpi-sec"><div class="kpi-sec-label">Ø Alpha-Score</div><div class="kpi-sec-val ${acl}">${avgAlpha!=null?avgAlpha.toFixed(2):'—'}</div><div class="kpi-sec-sub">OLS-Residuum norm.</div></div>`;
 
-    return {
-      ...prod,
-      _freie_plaetze: freiePlaetze,
-      _norm_preis_avg: normPreisAvg,
-    };
-  });
+  rStacked(rows);rAlpha(rows);rFore(rows);rProd(rows);
 }
 
-// ─────────────────────────────────────────────
-// RENDER
-// ─────────────────────────────────────────────
-function render() {
-  if (!_data) return;
-  const sc = SZENARIEN[_szenario];
-  const prods = buildProdData();
-
-  // Meta
-  const snap = _data.meta?.aktuellster_snapshot || '—';
-  document.getElementById('hMeta').textContent = `Stand: ${snap}`;
-
-  // Szenario-Hint
-  document.getElementById('scHint').textContent = sc.label + ` · Freigabequote: ${Math.round(_freigabeQuote*100)} %`;
-
-  // Annahmen
-  document.getElementById('annahmenText').innerHTML =
-    `<b>Ist-Umsatz</b>: direkt aus Pipeline (<code>umsatz_gesamt</code> pro Produktion). ` +
-    `<b>Forecast Restverkauf</b>: freie Plätze × Abschlussquote (${Math.round(sc.abschlussQuote*100)} %) × ` +
-    `Ø Preis (<code>avg_preis</code>). ` +
-    `<b>Kontingent-Upside</b>: Kontingente × Freigabequote (${Math.round(_freigabeQuote*100)} %) × ` +
-    `kapazitätsgewichteter Normalpreis (aus Preisstufentabelle). ` +
-    `Alle Werte beziehen sich auf <b>zukünftige Veranstaltungen</b>.`;
-
-  // Pro-Produktion-Berechnung
-  const rows = prods.map(prod => {
-    const { istUmsatz, forecastUmsatz, upsideUmsatz } = calcPrognose(prod, sc.abschlussQuote, _freigabeQuote);
-    return { prod, istUmsatz, forecastUmsatz, upsideUmsatz, total: istUmsatz + forecastUmsatz + upsideUmsatz };
-  }).sort((a, b) => b.total - a.total);
-
-  // Gesamt-KPIs
-  const sumIst   = rows.reduce((s, r) => s + r.istUmsatz, 0);
-  const sumFore  = rows.reduce((s, r) => s + r.forecastUmsatz, 0);
-  const sumUp    = rows.reduce((s, r) => s + r.upsideUmsatz, 0);
-
-  document.getElementById('kIst').textContent  = fmt(sumIst);
-  document.getElementById('kIstSub').textContent = `${rows.reduce((s,r)=>s+(r.prod.tickets_kartenverkauf||0),0).toLocaleString('de')} Tickets bereits verkauft`;
-
-  document.getElementById('kFore').textContent  = fmt(sumIst + sumFore);
-  document.getElementById('kForeSub').innerHTML = `+${fmt(sumFore)} Forecast Restverkauf`;
-
-  document.getElementById('kMax').textContent   = fmt(sumIst + sumFore + sumUp);
-  document.getElementById('kMaxSub').innerHTML  = `+${fmt(sumUp)} Kontingent-Upside (${Math.round(_freigabeQuote*100)} %)`;
-
-  renderChart(rows);
-  renderTable(rows);
+function rStacked(rows){
+  const ctx=document.getElementById('cStacked').getContext('2d');
+  if(CH.s){CH.s.destroy();}
+  CH.s=new Chart(ctx,{type:'bar',data:{
+    labels:rows.map(r=>sn(r.p.name)),
+    datasets:[
+      {label:'Ist-Umsatz',data:rows.map(r=>Math.round(r.ist)),backgroundColor:'rgba(201,168,76,0.85)',stack:'s'},
+      {label:'Forecast',data:rows.map(r=>Math.round(r.fore)),backgroundColor:'rgba(76,175,125,0.72)',stack:'s'},
+      {label:'Upside',data:rows.map(r=>Math.round(r.up)),backgroundColor:'rgba(91,155,213,0.55)',borderRadius:3,stack:'s'},
+    ]
+  },options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{backgroundColor:'#1e1e1e',borderColor:'#333',borderWidth:1,titleColor:'#aaa',bodyColor:'#e8e4dc',callbacks:{label:c=>`  ${c.dataset.label}: ${fK(c.parsed.y)}`,footer:i=>`  Gesamt: ${fK(i.reduce((s,x)=>s+x.parsed.y,0))}`}}},scales:{x:{stacked:true,ticks:{color:'#666',font:{size:10,family:'DM Sans'},maxRotation:35,minRotation:20},grid:{color:'rgba(255,255,255,0.04)'}},y:{stacked:true,ticks:{color:'#666',font:{size:10,family:'JetBrains Mono'},callback:v=>fK(v)},grid:{color:'rgba(255,255,255,0.06)'}}}}});
 }
 
-function renderChart(rows) {
-  const ctx = document.getElementById('chartStacked').getContext('2d');
-  const labels = rows.map(r => shortName(r.prod.name));
-  const istData  = rows.map(r => Math.round(r.istUmsatz));
-  const foreData = rows.map(r => Math.round(r.forecastUmsatz));
-  const upData   = rows.map(r => Math.round(r.upsideUmsatz));
-
-  if (_chart) { _chart.destroy(); }
-  _chart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-      labels,
-      datasets: [
-        {
-          label: 'Ist-Umsatz',
-          data: istData,
-          backgroundColor: 'rgba(201,168,76,0.85)',
-          borderRadius: 0,
-          stack: 'stack',
-        },
-        {
-          label: 'Forecast Restverkauf',
-          data: foreData,
-          backgroundColor: 'rgba(76,175,125,0.7)',
-          borderRadius: 0,
-          stack: 'stack',
-        },
-        {
-          label: 'Kontingent-Upside',
-          data: upData,
-          backgroundColor: 'rgba(91,155,213,0.55)',
-          borderRadius: 4,
-          stack: 'stack',
-        },
-      ]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          backgroundColor: '#1e1e1e',
-          borderColor: '#333',
-          borderWidth: 1,
-          titleColor: '#aaa',
-          bodyColor: '#e8e4dc',
-          callbacks: {
-            label: ctx => `  ${ctx.dataset.label}: ${fmtK(ctx.parsed.y)}`,
-            footer: items => {
-              const total = items.reduce((s, i) => s + i.parsed.y, 0);
-              return `  Gesamt: ${fmtK(total)}`;
-            }
-          }
-        }
-      },
-      scales: {
-        x: {
-          stacked: true,
-          ticks: { color: '#666', font: { size: 10, family: 'DM Sans' }, maxRotation: 35, minRotation: 20 },
-          grid: { color: 'rgba(255,255,255,0.04)' },
-        },
-        y: {
-          stacked: true,
-          ticks: {
-            color: '#666',
-            font: { size: 10, family: 'JetBrains Mono' },
-            callback: v => fmtK(v)
-          },
-          grid: { color: 'rgba(255,255,255,0.06)' },
-        }
-      }
-    }
-  });
+function rAlpha(rows){
+  const ctx=document.getElementById('cAlpha').getContext('2d');
+  if(CH.a){CH.a.destroy();}
+  const vals=rows.map(r=>r.p._alpha!=null?+r.p._alpha.toFixed(2):null);
+  const cols=vals.map(v=>v==null?'rgba(255,255,255,0.1)':v>0?'rgba(76,175,125,0.75)':'rgba(201,91,91,0.75)');
+  CH.a=new Chart(ctx,{type:'bar',data:{labels:rows.map(r=>sn(r.p.name)),datasets:[{label:'Ø Alpha-Score',data:vals,backgroundColor:cols,borderRadius:3}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{backgroundColor:'#1e1e1e',borderColor:'#333',borderWidth:1,titleColor:'#aaa',bodyColor:'#e8e4dc',callbacks:{label:c=>`  α = ${c.parsed.y}`}}},scales:{x:{ticks:{color:'#666',font:{size:9,family:'DM Sans'},maxRotation:35,minRotation:20},grid:{color:'rgba(255,255,255,0.04)'}},y:{ticks:{color:'#666',font:{size:10,family:'JetBrains Mono'}},grid:{color:'rgba(255,255,255,0.06)'},afterDataLimits:ax=>{const m=Math.max(.5,Math.abs(ax.max),Math.abs(ax.min));ax.max=m+.1;ax.min=-(m+.1)}}}}});
 }
 
-function renderTable(rows) {
-  const maxTotal = rows[0]?.total || 1;
-  const tbody = document.getElementById('tblBody');
-  tbody.innerHTML = rows.map(r => {
-    const { prod, istUmsatz, forecastUmsatz, upsideUmsatz, total } = r;
-    const ausl = prod.auslastung_pct != null ? prod.auslastung_pct.toFixed(1) + ' %' : '—';
-    const auslClass = (prod.auslastung_pct||0) >= 75 ? 'badge-green' : (prod.auslastung_pct||0) >= 50 ? 'badge-orange' : 'badge-gold';
-    const istPct  = total > 0 ? istUmsatz / total * 100 : 0;
-    const forePct = total > 0 ? forecastUmsatz / total * 100 : 0;
-    const upPct   = total > 0 ? upsideUmsatz / total * 100 : 0;
+function rFore(rows){
+  const ctx=document.getElementById('cFore').getContext('2d');
+  if(CH.f){CH.f.destroy();}
+  CH.f=new Chart(ctx,{type:'bar',data:{
+    labels:rows.map(r=>sn(r.p.name)),
+    datasets:[
+      {label:'Forecast Auslastung',data:rows.map(r=>r.p._fore!=null?+r.p._fore.toFixed(1):null),backgroundColor:'rgba(91,155,213,0.6)',borderRadius:3},
+      {label:'Ist Auslastung',data:rows.map(r=>r.p.auslastung_pct!=null?+r.p.auslastung_pct.toFixed(1):null),type:'line',tension:.3,pointRadius:3,pointBackgroundColor:'rgba(201,168,76,0.9)',borderColor:'rgba(201,168,76,0.7)',borderWidth:1.5,backgroundColor:'transparent'},
+    ]
+  },options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{backgroundColor:'#1e1e1e',borderColor:'#333',borderWidth:1,titleColor:'#aaa',bodyColor:'#e8e4dc',callbacks:{label:c=>`  ${c.dataset.label}: ${c.parsed.y} %`}}},scales:{x:{ticks:{color:'#666',font:{size:9,family:'DM Sans'},maxRotation:35,minRotation:20},grid:{color:'rgba(255,255,255,0.04)'}},y:{ticks:{color:'#666',font:{size:10,family:'JetBrains Mono'},callback:v=>v+' %'},grid:{color:'rgba(255,255,255,0.06)'},min:0}}}});
+}
 
-    return `<tr>
-      <td class="prod-name">
-        ${esc(prod.name)}
-        <small>${prod.anzahl_veranstaltungen} VA · ${(prod.tickets_kartenverkauf||0).toLocaleString('de')} Tickets</small>
-      </td>
-      <td class="r">${prod.anzahl_veranstaltungen || '—'}</td>
-      <td class="r"><span class="badge ${auslClass}">${ausl}</span></td>
-      <td class="r">${fmtK(istUmsatz)}</td>
-      <td class="r">${prod.avg_preis ? prod.avg_preis.toFixed(2).replace('.',',') + ' €' : '—'}</td>
-      <td class="r" style="color:var(--green)">${fmtK(forecastUmsatz)}</td>
-      <td class="r" style="color:var(--blue)">${fmtK(upsideUmsatz)}</td>
-      <td class="r" style="color:var(--text);font-weight:600">${fmtK(total)}</td>
-      <td>
-        <div class="bar-stack">
-          <div class="bar-ist" style="width:${istPct}%"></div>
-          <div class="bar-fore" style="width:${forePct}%"></div>
-          <div class="bar-up" style="width:${upPct}%"></div>
-        </div>
-      </td>
+function rProd(rows){
+  const isG=view==='gastspiel';
+  let h='';
+  if(isG) h+=`<tr class="gh"><td colspan="10">Gastspiele — ${rows.length} Produktionen</td></tr>`;
+  rows.forEach(r=>{
+    const{p,ist,fore,up,total}=r;
+    const ip=total>0?ist/total*100:0,fp2=total>0?fore/total*100:0,up2=total>0?up/total*100:0;
+    const a=p.auslastung_pct;
+    const ac=a==null?'badge-gray':a>=80?'badge-green':a>=50?'badge-orange':'badge-red';
+    h+=`<tr>
+      <td class="pn">${esc(p.name)}<small>${p.anzahl_veranstaltungen} VA · ${(p.tickets_kartenverkauf||0).toLocaleString('de')} Tickets</small></td>
+      <td class="r">${p.anzahl_veranstaltungen||'—'}</td>
+      <td class="r"><span class="badge ${ac}">${a!=null?a.toFixed(1)+' %':'—'}</span></td>
+      <td class="r">${fK(ist)}</td>
+      <td class="r">${p.avg_preis?p.avg_preis.toFixed(2).replace('.',',')+' €':'—'}</td>
+      <td class="r" style="color:var(--text-muted)">${(p._fp||0).toLocaleString('de')}</td>
+      <td class="r" style="color:var(--green)">${fK(fore)}</td>
+      <td class="r" style="color:var(--blue)">${fK(up)}</td>
+      <td class="r" style="font-weight:600">${fK(total)}</td>
+      <td><div class="bar-stack"><div class="bi" style="width:${ip}%"></div><div class="bf" style="width:${fp2}%"></div><div class="bu" style="width:${up2}%"></div></div></td>
     </tr>`;
-  }).join('');
-}
-
-// ─────────────────────────────────────────────
-// CONTROLS
-// ─────────────────────────────────────────────
-function setSzenario(sc) {
-  _szenario = sc;
-  document.querySelectorAll('.sc-btn').forEach(b => {
-    b.className = 'sc-btn';
-    if (b.dataset.sc === sc) b.classList.add(`active-${sc}`);
   });
+  const sI=rows.reduce((s,r)=>s+r.ist,0),sF=rows.reduce((s,r)=>s+r.fore,0),sU=rows.reduce((s,r)=>s+r.up,0);
+  h+=`<tr class="st">
+    <td colspan="3" style="font-size:11px;color:var(--text-muted)">Σ ${rows.length} Produktionen</td>
+    <td class="r">${fK(sI)}</td><td class="r">—</td><td class="r">—</td>
+    <td class="r" style="color:var(--green)">${fK(sF)}</td>
+    <td class="r" style="color:var(--blue)">${fK(sU)}</td>
+    <td class="r" style="color:var(--gold-light)">${fK(sI+sF+sU)}</td>
+    <td></td>
+  </tr>`;
+  document.getElementById('tblProd').innerHTML=h;
+}
+
+function renderVA(allProds){
+  const sc=SZ[sz];
+  const pMap={};for(const p of allProds)pMap[p.name]=p;
+  const vaList=[];
+  for(const p of allProds){
+    if(!GASTSPIELE.has(p.name))continue;
+    for(const v of(p._vas||[]))vaList.push({pn:p.name,np:p._np,v});
+  }
+  vaList.sort((a,b)=>a.pn.localeCompare(b.pn,'de')||a.v.datum.localeCompare(b.v.datum));
+  let cur='',h='';
+  let totI=0,totF=0,totU=0,totCnt=0;
+  for(const{pn,np,v} of vaList){
+    if(pn!==cur){h+=`<tr class="gh"><td colspan="12">${esc(pn)}</td></tr>`;cur=pn;}
+    const ist=v.umsatz_gesamt||0;
+    const fore=(v.freie_plaetze||0)*sc.q*(v.avg_preis||0);
+    const up=(v.kontingente||0)*fq*np;
+    totI+=ist;totF+=fore;totU+=up;totCnt++;
+    const ausl=v.auslastung_verkauf_pct;
+    const ac=ausl==null?'':ausl>=90?'style="color:var(--green)"':ausl<50?'style="color:var(--orange)"':'';
+    const alpha=v.alpha_score_norm;
+    const acol=alpha==null?'var(--text-dim)':alpha>.5?'var(--green)':alpha<-.5?'var(--red)':'var(--text-muted)';
+    const al=v.alert_level;
+    const ab=al&&al!=='normal'?`<span class="badge badge-${al==='kritisch'?'red':al==='warnung'?'orange':al==='chance'?'green':'gray'}">${al}</span>`:`<span style="color:var(--text-dim);font-size:10px">—</span>`;
+    const fp_pct=v.auslastung_forecast?.auslastung_forecast_pct;
+    h+=`<tr>
+      <td style="color:var(--text-muted);font-size:11px">${esc(pn)}</td>
+      <td style="font-family:var(--mono);font-size:11px;white-space:nowrap">${fd(v.datum)}</td>
+      <td class="r">${(v.tickets_kartenverkauf||0).toLocaleString('de')}</td>
+      <td class="r" ${ac}>${ausl!=null?ausl.toFixed(1)+' %':'—'}</td>
+      <td class="r">${v.avg_preis?v.avg_preis.toFixed(2).replace('.',',')+' €':'—'}</td>
+      <td class="r" style="color:var(--blue)">${fp_pct!=null?fp_pct.toFixed(1)+' %':'—'}</td>
+      <td class="r">${fK(ist)}</td>
+      <td class="r" style="color:var(--green)">${fK(fore)}</td>
+      <td class="r" style="color:var(--blue)">${fK(up)}</td>
+      <td class="c"><span style="color:${acol};font-family:var(--mono);font-size:11px">${alpha!=null?alpha.toFixed(2):'—'}</span></td>
+      <td class="c">${ab}</td>
+      <td class="r" style="color:var(--text-muted)">${v.velocity_7d!=null?v.velocity_7d.toFixed(1)+' /d':'—'}</td>
+    </tr>`;
+  }
+  h+=`<tr class="st">
+    <td colspan="6" style="font-size:11px;color:var(--text-muted)">Σ ${totCnt} Veranstaltungen (Gastspiele)</td>
+    <td class="r">${fK(totI)}</td>
+    <td class="r" style="color:var(--green)">${fK(totF)}</td>
+    <td class="r" style="color:var(--blue)">${fK(totU)}</td>
+    <td colspan="3" class="r" style="color:var(--gold-light);font-weight:700">${fK(totI+totF+totU)}</td>
+  </tr>`;
+  document.getElementById('tblVA').innerHTML=h;
+}
+
+function setView(v){
+  view=v;
+  document.querySelectorAll('.vb-btn').forEach(b=>{b.className='vb-btn';if(b.dataset.v===v)b.classList.add(v==='gastspiel'?'active-g':'active');});
+  render();
+}
+function setSz(s){
+  sz=s;
+  document.querySelectorAll('.sc-btn').forEach(b=>{b.className='sc-btn';if(b.dataset.sc===s)b.classList.add(s==='pess'?'ap':s==='opt'?'ao':'ar');});
+  render();
+}
+function onSlider(){
+  fq=parseInt(document.getElementById('fSlider').value)/100;
+  document.getElementById('fVal').textContent=Math.round(fq*100)+' %';
   render();
 }
 
-function onSlider() {
-  const v = parseInt(document.getElementById('freigabeSlider').value);
-  _freigabeQuote = v / 100;
-  document.getElementById('freigabeVal').textContent = v + ' %';
-  render();
-}
+function fmt(v){if(v==null||isNaN(v))return'—';return new Intl.NumberFormat('de-DE',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(v);}
+function fK(v){if(v==null||isNaN(v))return'—';if(Math.abs(v)>=1000)return(v/1000).toFixed(1).replace('.',',')+' k €';return v.toFixed(0)+' €';}
+function fd(s){if(!s)return'—';const[y,m,d]=s.split('-');return`${d}.${m}.${y}`;}
+function sn(n){if(!n)return'—';return n.length>20?n.slice(0,18)+'…':n;}
+function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 
-// ─────────────────────────────────────────────
-// UTILS
-// ─────────────────────────────────────────────
-function fmt(v) {
-  if (v == null || isNaN(v)) return '—';
-  return new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 }).format(v);
-}
-function fmtK(v) {
-  if (v == null || isNaN(v)) return '—';
-  if (Math.abs(v) >= 1000) return (v/1000).toFixed(1).replace('.',',') + ' k €';
-  return v.toFixed(0) + ' €';
-}
-function shortName(n) {
-  if (!n) return '—';
-  return n.length > 22 ? n.slice(0, 20) + '…' : n;
-}
-function esc(s) {
-  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-}
-
-// ─────────────────────────────────────────────
-// START
-// ─────────────────────────────────────────────
 loadData();
 </script>
 </body>
