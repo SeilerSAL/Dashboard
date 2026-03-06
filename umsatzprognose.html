@@ -216,7 +216,7 @@ code{font-family:var(--mono);font-size:10px;color:var(--gold-light);background:v
     <table>
       <thead><tr>
         <th>Produktion</th><th class="r">VA</th><th class="r">Ausl. %</th>
-        <th class="r">Ist-Umsatz</th><th class="r">Ø Preis</th><th class="r">Freie Pl.</th>
+        <th class="r">Ist-Umsatz</th><th class="r">Ø Preis</th><th class="r">Ø Abw.</th><th class="r">Freie Pl.</th>
         <th class="r">Forecast</th><th class="r">Upside</th><th class="r">Potenzial</th>
         <th style="min-width:80px">Verteilung</th>
       </tr></thead>
@@ -267,9 +267,13 @@ function enrich(){
   return (D.produktionen||[]).map(p=>{
     const vs=vi[p.name]||[];
     const fp=vs.reduce((s,v)=>s+(v.freie_plaetze||0),0);
-    let ns=0,nk=0;
-    for(const v of vs)for(const pg of(v.platzgruppen||[])){const n=NP[pg.platzgruppe]||NP.a;ns+=n*(pg.kapazitaet||1);nk+=(pg.kapazitaet||1);}
-    const np=nk>0?ns/nk:(p.avg_preis||40);
+    // _np: Normalpreis für Upside-Berechnung
+    // Primär: Median der katalog_median-Werte der VA (echte Normalpreise aus Pipeline)
+    // Fallback: kapazitätsgewichteter NP[] (hardcodiert) → dann avg_preis
+    const katMeds=vs.map(v=>v.katalog_median).filter(v=>v!=null&&v>0);
+    const np=katMeds.length>0
+      ?(katMeds.reduce((a,b)=>a+b)/katMeds.length)
+      :(()=>{let ns=0,nk=0;for(const v of vs)for(const pg of(v.platzgruppen||[])){const n=NP[pg.platzgruppe]||NP.a;ns+=n*(pg.kapazitaet||1);nk+=(pg.kapazitaet||1);}return nk>0?ns/nk:(p.avg_preis||40);})();
     const al=vs.map(v=>v.alpha_score_norm).filter(v=>v!=null);
     const fo=vs.map(v=>v.auslastung_forecast?.auslastung_forecast_pct).filter(v=>v!=null);
     const vl=vs.map(v=>v.velocity_7d).filter(v=>v!=null);
@@ -277,7 +281,9 @@ function enrich(){
     const totKV=vs.reduce((s,v)=>s+(v.tickets_kartenverkauf||0),0);
     const totKap=vs.reduce((s,v)=>s+(v.kapazitaet||0),0);
     const auslEffektiv=totKap>0?Math.min(round1(totKV/totKap*100),100):null;
+    const abwVals=vs.map(v=>v.preis_abweichung_pct).filter(v=>v!=null);
     return{...p,_fp:fp,_np:np,_ausl:auslEffektiv,
+      _abw:abwVals.length?abwVals.reduce((a,b)=>a+b)/abwVals.length:null,
       _alpha:al.length?al.reduce((a,b)=>a+b)/al.length:null,
       _fore:fo.length?fo.reduce((a,b)=>a+b)/fo.length:null,
       _vel:vl.length?vl.reduce((a,b)=>a+b)/vl.length:null,
@@ -393,7 +399,7 @@ function rFore(rows){
 function rProd(rows){
   const isG=view==='gastspiel';
   let h='';
-  if(isG) h+=`<tr class="gh"><td colspan="10">Gastspiele — ${rows.length} Produktionen</td></tr>`;
+  if(isG) h+=`<tr class="gh"><td colspan="11">Gastspiele — ${rows.length} Produktionen</td></tr>`;
   rows.forEach(r=>{
     const{p,ist,fore,up,total}=r;
     const ip=total>0?ist/total*100:0,fp2=total>0?fore/total*100:0,up2=total>0?up/total*100:0;
@@ -405,6 +411,7 @@ function rProd(rows){
       <td class="r"><span class="badge ${ac}">${a!=null?a.toFixed(1)+' %':'—'}</span></td>
       <td class="r">${fK(ist)}</td>
       <td class="r">${p.avg_preis?p.avg_preis.toFixed(2).replace('.',',')+' €':'—'}</td>
+      <td class="r" style="color:${p._abw==null?'var(--text-dim)':p._abw<-15?'var(--orange)':p._abw<-5?'var(--gold-light)':'var(--green)'};font-family:var(--mono)">${p._abw!=null?(p._abw>0?'+':'')+p._abw.toFixed(1)+' %':'—'}</td>
       <td class="r" style="color:var(--text-muted)">${(p._fp||0).toLocaleString('de')}</td>
       <td class="r" style="color:var(--green)">${fK(fore)}</td>
       <td class="r" style="color:var(--blue)">${fK(up)}</td>
@@ -415,7 +422,7 @@ function rProd(rows){
   const sI=rows.reduce((s,r)=>s+r.ist,0),sF=rows.reduce((s,r)=>s+r.fore,0),sU=rows.reduce((s,r)=>s+r.up,0);
   h+=`<tr class="st">
     <td colspan="3" style="font-size:11px;color:var(--text-muted)">Σ ${rows.length} Produktionen</td>
-    <td class="r">${fK(sI)}</td><td class="r">—</td><td class="r">—</td>
+    <td class="r">${fK(sI)}</td><td class="r">—</td><td class="r">—</td><td class="r">—</td>
     <td class="r" style="color:var(--green)">${fK(sF)}</td>
     <td class="r" style="color:var(--blue)">${fK(sU)}</td>
     <td class="r" style="color:var(--gold-light)">${fK(sI+sF+sU)}</td>
