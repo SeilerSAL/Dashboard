@@ -229,7 +229,7 @@ code{font-family:var(--mono);font-size:10px;color:var(--gold-light);background:v
     <div class="tbl-wrap">
       <table>
         <thead><tr>
-          <th>Produktion</th><th>Datum</th><th class="r">KV</th>
+          <th>PKat</th><th>Produktion</th><th>Datum</th><th class="r">KV</th>
           <th class="r">Ausl. VK%</th><th class="r">Ø Preis</th>
           <th class="r">Fore.Ausl%</th><th class="r">Ist €</th>
           <th class="r">Forecast €</th><th class="r">Upside €</th>
@@ -443,7 +443,7 @@ function renderVA(allProds){
   let cur='',h='';
   let totI=0,totF=0,totU=0,totCnt=0;
   for(const{pn,np,v} of vaList){
-    if(pn!==cur){h+=`<tr class="gh"><td colspan="12">${esc(pn)}</td></tr>`;cur=pn;}
+    if(pn!==cur){h+=`<tr class="gh"><td colspan="13">${esc(pn)}</td></tr>`;cur=pn;}
     const ist=v.umsatz_gesamt||0;
     const fore=(v.freie_plaetze||0)*sc.q*(v.avg_preis||0);
     const up=(v.kontingente||0)*fq*np;
@@ -456,6 +456,7 @@ function renderVA(allProds){
     const ab=al&&al!=='normal'?`<span class="badge badge-${al==='kritisch'?'red':al==='warnung'?'orange':al==='chance'?'green':'gray'}">${al}</span>`:`<span style="color:var(--text-dim);font-size:10px">—</span>`;
     const fp_pct=v.auslastung_forecast?.auslastung_forecast_pct;
     h+=`<tr>
+      <td style="font-size:10px;color:var(--text-muted);white-space:nowrap;max-width:120px;overflow:hidden;text-overflow:ellipsis" title="${esc(v.preiskategorie||'')}">${esc(v.preiskategorie||'—')}</td>
       <td style="color:var(--text-muted);font-size:11px">${esc(pn)}</td>
       <td style="font-family:var(--mono);font-size:11px;white-space:nowrap">${fd(v.datum)}</td>
       <td class="r">${(v.tickets_kartenverkauf||0).toLocaleString('de')}</td>
@@ -471,7 +472,7 @@ function renderVA(allProds){
     </tr>`;
   }
   h+=`<tr class="st">
-    <td colspan="6" style="font-size:11px;color:var(--text-muted)">Σ ${totCnt} Veranstaltungen (Gastspiele)</td>
+    <td colspan="7" style="font-size:11px;color:var(--text-muted)">Σ ${totCnt} Veranstaltungen (Gastspiele)</td>
     <td class="r">${fK(totI)}</td>
     <td class="r" style="color:var(--green)">${fK(totF)}</td>
     <td class="r" style="color:var(--blue)">${fK(totU)}</td>
