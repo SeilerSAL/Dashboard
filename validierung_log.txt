@@ -1,23 +1,23 @@
-Validierungslog — 2026-03-07 00:31
+Validierungslog — 2026-03-07 11:25
 ============================================================
 
 VVK-WARNUNGEN:
   Keine Auffaelligkeiten
 
 VALIDIERUNG (Auslastung vs. Gesamt-Export):
-  Abweichungen Auslastung vs. Gesamt-Export: 273 von 391 Kombinationen
-    Davon durch Kontingente erklaert: 4
-    Unerklaert (|diff| > 5): 269
-      VA 13508 PG b: Auslastung=63, Gesamt=90, Kont=0, Unerklaert=-27
-      VA 13508 PG c: Auslastung=99, Gesamt=118, Kont=0, Unerklaert=-19
-      VA 13508 PG d: Auslastung=92, Gesamt=98, Kont=4, Unerklaert=-10
+  Abweichungen Auslastung vs. Gesamt-Export: 267 von 382 Kombinationen
+    Davon durch Kontingente erklaert: 2
+    Unerklaert (|diff| > 5): 265
       VA 13509 PG a: Auslastung=46, Gesamt=55, Kont=0, Unerklaert=-9
       VA 13509 PG b: Auslastung=80, Gesamt=100, Kont=0, Unerklaert=-20
       VA 13509 PG c: Auslastung=98, Gesamt=115, Kont=4, Unerklaert=-21
-      VA 13509 PG d: Auslastung=66, Gesamt=96, Kont=30, Unerklaert=-60
+      VA 13509 PG d: Auslastung=66, Gesamt=98, Kont=30, Unerklaert=-62
       VA 13510 PG a: Auslastung=45, Gesamt=49, Kont=2, Unerklaert=-6
       VA 13510 PG b: Auslastung=42, Gesamt=61, Kont=2, Unerklaert=-21
       VA 13510 PG c: Auslastung=76, Gesamt=115, Kont=2, Unerklaert=-41
+      VA 13510 PG d: Auslastung=90, Gesamt=93, Kont=4, Unerklaert=-7
+      VA 13512 PG a: Auslastung=36, Gesamt=46, Kont=2, Unerklaert=-12
+      VA 13512 PG b: Auslastung=38, Gesamt=50, Kont=4, Unerklaert=-16
 
 BELEGUNG (Verkauft+Reserviert+Kontingente+Frei = Kapazitaet):
   Alle VA-PG-Kombinationen innerhalb Toleranz (10 Plaetze)
