@@ -1,6 +1,6 @@
 {
   "meta": {
-    "erstellt": "2026-03-07T16:34:28.659825",
+    "erstellt": "2026-03-07T16:48:28.999605",
     "aktuellster_snapshot": "2026-03-07",
     "anzahl_snapshots": 35,
     "snapshot_zeitraum": "2026-02-01 bis 2026-03-07",
@@ -52,8 +52,8 @@
       "tickets_7d": 115,
       "tickets_30d": 290,
       "velocity_7d": 16.43,
-      "velocity_7d_ci_lower": 8.0,
-      "velocity_7d_ci_upper": 13.94,
+      "velocity_7d_ci_lower": 7.94,
+      "velocity_7d_ci_upper": 13.97,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -170,6 +170,7 @@
       ],
       "pg_shift_score": 0.5593,
       "kanal_hhi": 0.1393,
+      "preiskategorie": null,
       "velocity_zscore": 1.14,
       "alert_level": "normal",
       "alpha_score": 4.83,
@@ -206,8 +207,8 @@
       "tickets_7d": 65,
       "tickets_30d": 186,
       "velocity_7d": 9.29,
-      "velocity_7d_ci_lower": 5.06,
-      "velocity_7d_ci_upper": 9.12,
+      "velocity_7d_ci_lower": 4.71,
+      "velocity_7d_ci_upper": 9.26,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -324,6 +325,7 @@
       ],
       "pg_shift_score": 0.308,
       "kanal_hhi": 0.1646,
+      "preiskategorie": null,
       "velocity_zscore": 0.07,
       "alert_level": "normal",
       "alpha_score": 1.53,
@@ -360,8 +362,8 @@
       "tickets_7d": 42,
       "tickets_30d": 63,
       "velocity_7d": 6.0,
-      "velocity_7d_ci_lower": 1.03,
-      "velocity_7d_ci_upper": 2.91,
+      "velocity_7d_ci_lower": 1.18,
+      "velocity_7d_ci_upper": 2.82,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -388,6 +390,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.3057,
+      "preiskategorie": null,
       "velocity_zscore": -0.43,
       "alert_level": "normal",
       "alpha_score": -17.27,
@@ -425,7 +428,7 @@
       "tickets_30d": 243,
       "velocity_7d": 11.43,
       "velocity_7d_ci_lower": 6.62,
-      "velocity_7d_ci_upper": 12.15,
+      "velocity_7d_ci_upper": 11.94,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -542,6 +545,7 @@
       ],
       "pg_shift_score": 0.538,
       "kanal_hhi": 0.1112,
+      "preiskategorie": null,
       "velocity_zscore": 0.39,
       "alert_level": "normal",
       "alpha_score": -1.55,
@@ -578,8 +582,8 @@
       "tickets_7d": 52,
       "tickets_30d": 171,
       "velocity_7d": 7.43,
-      "velocity_7d_ci_lower": 4.68,
-      "velocity_7d_ci_upper": 8.41,
+      "velocity_7d_ci_lower": 4.65,
+      "velocity_7d_ci_upper": 8.38,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -696,6 +700,7 @@
       ],
       "pg_shift_score": 0.2857,
       "kanal_hhi": 0.181,
+      "preiskategorie": null,
       "velocity_zscore": -0.21,
       "alert_level": "normal",
       "alpha_score": 2.85,
@@ -732,8 +737,8 @@
       "tickets_7d": 44,
       "tickets_30d": 150,
       "velocity_7d": 6.29,
-      "velocity_7d_ci_lower": 2.26,
-      "velocity_7d_ci_upper": 10.62,
+      "velocity_7d_ci_lower": 2.35,
+      "velocity_7d_ci_upper": 10.76,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -850,6 +855,7 @@
       ],
       "pg_shift_score": 0.3485,
       "kanal_hhi": 0.1033,
+      "preiskategorie": null,
       "velocity_zscore": -0.39,
       "alert_level": "normal",
       "alpha_score": 11.84,
@@ -886,8 +892,8 @@
       "tickets_7d": 9,
       "tickets_30d": 221,
       "velocity_7d": 1.29,
-      "velocity_7d_ci_lower": 6.09,
-      "velocity_7d_ci_upper": 15.24,
+      "velocity_7d_ci_lower": 6.0,
+      "velocity_7d_ci_upper": 15.53,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -1004,6 +1010,7 @@
       ],
       "pg_shift_score": 0.3708,
       "kanal_hhi": 0.1142,
+      "preiskategorie": null,
       "velocity_zscore": -1.14,
       "alert_level": "normal",
       "alpha_score": -8.1,
@@ -1040,7 +1047,7 @@
       "tickets_7d": 23,
       "tickets_30d": 114,
       "velocity_7d": 3.29,
-      "velocity_7d_ci_lower": 3.18,
+      "velocity_7d_ci_lower": 3.32,
       "velocity_7d_ci_upper": 6.65,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
@@ -1158,6 +1165,7 @@
       ],
       "pg_shift_score": 0.3298,
       "kanal_hhi": 0.1982,
+      "preiskategorie": null,
       "velocity_zscore": -0.84,
       "alert_level": "normal",
       "alpha_score": -22.0,
@@ -1194,8 +1202,8 @@
       "tickets_7d": 10,
       "tickets_30d": 20,
       "velocity_7d": 1.43,
-      "velocity_7d_ci_lower": 0.5,
-      "velocity_7d_ci_upper": 2.94,
+      "velocity_7d_ci_lower": 0.53,
+      "velocity_7d_ci_upper": 2.91,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -1240,6 +1248,7 @@
       ],
       "pg_shift_score": 0.5578,
       "kanal_hhi": 0.1778,
+      "preiskategorie": null,
       "velocity_zscore": -1.12,
       "alert_level": "normal",
       "alpha_score": 9.2,
@@ -1276,8 +1285,8 @@
       "tickets_7d": 6,
       "tickets_30d": 236,
       "velocity_7d": 0.86,
-      "velocity_7d_ci_lower": 4.32,
-      "velocity_7d_ci_upper": 19.03,
+      "velocity_7d_ci_lower": 4.38,
+      "velocity_7d_ci_upper": 18.94,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -1394,6 +1403,7 @@
       ],
       "pg_shift_score": 0.3874,
       "kanal_hhi": 0.1208,
+      "preiskategorie": null,
       "velocity_zscore": -1.21,
       "alert_level": "normal",
       "alpha_score": 0.79,
@@ -1430,8 +1440,8 @@
       "tickets_7d": 39,
       "tickets_30d": 107,
       "velocity_7d": 5.57,
-      "velocity_7d_ci_lower": 2.76,
-      "velocity_7d_ci_upper": 6.35,
+      "velocity_7d_ci_lower": 3.09,
+      "velocity_7d_ci_upper": 6.47,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -1548,6 +1558,7 @@
       ],
       "pg_shift_score": 0.4514,
       "kanal_hhi": 0.1943,
+      "preiskategorie": null,
       "velocity_zscore": -0.49,
       "alert_level": "normal",
       "alpha_score": -28.71,
@@ -1584,8 +1595,8 @@
       "tickets_7d": 8,
       "tickets_30d": 24,
       "velocity_7d": 1.14,
-      "velocity_7d_ci_lower": 0.53,
-      "velocity_7d_ci_upper": 2.56,
+      "velocity_7d_ci_lower": 0.44,
+      "velocity_7d_ci_upper": 2.5,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -1630,6 +1641,7 @@
       ],
       "pg_shift_score": 0.5172,
       "kanal_hhi": 0.1817,
+      "preiskategorie": null,
       "velocity_zscore": -1.16,
       "alert_level": "normal",
       "alpha_score": 2.29,
@@ -1666,8 +1678,8 @@
       "tickets_7d": 5,
       "tickets_30d": 262,
       "velocity_7d": 0.71,
-      "velocity_7d_ci_lower": 6.94,
-      "velocity_7d_ci_upper": 16.41,
+      "velocity_7d_ci_lower": 6.74,
+      "velocity_7d_ci_upper": 16.35,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -1784,6 +1796,7 @@
       ],
       "pg_shift_score": 0.3844,
       "kanal_hhi": 0.179,
+      "preiskategorie": null,
       "velocity_zscore": -1.23,
       "alert_level": "normal",
       "alpha_score": 10.91,
@@ -1820,8 +1833,8 @@
       "tickets_7d": 8,
       "tickets_30d": 22,
       "velocity_7d": 1.14,
-      "velocity_7d_ci_lower": 0.21,
-      "velocity_7d_ci_upper": 3.06,
+      "velocity_7d_ci_lower": 0.35,
+      "velocity_7d_ci_upper": 3.0,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -1866,6 +1879,7 @@
       ],
       "pg_shift_score": 0.3478,
       "kanal_hhi": 0.2306,
+      "preiskategorie": null,
       "velocity_zscore": -1.16,
       "alert_level": "normal",
       "alpha_score": 17.51,
@@ -1902,8 +1916,8 @@
       "tickets_7d": 7,
       "tickets_30d": 296,
       "velocity_7d": 1.0,
-      "velocity_7d_ci_lower": 6.59,
-      "velocity_7d_ci_upper": 17.15,
+      "velocity_7d_ci_lower": 6.0,
+      "velocity_7d_ci_upper": 17.0,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -2020,6 +2034,7 @@
       ],
       "pg_shift_score": 0.3816,
       "kanal_hhi": 0.1717,
+      "preiskategorie": null,
       "velocity_zscore": -1.18,
       "alert_level": "normal",
       "alpha_score": 16.13,
@@ -2056,8 +2071,8 @@
       "tickets_7d": 28,
       "tickets_30d": 56,
       "velocity_7d": 4.0,
-      "velocity_7d_ci_lower": 0.62,
-      "velocity_7d_ci_upper": 11.74,
+      "velocity_7d_ci_lower": -0.53,
+      "velocity_7d_ci_upper": 11.62,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -2084,6 +2099,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.2383,
+      "preiskategorie": null,
       "velocity_zscore": -0.73,
       "alert_level": "normal",
       "alpha_score": 32.23,
@@ -2120,8 +2136,8 @@
       "tickets_7d": 26,
       "tickets_30d": 270,
       "velocity_7d": 3.71,
-      "velocity_7d_ci_lower": 6.88,
-      "velocity_7d_ci_upper": 15.85,
+      "velocity_7d_ci_lower": 6.85,
+      "velocity_7d_ci_upper": 16.06,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -2238,6 +2254,7 @@
       ],
       "pg_shift_score": 0.3844,
       "kanal_hhi": 0.1583,
+      "preiskategorie": null,
       "velocity_zscore": -0.78,
       "alert_level": "normal",
       "alpha_score": 24.56,
@@ -2274,8 +2291,8 @@
       "tickets_7d": 56,
       "tickets_30d": 146,
       "velocity_7d": 8.0,
-      "velocity_7d_ci_lower": 4.12,
-      "velocity_7d_ci_upper": 8.82,
+      "velocity_7d_ci_lower": 4.0,
+      "velocity_7d_ci_upper": 8.59,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -2392,6 +2409,7 @@
       ],
       "pg_shift_score": 0.3529,
       "kanal_hhi": 0.2114,
+      "preiskategorie": null,
       "velocity_zscore": -0.13,
       "alert_level": "normal",
       "alpha_score": 0.44,
@@ -2428,8 +2446,8 @@
       "tickets_7d": 49,
       "tickets_30d": 141,
       "velocity_7d": 7.0,
-      "velocity_7d_ci_lower": 4.0,
-      "velocity_7d_ci_upper": 9.59,
+      "velocity_7d_ci_lower": 3.97,
+      "velocity_7d_ci_upper": 9.56,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -2546,6 +2564,7 @@
       ],
       "pg_shift_score": 0.4056,
       "kanal_hhi": 0.2824,
+      "preiskategorie": null,
       "velocity_zscore": -0.28,
       "alert_level": "normal",
       "alpha_score": 19.22,
@@ -2582,7 +2601,7 @@
       "tickets_7d": 28,
       "tickets_30d": 61,
       "velocity_7d": 4.0,
-      "velocity_7d_ci_lower": 1.65,
+      "velocity_7d_ci_lower": 1.68,
       "velocity_7d_ci_upper": 2.94,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
@@ -2610,6 +2629,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.1626,
+      "preiskategorie": null,
       "velocity_zscore": -0.73,
       "alert_level": "normal",
       "alpha_score": -1.28,
@@ -2646,8 +2666,8 @@
       "tickets_7d": 19,
       "tickets_30d": 67,
       "velocity_7d": 2.71,
-      "velocity_7d_ci_lower": 1.71,
-      "velocity_7d_ci_upper": 3.29,
+      "velocity_7d_ci_lower": 1.65,
+      "velocity_7d_ci_upper": 3.26,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -2674,6 +2694,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.2683,
+      "preiskategorie": null,
       "velocity_zscore": -0.93,
       "alert_level": "normal",
       "alpha_score": -2.33,
@@ -2710,8 +2731,8 @@
       "tickets_7d": 12,
       "tickets_30d": 53,
       "velocity_7d": 1.71,
-      "velocity_7d_ci_lower": 1.26,
-      "velocity_7d_ci_upper": 3.82,
+      "velocity_7d_ci_lower": 1.29,
+      "velocity_7d_ci_upper": 3.85,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -2738,6 +2759,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.2307,
+      "preiskategorie": null,
       "velocity_zscore": -1.08,
       "alert_level": "normal",
       "alpha_score": 8.87,
@@ -2774,7 +2796,7 @@
       "tickets_7d": 37,
       "tickets_30d": 162,
       "velocity_7d": 5.29,
-      "velocity_7d_ci_lower": 3.44,
+      "velocity_7d_ci_lower": 2.24,
       "velocity_7d_ci_upper": 13.94,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
@@ -2892,6 +2914,7 @@
       ],
       "pg_shift_score": 0.3508,
       "kanal_hhi": 0.1323,
+      "preiskategorie": null,
       "velocity_zscore": -0.54,
       "alert_level": "normal",
       "alpha_score": 15.48,
@@ -2928,8 +2951,8 @@
       "tickets_7d": 24,
       "tickets_30d": 78,
       "velocity_7d": 3.43,
-      "velocity_7d_ci_lower": 1.24,
-      "velocity_7d_ci_upper": 6.06,
+      "velocity_7d_ci_lower": 1.26,
+      "velocity_7d_ci_upper": 5.91,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -3028,6 +3051,7 @@
       ],
       "pg_shift_score": 0.2346,
       "kanal_hhi": 0.2644,
+      "preiskategorie": null,
       "velocity_zscore": -0.82,
       "alert_level": "normal",
       "alpha_score": -21.52,
@@ -3064,8 +3088,8 @@
       "tickets_7d": 39,
       "tickets_30d": 164,
       "velocity_7d": 5.57,
-      "velocity_7d_ci_lower": 3.59,
-      "velocity_7d_ci_upper": 11.56,
+      "velocity_7d_ci_lower": 3.65,
+      "velocity_7d_ci_upper": 11.41,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -3182,6 +3206,7 @@
       ],
       "pg_shift_score": 0.3946,
       "kanal_hhi": 0.1266,
+      "preiskategorie": null,
       "velocity_zscore": -0.49,
       "alert_level": "normal",
       "alpha_score": 14.8,
@@ -3318,6 +3343,7 @@
       ],
       "pg_shift_score": 0.3826,
       "kanal_hhi": 0.1986,
+      "preiskategorie": null,
       "velocity_zscore": -0.86,
       "alert_level": "normal",
       "alpha_score": -22.5,
@@ -3354,8 +3380,8 @@
       "tickets_7d": 38,
       "tickets_30d": 149,
       "velocity_7d": 5.43,
-      "velocity_7d_ci_lower": 3.74,
-      "velocity_7d_ci_upper": 9.68,
+      "velocity_7d_ci_lower": 3.59,
+      "velocity_7d_ci_upper": 9.79,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -3472,6 +3498,7 @@
       ],
       "pg_shift_score": 0.4736,
       "kanal_hhi": 0.1634,
+      "preiskategorie": null,
       "velocity_zscore": -0.52,
       "alert_level": "normal",
       "alpha_score": 12.04,
@@ -3508,8 +3535,8 @@
       "tickets_7d": 17,
       "tickets_30d": 126,
       "velocity_7d": 2.43,
-      "velocity_7d_ci_lower": 1.32,
-      "velocity_7d_ci_upper": 7.44,
+      "velocity_7d_ci_lower": 0.74,
+      "velocity_7d_ci_upper": 7.56,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -3608,6 +3635,7 @@
       ],
       "pg_shift_score": 0.2697,
       "kanal_hhi": 0.2015,
+      "preiskategorie": null,
       "velocity_zscore": -0.97,
       "alert_level": "normal",
       "alpha_score": 8.94,
@@ -3644,8 +3672,8 @@
       "tickets_7d": 40,
       "tickets_30d": 174,
       "velocity_7d": 5.71,
-      "velocity_7d_ci_lower": 4.5,
-      "velocity_7d_ci_upper": 11.09,
+      "velocity_7d_ci_lower": 4.38,
+      "velocity_7d_ci_upper": 11.15,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -3762,6 +3790,7 @@
       ],
       "pg_shift_score": 0.41,
       "kanal_hhi": 0.1196,
+      "preiskategorie": null,
       "velocity_zscore": -0.47,
       "alert_level": "normal",
       "alpha_score": -0.39,
@@ -3798,7 +3827,7 @@
       "tickets_7d": 35,
       "tickets_30d": 152,
       "velocity_7d": 5.0,
-      "velocity_7d_ci_lower": 2.5,
+      "velocity_7d_ci_lower": 2.56,
       "velocity_7d_ci_upper": 12.41,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
@@ -3916,6 +3945,7 @@
       ],
       "pg_shift_score": 0.3861,
       "kanal_hhi": 0.1104,
+      "preiskategorie": null,
       "velocity_zscore": -0.58,
       "alert_level": "normal",
       "alpha_score": 9.39,
@@ -3952,8 +3982,8 @@
       "tickets_7d": 0,
       "tickets_30d": 7,
       "velocity_7d": 0.0,
-      "velocity_7d_ci_lower": -1.5,
-      "velocity_7d_ci_upper": 4.09,
+      "velocity_7d_ci_lower": -1.44,
+      "velocity_7d_ci_upper": 4.06,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -3980,6 +4010,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.3004,
+      "preiskategorie": null,
       "velocity_zscore": -1.34,
       "alert_level": "normal",
       "alpha_score": 8.65,
@@ -4016,8 +4047,8 @@
       "tickets_7d": 19,
       "tickets_30d": 101,
       "velocity_7d": 2.71,
-      "velocity_7d_ci_lower": 2.85,
-      "velocity_7d_ci_upper": 7.0,
+      "velocity_7d_ci_lower": 2.76,
+      "velocity_7d_ci_upper": 6.79,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -4134,6 +4165,7 @@
       ],
       "pg_shift_score": 0.3602,
       "kanal_hhi": 0.1176,
+      "preiskategorie": null,
       "velocity_zscore": -0.93,
       "alert_level": "normal",
       "alpha_score": 2.34,
@@ -4170,7 +4202,7 @@
       "tickets_7d": 4,
       "tickets_30d": 14,
       "velocity_7d": 0.57,
-      "velocity_7d_ci_lower": -1.09,
+      "velocity_7d_ci_lower": -1.29,
       "velocity_7d_ci_upper": 4.47,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
@@ -4198,6 +4230,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.3605,
+      "preiskategorie": null,
       "velocity_zscore": -1.25,
       "alert_level": "normal",
       "alpha_score": 18.54,
@@ -4235,7 +4268,7 @@
       "tickets_30d": 78,
       "velocity_7d": 3.0,
       "velocity_7d_ci_lower": 2.21,
-      "velocity_7d_ci_upper": 5.24,
+      "velocity_7d_ci_upper": 5.12,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -4352,6 +4385,7 @@
       ],
       "pg_shift_score": 0.4084,
       "kanal_hhi": 0.1674,
+      "preiskategorie": null,
       "velocity_zscore": -0.88,
       "alert_level": "normal",
       "alpha_score": -11.34,
@@ -4388,8 +4422,8 @@
       "tickets_7d": 10,
       "tickets_30d": 20,
       "velocity_7d": 1.43,
-      "velocity_7d_ci_lower": -1.12,
-      "velocity_7d_ci_upper": 4.59,
+      "velocity_7d_ci_lower": -1.0,
+      "velocity_7d_ci_upper": 4.62,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -4416,6 +4450,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.2383,
+      "preiskategorie": null,
       "velocity_zscore": -1.12,
       "alert_level": "normal",
       "alpha_score": 37.06,
@@ -4452,8 +4487,8 @@
       "tickets_7d": 19,
       "tickets_30d": 107,
       "velocity_7d": 2.71,
-      "velocity_7d_ci_lower": 1.12,
-      "velocity_7d_ci_upper": 8.24,
+      "velocity_7d_ci_lower": 1.71,
+      "velocity_7d_ci_upper": 8.26,
       "vvk_start": "2026-02-01",
       "vvk_phase": "offiziell",
       "vvk_offiziell": "2026-02-01",
@@ -4570,6 +4605,7 @@
       ],
       "pg_shift_score": 0.343,
       "kanal_hhi": 0.504,
+      "preiskategorie": null,
       "velocity_zscore": -0.93,
       "alert_level": "normal",
       "alpha_score": 23.38,
@@ -4606,8 +4642,8 @@
       "tickets_7d": 53,
       "tickets_30d": null,
       "velocity_7d": 7.57,
-      "velocity_7d_ci_lower": 2.8,
-      "velocity_7d_ci_upper": 17.9,
+      "velocity_7d_ci_lower": 2.6,
+      "velocity_7d_ci_upper": 17.6,
       "vvk_start": "2026-02-26",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -4724,6 +4760,7 @@
       ],
       "pg_shift_score": 0.5723,
       "kanal_hhi": 0.1759,
+      "preiskategorie": null,
       "velocity_zscore": -0.19,
       "alert_level": "normal",
       "alpha_score": -38.01,
@@ -4760,8 +4797,8 @@
       "tickets_7d": 53,
       "tickets_30d": null,
       "velocity_7d": 7.57,
-      "velocity_7d_ci_lower": 3.5,
-      "velocity_7d_ci_upper": 11.75,
+      "velocity_7d_ci_lower": 3.12,
+      "velocity_7d_ci_upper": 11.62,
       "vvk_start": "2026-02-28",
       "vvk_phase": "freundeskreis",
       "vvk_offiziell": "2026-03-01",
@@ -4878,6 +4915,7 @@
       ],
       "pg_shift_score": 0.5683,
       "kanal_hhi": 0.176,
+      "preiskategorie": null,
       "velocity_zscore": -0.19,
       "alert_level": "normal",
       "alpha_score": -71.85,
@@ -4914,8 +4952,8 @@
       "tickets_7d": 154,
       "tickets_30d": null,
       "velocity_7d": 22.0,
-      "velocity_7d_ci_lower": 6.44,
-      "velocity_7d_ci_upper": 50.89,
+      "velocity_7d_ci_lower": 8.33,
+      "velocity_7d_ci_upper": 49.89,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -5032,6 +5070,7 @@
       ],
       "pg_shift_score": 0.352,
       "kanal_hhi": 0.1393,
+      "preiskategorie": null,
       "velocity_zscore": 1.99,
       "alert_level": "normal",
       "alpha_score": -16.7,
@@ -5186,6 +5225,7 @@
       ],
       "pg_shift_score": 1.5833,
       "kanal_hhi": 0.5,
+      "preiskategorie": null,
       "velocity_zscore": null,
       "alert_level": null,
       "alpha_score": -54.05,
@@ -5250,6 +5290,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.2622,
+      "preiskategorie": null,
       "velocity_zscore": -1.08,
       "alert_level": "normal",
       "alpha_score": -69.91,
@@ -5286,8 +5327,8 @@
       "tickets_7d": 139,
       "tickets_30d": null,
       "velocity_7d": 19.86,
-      "velocity_7d_ci_lower": 1.56,
-      "velocity_7d_ci_upper": 50.0,
+      "velocity_7d_ci_lower": 3.44,
+      "velocity_7d_ci_upper": 50.11,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -5404,6 +5445,7 @@
       ],
       "pg_shift_score": 0.3495,
       "kanal_hhi": 0.1805,
+      "preiskategorie": null,
       "velocity_zscore": 1.66,
       "alert_level": "normal",
       "alpha_score": -11.18,
@@ -5558,6 +5600,7 @@
       ],
       "pg_shift_score": 0.7524,
       "kanal_hhi": 0.2472,
+      "preiskategorie": null,
       "velocity_zscore": null,
       "alert_level": null,
       "alpha_score": -39.81,
@@ -5622,6 +5665,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.3333,
+      "preiskategorie": null,
       "velocity_zscore": -1.12,
       "alert_level": "normal",
       "alpha_score": -66.88,
@@ -5658,8 +5702,8 @@
       "tickets_7d": 94,
       "tickets_30d": null,
       "velocity_7d": 13.43,
-      "velocity_7d_ci_lower": 9.0,
-      "velocity_7d_ci_upper": 28.33,
+      "velocity_7d_ci_lower": 9.44,
+      "velocity_7d_ci_upper": 28.22,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -5776,6 +5820,7 @@
       ],
       "pg_shift_score": 0.3966,
       "kanal_hhi": 0.2825,
+      "preiskategorie": null,
       "velocity_zscore": 0.69,
       "alert_level": "normal",
       "alpha_score": -12.74,
@@ -5812,8 +5857,8 @@
       "tickets_7d": 67,
       "tickets_30d": null,
       "velocity_7d": 9.57,
-      "velocity_7d_ci_lower": -5.33,
-      "velocity_7d_ci_upper": 51.56,
+      "velocity_7d_ci_lower": -3.44,
+      "velocity_7d_ci_upper": 51.44,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -5930,6 +5975,7 @@
       ],
       "pg_shift_score": 0.3432,
       "kanal_hhi": 0.1987,
+      "preiskategorie": null,
       "velocity_zscore": 0.11,
       "alert_level": "normal",
       "alpha_score": -31.67,
@@ -5966,8 +6012,8 @@
       "tickets_7d": 92,
       "tickets_30d": null,
       "velocity_7d": 13.14,
-      "velocity_7d_ci_lower": 4.67,
-      "velocity_7d_ci_upper": 33.44,
+      "velocity_7d_ci_lower": 5.67,
+      "velocity_7d_ci_upper": 33.89,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -6084,6 +6130,7 @@
       ],
       "pg_shift_score": 0.4125,
       "kanal_hhi": 0.1891,
+      "preiskategorie": null,
       "velocity_zscore": 0.65,
       "alert_level": "normal",
       "alpha_score": -17.99,
@@ -6120,8 +6167,8 @@
       "tickets_7d": 109,
       "tickets_30d": null,
       "velocity_7d": 15.57,
-      "velocity_7d_ci_lower": 2.11,
-      "velocity_7d_ci_upper": 39.67,
+      "velocity_7d_ci_lower": 2.44,
+      "velocity_7d_ci_upper": 39.22,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -6238,6 +6285,7 @@
       ],
       "pg_shift_score": 0.3437,
       "kanal_hhi": 0.1934,
+      "preiskategorie": null,
       "velocity_zscore": 1.02,
       "alert_level": "normal",
       "alpha_score": -30.93,
@@ -6274,8 +6322,8 @@
       "tickets_7d": 54,
       "tickets_30d": null,
       "velocity_7d": 7.71,
-      "velocity_7d_ci_lower": 3.38,
-      "velocity_7d_ci_upper": 15.38,
+      "velocity_7d_ci_lower": 3.5,
+      "velocity_7d_ci_upper": 16.12,
       "vvk_start": "2026-02-28",
       "vvk_phase": "freundeskreis",
       "vvk_offiziell": "2026-03-01",
@@ -6302,6 +6350,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.1437,
+      "preiskategorie": null,
       "velocity_zscore": -0.17,
       "alert_level": "normal",
       "alpha_score": 42.63,
@@ -6338,8 +6387,8 @@
       "tickets_7d": 106,
       "tickets_30d": null,
       "velocity_7d": 15.14,
-      "velocity_7d_ci_lower": 4.56,
-      "velocity_7d_ci_upper": 38.11,
+      "velocity_7d_ci_lower": 4.89,
+      "velocity_7d_ci_upper": 37.44,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -6456,6 +6505,7 @@
       ],
       "pg_shift_score": 0.4124,
       "kanal_hhi": 0.1623,
+      "preiskategorie": null,
       "velocity_zscore": 0.95,
       "alert_level": "normal",
       "alpha_score": -25.74,
@@ -6492,8 +6542,8 @@
       "tickets_7d": 80,
       "tickets_30d": null,
       "velocity_7d": 11.43,
-      "velocity_7d_ci_lower": 1.5,
-      "velocity_7d_ci_upper": 17.75,
+      "velocity_7d_ci_lower": 1.0,
+      "velocity_7d_ci_upper": 17.62,
       "vvk_start": "2026-02-28",
       "vvk_phase": "freundeskreis",
       "vvk_offiziell": "2026-03-01",
@@ -6592,6 +6642,7 @@
       ],
       "pg_shift_score": 0.2876,
       "kanal_hhi": 0.3627,
+      "preiskategorie": null,
       "velocity_zscore": 0.39,
       "alert_level": "normal",
       "alpha_score": -38.86,
@@ -6628,8 +6679,8 @@
       "tickets_7d": 70,
       "tickets_30d": null,
       "velocity_7d": 10.0,
-      "velocity_7d_ci_lower": 4.33,
-      "velocity_7d_ci_upper": 13.56,
+      "velocity_7d_ci_lower": 4.56,
+      "velocity_7d_ci_upper": 13.44,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -6656,6 +6707,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.2098,
+      "preiskategorie": null,
       "velocity_zscore": 0.17,
       "alert_level": "normal",
       "alpha_score": 49.88,
@@ -6692,8 +6744,8 @@
       "tickets_7d": 70,
       "tickets_30d": null,
       "velocity_7d": 10.0,
-      "velocity_7d_ci_lower": 3.33,
-      "velocity_7d_ci_upper": 14.56,
+      "velocity_7d_ci_lower": 3.44,
+      "velocity_7d_ci_upper": 14.67,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -6720,6 +6772,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.2355,
+      "preiskategorie": null,
       "velocity_zscore": 0.17,
       "alert_level": "normal",
       "alpha_score": 59.69,
@@ -6756,8 +6809,8 @@
       "tickets_7d": 106,
       "tickets_30d": null,
       "velocity_7d": 15.14,
-      "velocity_7d_ci_lower": 5.44,
-      "velocity_7d_ci_upper": 51.22,
+      "velocity_7d_ci_lower": 4.78,
+      "velocity_7d_ci_upper": 49.78,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -6874,6 +6927,7 @@
       ],
       "pg_shift_score": 0.3307,
       "kanal_hhi": 0.1511,
+      "preiskategorie": null,
       "velocity_zscore": 0.95,
       "alert_level": "normal",
       "alpha_score": -5.01,
@@ -6910,8 +6964,8 @@
       "tickets_7d": 86,
       "tickets_30d": null,
       "velocity_7d": 12.29,
-      "velocity_7d_ci_lower": 4.0,
-      "velocity_7d_ci_upper": 30.0,
+      "velocity_7d_ci_lower": 4.44,
+      "velocity_7d_ci_upper": 31.56,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -7028,6 +7082,7 @@
       ],
       "pg_shift_score": 0.509,
       "kanal_hhi": 0.096,
+      "preiskategorie": null,
       "velocity_zscore": 0.52,
       "alert_level": "normal",
       "alpha_score": -6.82,
@@ -7064,7 +7119,7 @@
       "tickets_7d": 79,
       "tickets_30d": null,
       "velocity_7d": 11.29,
-      "velocity_7d_ci_lower": 4.5,
+      "velocity_7d_ci_lower": 3.12,
       "velocity_7d_ci_upper": 17.75,
       "vvk_start": "2026-02-28",
       "vvk_phase": "freundeskreis",
@@ -7092,6 +7147,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.2296,
+      "preiskategorie": null,
       "velocity_zscore": 0.37,
       "alert_level": "normal",
       "alpha_score": 88.31,
@@ -7128,8 +7184,8 @@
       "tickets_7d": 46,
       "tickets_30d": null,
       "velocity_7d": 6.57,
-      "velocity_7d_ci_lower": 3.4,
-      "velocity_7d_ci_upper": 12.3,
+      "velocity_7d_ci_lower": 1.6,
+      "velocity_7d_ci_upper": 12.8,
       "vvk_start": "2026-02-26",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -7210,6 +7266,7 @@
       ],
       "pg_shift_score": 0.7949,
       "kanal_hhi": 0.1778,
+      "preiskategorie": null,
       "velocity_zscore": -0.34,
       "alert_level": "normal",
       "alpha_score": -2.26,
@@ -7246,8 +7303,8 @@
       "tickets_7d": 77,
       "tickets_30d": null,
       "velocity_7d": 11.0,
-      "velocity_7d_ci_lower": 4.5,
-      "velocity_7d_ci_upper": 16.25,
+      "velocity_7d_ci_lower": 4.12,
+      "velocity_7d_ci_upper": 16.5,
       "vvk_start": "2026-02-28",
       "vvk_phase": "freundeskreis",
       "vvk_offiziell": "2026-03-01",
@@ -7274,6 +7331,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.1965,
+      "preiskategorie": null,
       "velocity_zscore": 0.33,
       "alert_level": "normal",
       "alpha_score": 83.6,
@@ -7310,8 +7368,8 @@
       "tickets_7d": 79,
       "tickets_30d": null,
       "velocity_7d": 11.29,
-      "velocity_7d_ci_lower": -1.22,
-      "velocity_7d_ci_upper": 17.44,
+      "velocity_7d_ci_lower": -1.0,
+      "velocity_7d_ci_upper": 17.56,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -7392,6 +7450,7 @@
       ],
       "pg_shift_score": 0.4895,
       "kanal_hhi": 0.1526,
+      "preiskategorie": null,
       "velocity_zscore": 0.37,
       "alert_level": "normal",
       "alpha_score": 5.04,
@@ -7428,8 +7487,8 @@
       "tickets_7d": 86,
       "tickets_30d": null,
       "velocity_7d": 12.29,
-      "velocity_7d_ci_lower": -2.5,
-      "velocity_7d_ci_upper": 21.25,
+      "velocity_7d_ci_lower": 2.5,
+      "velocity_7d_ci_upper": 21.12,
       "vvk_start": "2026-02-28",
       "vvk_phase": "freundeskreis",
       "vvk_offiziell": "2026-03-01",
@@ -7510,6 +7569,7 @@
       ],
       "pg_shift_score": 0.5408,
       "kanal_hhi": 0.2141,
+      "preiskategorie": null,
       "velocity_zscore": 0.52,
       "alert_level": "normal",
       "alpha_score": 27.0,
@@ -7546,8 +7606,8 @@
       "tickets_7d": 176,
       "tickets_30d": null,
       "velocity_7d": 25.14,
-      "velocity_7d_ci_lower": -1.11,
-      "velocity_7d_ci_upper": 37.22,
+      "velocity_7d_ci_lower": -2.33,
+      "velocity_7d_ci_upper": 36.78,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -7664,6 +7724,7 @@
       ],
       "pg_shift_score": 0.48,
       "kanal_hhi": 0.1893,
+      "preiskategorie": null,
       "velocity_zscore": 2.46,
       "alert_level": "chance",
       "alpha_score": -50.16,
@@ -7700,8 +7761,8 @@
       "tickets_7d": 106,
       "tickets_30d": null,
       "velocity_7d": 15.14,
-      "velocity_7d_ci_lower": 3.33,
-      "velocity_7d_ci_upper": 25.89,
+      "velocity_7d_ci_lower": 4.11,
+      "velocity_7d_ci_upper": 26.0,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -7818,6 +7879,7 @@
       ],
       "pg_shift_score": 0.5714,
       "kanal_hhi": 0.1355,
+      "preiskategorie": null,
       "velocity_zscore": 0.95,
       "alert_level": "normal",
       "alpha_score": -25.66,
@@ -7854,8 +7916,8 @@
       "tickets_7d": 30,
       "tickets_30d": null,
       "velocity_7d": 4.29,
-      "velocity_7d_ci_lower": 2.78,
-      "velocity_7d_ci_upper": 8.56,
+      "velocity_7d_ci_lower": 2.67,
+      "velocity_7d_ci_upper": 8.89,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -7882,6 +7944,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.0902,
+      "preiskategorie": null,
       "velocity_zscore": -0.69,
       "alert_level": "normal",
       "alpha_score": 8.54,
@@ -7919,7 +7982,7 @@
       "tickets_30d": null,
       "velocity_7d": 9.14,
       "velocity_7d_ci_lower": 3.75,
-      "velocity_7d_ci_upper": 14.75,
+      "velocity_7d_ci_upper": 15.0,
       "vvk_start": "2026-02-28",
       "vvk_phase": "freundeskreis",
       "vvk_offiziell": "2026-03-01",
@@ -7946,6 +8009,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.1975,
+      "preiskategorie": null,
       "velocity_zscore": 0.04,
       "alert_level": "normal",
       "alpha_score": 60.92,
@@ -7982,8 +8046,8 @@
       "tickets_7d": 87,
       "tickets_30d": null,
       "velocity_7d": 12.43,
-      "velocity_7d_ci_lower": -1.67,
-      "velocity_7d_ci_upper": 20.0,
+      "velocity_7d_ci_lower": -1.0,
+      "velocity_7d_ci_upper": 19.78,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -8064,6 +8128,7 @@
       ],
       "pg_shift_score": 0.5873,
       "kanal_hhi": 0.1477,
+      "preiskategorie": null,
       "velocity_zscore": 0.54,
       "alert_level": "normal",
       "alpha_score": 19.75,
@@ -8100,8 +8165,8 @@
       "tickets_7d": 78,
       "tickets_30d": null,
       "velocity_7d": 11.14,
-      "velocity_7d_ci_lower": -1.11,
-      "velocity_7d_ci_upper": 18.78,
+      "velocity_7d_ci_lower": -1.22,
+      "velocity_7d_ci_upper": 19.0,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -8182,6 +8247,7 @@
       ],
       "pg_shift_score": 0.5309,
       "kanal_hhi": 0.1359,
+      "preiskategorie": null,
       "velocity_zscore": 0.35,
       "alert_level": "normal",
       "alpha_score": 16.95,
@@ -8218,8 +8284,8 @@
       "tickets_7d": 86,
       "tickets_30d": null,
       "velocity_7d": 12.29,
-      "velocity_7d_ci_lower": 2.33,
-      "velocity_7d_ci_upper": 16.22,
+      "velocity_7d_ci_lower": 1.67,
+      "velocity_7d_ci_upper": 16.56,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -8336,6 +8402,7 @@
       ],
       "pg_shift_score": 0.7859,
       "kanal_hhi": 0.2295,
+      "preiskategorie": null,
       "velocity_zscore": 0.52,
       "alert_level": "normal",
       "alpha_score": -77.15,
@@ -8372,7 +8439,7 @@
       "tickets_7d": 159,
       "tickets_30d": null,
       "velocity_7d": 22.71,
-      "velocity_7d_ci_lower": 6.33,
+      "velocity_7d_ci_lower": 5.22,
       "velocity_7d_ci_upper": 34.0,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -8490,6 +8557,7 @@
       ],
       "pg_shift_score": 0.5544,
       "kanal_hhi": 0.1819,
+      "preiskategorie": null,
       "velocity_zscore": 2.09,
       "alert_level": "chance",
       "alpha_score": -13.15,
@@ -8526,8 +8594,8 @@
       "tickets_7d": 52,
       "tickets_30d": null,
       "velocity_7d": 7.43,
-      "velocity_7d_ci_lower": 0.67,
-      "velocity_7d_ci_upper": 13.11,
+      "velocity_7d_ci_lower": 0.11,
+      "velocity_7d_ci_upper": 13.0,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -8554,6 +8622,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.1245,
+      "preiskategorie": null,
       "velocity_zscore": -0.21,
       "alert_level": "normal",
       "alpha_score": 11.65,
@@ -8590,7 +8659,7 @@
       "tickets_7d": 69,
       "tickets_30d": null,
       "velocity_7d": 9.86,
-      "velocity_7d_ci_lower": 3.75,
+      "velocity_7d_ci_lower": 3.25,
       "velocity_7d_ci_upper": 15.5,
       "vvk_start": "2026-02-28",
       "vvk_phase": "freundeskreis",
@@ -8618,6 +8687,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.195,
+      "preiskategorie": null,
       "velocity_zscore": 0.15,
       "alert_level": "normal",
       "alpha_score": 86.44,
@@ -8654,8 +8724,8 @@
       "tickets_7d": 126,
       "tickets_30d": null,
       "velocity_7d": 18.0,
-      "velocity_7d_ci_lower": -1.78,
-      "velocity_7d_ci_upper": 25.89,
+      "velocity_7d_ci_lower": -0.89,
+      "velocity_7d_ci_upper": 25.78,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -8772,6 +8842,7 @@
       ],
       "pg_shift_score": 0.532,
       "kanal_hhi": 0.2057,
+      "preiskategorie": null,
       "velocity_zscore": 1.38,
       "alert_level": "normal",
       "alpha_score": -52.23,
@@ -8808,7 +8879,7 @@
       "tickets_7d": 54,
       "tickets_30d": null,
       "velocity_7d": 7.71,
-      "velocity_7d_ci_lower": -0.33,
+      "velocity_7d_ci_lower": 0.22,
       "velocity_7d_ci_upper": 13.33,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -8836,6 +8907,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.2504,
+      "preiskategorie": null,
       "velocity_zscore": -0.17,
       "alert_level": "normal",
       "alpha_score": 33.47,
@@ -8872,7 +8944,7 @@
       "tickets_7d": 153,
       "tickets_30d": null,
       "velocity_7d": 21.86,
-      "velocity_7d_ci_lower": 3.78,
+      "velocity_7d_ci_lower": 5.22,
       "velocity_7d_ci_upper": 30.78,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -8900,6 +8972,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.2814,
+      "preiskategorie": null,
       "velocity_zscore": 1.96,
       "alert_level": "normal",
       "alpha_score": -41.43,
@@ -8936,7 +9009,7 @@
       "tickets_7d": 60,
       "tickets_30d": null,
       "velocity_7d": 8.57,
-      "velocity_7d_ci_lower": -0.89,
+      "velocity_7d_ci_lower": -1.67,
       "velocity_7d_ci_upper": 13.44,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -8964,6 +9037,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.17,
+      "preiskategorie": null,
       "velocity_zscore": -0.04,
       "alert_level": "normal",
       "alpha_score": 28.77,
@@ -9000,7 +9074,7 @@
       "tickets_7d": 34,
       "tickets_30d": null,
       "velocity_7d": 4.86,
-      "velocity_7d_ci_lower": 1.67,
+      "velocity_7d_ci_lower": 2.33,
       "velocity_7d_ci_upper": 11.11,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -9028,6 +9102,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.1287,
+      "preiskategorie": null,
       "velocity_zscore": -0.6,
       "alert_level": "normal",
       "alpha_score": 24.71,
@@ -9064,7 +9139,7 @@
       "tickets_7d": 73,
       "tickets_30d": null,
       "velocity_7d": 10.43,
-      "velocity_7d_ci_lower": -5.44,
+      "velocity_7d_ci_lower": -5.22,
       "velocity_7d_ci_upper": 17.33,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -9092,6 +9167,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.2823,
+      "preiskategorie": null,
       "velocity_zscore": 0.24,
       "alert_level": "normal",
       "alpha_score": -2.72,
@@ -9156,6 +9232,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.3171,
+      "preiskategorie": null,
       "velocity_zscore": 0.17,
       "alert_level": "normal",
       "alpha_score": -3.54,
@@ -9220,6 +9297,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.1077,
+      "preiskategorie": null,
       "velocity_zscore": -0.78,
       "alert_level": "normal",
       "alpha_score": 14.76,
@@ -9256,7 +9334,7 @@
       "tickets_7d": 90,
       "tickets_30d": null,
       "velocity_7d": 12.86,
-      "velocity_7d_ci_lower": 2.44,
+      "velocity_7d_ci_lower": 2.22,
       "velocity_7d_ci_upper": 23.11,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -9374,6 +9452,7 @@
       ],
       "pg_shift_score": 0.5616,
       "kanal_hhi": 0.1296,
+      "preiskategorie": null,
       "velocity_zscore": 0.61,
       "alert_level": "normal",
       "alpha_score": 3.46,
@@ -9410,8 +9489,8 @@
       "tickets_7d": 33,
       "tickets_30d": null,
       "velocity_7d": 4.71,
-      "velocity_7d_ci_lower": 1.0,
-      "velocity_7d_ci_upper": 12.44,
+      "velocity_7d_ci_lower": 0.67,
+      "velocity_7d_ci_upper": 12.56,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -9438,6 +9517,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.1201,
+      "preiskategorie": null,
       "velocity_zscore": -0.62,
       "alert_level": "normal",
       "alpha_score": -0.48,
@@ -9474,8 +9554,8 @@
       "tickets_7d": 102,
       "tickets_30d": null,
       "velocity_7d": 14.57,
-      "velocity_7d_ci_lower": 3.0,
-      "velocity_7d_ci_upper": 25.44,
+      "velocity_7d_ci_lower": 0.11,
+      "velocity_7d_ci_upper": 24.78,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -9592,6 +9672,7 @@
       ],
       "pg_shift_score": 0.5123,
       "kanal_hhi": 0.1472,
+      "preiskategorie": null,
       "velocity_zscore": 0.86,
       "alert_level": "normal",
       "alpha_score": -2.78,
@@ -9628,8 +9709,8 @@
       "tickets_7d": 82,
       "tickets_30d": null,
       "velocity_7d": 11.71,
-      "velocity_7d_ci_lower": 2.62,
-      "velocity_7d_ci_upper": 17.62,
+      "velocity_7d_ci_lower": 2.5,
+      "velocity_7d_ci_upper": 17.0,
       "vvk_start": "2026-02-28",
       "vvk_phase": "freundeskreis",
       "vvk_offiziell": "2026-03-01",
@@ -9656,6 +9737,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.3138,
+      "preiskategorie": null,
       "velocity_zscore": 0.43,
       "alert_level": "normal",
       "alpha_score": 75.08,
@@ -9692,7 +9774,7 @@
       "tickets_7d": 104,
       "tickets_30d": null,
       "velocity_7d": 14.86,
-      "velocity_7d_ci_lower": 2.88,
+      "velocity_7d_ci_lower": 3.5,
       "velocity_7d_ci_upper": 21.5,
       "vvk_start": "2026-02-28",
       "vvk_phase": "freundeskreis",
@@ -9810,6 +9892,7 @@
       ],
       "pg_shift_score": 0.5014,
       "kanal_hhi": 0.2494,
+      "preiskategorie": null,
       "velocity_zscore": 0.91,
       "alert_level": "normal",
       "alpha_score": -58.02,
@@ -9846,8 +9929,8 @@
       "tickets_7d": 61,
       "tickets_30d": null,
       "velocity_7d": 8.71,
-      "velocity_7d_ci_lower": -0.88,
-      "velocity_7d_ci_upper": 15.62,
+      "velocity_7d_ci_lower": -1.5,
+      "velocity_7d_ci_upper": 15.38,
       "vvk_start": "2026-02-28",
       "vvk_phase": "freundeskreis",
       "vvk_offiziell": "2026-03-01",
@@ -9874,6 +9957,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.1526,
+      "preiskategorie": null,
       "velocity_zscore": -0.02,
       "alert_level": "normal",
       "alpha_score": 41.78,
@@ -9910,8 +9994,8 @@
       "tickets_7d": 102,
       "tickets_30d": null,
       "velocity_7d": 14.57,
-      "velocity_7d_ci_lower": -0.67,
-      "velocity_7d_ci_upper": 23.78,
+      "velocity_7d_ci_lower": 2.33,
+      "velocity_7d_ci_upper": 23.56,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -10028,6 +10112,7 @@
       ],
       "pg_shift_score": 0.4634,
       "kanal_hhi": 0.1849,
+      "preiskategorie": null,
       "velocity_zscore": 0.86,
       "alert_level": "normal",
       "alpha_score": -4.09,
@@ -10064,7 +10149,7 @@
       "tickets_7d": 167,
       "tickets_30d": null,
       "velocity_7d": 23.86,
-      "velocity_7d_ci_lower": 5.33,
+      "velocity_7d_ci_lower": 1.11,
       "velocity_7d_ci_upper": 38.78,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -10182,6 +10267,7 @@
       ],
       "pg_shift_score": 0.5751,
       "kanal_hhi": 0.1677,
+      "preiskategorie": null,
       "velocity_zscore": 2.27,
       "alert_level": "chance",
       "alpha_score": 22.81,
@@ -10336,6 +10422,7 @@
       ],
       "pg_shift_score": 0.4083,
       "kanal_hhi": 0.3369,
+      "preiskategorie": null,
       "velocity_zscore": null,
       "alert_level": null,
       "alpha_score": -28.24,
@@ -10372,8 +10459,8 @@
       "tickets_7d": 47,
       "tickets_30d": null,
       "velocity_7d": 6.71,
-      "velocity_7d_ci_lower": 1.11,
-      "velocity_7d_ci_upper": 11.56,
+      "velocity_7d_ci_lower": 1.78,
+      "velocity_7d_ci_upper": 12.0,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -10400,6 +10487,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.124,
+      "preiskategorie": null,
       "velocity_zscore": -0.32,
       "alert_level": "normal",
       "alpha_score": 26.63,
@@ -10436,8 +10524,8 @@
       "tickets_7d": 193,
       "tickets_30d": null,
       "velocity_7d": 27.57,
-      "velocity_7d_ci_lower": 7.44,
-      "velocity_7d_ci_upper": 49.22,
+      "velocity_7d_ci_lower": 5.0,
+      "velocity_7d_ci_upper": 47.56,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -10554,6 +10642,7 @@
       ],
       "pg_shift_score": 0.4532,
       "kanal_hhi": 0.1429,
+      "preiskategorie": null,
       "velocity_zscore": 2.83,
       "alert_level": "chance",
       "alpha_score": 25.33,
@@ -10618,6 +10707,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.25,
+      "preiskategorie": null,
       "velocity_zscore": -1.25,
       "alert_level": "normal",
       "alpha_score": -74.21,
@@ -10654,8 +10744,8 @@
       "tickets_7d": 50,
       "tickets_30d": null,
       "velocity_7d": 7.14,
-      "velocity_7d_ci_lower": 0.75,
-      "velocity_7d_ci_upper": 12.0,
+      "velocity_7d_ci_lower": 1.88,
+      "velocity_7d_ci_upper": 11.75,
       "vvk_start": "2026-02-28",
       "vvk_phase": "freundeskreis",
       "vvk_offiziell": "2026-03-01",
@@ -10772,6 +10862,7 @@
       ],
       "pg_shift_score": 0.2414,
       "kanal_hhi": 0.2652,
+      "preiskategorie": null,
       "velocity_zscore": -0.26,
       "alert_level": "normal",
       "alpha_score": -51.69,
@@ -10808,7 +10899,7 @@
       "tickets_7d": 71,
       "tickets_30d": null,
       "velocity_7d": 10.14,
-      "velocity_7d_ci_lower": -0.11,
+      "velocity_7d_ci_lower": 0.44,
       "velocity_7d_ci_upper": 13.56,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
@@ -10926,6 +11017,7 @@
       ],
       "pg_shift_score": 0.3333,
       "kanal_hhi": 0.211,
+      "preiskategorie": null,
       "velocity_zscore": 0.2,
       "alert_level": "normal",
       "alpha_score": -29.76,
@@ -10962,8 +11054,8 @@
       "tickets_7d": 229,
       "tickets_30d": null,
       "velocity_7d": 32.71,
-      "velocity_7d_ci_lower": -0.89,
-      "velocity_7d_ci_upper": 50.56,
+      "velocity_7d_ci_lower": 1.78,
+      "velocity_7d_ci_upper": 50.44,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -11080,6 +11172,7 @@
       ],
       "pg_shift_score": 0.4799,
       "kanal_hhi": 0.159,
+      "preiskategorie": null,
       "velocity_zscore": 3.6,
       "alert_level": "chance",
       "alpha_score": 41.54,
@@ -11117,7 +11210,7 @@
       "tickets_30d": null,
       "velocity_7d": 9.57,
       "velocity_7d_ci_lower": 1.67,
-      "velocity_7d_ci_upper": 13.78,
+      "velocity_7d_ci_upper": 14.33,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -11144,6 +11237,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.1736,
+      "preiskategorie": null,
       "velocity_zscore": 0.11,
       "alert_level": "normal",
       "alpha_score": 49.18,
@@ -11180,8 +11274,8 @@
       "tickets_7d": 65,
       "tickets_30d": null,
       "velocity_7d": 9.29,
-      "velocity_7d_ci_lower": 2.0,
-      "velocity_7d_ci_upper": 13.0,
+      "velocity_7d_ci_lower": 2.22,
+      "velocity_7d_ci_upper": 13.33,
       "vvk_start": "2026-02-27",
       "vvk_phase": "foerderer",
       "vvk_offiziell": "2026-03-01",
@@ -11208,6 +11302,7 @@
       ],
       "pg_shift_score": 0.0,
       "kanal_hhi": 0.2375,
+      "preiskategorie": null,
       "velocity_zscore": 0.07,
       "alert_level": "normal",
       "alpha_score": 60.05,
@@ -11362,6 +11457,7 @@
       ],
       "pg_shift_score": 0.5862,
       "kanal_hhi": 0.2747,
+      "preiskategorie": null,
       "velocity_zscore": null,
       "alert_level": null,
       "alpha_score": -25.71,
@@ -11398,7 +11494,7 @@
       "tickets_7d": null,
       "tickets_30d": null,
       "velocity_7d": null,
-      "velocity_7d_ci_lower": 1.14,
+      "velocity_7d_ci_lower": 0.86,
       "velocity_7d_ci_upper": 4.71,
       "vvk_start": "2026-03-01",
       "vvk_phase": "offiziell",
@@ -11516,6 +11612,7 @@
       ],
       "pg_shift_score": 0.9285,
       "kanal_hhi": 0.3515,
+      "preiskategorie": null,
       "velocity_zscore": null,
       "alert_level": null,
       "alpha_score": -29.03,
@@ -11552,7 +11649,7 @@
       "tickets_7d": 12,
       "tickets_30d": null,
       "velocity_7d": 1.71,
-      "velocity_7d_ci_lower": 0.0,
+      "velocity_7d_ci_lower": 0.14,
       "velocity_7d_ci_upper": 6.71,
       "vvk_start": "2026-02-28",
       "vvk_phase": "freundeskreis",
@@ -11670,6 +11767,7 @@
       ],
       "pg_shift_score": 0.7142,
       "kanal_hhi": 0.2755,
+      "preiskategorie": null,
       "velocity_zscore": -1.08,
       "alert_level": "normal",
       "alpha_score": -74.34,
@@ -12334,3553 +12432,6 @@
       "ersterfassung": 14,
       "kumuliert": 14876,
       "tage_zwischen": 1
-    }
-  ],
-  "zeitreihe_produktionen": [
-    {
-      "produktionsnummer": 669,
-      "name": "Die Ehe der Maria Braun",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 2937,
-          "kumuliert": 2937
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 2937
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 699,
-      "name": "Theaterpraktische Werkstatt",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 101,
-          "kumuliert": 101
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 101
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 700,
-      "name": "Streitraum",
-      "daten": [
-        {
-          "datum": "2026-02-02",
-          "tagesverkauf": 125,
-          "kumuliert": 154
-        },
-        {
-          "datum": "2026-02-03",
-          "tagesverkauf": 32,
-          "kumuliert": 186
-        },
-        {
-          "datum": "2026-02-04",
-          "tagesverkauf": 17,
-          "kumuliert": 203
-        },
-        {
-          "datum": "2026-02-05",
-          "tagesverkauf": 5,
-          "kumuliert": 208
-        },
-        {
-          "datum": "2026-02-06",
-          "tagesverkauf": 1,
-          "kumuliert": 209
-        },
-        {
-          "datum": "2026-02-07",
-          "tagesverkauf": 2,
-          "kumuliert": 211
-        },
-        {
-          "datum": "2026-02-08",
-          "tagesverkauf": 0,
-          "kumuliert": 211
-        },
-        {
-          "datum": "2026-02-09",
-          "tagesverkauf": 0,
-          "kumuliert": 211
-        },
-        {
-          "datum": "2026-02-10",
-          "tagesverkauf": 0,
-          "kumuliert": 211
-        },
-        {
-          "datum": "2026-02-11",
-          "tagesverkauf": 6,
-          "kumuliert": 217
-        },
-        {
-          "datum": "2026-02-12",
-          "tagesverkauf": 2,
-          "kumuliert": 219
-        },
-        {
-          "datum": "2026-02-13",
-          "tagesverkauf": 0,
-          "kumuliert": 219
-        },
-        {
-          "datum": "2026-02-14",
-          "tagesverkauf": 0,
-          "kumuliert": 219
-        },
-        {
-          "datum": "2026-02-15",
-          "tagesverkauf": 6,
-          "kumuliert": 225
-        },
-        {
-          "datum": "2026-02-16",
-          "tagesverkauf": 0,
-          "kumuliert": 225
-        },
-        {
-          "datum": "2026-02-17",
-          "tagesverkauf": 6,
-          "kumuliert": 231
-        },
-        {
-          "datum": "2026-02-18",
-          "tagesverkauf": 0,
-          "kumuliert": 231
-        },
-        {
-          "datum": "2026-02-19",
-          "tagesverkauf": 0,
-          "kumuliert": 231
-        },
-        {
-          "datum": "2026-02-20",
-          "tagesverkauf": 0,
-          "kumuliert": 231
-        },
-        {
-          "datum": "2026-02-21",
-          "tagesverkauf": 0,
-          "kumuliert": 231
-        },
-        {
-          "datum": "2026-02-22",
-          "tagesverkauf": 0,
-          "kumuliert": 231
-        },
-        {
-          "datum": "2026-02-23",
-          "tagesverkauf": 0,
-          "kumuliert": 231
-        },
-        {
-          "datum": "2026-02-24",
-          "tagesverkauf": 0,
-          "kumuliert": 231
-        },
-        {
-          "datum": "2026-02-25",
-          "tagesverkauf": 3,
-          "kumuliert": 234
-        },
-        {
-          "datum": "2026-02-26",
-          "tagesverkauf": 0,
-          "kumuliert": 234
-        },
-        {
-          "datum": "2026-02-27",
-          "tagesverkauf": 3,
-          "kumuliert": 237
-        },
-        {
-          "datum": "2026-02-28",
-          "tagesverkauf": 21,
-          "kumuliert": 258
-        },
-        {
-          "datum": "2026-03-01",
-          "tagesverkauf": 0,
-          "kumuliert": 258
-        },
-        {
-          "datum": "2026-03-02",
-          "tagesverkauf": 88,
-          "kumuliert": 346
-        },
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 4054,
-          "kumuliert": 4400
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 31,
-          "kumuliert": 4431
-        },
-        {
-          "datum": "2026-03-05",
-          "tagesverkauf": -4014,
-          "kumuliert": 417
-        },
-        {
-          "datum": "2026-03-06",
-          "tagesverkauf": 10,
-          "kumuliert": 427
-        },
-        {
-          "datum": "2026-03-07",
-          "tagesverkauf": 12,
-          "kumuliert": 439
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 708,
-      "name": "Hamlet",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 8436,
-          "kumuliert": 8436
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 8436
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 848,
-      "name": "Streit ums Politische",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 414,
-          "kumuliert": 414
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 414
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 879,
-      "name": "Ein Volksfeind",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 2461,
-          "kumuliert": 2461
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 2461
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 918,
-      "name": "Durchlauf",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 886,
-          "kumuliert": 886
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 886
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 964,
-      "name": "Richard III.",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 4997,
-          "kumuliert": 4997
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 4997
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1033,
-      "name": "Professor Bernhardi",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 5692,
-          "kumuliert": 5692
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 5692
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1062,
-      "name": "Rückkehr nach Reims",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 1961,
-          "kumuliert": 1961
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 1961
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1088,
-      "name": "Im Herzen der Gewalt",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 3035,
-          "kumuliert": 3035
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 3035
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1132,
-      "name": "Orlando",
-      "daten": [
-        {
-          "datum": "2026-02-02",
-          "tagesverkauf": 167,
-          "kumuliert": 259
-        },
-        {
-          "datum": "2026-02-03",
-          "tagesverkauf": 54,
-          "kumuliert": 313
-        },
-        {
-          "datum": "2026-02-04",
-          "tagesverkauf": 17,
-          "kumuliert": 330
-        },
-        {
-          "datum": "2026-02-05",
-          "tagesverkauf": 23,
-          "kumuliert": 353
-        },
-        {
-          "datum": "2026-02-06",
-          "tagesverkauf": 30,
-          "kumuliert": 383
-        },
-        {
-          "datum": "2026-02-07",
-          "tagesverkauf": 18,
-          "kumuliert": 401
-        },
-        {
-          "datum": "2026-02-08",
-          "tagesverkauf": 32,
-          "kumuliert": 433
-        },
-        {
-          "datum": "2026-02-09",
-          "tagesverkauf": 9,
-          "kumuliert": 442
-        },
-        {
-          "datum": "2026-02-10",
-          "tagesverkauf": 32,
-          "kumuliert": 474
-        },
-        {
-          "datum": "2026-02-11",
-          "tagesverkauf": 36,
-          "kumuliert": 510
-        },
-        {
-          "datum": "2026-02-12",
-          "tagesverkauf": 30,
-          "kumuliert": 540
-        },
-        {
-          "datum": "2026-02-13",
-          "tagesverkauf": 11,
-          "kumuliert": 551
-        },
-        {
-          "datum": "2026-02-14",
-          "tagesverkauf": 32,
-          "kumuliert": 583
-        },
-        {
-          "datum": "2026-02-15",
-          "tagesverkauf": 15,
-          "kumuliert": 598
-        },
-        {
-          "datum": "2026-02-16",
-          "tagesverkauf": 11,
-          "kumuliert": 609
-        },
-        {
-          "datum": "2026-02-17",
-          "tagesverkauf": 21,
-          "kumuliert": 630
-        },
-        {
-          "datum": "2026-02-18",
-          "tagesverkauf": 0,
-          "kumuliert": 630
-        },
-        {
-          "datum": "2026-02-19",
-          "tagesverkauf": 29,
-          "kumuliert": 659
-        },
-        {
-          "datum": "2026-02-20",
-          "tagesverkauf": 24,
-          "kumuliert": 683
-        },
-        {
-          "datum": "2026-02-21",
-          "tagesverkauf": 21,
-          "kumuliert": 704
-        },
-        {
-          "datum": "2026-02-22",
-          "tagesverkauf": 26,
-          "kumuliert": 730
-        },
-        {
-          "datum": "2026-02-23",
-          "tagesverkauf": 35,
-          "kumuliert": 765
-        },
-        {
-          "datum": "2026-02-24",
-          "tagesverkauf": 20,
-          "kumuliert": 785
-        },
-        {
-          "datum": "2026-02-25",
-          "tagesverkauf": 20,
-          "kumuliert": 805
-        },
-        {
-          "datum": "2026-02-26",
-          "tagesverkauf": 22,
-          "kumuliert": 827
-        },
-        {
-          "datum": "2026-02-27",
-          "tagesverkauf": 25,
-          "kumuliert": 852
-        },
-        {
-          "datum": "2026-02-28",
-          "tagesverkauf": 45,
-          "kumuliert": 897
-        },
-        {
-          "datum": "2026-03-01",
-          "tagesverkauf": 49,
-          "kumuliert": 946
-        },
-        {
-          "datum": "2026-03-02",
-          "tagesverkauf": 171,
-          "kumuliert": 1117
-        },
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 9864,
-          "kumuliert": 10981
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 81,
-          "kumuliert": 11062
-        },
-        {
-          "datum": "2026-03-05",
-          "tagesverkauf": -9738,
-          "kumuliert": 1324
-        },
-        {
-          "datum": "2026-03-06",
-          "tagesverkauf": 81,
-          "kumuliert": 1405
-        },
-        {
-          "datum": "2026-03-07",
-          "tagesverkauf": -395,
-          "kumuliert": 1010
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1140,
-      "name": "Peer Gynt",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 2838,
-          "kumuliert": 2838
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 2838
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1149,
-      "name": "Qui a tué mon père",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 1683,
-          "kumuliert": 1683
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 1683
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1162,
-      "name": "Das Leben des Vernon Subutex 1",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 2242,
-          "kumuliert": 2242
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 2242
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1168,
-      "name": "Michael Kohlhaas",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 180,
-          "kumuliert": 180
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 180
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1173,
-      "name": "Klassenzimmer",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 343,
-          "kumuliert": 343
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 343
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1192,
-      "name": "Erinnerung eines Mädchens",
-      "daten": [
-        {
-          "datum": "2026-02-02",
-          "tagesverkauf": 96,
-          "kumuliert": 115
-        },
-        {
-          "datum": "2026-02-03",
-          "tagesverkauf": 20,
-          "kumuliert": 135
-        },
-        {
-          "datum": "2026-02-04",
-          "tagesverkauf": 11,
-          "kumuliert": 146
-        },
-        {
-          "datum": "2026-02-05",
-          "tagesverkauf": 4,
-          "kumuliert": 150
-        },
-        {
-          "datum": "2026-02-06",
-          "tagesverkauf": 2,
-          "kumuliert": 152
-        },
-        {
-          "datum": "2026-02-07",
-          "tagesverkauf": 4,
-          "kumuliert": 156
-        },
-        {
-          "datum": "2026-02-08",
-          "tagesverkauf": 6,
-          "kumuliert": 162
-        },
-        {
-          "datum": "2026-02-09",
-          "tagesverkauf": 4,
-          "kumuliert": 166
-        },
-        {
-          "datum": "2026-02-10",
-          "tagesverkauf": 8,
-          "kumuliert": 174
-        },
-        {
-          "datum": "2026-02-11",
-          "tagesverkauf": 7,
-          "kumuliert": 181
-        },
-        {
-          "datum": "2026-02-12",
-          "tagesverkauf": 2,
-          "kumuliert": 183
-        },
-        {
-          "datum": "2026-02-13",
-          "tagesverkauf": 2,
-          "kumuliert": 185
-        },
-        {
-          "datum": "2026-02-14",
-          "tagesverkauf": 3,
-          "kumuliert": 188
-        },
-        {
-          "datum": "2026-02-15",
-          "tagesverkauf": 12,
-          "kumuliert": 200
-        },
-        {
-          "datum": "2026-02-16",
-          "tagesverkauf": 7,
-          "kumuliert": 207
-        },
-        {
-          "datum": "2026-02-17",
-          "tagesverkauf": 72,
-          "kumuliert": 279
-        },
-        {
-          "datum": "2026-02-18",
-          "tagesverkauf": 0,
-          "kumuliert": 279
-        },
-        {
-          "datum": "2026-02-19",
-          "tagesverkauf": 20,
-          "kumuliert": 299
-        },
-        {
-          "datum": "2026-02-20",
-          "tagesverkauf": 0,
-          "kumuliert": 299
-        },
-        {
-          "datum": "2026-02-21",
-          "tagesverkauf": 11,
-          "kumuliert": 310
-        },
-        {
-          "datum": "2026-02-22",
-          "tagesverkauf": 16,
-          "kumuliert": 326
-        },
-        {
-          "datum": "2026-02-23",
-          "tagesverkauf": 1,
-          "kumuliert": 327
-        },
-        {
-          "datum": "2026-02-24",
-          "tagesverkauf": 5,
-          "kumuliert": 332
-        },
-        {
-          "datum": "2026-02-25",
-          "tagesverkauf": 8,
-          "kumuliert": 340
-        },
-        {
-          "datum": "2026-02-26",
-          "tagesverkauf": 14,
-          "kumuliert": 354
-        },
-        {
-          "datum": "2026-02-27",
-          "tagesverkauf": 11,
-          "kumuliert": 365
-        },
-        {
-          "datum": "2026-02-28",
-          "tagesverkauf": 4,
-          "kumuliert": 369
-        },
-        {
-          "datum": "2026-03-01",
-          "tagesverkauf": 5,
-          "kumuliert": 374
-        },
-        {
-          "datum": "2026-03-02",
-          "tagesverkauf": 10,
-          "kumuliert": 384
-        },
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 1309,
-          "kumuliert": 1693
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 13,
-          "kumuliert": 1706
-        },
-        {
-          "datum": "2026-03-05",
-          "tagesverkauf": -1293,
-          "kumuliert": 413
-        },
-        {
-          "datum": "2026-03-06",
-          "tagesverkauf": 17,
-          "kumuliert": 430
-        },
-        {
-          "datum": "2026-03-07",
-          "tagesverkauf": 2,
-          "kumuliert": 432
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1199,
-      "name": "Beyond Caring",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 1862,
-          "kumuliert": 1862
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 1862
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1217,
-      "name": "Harry Hases Late Night",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 833,
-          "kumuliert": 833
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 833
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1218,
-      "name": "Nachtland",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 819,
-          "kumuliert": 819
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 819
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1221,
-      "name": "Die Möwe",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 6731,
-          "kumuliert": 6731
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 6731
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1249,
-      "name": "Genesis",
-      "daten": [
-        {
-          "datum": "2026-02-02",
-          "tagesverkauf": 43,
-          "kumuliert": 70
-        },
-        {
-          "datum": "2026-02-03",
-          "tagesverkauf": 17,
-          "kumuliert": 87
-        },
-        {
-          "datum": "2026-02-04",
-          "tagesverkauf": 12,
-          "kumuliert": 99
-        },
-        {
-          "datum": "2026-02-05",
-          "tagesverkauf": 3,
-          "kumuliert": 102
-        },
-        {
-          "datum": "2026-02-06",
-          "tagesverkauf": 0,
-          "kumuliert": 102
-        },
-        {
-          "datum": "2026-02-07",
-          "tagesverkauf": 6,
-          "kumuliert": 108
-        },
-        {
-          "datum": "2026-02-08",
-          "tagesverkauf": 4,
-          "kumuliert": 112
-        },
-        {
-          "datum": "2026-02-09",
-          "tagesverkauf": 4,
-          "kumuliert": 116
-        },
-        {
-          "datum": "2026-02-10",
-          "tagesverkauf": 4,
-          "kumuliert": 120
-        },
-        {
-          "datum": "2026-02-11",
-          "tagesverkauf": 1,
-          "kumuliert": 121
-        },
-        {
-          "datum": "2026-02-12",
-          "tagesverkauf": 2,
-          "kumuliert": 123
-        },
-        {
-          "datum": "2026-02-13",
-          "tagesverkauf": 6,
-          "kumuliert": 129
-        },
-        {
-          "datum": "2026-02-14",
-          "tagesverkauf": 20,
-          "kumuliert": 149
-        },
-        {
-          "datum": "2026-02-15",
-          "tagesverkauf": 10,
-          "kumuliert": 159
-        },
-        {
-          "datum": "2026-02-16",
-          "tagesverkauf": 4,
-          "kumuliert": 163
-        },
-        {
-          "datum": "2026-02-17",
-          "tagesverkauf": 2,
-          "kumuliert": 165
-        },
-        {
-          "datum": "2026-02-18",
-          "tagesverkauf": 0,
-          "kumuliert": 165
-        },
-        {
-          "datum": "2026-02-19",
-          "tagesverkauf": 7,
-          "kumuliert": 172
-        },
-        {
-          "datum": "2026-02-20",
-          "tagesverkauf": 3,
-          "kumuliert": 175
-        },
-        {
-          "datum": "2026-02-21",
-          "tagesverkauf": 13,
-          "kumuliert": 188
-        },
-        {
-          "datum": "2026-02-22",
-          "tagesverkauf": 5,
-          "kumuliert": 193
-        },
-        {
-          "datum": "2026-02-23",
-          "tagesverkauf": 7,
-          "kumuliert": 200
-        },
-        {
-          "datum": "2026-02-24",
-          "tagesverkauf": 0,
-          "kumuliert": 200
-        },
-        {
-          "datum": "2026-02-25",
-          "tagesverkauf": 2,
-          "kumuliert": 202
-        },
-        {
-          "datum": "2026-02-26",
-          "tagesverkauf": 7,
-          "kumuliert": 209
-        },
-        {
-          "datum": "2026-02-27",
-          "tagesverkauf": 7,
-          "kumuliert": 216
-        },
-        {
-          "datum": "2026-02-28",
-          "tagesverkauf": 8,
-          "kumuliert": 224
-        },
-        {
-          "datum": "2026-03-01",
-          "tagesverkauf": 13,
-          "kumuliert": 237
-        },
-        {
-          "datum": "2026-03-02",
-          "tagesverkauf": 8,
-          "kumuliert": 245
-        },
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 1381,
-          "kumuliert": 1626
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 5,
-          "kumuliert": 1631
-        },
-        {
-          "datum": "2026-03-05",
-          "tagesverkauf": -1367,
-          "kumuliert": 264
-        },
-        {
-          "datum": "2026-03-06",
-          "tagesverkauf": 14,
-          "kumuliert": 278
-        },
-        {
-          "datum": "2026-03-07",
-          "tagesverkauf": 5,
-          "kumuliert": 283
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1250,
-      "name": "The Silence",
-      "daten": [
-        {
-          "datum": "2026-02-02",
-          "tagesverkauf": 105,
-          "kumuliert": 288
-        },
-        {
-          "datum": "2026-02-03",
-          "tagesverkauf": 29,
-          "kumuliert": 317
-        },
-        {
-          "datum": "2026-02-04",
-          "tagesverkauf": 11,
-          "kumuliert": 328
-        },
-        {
-          "datum": "2026-02-05",
-          "tagesverkauf": 51,
-          "kumuliert": 379
-        },
-        {
-          "datum": "2026-02-06",
-          "tagesverkauf": 11,
-          "kumuliert": 390
-        },
-        {
-          "datum": "2026-02-07",
-          "tagesverkauf": 8,
-          "kumuliert": 398
-        },
-        {
-          "datum": "2026-02-08",
-          "tagesverkauf": 5,
-          "kumuliert": 403
-        },
-        {
-          "datum": "2026-02-09",
-          "tagesverkauf": 6,
-          "kumuliert": 409
-        },
-        {
-          "datum": "2026-02-10",
-          "tagesverkauf": 15,
-          "kumuliert": 424
-        },
-        {
-          "datum": "2026-02-11",
-          "tagesverkauf": 6,
-          "kumuliert": 430
-        },
-        {
-          "datum": "2026-02-12",
-          "tagesverkauf": 3,
-          "kumuliert": 433
-        },
-        {
-          "datum": "2026-02-13",
-          "tagesverkauf": 5,
-          "kumuliert": 438
-        },
-        {
-          "datum": "2026-02-14",
-          "tagesverkauf": 22,
-          "kumuliert": 460
-        },
-        {
-          "datum": "2026-02-15",
-          "tagesverkauf": 14,
-          "kumuliert": 474
-        },
-        {
-          "datum": "2026-02-16",
-          "tagesverkauf": 15,
-          "kumuliert": 489
-        },
-        {
-          "datum": "2026-02-17",
-          "tagesverkauf": 13,
-          "kumuliert": 502
-        },
-        {
-          "datum": "2026-02-18",
-          "tagesverkauf": 0,
-          "kumuliert": 502
-        },
-        {
-          "datum": "2026-02-19",
-          "tagesverkauf": 14,
-          "kumuliert": 516
-        },
-        {
-          "datum": "2026-02-20",
-          "tagesverkauf": 13,
-          "kumuliert": 529
-        },
-        {
-          "datum": "2026-02-21",
-          "tagesverkauf": 8,
-          "kumuliert": 537
-        },
-        {
-          "datum": "2026-02-22",
-          "tagesverkauf": 18,
-          "kumuliert": 555
-        },
-        {
-          "datum": "2026-02-23",
-          "tagesverkauf": 26,
-          "kumuliert": 581
-        },
-        {
-          "datum": "2026-02-24",
-          "tagesverkauf": 21,
-          "kumuliert": 602
-        },
-        {
-          "datum": "2026-02-25",
-          "tagesverkauf": 15,
-          "kumuliert": 617
-        },
-        {
-          "datum": "2026-02-26",
-          "tagesverkauf": 14,
-          "kumuliert": 631
-        },
-        {
-          "datum": "2026-02-27",
-          "tagesverkauf": 19,
-          "kumuliert": 650
-        },
-        {
-          "datum": "2026-02-28",
-          "tagesverkauf": 3,
-          "kumuliert": 653
-        },
-        {
-          "datum": "2026-03-01",
-          "tagesverkauf": 8,
-          "kumuliert": 661
-        },
-        {
-          "datum": "2026-03-02",
-          "tagesverkauf": 21,
-          "kumuliert": 682
-        },
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 8946,
-          "kumuliert": 9628
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 32,
-          "kumuliert": 9660
-        },
-        {
-          "datum": "2026-03-05",
-          "tagesverkauf": -9201,
-          "kumuliert": 459
-        },
-        {
-          "datum": "2026-03-06",
-          "tagesverkauf": 19,
-          "kumuliert": 478
-        },
-        {
-          "datum": "2026-03-07",
-          "tagesverkauf": 9,
-          "kumuliert": 487
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1253,
-      "name": "Bucket List",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 3734,
-          "kumuliert": 3734
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 3734
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1259,
-      "name": "Bad Kingdom",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 4177,
-          "kumuliert": 4177
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 4177
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1262,
-      "name": "Die Affäre Rue de Lourcine",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 679,
-          "kumuliert": 679
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 679
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1286,
-      "name": "spinne",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 5046,
-          "kumuliert": 5046
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 5046
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1291,
-      "name": "Glaube, Geld, Krieg und Liebe",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 9326,
-          "kumuliert": 9326
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 9326
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1294,
-      "name": "Angriffe auf Anne",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 2344,
-          "kumuliert": 2344
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 2344
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1297,
-      "name": "changes",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 13705,
-          "kumuliert": 13705
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 13705
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1300,
-      "name": "Replay",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 6193,
-          "kumuliert": 6193
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 6193
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1302,
-      "name": "Territorium",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 160,
-          "kumuliert": 160
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 160
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1303,
-      "name": "Lesung: in die andere Richtung",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 57,
-          "kumuliert": 57
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 57
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1306,
-      "name": "Lesung \"Monique bricht aus\"",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 291,
-          "kumuliert": 291
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 291
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1307,
-      "name": "Ex",
-      "daten": [
-        {
-          "datum": "2026-02-02",
-          "tagesverkauf": 123,
-          "kumuliert": 151
-        },
-        {
-          "datum": "2026-02-03",
-          "tagesverkauf": 41,
-          "kumuliert": 192
-        },
-        {
-          "datum": "2026-02-04",
-          "tagesverkauf": 19,
-          "kumuliert": 211
-        },
-        {
-          "datum": "2026-02-05",
-          "tagesverkauf": 18,
-          "kumuliert": 229
-        },
-        {
-          "datum": "2026-02-06",
-          "tagesverkauf": 14,
-          "kumuliert": 243
-        },
-        {
-          "datum": "2026-02-07",
-          "tagesverkauf": 17,
-          "kumuliert": 260
-        },
-        {
-          "datum": "2026-02-08",
-          "tagesverkauf": 26,
-          "kumuliert": 286
-        },
-        {
-          "datum": "2026-02-09",
-          "tagesverkauf": 24,
-          "kumuliert": 310
-        },
-        {
-          "datum": "2026-02-10",
-          "tagesverkauf": 22,
-          "kumuliert": 332
-        },
-        {
-          "datum": "2026-02-11",
-          "tagesverkauf": 15,
-          "kumuliert": 347
-        },
-        {
-          "datum": "2026-02-12",
-          "tagesverkauf": 13,
-          "kumuliert": 360
-        },
-        {
-          "datum": "2026-02-13",
-          "tagesverkauf": 10,
-          "kumuliert": 370
-        },
-        {
-          "datum": "2026-02-14",
-          "tagesverkauf": 22,
-          "kumuliert": 392
-        },
-        {
-          "datum": "2026-02-15",
-          "tagesverkauf": 20,
-          "kumuliert": 412
-        },
-        {
-          "datum": "2026-02-16",
-          "tagesverkauf": 14,
-          "kumuliert": 426
-        },
-        {
-          "datum": "2026-02-17",
-          "tagesverkauf": 11,
-          "kumuliert": 437
-        },
-        {
-          "datum": "2026-02-18",
-          "tagesverkauf": 0,
-          "kumuliert": 437
-        },
-        {
-          "datum": "2026-02-19",
-          "tagesverkauf": 23,
-          "kumuliert": 460
-        },
-        {
-          "datum": "2026-02-20",
-          "tagesverkauf": 33,
-          "kumuliert": 493
-        },
-        {
-          "datum": "2026-02-21",
-          "tagesverkauf": 9,
-          "kumuliert": 502
-        },
-        {
-          "datum": "2026-02-22",
-          "tagesverkauf": 25,
-          "kumuliert": 527
-        },
-        {
-          "datum": "2026-02-23",
-          "tagesverkauf": 14,
-          "kumuliert": 541
-        },
-        {
-          "datum": "2026-02-24",
-          "tagesverkauf": 5,
-          "kumuliert": 546
-        },
-        {
-          "datum": "2026-02-25",
-          "tagesverkauf": 8,
-          "kumuliert": 554
-        },
-        {
-          "datum": "2026-02-26",
-          "tagesverkauf": 11,
-          "kumuliert": 565
-        },
-        {
-          "datum": "2026-02-27",
-          "tagesverkauf": 20,
-          "kumuliert": 585
-        },
-        {
-          "datum": "2026-02-28",
-          "tagesverkauf": 18,
-          "kumuliert": 603
-        },
-        {
-          "datum": "2026-03-01",
-          "tagesverkauf": 22,
-          "kumuliert": 625
-        },
-        {
-          "datum": "2026-03-02",
-          "tagesverkauf": 50,
-          "kumuliert": 675
-        },
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 9354,
-          "kumuliert": 10029
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 27,
-          "kumuliert": 10056
-        },
-        {
-          "datum": "2026-03-05",
-          "tagesverkauf": -9313,
-          "kumuliert": 743
-        },
-        {
-          "datum": "2026-03-06",
-          "tagesverkauf": 34,
-          "kumuliert": 777
-        },
-        {
-          "datum": "2026-03-07",
-          "tagesverkauf": -277,
-          "kumuliert": 500
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1308,
-      "name": "Voraufführung - Ex",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 187,
-          "kumuliert": 187
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 187
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1309,
-      "name": "Lesung Kipppunkte",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 289,
-          "kumuliert": 289
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 289
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1312,
-      "name": "Valentina",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 321,
-          "kumuliert": 321
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 321
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1313,
-      "name": "Medea´s Kinder",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 1346,
-          "kumuliert": 1346
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 1346
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1314,
-      "name": "Baldwin and Buckley at Cambridge",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 1807,
-          "kumuliert": 1807
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 1807
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1315,
-      "name": "Saigon",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 916,
-          "kumuliert": 916
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 916
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1316,
-      "name": "Safe House",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 864,
-          "kumuliert": 864
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 864
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1317,
-      "name": "Lacrima",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 739,
-          "kumuliert": 739
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 739
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1318,
-      "name": "Paradiesische Zustände",
-      "daten": [
-        {
-          "datum": "2026-02-02",
-          "tagesverkauf": 7,
-          "kumuliert": 13
-        },
-        {
-          "datum": "2026-02-03",
-          "tagesverkauf": 4,
-          "kumuliert": 17
-        },
-        {
-          "datum": "2026-02-04",
-          "tagesverkauf": 6,
-          "kumuliert": 23
-        },
-        {
-          "datum": "2026-02-05",
-          "tagesverkauf": 0,
-          "kumuliert": 23
-        },
-        {
-          "datum": "2026-02-06",
-          "tagesverkauf": 3,
-          "kumuliert": 26
-        },
-        {
-          "datum": "2026-02-07",
-          "tagesverkauf": 4,
-          "kumuliert": 30
-        },
-        {
-          "datum": "2026-02-08",
-          "tagesverkauf": 4,
-          "kumuliert": 34
-        },
-        {
-          "datum": "2026-02-09",
-          "tagesverkauf": 3,
-          "kumuliert": 37
-        },
-        {
-          "datum": "2026-02-10",
-          "tagesverkauf": 4,
-          "kumuliert": 41
-        },
-        {
-          "datum": "2026-02-11",
-          "tagesverkauf": 3,
-          "kumuliert": 44
-        },
-        {
-          "datum": "2026-02-12",
-          "tagesverkauf": 2,
-          "kumuliert": 46
-        },
-        {
-          "datum": "2026-02-13",
-          "tagesverkauf": 0,
-          "kumuliert": 46
-        },
-        {
-          "datum": "2026-02-14",
-          "tagesverkauf": 3,
-          "kumuliert": 49
-        },
-        {
-          "datum": "2026-02-15",
-          "tagesverkauf": 9,
-          "kumuliert": 58
-        },
-        {
-          "datum": "2026-02-16",
-          "tagesverkauf": 3,
-          "kumuliert": 61
-        },
-        {
-          "datum": "2026-02-17",
-          "tagesverkauf": 4,
-          "kumuliert": 65
-        },
-        {
-          "datum": "2026-02-18",
-          "tagesverkauf": 0,
-          "kumuliert": 65
-        },
-        {
-          "datum": "2026-02-19",
-          "tagesverkauf": 6,
-          "kumuliert": 71
-        },
-        {
-          "datum": "2026-02-20",
-          "tagesverkauf": 1,
-          "kumuliert": 72
-        },
-        {
-          "datum": "2026-02-21",
-          "tagesverkauf": 5,
-          "kumuliert": 77
-        },
-        {
-          "datum": "2026-02-22",
-          "tagesverkauf": 6,
-          "kumuliert": 83
-        },
-        {
-          "datum": "2026-02-23",
-          "tagesverkauf": 4,
-          "kumuliert": 87
-        },
-        {
-          "datum": "2026-02-24",
-          "tagesverkauf": 2,
-          "kumuliert": 89
-        },
-        {
-          "datum": "2026-02-25",
-          "tagesverkauf": 1,
-          "kumuliert": 90
-        },
-        {
-          "datum": "2026-02-26",
-          "tagesverkauf": 7,
-          "kumuliert": 97
-        },
-        {
-          "datum": "2026-02-27",
-          "tagesverkauf": 3,
-          "kumuliert": 100
-        },
-        {
-          "datum": "2026-02-28",
-          "tagesverkauf": 8,
-          "kumuliert": 108
-        },
-        {
-          "datum": "2026-03-01",
-          "tagesverkauf": 6,
-          "kumuliert": 114
-        },
-        {
-          "datum": "2026-03-02",
-          "tagesverkauf": 16,
-          "kumuliert": 130
-        },
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 1984,
-          "kumuliert": 2114
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 22,
-          "kumuliert": 2136
-        },
-        {
-          "datum": "2026-03-05",
-          "tagesverkauf": -1969,
-          "kumuliert": 167
-        },
-        {
-          "datum": "2026-03-06",
-          "tagesverkauf": 16,
-          "kumuliert": 183
-        },
-        {
-          "datum": "2026-03-07",
-          "tagesverkauf": -82,
-          "kumuliert": 101
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1319,
-      "name": "Man kann auch in die Höhe fallen",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 1997,
-          "kumuliert": 1997
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 1997
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1320,
-      "name": "Heritage",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 335,
-          "kumuliert": 335
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 335
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1321,
-      "name": "Un sublime Error",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 578,
-          "kumuliert": 578
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 578
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1323,
-      "name": "ICIRORI",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 338,
-          "kumuliert": 338
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 338
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1326,
-      "name": "Уя (Nest)",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 295,
-          "kumuliert": 295
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 295
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1328,
-      "name": "stille",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 672,
-          "kumuliert": 672
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 672
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1329,
-      "name": "Die Wildente",
-      "daten": [
-        {
-          "datum": "2026-02-02",
-          "tagesverkauf": 116,
-          "kumuliert": 888
-        },
-        {
-          "datum": "2026-02-03",
-          "tagesverkauf": 20,
-          "kumuliert": 908
-        },
-        {
-          "datum": "2026-02-04",
-          "tagesverkauf": 14,
-          "kumuliert": 922
-        },
-        {
-          "datum": "2026-02-05",
-          "tagesverkauf": 21,
-          "kumuliert": 943
-        },
-        {
-          "datum": "2026-02-06",
-          "tagesverkauf": 22,
-          "kumuliert": 965
-        },
-        {
-          "datum": "2026-02-07",
-          "tagesverkauf": 21,
-          "kumuliert": 986
-        },
-        {
-          "datum": "2026-02-08",
-          "tagesverkauf": 27,
-          "kumuliert": 1013
-        },
-        {
-          "datum": "2026-02-09",
-          "tagesverkauf": 13,
-          "kumuliert": 1026
-        },
-        {
-          "datum": "2026-02-10",
-          "tagesverkauf": 19,
-          "kumuliert": 1045
-        },
-        {
-          "datum": "2026-02-11",
-          "tagesverkauf": 19,
-          "kumuliert": 1064
-        },
-        {
-          "datum": "2026-02-12",
-          "tagesverkauf": 9,
-          "kumuliert": 1073
-        },
-        {
-          "datum": "2026-02-13",
-          "tagesverkauf": 9,
-          "kumuliert": 1082
-        },
-        {
-          "datum": "2026-02-14",
-          "tagesverkauf": 5,
-          "kumuliert": 1087
-        },
-        {
-          "datum": "2026-02-15",
-          "tagesverkauf": 17,
-          "kumuliert": 1104
-        },
-        {
-          "datum": "2026-02-16",
-          "tagesverkauf": 19,
-          "kumuliert": 1123
-        },
-        {
-          "datum": "2026-02-17",
-          "tagesverkauf": 33,
-          "kumuliert": 1156
-        },
-        {
-          "datum": "2026-02-18",
-          "tagesverkauf": 0,
-          "kumuliert": 1156
-        },
-        {
-          "datum": "2026-02-19",
-          "tagesverkauf": 49,
-          "kumuliert": 1205
-        },
-        {
-          "datum": "2026-02-20",
-          "tagesverkauf": 38,
-          "kumuliert": 1243
-        },
-        {
-          "datum": "2026-02-21",
-          "tagesverkauf": 23,
-          "kumuliert": 1266
-        },
-        {
-          "datum": "2026-02-22",
-          "tagesverkauf": 32,
-          "kumuliert": 1298
-        },
-        {
-          "datum": "2026-02-23",
-          "tagesverkauf": 24,
-          "kumuliert": 1322
-        },
-        {
-          "datum": "2026-02-24",
-          "tagesverkauf": 25,
-          "kumuliert": 1347
-        },
-        {
-          "datum": "2026-02-25",
-          "tagesverkauf": 15,
-          "kumuliert": 1362
-        },
-        {
-          "datum": "2026-02-26",
-          "tagesverkauf": 21,
-          "kumuliert": 1383
-        },
-        {
-          "datum": "2026-02-27",
-          "tagesverkauf": 21,
-          "kumuliert": 1404
-        },
-        {
-          "datum": "2026-02-28",
-          "tagesverkauf": 72,
-          "kumuliert": 1476
-        },
-        {
-          "datum": "2026-03-01",
-          "tagesverkauf": 18,
-          "kumuliert": 1494
-        },
-        {
-          "datum": "2026-03-02",
-          "tagesverkauf": 35,
-          "kumuliert": 1529
-        },
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 9806,
-          "kumuliert": 11335
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 20,
-          "kumuliert": 11355
-        },
-        {
-          "datum": "2026-03-05",
-          "tagesverkauf": -10962,
-          "kumuliert": 393
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1330,
-      "name": "Die Seherin",
-      "daten": [
-        {
-          "datum": "2026-02-02",
-          "tagesverkauf": 148,
-          "kumuliert": 184
-        },
-        {
-          "datum": "2026-02-03",
-          "tagesverkauf": 31,
-          "kumuliert": 215
-        },
-        {
-          "datum": "2026-02-04",
-          "tagesverkauf": 23,
-          "kumuliert": 238
-        },
-        {
-          "datum": "2026-02-05",
-          "tagesverkauf": 15,
-          "kumuliert": 253
-        },
-        {
-          "datum": "2026-02-06",
-          "tagesverkauf": 11,
-          "kumuliert": 264
-        },
-        {
-          "datum": "2026-02-07",
-          "tagesverkauf": 15,
-          "kumuliert": 279
-        },
-        {
-          "datum": "2026-02-08",
-          "tagesverkauf": 10,
-          "kumuliert": 289
-        },
-        {
-          "datum": "2026-02-09",
-          "tagesverkauf": 13,
-          "kumuliert": 302
-        },
-        {
-          "datum": "2026-02-10",
-          "tagesverkauf": 17,
-          "kumuliert": 319
-        },
-        {
-          "datum": "2026-02-11",
-          "tagesverkauf": 9,
-          "kumuliert": 328
-        },
-        {
-          "datum": "2026-02-12",
-          "tagesverkauf": 10,
-          "kumuliert": 338
-        },
-        {
-          "datum": "2026-02-13",
-          "tagesverkauf": 6,
-          "kumuliert": 344
-        },
-        {
-          "datum": "2026-02-14",
-          "tagesverkauf": 10,
-          "kumuliert": 354
-        },
-        {
-          "datum": "2026-02-15",
-          "tagesverkauf": 7,
-          "kumuliert": 361
-        },
-        {
-          "datum": "2026-02-16",
-          "tagesverkauf": 4,
-          "kumuliert": 365
-        },
-        {
-          "datum": "2026-02-17",
-          "tagesverkauf": 54,
-          "kumuliert": 419
-        },
-        {
-          "datum": "2026-02-18",
-          "tagesverkauf": 0,
-          "kumuliert": 419
-        },
-        {
-          "datum": "2026-02-19",
-          "tagesverkauf": 15,
-          "kumuliert": 434
-        },
-        {
-          "datum": "2026-02-20",
-          "tagesverkauf": 9,
-          "kumuliert": 443
-        },
-        {
-          "datum": "2026-02-21",
-          "tagesverkauf": 14,
-          "kumuliert": 457
-        },
-        {
-          "datum": "2026-02-22",
-          "tagesverkauf": 11,
-          "kumuliert": 468
-        },
-        {
-          "datum": "2026-02-23",
-          "tagesverkauf": 12,
-          "kumuliert": 480
-        },
-        {
-          "datum": "2026-02-24",
-          "tagesverkauf": 3,
-          "kumuliert": 483
-        },
-        {
-          "datum": "2026-02-25",
-          "tagesverkauf": 13,
-          "kumuliert": 496
-        },
-        {
-          "datum": "2026-02-26",
-          "tagesverkauf": 10,
-          "kumuliert": 506
-        },
-        {
-          "datum": "2026-02-27",
-          "tagesverkauf": 11,
-          "kumuliert": 517
-        },
-        {
-          "datum": "2026-02-28",
-          "tagesverkauf": 7,
-          "kumuliert": 524
-        },
-        {
-          "datum": "2026-03-01",
-          "tagesverkauf": 9,
-          "kumuliert": 533
-        },
-        {
-          "datum": "2026-03-02",
-          "tagesverkauf": 99,
-          "kumuliert": 632
-        },
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 5727,
-          "kumuliert": 6359
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 32,
-          "kumuliert": 6391
-        },
-        {
-          "datum": "2026-03-05",
-          "tagesverkauf": -5678,
-          "kumuliert": 713
-        },
-        {
-          "datum": "2026-03-06",
-          "tagesverkauf": 15,
-          "kumuliert": 728
-        },
-        {
-          "datum": "2026-03-07",
-          "tagesverkauf": 35,
-          "kumuliert": 763
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1332,
-      "name": "Buchvorstellung Caroline Emcke",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 396,
-          "kumuliert": 396
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 396
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1333,
-      "name": "Call me Paris",
-      "daten": [
-        {
-          "datum": "2026-02-02",
-          "tagesverkauf": 143,
-          "kumuliert": 183
-        },
-        {
-          "datum": "2026-02-03",
-          "tagesverkauf": 21,
-          "kumuliert": 204
-        },
-        {
-          "datum": "2026-02-04",
-          "tagesverkauf": 25,
-          "kumuliert": 229
-        },
-        {
-          "datum": "2026-02-05",
-          "tagesverkauf": 16,
-          "kumuliert": 245
-        },
-        {
-          "datum": "2026-02-06",
-          "tagesverkauf": 20,
-          "kumuliert": 265
-        },
-        {
-          "datum": "2026-02-07",
-          "tagesverkauf": 18,
-          "kumuliert": 283
-        },
-        {
-          "datum": "2026-02-08",
-          "tagesverkauf": 8,
-          "kumuliert": 291
-        },
-        {
-          "datum": "2026-02-09",
-          "tagesverkauf": 12,
-          "kumuliert": 303
-        },
-        {
-          "datum": "2026-02-10",
-          "tagesverkauf": 2,
-          "kumuliert": 305
-        },
-        {
-          "datum": "2026-02-11",
-          "tagesverkauf": 9,
-          "kumuliert": 314
-        },
-        {
-          "datum": "2026-02-12",
-          "tagesverkauf": 10,
-          "kumuliert": 324
-        },
-        {
-          "datum": "2026-02-13",
-          "tagesverkauf": 25,
-          "kumuliert": 349
-        },
-        {
-          "datum": "2026-02-14",
-          "tagesverkauf": 4,
-          "kumuliert": 353
-        },
-        {
-          "datum": "2026-02-15",
-          "tagesverkauf": 7,
-          "kumuliert": 360
-        },
-        {
-          "datum": "2026-02-16",
-          "tagesverkauf": 9,
-          "kumuliert": 369
-        },
-        {
-          "datum": "2026-02-17",
-          "tagesverkauf": 12,
-          "kumuliert": 381
-        },
-        {
-          "datum": "2026-02-18",
-          "tagesverkauf": 0,
-          "kumuliert": 381
-        },
-        {
-          "datum": "2026-02-19",
-          "tagesverkauf": 19,
-          "kumuliert": 400
-        },
-        {
-          "datum": "2026-02-20",
-          "tagesverkauf": 6,
-          "kumuliert": 406
-        },
-        {
-          "datum": "2026-02-21",
-          "tagesverkauf": 7,
-          "kumuliert": 413
-        },
-        {
-          "datum": "2026-02-22",
-          "tagesverkauf": 14,
-          "kumuliert": 427
-        },
-        {
-          "datum": "2026-02-23",
-          "tagesverkauf": 6,
-          "kumuliert": 433
-        },
-        {
-          "datum": "2026-02-24",
-          "tagesverkauf": 8,
-          "kumuliert": 441
-        },
-        {
-          "datum": "2026-02-25",
-          "tagesverkauf": 3,
-          "kumuliert": 444
-        },
-        {
-          "datum": "2026-02-26",
-          "tagesverkauf": 10,
-          "kumuliert": 454
-        },
-        {
-          "datum": "2026-02-27",
-          "tagesverkauf": 10,
-          "kumuliert": 464
-        },
-        {
-          "datum": "2026-02-28",
-          "tagesverkauf": 25,
-          "kumuliert": 489
-        },
-        {
-          "datum": "2026-03-01",
-          "tagesverkauf": 9,
-          "kumuliert": 498
-        },
-        {
-          "datum": "2026-03-02",
-          "tagesverkauf": 114,
-          "kumuliert": 612
-        },
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 2849,
-          "kumuliert": 3461
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 14,
-          "kumuliert": 3475
-        },
-        {
-          "datum": "2026-03-05",
-          "tagesverkauf": -2811,
-          "kumuliert": 664
-        },
-        {
-          "datum": "2026-03-06",
-          "tagesverkauf": 40,
-          "kumuliert": 704
-        },
-        {
-          "datum": "2026-03-07",
-          "tagesverkauf": 6,
-          "kumuliert": 710
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1334,
-      "name": "Buchpremiere: Transit 64",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 63,
-          "kumuliert": 63
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 63
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1335,
-      "name": "Hannah Zabrisky tritt nicht auf",
-      "daten": [
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 6247,
-          "kumuliert": 6247
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 6247
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1336,
-      "name": "Sabotage",
-      "daten": [
-        {
-          "datum": "2026-02-02",
-          "tagesverkauf": 455,
-          "kumuliert": 556
-        },
-        {
-          "datum": "2026-02-03",
-          "tagesverkauf": 92,
-          "kumuliert": 648
-        },
-        {
-          "datum": "2026-02-04",
-          "tagesverkauf": 33,
-          "kumuliert": 681
-        },
-        {
-          "datum": "2026-02-05",
-          "tagesverkauf": 20,
-          "kumuliert": 701
-        },
-        {
-          "datum": "2026-02-06",
-          "tagesverkauf": 51,
-          "kumuliert": 752
-        },
-        {
-          "datum": "2026-02-07",
-          "tagesverkauf": 31,
-          "kumuliert": 783
-        },
-        {
-          "datum": "2026-02-08",
-          "tagesverkauf": 31,
-          "kumuliert": 814
-        },
-        {
-          "datum": "2026-02-09",
-          "tagesverkauf": 30,
-          "kumuliert": 844
-        },
-        {
-          "datum": "2026-02-10",
-          "tagesverkauf": 14,
-          "kumuliert": 858
-        },
-        {
-          "datum": "2026-02-11",
-          "tagesverkauf": 22,
-          "kumuliert": 880
-        },
-        {
-          "datum": "2026-02-12",
-          "tagesverkauf": 21,
-          "kumuliert": 901
-        },
-        {
-          "datum": "2026-02-13",
-          "tagesverkauf": 12,
-          "kumuliert": 913
-        },
-        {
-          "datum": "2026-02-14",
-          "tagesverkauf": 43,
-          "kumuliert": 956
-        },
-        {
-          "datum": "2026-02-15",
-          "tagesverkauf": 40,
-          "kumuliert": 996
-        },
-        {
-          "datum": "2026-02-16",
-          "tagesverkauf": 21,
-          "kumuliert": 1017
-        },
-        {
-          "datum": "2026-02-17",
-          "tagesverkauf": 39,
-          "kumuliert": 1056
-        },
-        {
-          "datum": "2026-02-18",
-          "tagesverkauf": 0,
-          "kumuliert": 1056
-        },
-        {
-          "datum": "2026-02-19",
-          "tagesverkauf": 70,
-          "kumuliert": 1126
-        },
-        {
-          "datum": "2026-02-20",
-          "tagesverkauf": 18,
-          "kumuliert": 1144
-        },
-        {
-          "datum": "2026-02-21",
-          "tagesverkauf": 19,
-          "kumuliert": 1163
-        },
-        {
-          "datum": "2026-02-22",
-          "tagesverkauf": 25,
-          "kumuliert": 1188
-        },
-        {
-          "datum": "2026-02-23",
-          "tagesverkauf": 22,
-          "kumuliert": 1210
-        },
-        {
-          "datum": "2026-02-24",
-          "tagesverkauf": 37,
-          "kumuliert": 1247
-        },
-        {
-          "datum": "2026-02-25",
-          "tagesverkauf": 11,
-          "kumuliert": 1258
-        },
-        {
-          "datum": "2026-02-26",
-          "tagesverkauf": 23,
-          "kumuliert": 1281
-        },
-        {
-          "datum": "2026-02-27",
-          "tagesverkauf": 13,
-          "kumuliert": 1294
-        },
-        {
-          "datum": "2026-02-28",
-          "tagesverkauf": 19,
-          "kumuliert": 1313
-        },
-        {
-          "datum": "2026-03-01",
-          "tagesverkauf": 17,
-          "kumuliert": 1330
-        },
-        {
-          "datum": "2026-03-02",
-          "tagesverkauf": 47,
-          "kumuliert": 1377
-        },
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 4432,
-          "kumuliert": 5809
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 22,
-          "kumuliert": 5831
-        },
-        {
-          "datum": "2026-03-05",
-          "tagesverkauf": -4385,
-          "kumuliert": 1446
-        },
-        {
-          "datum": "2026-03-06",
-          "tagesverkauf": 26,
-          "kumuliert": 1472
-        },
-        {
-          "datum": "2026-03-07",
-          "tagesverkauf": 30,
-          "kumuliert": 1502
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1338,
-      "name": "Egal",
-      "daten": [
-        {
-          "datum": "2026-02-02",
-          "tagesverkauf": 220,
-          "kumuliert": 338
-        },
-        {
-          "datum": "2026-02-03",
-          "tagesverkauf": 76,
-          "kumuliert": 414
-        },
-        {
-          "datum": "2026-02-04",
-          "tagesverkauf": 8,
-          "kumuliert": 422
-        },
-        {
-          "datum": "2026-02-05",
-          "tagesverkauf": 7,
-          "kumuliert": 429
-        },
-        {
-          "datum": "2026-02-06",
-          "tagesverkauf": 5,
-          "kumuliert": 434
-        },
-        {
-          "datum": "2026-02-07",
-          "tagesverkauf": 2,
-          "kumuliert": 436
-        },
-        {
-          "datum": "2026-02-08",
-          "tagesverkauf": 1,
-          "kumuliert": 437
-        },
-        {
-          "datum": "2026-02-09",
-          "tagesverkauf": 4,
-          "kumuliert": 441
-        },
-        {
-          "datum": "2026-02-10",
-          "tagesverkauf": 2,
-          "kumuliert": 443
-        },
-        {
-          "datum": "2026-02-11",
-          "tagesverkauf": 4,
-          "kumuliert": 447
-        },
-        {
-          "datum": "2026-02-12",
-          "tagesverkauf": 1,
-          "kumuliert": 448
-        },
-        {
-          "datum": "2026-02-13",
-          "tagesverkauf": 4,
-          "kumuliert": 452
-        },
-        {
-          "datum": "2026-02-14",
-          "tagesverkauf": 2,
-          "kumuliert": 454
-        },
-        {
-          "datum": "2026-02-15",
-          "tagesverkauf": 0,
-          "kumuliert": 454
-        },
-        {
-          "datum": "2026-02-16",
-          "tagesverkauf": 4,
-          "kumuliert": 458
-        },
-        {
-          "datum": "2026-02-17",
-          "tagesverkauf": 11,
-          "kumuliert": 469
-        },
-        {
-          "datum": "2026-02-18",
-          "tagesverkauf": 0,
-          "kumuliert": 469
-        },
-        {
-          "datum": "2026-02-19",
-          "tagesverkauf": 9,
-          "kumuliert": 478
-        },
-        {
-          "datum": "2026-02-20",
-          "tagesverkauf": 2,
-          "kumuliert": 480
-        },
-        {
-          "datum": "2026-02-21",
-          "tagesverkauf": 0,
-          "kumuliert": 480
-        },
-        {
-          "datum": "2026-02-22",
-          "tagesverkauf": 0,
-          "kumuliert": 480
-        },
-        {
-          "datum": "2026-02-23",
-          "tagesverkauf": 0,
-          "kumuliert": 480
-        },
-        {
-          "datum": "2026-02-24",
-          "tagesverkauf": 2,
-          "kumuliert": 482
-        },
-        {
-          "datum": "2026-02-25",
-          "tagesverkauf": 6,
-          "kumuliert": 488
-        },
-        {
-          "datum": "2026-02-26",
-          "tagesverkauf": 7,
-          "kumuliert": 495
-        },
-        {
-          "datum": "2026-02-27",
-          "tagesverkauf": 9,
-          "kumuliert": 504
-        },
-        {
-          "datum": "2026-02-28",
-          "tagesverkauf": 118,
-          "kumuliert": 622
-        },
-        {
-          "datum": "2026-03-01",
-          "tagesverkauf": 24,
-          "kumuliert": 646
-        },
-        {
-          "datum": "2026-03-02",
-          "tagesverkauf": 332,
-          "kumuliert": 978
-        },
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 1446,
-          "kumuliert": 2424
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 76,
-          "kumuliert": 2500
-        },
-        {
-          "datum": "2026-03-05",
-          "tagesverkauf": -1299,
-          "kumuliert": 1201
-        },
-        {
-          "datum": "2026-03-06",
-          "tagesverkauf": 135,
-          "kumuliert": 1336
-        },
-        {
-          "datum": "2026-03-07",
-          "tagesverkauf": 23,
-          "kumuliert": 1359
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1340,
-      "name": "Salome",
-      "daten": [
-        {
-          "datum": "2026-02-02",
-          "tagesverkauf": 436,
-          "kumuliert": 572
-        },
-        {
-          "datum": "2026-02-03",
-          "tagesverkauf": 104,
-          "kumuliert": 676
-        },
-        {
-          "datum": "2026-02-04",
-          "tagesverkauf": 70,
-          "kumuliert": 746
-        },
-        {
-          "datum": "2026-02-05",
-          "tagesverkauf": 89,
-          "kumuliert": 835
-        },
-        {
-          "datum": "2026-02-06",
-          "tagesverkauf": 119,
-          "kumuliert": 954
-        },
-        {
-          "datum": "2026-02-07",
-          "tagesverkauf": 89,
-          "kumuliert": 1043
-        },
-        {
-          "datum": "2026-02-08",
-          "tagesverkauf": 80,
-          "kumuliert": 1123
-        },
-        {
-          "datum": "2026-02-09",
-          "tagesverkauf": 102,
-          "kumuliert": 1225
-        },
-        {
-          "datum": "2026-02-10",
-          "tagesverkauf": 197,
-          "kumuliert": 1422
-        },
-        {
-          "datum": "2026-02-11",
-          "tagesverkauf": 50,
-          "kumuliert": 1472
-        },
-        {
-          "datum": "2026-02-12",
-          "tagesverkauf": 24,
-          "kumuliert": 1496
-        },
-        {
-          "datum": "2026-02-13",
-          "tagesverkauf": 56,
-          "kumuliert": 1552
-        },
-        {
-          "datum": "2026-02-14",
-          "tagesverkauf": 39,
-          "kumuliert": 1591
-        },
-        {
-          "datum": "2026-02-15",
-          "tagesverkauf": 26,
-          "kumuliert": 1617
-        },
-        {
-          "datum": "2026-02-16",
-          "tagesverkauf": 31,
-          "kumuliert": 1648
-        },
-        {
-          "datum": "2026-02-17",
-          "tagesverkauf": 25,
-          "kumuliert": 1673
-        },
-        {
-          "datum": "2026-02-18",
-          "tagesverkauf": 0,
-          "kumuliert": 1673
-        },
-        {
-          "datum": "2026-02-19",
-          "tagesverkauf": 39,
-          "kumuliert": 1712
-        },
-        {
-          "datum": "2026-02-20",
-          "tagesverkauf": 288,
-          "kumuliert": 2000
-        },
-        {
-          "datum": "2026-02-21",
-          "tagesverkauf": 22,
-          "kumuliert": 2022
-        },
-        {
-          "datum": "2026-02-22",
-          "tagesverkauf": 2,
-          "kumuliert": 2024
-        },
-        {
-          "datum": "2026-02-23",
-          "tagesverkauf": 4,
-          "kumuliert": 2028
-        },
-        {
-          "datum": "2026-02-24",
-          "tagesverkauf": 24,
-          "kumuliert": 2052
-        },
-        {
-          "datum": "2026-02-25",
-          "tagesverkauf": 7,
-          "kumuliert": 2059
-        },
-        {
-          "datum": "2026-02-26",
-          "tagesverkauf": 5,
-          "kumuliert": 2064
-        },
-        {
-          "datum": "2026-02-27",
-          "tagesverkauf": 0,
-          "kumuliert": 2064
-        },
-        {
-          "datum": "2026-02-28",
-          "tagesverkauf": 3,
-          "kumuliert": 2067
-        },
-        {
-          "datum": "2026-03-01",
-          "tagesverkauf": 24,
-          "kumuliert": 2091
-        },
-        {
-          "datum": "2026-03-02",
-          "tagesverkauf": 9,
-          "kumuliert": 2100
-        },
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 1781,
-          "kumuliert": 3881
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 9,
-          "kumuliert": 3890
-        },
-        {
-          "datum": "2026-03-05",
-          "tagesverkauf": -1776,
-          "kumuliert": 2114
-        },
-        {
-          "datum": "2026-03-06",
-          "tagesverkauf": 4,
-          "kumuliert": 2118
-        },
-        {
-          "datum": "2026-03-07",
-          "tagesverkauf": 2,
-          "kumuliert": 2120
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1341,
-      "name": "Bluets",
-      "daten": [
-        {
-          "datum": "2026-02-27",
-          "tagesverkauf": 36,
-          "kumuliert": 36
-        },
-        {
-          "datum": "2026-02-28",
-          "tagesverkauf": 93,
-          "kumuliert": 129
-        },
-        {
-          "datum": "2026-03-01",
-          "tagesverkauf": 12,
-          "kumuliert": 141
-        },
-        {
-          "datum": "2026-03-02",
-          "tagesverkauf": 323,
-          "kumuliert": 464
-        },
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 17,
-          "kumuliert": 481
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 36,
-          "kumuliert": 517
-        },
-        {
-          "datum": "2026-03-05",
-          "tagesverkauf": 38,
-          "kumuliert": 555
-        },
-        {
-          "datum": "2026-03-06",
-          "tagesverkauf": 33,
-          "kumuliert": 588
-        },
-        {
-          "datum": "2026-03-07",
-          "tagesverkauf": 15,
-          "kumuliert": 603
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1342,
-      "name": "11 ÅR",
-      "daten": [
-        {
-          "datum": "2026-02-26",
-          "tagesverkauf": 1,
-          "kumuliert": 1
-        },
-        {
-          "datum": "2026-02-27",
-          "tagesverkauf": 22,
-          "kumuliert": 23
-        },
-        {
-          "datum": "2026-02-28",
-          "tagesverkauf": 72,
-          "kumuliert": 95
-        },
-        {
-          "datum": "2026-03-01",
-          "tagesverkauf": 17,
-          "kumuliert": 112
-        },
-        {
-          "datum": "2026-03-02",
-          "tagesverkauf": 275,
-          "kumuliert": 387
-        },
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 2,
-          "kumuliert": 389
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 35,
-          "kumuliert": 424
-        },
-        {
-          "datum": "2026-03-05",
-          "tagesverkauf": 17,
-          "kumuliert": 441
-        },
-        {
-          "datum": "2026-03-06",
-          "tagesverkauf": 25,
-          "kumuliert": 466
-        },
-        {
-          "datum": "2026-03-07",
-          "tagesverkauf": 5,
-          "kumuliert": 471
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1343,
-      "name": "Arv og miljø",
-      "daten": [
-        {
-          "datum": "2026-02-27",
-          "tagesverkauf": 20,
-          "kumuliert": 20
-        },
-        {
-          "datum": "2026-02-28",
-          "tagesverkauf": 52,
-          "kumuliert": 72
-        },
-        {
-          "datum": "2026-03-01",
-          "tagesverkauf": 8,
-          "kumuliert": 80
-        },
-        {
-          "datum": "2026-03-02",
-          "tagesverkauf": 179,
-          "kumuliert": 259
-        },
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 18,
-          "kumuliert": 277
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 19,
-          "kumuliert": 296
-        },
-        {
-          "datum": "2026-03-05",
-          "tagesverkauf": 21,
-          "kumuliert": 317
-        },
-        {
-          "datum": "2026-03-06",
-          "tagesverkauf": 20,
-          "kumuliert": 337
-        },
-        {
-          "datum": "2026-03-07",
-          "tagesverkauf": 0,
-          "kumuliert": 337
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1344,
-      "name": "Macacos",
-      "daten": [
-        {
-          "datum": "2026-02-27",
-          "tagesverkauf": 20,
-          "kumuliert": 20
-        },
-        {
-          "datum": "2026-02-28",
-          "tagesverkauf": 39,
-          "kumuliert": 59
-        },
-        {
-          "datum": "2026-03-01",
-          "tagesverkauf": 4,
-          "kumuliert": 63
-        },
-        {
-          "datum": "2026-03-02",
-          "tagesverkauf": 140,
-          "kumuliert": 203
-        },
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 2,
-          "kumuliert": 205
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 41,
-          "kumuliert": 246
-        },
-        {
-          "datum": "2026-03-05",
-          "tagesverkauf": 2,
-          "kumuliert": 248
-        },
-        {
-          "datum": "2026-03-06",
-          "tagesverkauf": 7,
-          "kumuliert": 255
-        },
-        {
-          "datum": "2026-03-07",
-          "tagesverkauf": 0,
-          "kumuliert": 255
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1345,
-      "name": "Stabat Mater",
-      "daten": [
-        {
-          "datum": "2026-02-27",
-          "tagesverkauf": 14,
-          "kumuliert": 14
-        },
-        {
-          "datum": "2026-02-28",
-          "tagesverkauf": 35,
-          "kumuliert": 49
-        },
-        {
-          "datum": "2026-03-01",
-          "tagesverkauf": 7,
-          "kumuliert": 56
-        },
-        {
-          "datum": "2026-03-02",
-          "tagesverkauf": 161,
-          "kumuliert": 217
-        },
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 0,
-          "kumuliert": 217
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 2,
-          "kumuliert": 219
-        },
-        {
-          "datum": "2026-03-05",
-          "tagesverkauf": 2,
-          "kumuliert": 221
-        },
-        {
-          "datum": "2026-03-06",
-          "tagesverkauf": 5,
-          "kumuliert": 226
-        },
-        {
-          "datum": "2026-03-07",
-          "tagesverkauf": 0,
-          "kumuliert": 226
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1346,
-      "name": "Cow | Deer",
-      "daten": [
-        {
-          "datum": "2026-02-27",
-          "tagesverkauf": 18,
-          "kumuliert": 18
-        },
-        {
-          "datum": "2026-02-28",
-          "tagesverkauf": 48,
-          "kumuliert": 66
-        },
-        {
-          "datum": "2026-03-01",
-          "tagesverkauf": 4,
-          "kumuliert": 70
-        },
-        {
-          "datum": "2026-03-02",
-          "tagesverkauf": 118,
-          "kumuliert": 188
-        },
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 0,
-          "kumuliert": 188
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 38,
-          "kumuliert": 226
-        },
-        {
-          "datum": "2026-03-05",
-          "tagesverkauf": 3,
-          "kumuliert": 229
-        },
-        {
-          "datum": "2026-03-06",
-          "tagesverkauf": 4,
-          "kumuliert": 233
-        },
-        {
-          "datum": "2026-03-07",
-          "tagesverkauf": 0,
-          "kumuliert": 233
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1347,
-      "name": "A place of safety",
-      "daten": [
-        {
-          "datum": "2026-02-27",
-          "tagesverkauf": 13,
-          "kumuliert": 13
-        },
-        {
-          "datum": "2026-02-28",
-          "tagesverkauf": 77,
-          "kumuliert": 90
-        },
-        {
-          "datum": "2026-03-01",
-          "tagesverkauf": 12,
-          "kumuliert": 102
-        },
-        {
-          "datum": "2026-03-02",
-          "tagesverkauf": 214,
-          "kumuliert": 316
-        },
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 10,
-          "kumuliert": 326
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 25,
-          "kumuliert": 351
-        },
-        {
-          "datum": "2026-03-05",
-          "tagesverkauf": 17,
-          "kumuliert": 368
-        },
-        {
-          "datum": "2026-03-06",
-          "tagesverkauf": 16,
-          "kumuliert": 384
-        },
-        {
-          "datum": "2026-03-07",
-          "tagesverkauf": 0,
-          "kumuliert": 384
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1348,
-      "name": "Needles and Opium",
-      "daten": [
-        {
-          "datum": "2026-02-27",
-          "tagesverkauf": 36,
-          "kumuliert": 36
-        },
-        {
-          "datum": "2026-02-28",
-          "tagesverkauf": 126,
-          "kumuliert": 162
-        },
-        {
-          "datum": "2026-03-01",
-          "tagesverkauf": 17,
-          "kumuliert": 179
-        },
-        {
-          "datum": "2026-03-02",
-          "tagesverkauf": 406,
-          "kumuliert": 585
-        },
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 8,
-          "kumuliert": 593
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 78,
-          "kumuliert": 671
-        },
-        {
-          "datum": "2026-03-05",
-          "tagesverkauf": 36,
-          "kumuliert": 707
-        },
-        {
-          "datum": "2026-03-06",
-          "tagesverkauf": 40,
-          "kumuliert": 747
-        },
-        {
-          "datum": "2026-03-07",
-          "tagesverkauf": 4,
-          "kumuliert": 751
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1349,
-      "name": "Panel: No Place of Safety?",
-      "daten": [
-        {
-          "datum": "2026-02-28",
-          "tagesverkauf": 4,
-          "kumuliert": 4
-        },
-        {
-          "datum": "2026-03-01",
-          "tagesverkauf": 0,
-          "kumuliert": 4
-        },
-        {
-          "datum": "2026-03-02",
-          "tagesverkauf": 4,
-          "kumuliert": 8
-        },
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 0,
-          "kumuliert": 8
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 0,
-          "kumuliert": 8
-        },
-        {
-          "datum": "2026-03-05",
-          "tagesverkauf": 0,
-          "kumuliert": 8
-        },
-        {
-          "datum": "2026-03-06",
-          "tagesverkauf": 0,
-          "kumuliert": 8
-        },
-        {
-          "datum": "2026-03-07",
-          "tagesverkauf": 0,
-          "kumuliert": 8
-        }
-      ]
-    },
-    {
-      "produktionsnummer": 1350,
-      "name": "Der Geizige",
-      "daten": [
-        {
-          "datum": "2026-02-26",
-          "tagesverkauf": 1,
-          "kumuliert": 1
-        },
-        {
-          "datum": "2026-02-27",
-          "tagesverkauf": 173,
-          "kumuliert": 174
-        },
-        {
-          "datum": "2026-02-28",
-          "tagesverkauf": 808,
-          "kumuliert": 982
-        },
-        {
-          "datum": "2026-03-01",
-          "tagesverkauf": 28,
-          "kumuliert": 1010
-        },
-        {
-          "datum": "2026-03-02",
-          "tagesverkauf": 606,
-          "kumuliert": 1616
-        },
-        {
-          "datum": "2026-03-03",
-          "tagesverkauf": 54,
-          "kumuliert": 1670
-        },
-        {
-          "datum": "2026-03-04",
-          "tagesverkauf": 117,
-          "kumuliert": 1787
-        },
-        {
-          "datum": "2026-03-05",
-          "tagesverkauf": 64,
-          "kumuliert": 1851
-        },
-        {
-          "datum": "2026-03-06",
-          "tagesverkauf": 44,
-          "kumuliert": 1895
-        },
-        {
-          "datum": "2026-03-07",
-          "tagesverkauf": 7,
-          "kumuliert": 1902
-        }
-      ]
     }
   ],
   "verkaufsmix": [
