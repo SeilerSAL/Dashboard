@@ -1,23 +1,23 @@
-Validierungslog — 2026-03-11 10:26
+Validierungslog — 2026-03-11 10:28
 ============================================================
 
 VVK-WARNUNGEN:
   Keine Auffaelligkeiten
 
 VALIDIERUNG (Auslastung vs. Gesamt-Export):
-  Abweichungen Auslastung vs. Gesamt-Export: 83 von 85 Kombinationen
-    Davon durch Kontingente erklaert: 21
-    Unerklaert (|diff| > 5): 62
-      VA 13521 PG a: Auslastung=43, Gesamt=0, Kont=4, Unerklaert=39
-      VA 13522 PG d: Auslastung=44, Gesamt=1, Kont=7, Unerklaert=36
-      VA 13523 PG d: Auslastung=47, Gesamt=2, Kont=6, Unerklaert=39
-      VA 13528 PG a: Auslastung=48, Gesamt=2, Kont=14, Unerklaert=32
-      VA 13528 PG b: Auslastung=62, Gesamt=2, Kont=19, Unerklaert=41
-      VA 13529 PG a: Auslastung=39, Gesamt=1, Kont=26, Unerklaert=12
-      VA 13529 PG d: Auslastung=87, Gesamt=2, Kont=5, Unerklaert=80
-      VA 13529 PG e: Auslastung=45, Gesamt=1, Kont=4, Unerklaert=40
-      VA 13530 PG c: Auslastung=47, Gesamt=4, Kont=35, Unerklaert=8
-      VA 13531 PG c: Auslastung=53, Gesamt=2, Kont=37, Unerklaert=14
+  Abweichungen Auslastung vs. Gesamt-Export: 265 von 357 Kombinationen
+    Davon durch Kontingente erklaert: 9
+    Unerklaert (|diff| > 5): 256
+      VA 13516 PG a: Auslastung=64, Gesamt=70, Kont=1, Unerklaert=-7
+      VA 13516 PG b: Auslastung=78, Gesamt=98, Kont=0, Unerklaert=-20
+      VA 13516 PG c: Auslastung=78, Gesamt=98, Kont=2, Unerklaert=-22
+      VA 13516 PG d: Auslastung=85, Gesamt=89, Kont=2, Unerklaert=-6
+      VA 13517 PG a: Auslastung=67, Gesamt=83, Kont=1, Unerklaert=-17
+      VA 13517 PG b: Auslastung=84, Gesamt=100, Kont=0, Unerklaert=-16
+      VA 13517 PG c: Auslastung=79, Gesamt=99, Kont=0, Unerklaert=-20
+      VA 13518 PG b: Auslastung=77, Gesamt=98, Kont=3, Unerklaert=-24
+      VA 13518 PG c: Auslastung=75, Gesamt=97, Kont=4, Unerklaert=-26
+      VA 13519 PG a: Auslastung=60, Gesamt=71, Kont=0, Unerklaert=-11
 
 BELEGUNG (Verkauft+Reserviert+Kontingente+Frei = Kapazitaet):
   Alle VA-PG-Kombinationen innerhalb Toleranz (10 Plaetze)
