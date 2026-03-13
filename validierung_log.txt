@@ -1,23 +1,23 @@
-Validierungslog — 2026-03-12 16:37
+Validierungslog — 2026-03-13 23:12
 ============================================================
 
 VVK-WARNUNGEN:
   Keine Auffaelligkeiten
 
 VALIDIERUNG (Auslastung vs. Gesamt-Export):
-  Abweichungen Auslastung vs. Gesamt-Export: 272 von 351 Kombinationen
-    Davon durch Kontingente erklaert: 19
-    Unerklaert (|diff| > 5): 253
-      VA 13516 PG a: Auslastung=64, Gesamt=73, Kont=1, Unerklaert=-10
-      VA 13516 PG b: Auslastung=78, Gesamt=98, Kont=0, Unerklaert=-20
-      VA 13516 PG c: Auslastung=78, Gesamt=100, Kont=2, Unerklaert=-24
-      VA 13516 PG d: Auslastung=85, Gesamt=90, Kont=2, Unerklaert=-7
-      VA 13517 PG a: Auslastung=67, Gesamt=83, Kont=1, Unerklaert=-17
-      VA 13517 PG b: Auslastung=84, Gesamt=100, Kont=0, Unerklaert=-16
-      VA 13517 PG c: Auslastung=79, Gesamt=99, Kont=0, Unerklaert=-20
-      VA 13518 PG b: Auslastung=77, Gesamt=98, Kont=3, Unerklaert=-24
-      VA 13518 PG c: Auslastung=75, Gesamt=96, Kont=4, Unerklaert=-25
-      VA 13519 PG a: Auslastung=60, Gesamt=71, Kont=0, Unerklaert=-11
+  Abweichungen Auslastung vs. Gesamt-Export: 101 von 116 Kombinationen
+    Davon durch Kontingente erklaert: 41
+    Unerklaert (|diff| > 5): 60
+      VA 13517 PG a: Auslastung=67, Gesamt=46, Kont=1, Unerklaert=20
+      VA 13517 PG b: Auslastung=84, Gesamt=52, Kont=0, Unerklaert=32
+      VA 13517 PG c: Auslastung=79, Gesamt=47, Kont=0, Unerklaert=32
+      VA 13518 PG a: Auslastung=82, Gesamt=50, Kont=2, Unerklaert=30
+      VA 13518 PG b: Auslastung=77, Gesamt=60, Kont=3, Unerklaert=14
+      VA 13518 PG c: Auslastung=75, Gesamt=62, Kont=4, Unerklaert=9
+      VA 13519 PG a: Auslastung=60, Gesamt=50, Kont=0, Unerklaert=10
+      VA 13519 PG b: Auslastung=76, Gesamt=68, Kont=2, Unerklaert=6
+      VA 13519 PG c: Auslastung=73, Gesamt=65, Kont=0, Unerklaert=8
+      VA 13520 PG a: Auslastung=59, Gesamt=48, Kont=2, Unerklaert=9
 
 BELEGUNG (Verkauft+Reserviert+Kontingente+Frei = Kapazitaet):
   Alle VA-PG-Kombinationen innerhalb Toleranz (10 Plaetze)
