@@ -1,23 +1,23 @@
-Validierungslog — 2026-03-14 06:55
+Validierungslog — 2026-03-16 00:10
 ============================================================
 
 VVK-WARNUNGEN:
   Keine Auffaelligkeiten
 
 VALIDIERUNG (Auslastung vs. Gesamt-Export):
-  Abweichungen Auslastung vs. Gesamt-Export: 269 von 337 Kombinationen
-    Davon durch Kontingente erklaert: 22
-    Unerklaert (|diff| > 5): 247
-      VA 13517 PG a: Auslastung=67, Gesamt=84, Kont=1, Unerklaert=-18
-      VA 13517 PG b: Auslastung=84, Gesamt=100, Kont=0, Unerklaert=-16
-      VA 13517 PG c: Auslastung=79, Gesamt=102, Kont=0, Unerklaert=-23
-      VA 13518 PG b: Auslastung=77, Gesamt=98, Kont=3, Unerklaert=-24
-      VA 13518 PG c: Auslastung=75, Gesamt=98, Kont=4, Unerklaert=-27
-      VA 13519 PG a: Auslastung=60, Gesamt=75, Kont=0, Unerklaert=-15
-      VA 13519 PG b: Auslastung=76, Gesamt=109, Kont=2, Unerklaert=-35
-      VA 13519 PG c: Auslastung=73, Gesamt=101, Kont=0, Unerklaert=-28
+  Abweichungen Auslastung vs. Gesamt-Export: 250 von 308 Kombinationen
+    Davon durch Kontingente erklaert: 16
+    Unerklaert (|diff| > 5): 234
       VA 13520 PG a: Auslastung=59, Gesamt=83, Kont=2, Unerklaert=-26
       VA 13520 PG b: Auslastung=82, Gesamt=98, Kont=3, Unerklaert=-19
+      VA 13520 PG c: Auslastung=86, Gesamt=101, Kont=0, Unerklaert=-15
+      VA 13528 PG a: Auslastung=48, Gesamt=77, Kont=14, Unerklaert=-43
+      VA 13528 PG b: Auslastung=62, Gesamt=95, Kont=19, Unerklaert=-52
+      VA 13528 PG c: Auslastung=69, Gesamt=96, Kont=31, Unerklaert=-58
+      VA 13528 PG d: Auslastung=88, Gesamt=91, Kont=5, Unerklaert=-8
+      VA 13529 PG a: Auslastung=39, Gesamt=63, Kont=26, Unerklaert=-50
+      VA 13529 PG b: Auslastung=32, Gesamt=48, Kont=26, Unerklaert=-42
+      VA 13529 PG c: Auslastung=58, Gesamt=88, Kont=37, Unerklaert=-67
 
 BELEGUNG (Verkauft+Reserviert+Kontingente+Frei = Kapazitaet):
   Alle VA-PG-Kombinationen innerhalb Toleranz (10 Plaetze)
