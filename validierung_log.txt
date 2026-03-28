@@ -1,26 +1,30 @@
-Validierungslog — 2026-03-27 16:43
+Validierungslog — 2026-03-28 22:34
 ============================================================
 
 VVK-WARNUNGEN:
-  VA 13621 (Öffentlicher Durchlauf: Der Geizige): SPÄTER_ALS_ERWARTET
-     VA-Datum: 2026-03-27, Erster Verkauf: 2026-03-25, Erwartet: 2026-02-01
   VA 13622 (Öffentlicher Durchlauf: Der Geizige): SPÄTER_ALS_ERWARTET
      VA-Datum: 2026-03-28, Erster Verkauf: 2026-03-25, Erwartet: 2026-02-01
+  VA 13680 (Öffentlicher Durchlauf: Der Geizige): SPÄTER_ALS_ERWARTET
+     VA-Datum: 2026-03-30, Erster Verkauf: 2026-03-28, Erwartet: 2026-02-01
+  VA 13681 (Öffentlicher Durchlauf: Der Geizige): SPÄTER_ALS_ERWARTET
+     VA-Datum: 2026-03-31, Erster Verkauf: 2026-03-28, Erwartet: 2026-02-01
+  VA 13682 (Öffentlicher Durchlauf: Der Geizige): SPÄTER_ALS_ERWARTET
+     VA-Datum: 2026-04-01, Erster Verkauf: 2026-03-28, Erwartet: 2026-03-01
 
 VALIDIERUNG (Auslastung vs. Gesamt-Export):
-  Abweichungen Auslastung vs. Gesamt-Export: 200 von 241 Kombinationen
-    Davon durch Kontingente erklaert: 15
-    Unerklaert (|diff| > 5): 185
-      VA 13538 PG a: Auslastung=25, Gesamt=50, Kont=17, Unerklaert=-42
-      VA 13538 PG b: Auslastung=14, Gesamt=49, Kont=7, Unerklaert=-42
-      VA 13538 PG c: Auslastung=36, Gesamt=67, Kont=30, Unerklaert=-61
-      VA 13538 PG d: Auslastung=55, Gesamt=71, Kont=14, Unerklaert=-30
-      VA 13539 PG a: Auslastung=15, Gesamt=43, Kont=17, Unerklaert=-45
-      VA 13539 PG b: Auslastung=7, Gesamt=16, Kont=7, Unerklaert=-16
-      VA 13539 PG c: Auslastung=23, Gesamt=49, Kont=23, Unerklaert=-49
-      VA 13539 PG d: Auslastung=48, Gesamt=69, Kont=13, Unerklaert=-34
-      VA 13540 PG a: Auslastung=33, Gesamt=44, Kont=7, Unerklaert=-18
-      VA 13540 PG b: Auslastung=25, Gesamt=47, Kont=7, Unerklaert=-29
+  Abweichungen Auslastung vs. Gesamt-Export: 334 von 419 Kombinationen
+    Davon durch Kontingente erklaert: 38
+    Unerklaert (|diff| > 5): 296
+      VA 13481 PG b: Auslastung=103, Gesamt=110, Kont=2, Unerklaert=-9
+      VA 13482 PG a: Auslastung=78, Gesamt=90, Kont=2, Unerklaert=-14
+      VA 13482 PG b: Auslastung=96, Gesamt=108, Kont=4, Unerklaert=-16
+      VA 13483 PG a: Auslastung=104, Gesamt=108, Kont=4, Unerklaert=-8
+      VA 13483 PG b: Auslastung=100, Gesamt=109, Kont=2, Unerklaert=-11
+      VA 13508 PG b: Auslastung=63, Gesamt=90, Kont=0, Unerklaert=-27
+      VA 13508 PG c: Auslastung=99, Gesamt=118, Kont=0, Unerklaert=-19
+      VA 13508 PG d: Auslastung=92, Gesamt=98, Kont=4, Unerklaert=-10
+      VA 13509 PG a: Auslastung=46, Gesamt=60, Kont=0, Unerklaert=-14
+      VA 13509 PG b: Auslastung=80, Gesamt=100, Kont=0, Unerklaert=-20
 
 BELEGUNG (Verkauft+Reserviert+Kontingente+Frei = Kapazitaet):
   Alle VA-PG-Kombinationen innerhalb Toleranz (10 Plaetze)
