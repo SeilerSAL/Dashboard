@@ -1,14 +1,13 @@
-Validierungslog — 2026-04-01 16:44
+Validierungslog — 2026-04-02 11:44
 ============================================================
 
 VVK-WARNUNGEN:
-  VA 13682 (Öffentlicher Durchlauf: Der Geizige): SPÄTER_ALS_ERWARTET
-     VA-Datum: 2026-04-01, Erster Verkauf: 2026-03-28, Erwartet: 2026-03-01
+  Keine Auffaelligkeiten
 
 VALIDIERUNG (Auslastung vs. Gesamt-Export):
   Abweichungen Auslastung vs. Gesamt-Export: 334 von 419 Kombinationen
-    Davon durch Kontingente erklaert: 37
-    Unerklaert (|diff| > 5): 297
+    Davon durch Kontingente erklaert: 38
+    Unerklaert (|diff| > 5): 296
       VA 13481 PG b: Auslastung=103, Gesamt=110, Kont=2, Unerklaert=-9
       VA 13482 PG a: Auslastung=78, Gesamt=90, Kont=2, Unerklaert=-14
       VA 13482 PG b: Auslastung=96, Gesamt=108, Kont=4, Unerklaert=-16
