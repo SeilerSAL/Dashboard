@@ -1,4 +1,4 @@
-Validierungslog — 2026-04-07 12:10
+Validierungslog — 2026-04-10 16:25
 ============================================================
 
 VVK-WARNUNGEN:
@@ -6,19 +6,19 @@ VVK-WARNUNGEN:
      VA-Datum: 2026-06-01, Erster Verkauf: 2026-04-03, Erwartet: 2026-05-01
 
 VALIDIERUNG (Auslastung vs. Gesamt-Export):
-  Abweichungen Auslastung vs. Gesamt-Export: 151 von 182 Kombinationen
-    Davon durch Kontingente erklaert: 15
-    Unerklaert (|diff| > 5): 136
-      VA 13563 PG a: Auslastung=18, Gesamt=49, Kont=31, Unerklaert=-62
-      VA 13563 PG b: Auslastung=9, Gesamt=49, Kont=31, Unerklaert=-71
-      VA 13563 PG c: Auslastung=21, Gesamt=65, Kont=32, Unerklaert=-76
-      VA 13563 PG d: Auslastung=9, Gesamt=69, Kont=14, Unerklaert=-74
-      VA 13564 PG a: Auslastung=42, Gesamt=90, Kont=43, Unerklaert=-91
-      VA 13565 PG a: Auslastung=41, Gesamt=94, Kont=47, Unerklaert=-100
-      VA 13566 PG a: Auslastung=50, Gesamt=93, Kont=46, Unerklaert=-89
-      VA 13567 PG a: Auslastung=48, Gesamt=91, Kont=50, Unerklaert=-93
-      VA 13568 PG b: Auslastung=7, Gesamt=69, Kont=4, Unerklaert=-66
-      VA 13568 PG c: Auslastung=31, Gesamt=80, Kont=9, Unerklaert=-58
+  Abweichungen Auslastung vs. Gesamt-Export: 334 von 419 Kombinationen
+    Davon durch Kontingente erklaert: 35
+    Unerklaert (|diff| > 5): 299
+      VA 13481 PG b: Auslastung=103, Gesamt=110, Kont=2, Unerklaert=-9
+      VA 13482 PG a: Auslastung=78, Gesamt=94, Kont=2, Unerklaert=-18
+      VA 13482 PG b: Auslastung=96, Gesamt=109, Kont=4, Unerklaert=-17
+      VA 13483 PG a: Auslastung=104, Gesamt=108, Kont=4, Unerklaert=-8
+      VA 13483 PG b: Auslastung=100, Gesamt=109, Kont=2, Unerklaert=-11
+      VA 13508 PG a: Auslastung=64, Gesamt=75, Kont=0, Unerklaert=-11
+      VA 13508 PG b: Auslastung=63, Gesamt=104, Kont=0, Unerklaert=-41
+      VA 13508 PG c: Auslastung=99, Gesamt=118, Kont=0, Unerklaert=-19
+      VA 13508 PG d: Auslastung=92, Gesamt=98, Kont=4, Unerklaert=-10
+      VA 13509 PG a: Auslastung=46, Gesamt=75, Kont=0, Unerklaert=-29
 
 BELEGUNG (Verkauft+Reserviert+Kontingente+Frei = Kapazitaet):
   Alle VA-PG-Kombinationen innerhalb Toleranz (10 Plaetze)
