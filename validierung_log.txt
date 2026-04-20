@@ -1,4 +1,4 @@
-Validierungslog — 2026-04-17 11:28
+Validierungslog — 2026-04-20 11:13
 ============================================================
 
 VVK-WARNUNGEN:
@@ -6,19 +6,19 @@ VVK-WARNUNGEN:
      VA-Datum: 2026-06-01, Erster Verkauf: 2026-04-03, Erwartet: 2026-05-01
 
 VALIDIERUNG (Auslastung vs. Gesamt-Export):
-  Abweichungen Auslastung vs. Gesamt-Export: 111 von 135 Kombinationen
-    Davon durch Kontingente erklaert: 13
-    Unerklaert (|diff| > 5): 98
+  Abweichungen Auslastung vs. Gesamt-Export: 71 von 81 Kombinationen
+    Davon durch Kontingente erklaert: 7
+    Unerklaert (|diff| > 5): 64
       VA 13568 PG b: Auslastung=7, Gesamt=103, Kont=4, Unerklaert=-100
-      VA 13568 PG c: Auslastung=31, Gesamt=101, Kont=9, Unerklaert=-79
-      VA 13568 PG d: Auslastung=7, Gesamt=90, Kont=13, Unerklaert=-96
+      VA 13568 PG c: Auslastung=31, Gesamt=115, Kont=9, Unerklaert=-93
+      VA 13568 PG d: Auslastung=7, Gesamt=94, Kont=13, Unerklaert=-100
       VA 13568 PG f: Auslastung=1, Gesamt=11, Kont=0, Unerklaert=-10
-      VA 13569 PG a: Auslastung=8, Gesamt=61, Kont=12, Unerklaert=-65
-      VA 13569 PG b: Auslastung=10, Gesamt=71, Kont=4, Unerklaert=-65
-      VA 13569 PG c: Auslastung=17, Gesamt=107, Kont=9, Unerklaert=-99
-      VA 13569 PG d: Auslastung=3, Gesamt=81, Kont=13, Unerklaert=-91
-      VA 13570 PG a: Auslastung=5, Gesamt=53, Kont=12, Unerklaert=-60
-      VA 13570 PG b: Auslastung=6, Gesamt=75, Kont=4, Unerklaert=-73
+      VA 13569 PG a: Auslastung=8, Gesamt=66, Kont=12, Unerklaert=-70
+      VA 13569 PG b: Auslastung=10, Gesamt=79, Kont=4, Unerklaert=-73
+      VA 13569 PG c: Auslastung=17, Gesamt=110, Kont=9, Unerklaert=-102
+      VA 13569 PG d: Auslastung=3, Gesamt=90, Kont=13, Unerklaert=-100
+      VA 13570 PG a: Auslastung=5, Gesamt=61, Kont=12, Unerklaert=-68
+      VA 13570 PG b: Auslastung=6, Gesamt=79, Kont=4, Unerklaert=-77
 
 BELEGUNG (Verkauft+Reserviert+Kontingente+Frei = Kapazitaet):
   Alle VA-PG-Kombinationen innerhalb Toleranz (10 Plaetze)
