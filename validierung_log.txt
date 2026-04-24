@@ -1,4 +1,4 @@
-Validierungslog — 2026-04-23 13:15
+Validierungslog — 2026-04-24 14:56
 ============================================================
 
 VVK-WARNUNGEN:
@@ -8,12 +8,12 @@ VVK-WARNUNGEN:
      VA-Datum: 2026-06-01, Erster Verkauf: 2026-04-22, Erwartet: 2026-05-01
 
 VALIDIERUNG (Auslastung vs. Gesamt-Export):
-  Abweichungen Auslastung vs. Gesamt-Export: 63 von 71 Kombinationen
+  Abweichungen Auslastung vs. Gesamt-Export: 58 von 63 Kombinationen
     Davon durch Kontingente erklaert: 7
-    Unerklaert (|diff| > 5): 56
+    Unerklaert (|diff| > 5): 51
       VA 13568 PG b: Auslastung=7, Gesamt=102, Kont=4, Unerklaert=-99
       VA 13568 PG c: Auslastung=31, Gesamt=118, Kont=9, Unerklaert=-96
-      VA 13568 PG d: Auslastung=7, Gesamt=94, Kont=13, Unerklaert=-100
+      VA 13568 PG d: Auslastung=7, Gesamt=96, Kont=13, Unerklaert=-102
       VA 13568 PG f: Auslastung=1, Gesamt=11, Kont=0, Unerklaert=-10
       VA 13569 PG a: Auslastung=8, Gesamt=75, Kont=12, Unerklaert=-79
       VA 13569 PG b: Auslastung=10, Gesamt=98, Kont=4, Unerklaert=-92
