@@ -1,4 +1,4 @@
-Validierungslog — 2026-04-29 20:50
+Validierungslog — 2026-04-30 15:49
 ============================================================
 
 VVK-WARNUNGEN:
@@ -20,21 +20,34 @@ VVK-WARNUNGEN:
      VA-Datum: 2026-07-09, Erster Verkauf: 2026-04-29, Erwartet: 2026-06-01
   VA 13747 (Die Wildente): FRÜHER_ALS_FÖRDERER_VVK
      VA-Datum: 2026-07-11, Erster Verkauf: 2026-04-29, Erwartet: 2026-06-01
+  VA 13688 (Sabotage): FRÜHER_ALS_FÖRDERER_VVK
+     VA-Datum: 2026-07-10, Erster Verkauf: 2026-04-30, Erwartet: 2026-06-01
+  VA 13690 (Sabotage): FRÜHER_ALS_FÖRDERER_VVK
+     VA-Datum: 2026-07-12, Erster Verkauf: 2026-04-30, Erwartet: 2026-06-01
+  VA 13741 (Professor Bernhardi): FRÜHER_ALS_FÖRDERER_VVK
+     VA-Datum: 2026-07-05, Erster Verkauf: 2026-04-30, Erwartet: 2026-06-01
+  VA 13742 (Professor Bernhardi): FRÜHER_ALS_FÖRDERER_VVK
+     VA-Datum: 2026-07-06, Erster Verkauf: 2026-04-30, Erwartet: 2026-06-01
+  VA 13745 (The Silence): FRÜHER_ALS_FÖRDERER_VVK
+     VA-Datum: 2026-07-06, Erster Verkauf: 2026-04-30, Erwartet: 2026-06-01
+  VA 13748 (Die Wildente): FRÜHER_ALS_FÖRDERER_VVK
+     VA-Datum: 2026-07-12, Erster Verkauf: 2026-04-30, Erwartet: 2026-06-01
+  VA 13749 (spinne): FRÜHER_ALS_FÖRDERER_VVK
+     VA-Datum: 2026-07-10, Erster Verkauf: 2026-04-30, Erwartet: 2026-06-01
+  VA 13750 (spinne): FRÜHER_ALS_FÖRDERER_VVK
+     VA-Datum: 2026-07-11, Erster Verkauf: 2026-04-30, Erwartet: 2026-06-01
 
 VALIDIERUNG (Auslastung vs. Gesamt-Export):
-  Abweichungen Auslastung vs. Gesamt-Export: 13 von 13 Kombinationen
+  Abweichungen Auslastung vs. Gesamt-Export: 8 von 8 Kombinationen
     Davon durch Kontingente erklaert: 1
-    Unerklaert (|diff| > 5): 12
-      VA 13572 PG a: Auslastung=47, Gesamt=98, Kont=50, Unerklaert=-101
-      VA 13574 PG a: Auslastung=2, Gesamt=47, Kont=52, Unerklaert=-97
-      VA 13574 PG b: Auslastung=2, Gesamt=41, Kont=40, Unerklaert=-79
-      VA 13574 PG c: Auslastung=7, Gesamt=45, Kont=42, Unerklaert=-80
-      VA 13574 PG d: Auslastung=5, Gesamt=67, Kont=14, Unerklaert=-76
-      VA 13575 PG b: Auslastung=2, Gesamt=30, Kont=40, Unerklaert=-68
-      VA 13575 PG c: Auslastung=1, Gesamt=38, Kont=42, Unerklaert=-79
-      VA 13575 PG d: Auslastung=6, Gesamt=62, Kont=14, Unerklaert=-70
+    Unerklaert (|diff| > 5): 7
+      VA 13575 PG b: Auslastung=2, Gesamt=31, Kont=40, Unerklaert=-69
+      VA 13575 PG c: Auslastung=1, Gesamt=42, Kont=42, Unerklaert=-83
+      VA 13575 PG d: Auslastung=6, Gesamt=65, Kont=14, Unerklaert=-73
       VA 13575 PG e: Auslastung=3, Gesamt=31, Kont=0, Unerklaert=-28
       VA 13619 PG b: Auslastung=4, Gesamt=26, Kont=40, Unerklaert=-62
+      VA 13619 PG c: Auslastung=2, Gesamt=45, Kont=42, Unerklaert=-85
+      VA 13619 PG e: Auslastung=1, Gesamt=29, Kont=0, Unerklaert=-28
 
 BELEGUNG (Verkauft+Reserviert+Kontingente+Frei = Kapazitaet):
   Alle VA-PG-Kombinationen innerhalb Toleranz (10 Plaetze)
