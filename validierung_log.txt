@@ -1,4 +1,4 @@
-Validierungslog — 2026-05-04 19:59
+Validierungslog — 2026-05-15 15:48
 ============================================================
 
 VVK-WARNUNGEN:
@@ -42,6 +42,10 @@ VVK-WARNUNGEN:
      VA-Datum: 2026-07-04, Erster Verkauf: 2026-05-02, Erwartet: 2026-06-01
   VA 13744 (The Silence): FRÜHER_ALS_FÖRDERER_VVK
      VA-Datum: 2026-07-05, Erster Verkauf: 2026-05-02, Erwartet: 2026-06-01
+  VA 13716 (Paradiesische Zustände): SPÄTER_ALS_ERWARTET
+     VA-Datum: 2026-06-13, Erster Verkauf: 2026-05-11, Erwartet: 2026-05-01
+  VA 13760 (Podiumsdiskussion: Being Young): SPÄTER_ALS_ERWARTET
+     VA-Datum: 2026-06-20, Erster Verkauf: 2026-05-11, Erwartet: 2026-05-01
 
 VALIDIERUNG (Auslastung vs. Gesamt-Export):
 
